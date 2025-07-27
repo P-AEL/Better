@@ -1,0 +1,32 @@
+fight_link,event_date,event_name,fighter_red,fighter_blue,winner,red_wins_before,fighter_red_elo_after,fighter_blue_elo_after,elo_diff,fighter_red_elo_before,fighter_blue_elo_before
+http://ufcstats.com/fight-details/099a2db0470d456b,2012-02-04,UFC 143: Diaz vs Condit,Dustin Poirier,Max Holloway,Dustin Poirier,3,1061,986,-47,1047,1000
+http://ufcstats.com/fight-details/fe1ce9e3a38a734b,2012-06-01,The Ultimate Fighter: Live Finale,Max Holloway,Pat Schilling,Max Holloway,0,1002,968,-2,986,984
+http://ufcstats.com/fight-details/42f11b82d67585af,2012-08-11,UFC 150: Henderson vs Edgar II,Max Holloway,Justin Lawrence,Max Holloway,1,1019,999,14,1002,1016
+http://ufcstats.com/fight-details/a551d93167533459,2012-12-29,UFC 155: Dos Santos vs Velasquez II,Max Holloway,Leonard Garcia,Max Holloway,2,1032,941,-65,1019,954
+http://ufcstats.com/fight-details/149a0b38fa02e647,2013-05-25,UFC 160: Velasquez vs Silva 2,Dennis Bermudez,Max Holloway,Dennis Bermudez,3,1046,1016,2,1030,1032
+http://ufcstats.com/fight-details/5d839e4eda09d6e4,2013-08-17,UFC Fight Night: Shogun vs Sonnen,Conor McGregor,Max Holloway,Conor McGregor,1,1034,1000,-2,1018,1016
+http://ufcstats.com/fight-details/4b69545737f1902a,2014-01-04,UFC Fight Night: Saffiedine vs Lim,Max Holloway,Will Chope,Max Holloway,3,1016,984,0,1000,1000
+http://ufcstats.com/fight-details/5b0cc074c657ebd4,2014-04-26,UFC 172: Jones vs Teixeira,Max Holloway,Andre Fili,Max Holloway,4,1032,999,-1,1016,1015
+http://ufcstats.com/fight-details/56fbc2a376569c13,2014-08-23,UFC Fight Night: Henderson vs Dos Anjos,Max Holloway,Clay Collard,Max Holloway,5,1047,985,-32,1032,1000
+http://ufcstats.com/fight-details/ca16e203eb2bde60,2014-10-04,UFC Fight Night: Nelson vs Story,Max Holloway,Akira Corassani,Max Holloway,6,1062,1017,-15,1047,1032
+http://ufcstats.com/fight-details/509bd83b00e4ab7c,2015-02-14,UFC Fight Night: Henderson vs Thatch,Max Holloway,Cole Miller,Max Holloway,7,1077,1028,-19,1062,1043
+http://ufcstats.com/fight-details/f22d193f3ab42bc5,2015-04-18,UFC on FOX: Machida vs Rockhold,Max Holloway,Cub Swanson,Max Holloway,8,1093,1053,-8,1077,1069
+http://ufcstats.com/fight-details/05e2832cd5ffb7a6,2015-08-23,UFC Fight Night: Holloway vs Oliveira,Max Holloway,Charles Oliveira,Max Holloway,9,1108,1046,-32,1093,1061
+http://ufcstats.com/fight-details/3b321550c8b4aae6,2015-12-12,UFC 194: Aldo vs McGregor,Max Holloway,Jeremy Stephens,Max Holloway,10,1120,1018,-78,1108,1030
+http://ufcstats.com/fight-details/345b1bc51f0f5e86,2016-06-04,UFC 199: Rockhold vs. Bisping 2,Max Holloway,Ricardo Lamas,Max Holloway,11,1134,1064,-42,1120,1078
+http://ufcstats.com/fight-details/977a758d869f9e7a,2016-12-10,UFC 206: Holloway vs. Pettis,Max Holloway,Anthony Pettis,Max Holloway,12,1146,1035,-87,1134,1047
+http://ufcstats.com/fight-details/9ed0c3acc436eb56,2017-06-03,UFC 212: Aldo vs. Holloway,Max Holloway,Jose Aldo,Max Holloway,13,1161,1105,-26,1146,1120
+http://ufcstats.com/fight-details/21f7fc538ea646e8,2017-12-02,UFC 218: Holloway vs. Aldo 2,Max Holloway,Jose Aldo,Max Holloway,14,1174,1092,-56,1161,1105
+http://ufcstats.com/fight-details/4e55251b7a0df0c2,2018-12-08,UFC 231: Holloway vs. Ortega,Max Holloway,Brian Ortega,Max Holloway,15,1186,1080,-82,1174,1092
+http://ufcstats.com/fight-details/87126427cfcaee52,2019-04-13,UFC 236: Holloway vs. Poirier 2,Dustin Poirier,Max Holloway,Dustin Poirier,16,1154,1168,50,1136,1186
+http://ufcstats.com/fight-details/c4704eab5e2f51b8,2019-07-27,UFC 240: Holloway vs. Edgar,Max Holloway,Frankie Edgar,Max Holloway,16,1183,1142,-11,1168,1157
+http://ufcstats.com/fight-details/efc40ec41114d8fa,2019-12-14,UFC 245: Usman vs. Covington,Alexander Volkanovski,Max Holloway,Alexander Volkanovski,7,1133,1164,69,1114,1183
+http://ufcstats.com/fight-details/94b1596c6ff9a25d,2020-07-11,UFC 251: Usman vs. Masvidal,Alexander Volkanovski,Max Holloway,Alexander Volkanovski,8,1150,1147,31,1133,1164
+http://ufcstats.com/fight-details/a4817b7e46028b4a,2021-01-16,UFC Fight Night: Holloway vs. Kattar,Max Holloway,Calvin Kattar,Max Holloway,17,1159,1055,-80,1147,1067
+http://ufcstats.com/fight-details/147e984aa34e3028,2021-11-13,UFC Fight Night: Holloway vs. Rodriguez,Max Holloway,Yair Rodriguez,Max Holloway,18,1173,1105,-40,1159,1119
+http://ufcstats.com/fight-details/4047e98132306cd5,2022-07-02,UFC 276: Adesanya vs. Cannonier,Alexander Volkanovski,Max Holloway,Alexander Volkanovski,11,1192,1157,-3,1176,1173
+http://ufcstats.com/fight-details/6049301b4deea035,2023-04-15,UFC Fight Night: Holloway vs. Allen,Max Holloway,Arnold Allen,Max Holloway,19,1172,1127,-15,1157,1142
+http://ufcstats.com/fight-details/96704d7ba3a452d9,2023-08-26,UFC Fight Night: Holloway vs. The Korean Zombie,Max Holloway,Chan Sung Jung,Max Holloway,20,1183,1053,-108,1172,1064
+http://ufcstats.com/fight-details/cf5e8f98159c3971,2024-04-13,UFC 300: Pereira vs. Hill,Max Holloway,Justin Gaethje,Max Holloway,21,1195,1093,-78,1183,1105
+http://ufcstats.com/fight-details/ebf7cea27b83c432,2024-10-26,UFC 308: Topuria vs. Holloway,Ilia Topuria,Max Holloway,Ilia Topuria,7,1137,1175,78,1117,1195
+http://ufcstats.com/fight-details/d7507e2741fd4d05,2025-07-19,UFC 318: Holloway vs. Poirier 3,Max Holloway,Dustin Poirier,Max Holloway,22,1190,1138,-22,1175,1153
