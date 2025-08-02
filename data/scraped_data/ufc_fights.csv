@@ -1,16 +1,28 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: Whittaker vs. De Ridder,Robert Whittaker,Reinier de Ridder,Robert Whittaker,,,,,View,Matchup,,,Middleweight,,,,
-UFC Fight Night: Whittaker vs. De Ridder,Petr Yan,Marcus McGhee,Petr Yan,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Whittaker vs. De Ridder,Shara Magomedov,Marc-Andre Barriault,Shara Magomedov,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Whittaker vs. De Ridder,Asu Almabayev,Ramazan Temirov,Asu Almabayev,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: Whittaker vs. De Ridder,Nikita Krylov,Bogdan Guskov,Nikita Krylov,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC Fight Night: Whittaker vs. De Ridder,Bryce Mitchell,Said Nurmagomedov,Bryce Mitchell,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Whittaker vs. De Ridder,Muslim Salikhov,Carlos Leal,Muslim Salikhov,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Whittaker vs. De Ridder,Davey Grant,Da'Mon Blackshear,Davey Grant,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Whittaker vs. De Ridder,Amanda Ribas,Tabatha Ricci,Amanda Ribas,,,,,View Matchup,,,,Women's Strawweight,,,,
-UFC Fight Night: Whittaker vs. De Ridder,Ibo Aslan,Billy Elekana,Ibo Aslan,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC Fight Night: Whittaker vs. De Ridder,Mohammad Yahya,Steven Nguyen,Mohammad Yahya,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Whittaker vs. De Ridder,Martin Buday,Marcus Buchecha,Martin Buday,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Taira vs. Park,Tatsuro Taira,HyunSung Park,Tatsuro Taira,,,,,View,Matchup,,,Flyweight,,,,
+UFC Fight Night: Taira vs. Park,Mateusz Rebecki,Chris Duncan,Mateusz Rebecki,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Taira vs. Park,Elves Brener,Esteban Ribovics,Elves Brener,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Taira vs. Park,Karol Rosa,Nora Cornolle,Karol Rosa,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC Fight Night: Taira vs. Park,Neil Magny,Elizeu Zaleski dos Santos,Neil Magny,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Taira vs. Park,Danny Silva,Kevin Vallejos,Danny Silva,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Taira vs. Park,Rinya Nakamura,Nathan Fletcher,Rinya Nakamura,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Taira vs. Park,Rodolfo Vieira,Tresean Gore,Rodolfo Vieira,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Taira vs. Park,Nick Klein,Andrey Pulyaev,Nick Klein,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Taira vs. Park,Austin Bashi,John Yannis,Austin Bashi,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Taira vs. Park,Rafael Estevam,Felipe Bunes,Rafael Estevam,,,,,View Matchup,,,,Flyweight,,,,
+UFC Fight Night: Taira vs. Park,Piera Rodriguez,Ketlen Souza,Piera Rodriguez,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Whittaker vs. De Ridder,Reinier de Ridder,Robert Whittaker,Reinier de Ridder,0,1,67,66,2,0,0,0,Middleweight,S-DEC,5,5:00,http://ufcstats.com/fight-details/6b8be0ee3e569ad2
+UFC Fight Night: Whittaker vs. De Ridder,Petr Yan,Marcus McGhee,Petr Yan,0,0,81,64,1,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d4d4ee045b0ca695
+UFC Fight Night: Whittaker vs. De Ridder,Shara Magomedov,Marc-Andre Barriault,Shara Magomedov,0,0,93,39,0,2,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/582d66ce97309e29
+UFC Fight Night: Whittaker vs. De Ridder,Asu Almabayev,Jose Ochoa,Asu Almabayev,0,0,22,26,7,1,2,2,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/887c61da1a78a5e1
+UFC Fight Night: Whittaker vs. De Ridder,Bogdan Guskov,Nikita Krylov,Bogdan Guskov,1,0,23,16,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,4:18,http://ufcstats.com/fight-details/77f960d82cda0b76
+UFC Fight Night: Whittaker vs. De Ridder,Bryce Mitchell,Said Nurmagomedov,Bryce Mitchell,0,1,13,20,3,0,0,1,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/e72c691b7c68b03a
+UFC Fight Night: Whittaker vs. De Ridder,Muslim Salikhov,Carlos Leal,Muslim Salikhov,1,0,3,5,0,0,0,0,Welterweight,KO/TKO Punch,1,0:42,http://ufcstats.com/fight-details/7c075e3383198e14
+UFC Fight Night: Whittaker vs. De Ridder,Davey Grant,Da'Mon Blackshear,Davey Grant,0,0,66,33,0,1,0,1,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/017a825c7820d12e
+UFC Fight Night: Whittaker vs. De Ridder,Tabatha Ricci,Amanda Ribas,Tabatha Ricci,0,0,34,30,1,1,0,0,Women's Strawweight,KO/TKO Elbow,2,2:59,http://ufcstats.com/fight-details/3e6067763978d862
+UFC Fight Night: Whittaker vs. De Ridder,Billy Elekana,Ibo Aslan,Billy Elekana,0,0,35,28,0,0,0,0,Light Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/f9dac7702609669f
+UFC Fight Night: Whittaker vs. De Ridder,Steven Nguyen,Mohammad Yahya,Steven Nguyen,6,0,92,57,0,0,0,0,Featherweight,KO/TKO,2,5:00,http://ufcstats.com/fight-details/23ddf51ce630028d
+UFC Fight Night: Whittaker vs. De Ridder,Martin Buday,Marcus Buchecha,Martin Buday,0,0,41,24,0,1,0,0,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/0a598768f5c8d540
 UFC 318: Holloway vs. Poirier 3,Max Holloway,Dustin Poirier,Max Holloway,1,1,198,109,0,0,0,1,Lightweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/d7507e2741fd4d05
 UFC 318: Holloway vs. Poirier 3,Paulo Costa,Roman Kopylov,Paulo Costa,1,0,99,48,0,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/23c963be9de38205
 UFC 318: Holloway vs. Poirier 3,Daniel Rodriguez,Kevin Holland,Daniel Rodriguez,2,1,77,82,0,1,0,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/5dde61734080ac4a
@@ -64,7 +76,7 @@ UFC Fight Night: Usman vs. Buckley,Kamaru Usman,Joaquin Buckley,Kamaru Usman,0,0
 UFC Fight Night: Usman vs. Buckley,Rose Namajunas,Miranda Maverick,Rose Namajunas,1,0,25,25,2,0,0,1,Women's Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/79dfbbdd14fbbd11
 UFC Fight Night: Usman vs. Buckley,Edmen Shahbazyan,Andre Petroski,Edmen Shahbazyan,1,0,53,34,0,2,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/e5bd7e6e2a50a843
 UFC Fight Night: Usman vs. Buckley,Raoni Barcelos,Cody Garbrandt,Raoni Barcelos,0,0,37,28,1,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/1714950933f88ab9
-UFC Fight Night: Usman vs. Buckley,Mansur Abdul-Malik,Cody Brundage,Mansur Abdul-Malik,0,0,25,30,0,0,0,0,Middleweight,U-DEC,3,0:36,http://ufcstats.com/fight-details/08c04f18b0f58d71
+UFC Fight Night: Usman vs. Buckley,Mansur Abdul-Malik,Cody Brundage,Mansur Abdul-Malik,0,0,25,30,0,0,0,0,Middleweight,Overturned,3,0:36,http://ufcstats.com/fight-details/08c04f18b0f58d71
 UFC Fight Night: Usman vs. Buckley,Alonzo Menifield,Oumar Sy,Alonzo Menifield,0,0,29,34,0,1,0,0,Light Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ec2034b134ae71cd
 UFC Fight Night: Usman vs. Buckley,Paul Craig,Rodolfo Bellato,Paul Craig,0,0,17,10,0,1,0,0,Light Heavyweight,CNC,1,4:59,http://ufcstats.com/fight-details/13e2ff8b3a122094
 UFC Fight Night: Usman vs. Buckley,Michael Chiesa,Court McGee,Michael Chiesa,0,0,72,39,0,0,0,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/e861e9cc0118c670
