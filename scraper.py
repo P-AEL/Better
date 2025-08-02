@@ -132,8 +132,8 @@ def main():
     print(f"Gefundene Fights: {len(df_fights)}")
 
     # 3) CSVs speichern
-    df_events.to_csv("ufc_events.csv", index=False)
-    df_fights.to_csv("ufc_fights.csv", index=False)
+    df_events.to_csv("data/scraped_data/ufc_events.csv", index=False)
+    df_fights.to_csv("data/scraped_data/ufc_fights.csv", index=False)
 
 if __name__ == "__main__":
     main()

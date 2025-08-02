@@ -16,8 +16,8 @@ except Exception:
 
 BASE = "https://www.bestfightodds.com"
 SEARCH_URL = BASE + "/search?query={query}"
-REQUEST_DELAY = 0.25
-TIMEOUT = 10
+REQUEST_DELAY = 0.20
+TIMEOUT = 8
 
 scraper = cloudscraper.create_scraper(
     browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False}
@@ -271,6 +271,7 @@ def main():
             "blue_close_low": None, "blue_close_high": None,
             "red_open_decimal": None, "blue_open_decimal": None,
             "red_bfo_url": red_url, "blue_bfo_url": blue_url,
+            "bfo_event_date": None,
             "bfo_event_url": None,
             "match_status": "no_match"
         }
@@ -293,9 +294,13 @@ def main():
                 "blue_close_low": bcg, "blue_close_high": bcg,
                 "red_open_decimal": american_to_decimal(ro) if ro else None,
                 "blue_open_decimal": american_to_decimal(bo) if bo else None,
+                "bfo_event_date": match.get("event_date"),
                 "bfo_event_url": match.get("event_url"),
                 "match_status": "matched" if (ro or bo or rcg or bcg) else "partial"
             })
+            # Falls in deiner Input-CSV kein Datum stand: mit BFO-Datum füllen
+            if out["event_date"] in (None, pd.NaT):
+                out["event_date"] = out["bfo_event_date"]
 
         out_rows.append(out)
 
@@ -305,7 +310,8 @@ def main():
         "red_open","blue_open",
         "red_close_low","red_close_high","blue_close_low","blue_close_high",
         "red_open_decimal","blue_open_decimal",
-        "red_bfo_url","blue_bfo_url","bfo_event_url","match_status"
+        "red_bfo_url","blue_bfo_url",
+        "bfo_event_date","bfo_event_url","match_status"
     ]
     out[cols].to_csv(out_csv, index=False)
     log(f"[DONE] {out_csv} geschrieben: {len(out)} Zeilen")

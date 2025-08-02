@@ -1,374 +1,374 @@
 event_name,fighter_red,fighter_blue,y_true,y_proba,y_pred,predicted_winner_name,correct
-UFC Fight Night: Moreno vs. Albazi,Charles Jourdain,Victor Henry,1,0.9232879,1,Charles Jourdain,1
-UFC Fight Night: Moreno vs. Albazi,Cody Gibson,Chad Anheliger,1,0.96943396,1,Cody Gibson,1
-UFC Fight Night: Moreno vs. Albazi,Serhiy Sidey,Garrett Armfield,1,0.9870291,1,Serhiy Sidey,1
-UFC Fight Night: Moreno vs. Albazi,Rodrigo Nascimento,Alexandr Romanov,0,0.010102697,0,Alexandr Romanov,1
-UFC Fight Night: Moreno vs. Albazi,Youssef Zalal,Jack Shore,1,0.83516544,1,Youssef Zalal,1
-UFC Fight Night: Moreno vs. Albazi,Ivana Petrovic,Jamey-Lyn Horth,0,0.34569365,0,Jamey-Lyn Horth,1
-UFC Fight Night: Moreno vs. Albazi,Pedro Munhoz,Aiemann Zahabi,0,0.20322102,0,Aiemann Zahabi,1
-UFC Fight Night: Moreno vs. Albazi,Mike Malott,Trevin Giles,1,0.9746527,1,Mike Malott,1
-UFC Fight Night: Moreno vs. Albazi,Dustin Stoltzfus,Marc-Andre Barriault,1,0.9792991,1,Dustin Stoltzfus,1
-UFC Fight Night: Moreno vs. Albazi,Jasmine Jasudavicius,Ariane da Silva,1,0.9772588,1,Jasmine Jasudavicius,1
-UFC Fight Night: Moreno vs. Albazi,Brandon Moreno,Amir Albazi,1,0.38686535,0,Amir Albazi,0
-UFC Fight Night: Moreno vs. Albazi,Caio Machado,Brendson Ribeiro,0,0.5248748,1,Caio Machado,0
-UFC Fight Night: Moreno vs. Albazi,Erin Blanchfield,Rose Namajunas,1,0.96766216,1,Erin Blanchfield,1
-UFC Fight Night: Magny vs. Prates,Elizeu Zaleski dos Santos,Zachary Scroggin,1,0.9976096,1,Elizeu Zaleski dos Santos,1
-UFC Fight Night: Magny vs. Prates,Klaudia Sygula,Melissa Mullins,0,0.6382507,1,Klaudia Sygula,0
-UFC Fight Night: Magny vs. Prates,Antonio Trocoli,Tresean Gore,0,0.2080237,0,Tresean Gore,1
-UFC Fight Night: Magny vs. Prates,Cody Stamann,Da'Mon Blackshear,0,0.0048972773,0,Da'Mon Blackshear,1
-UFC Fight Night: Magny vs. Prates,Charles Radtke,Matthew Semelsberger,1,0.520713,1,Charles Radtke,1
-UFC Fight Night: Magny vs. Prates,Karolina Kowalkiewicz,Denise Gomes,0,0.09255047,0,Denise Gomes,1
-UFC Fight Night: Magny vs. Prates,Luana Pinheiro,Gillian Robertson,0,0.0031368362,0,Gillian Robertson,1
-UFC Fight Night: Magny vs. Prates,Gaston Bolanos,Cortavious Romious,1,0.82633287,1,Gaston Bolanos,1
-UFC Fight Night: Magny vs. Prates,Reinier de Ridder,Gerald Meerschaert,1,0.9979442,1,Reinier de Ridder,1
-UFC Fight Night: Magny vs. Prates,Neil Magny,Carlos Prates,0,0.004424995,0,Carlos Prates,1
-UFC Fight Night: Magny vs. Prates,Mansur Abdul-Malik,Dusko Todorovic,1,0.9956691,1,Mansur Abdul-Malik,1
-UFC 309: Jones vs. Miocic,Marcin Tybura,Jhonata Diniz,1,0.9818563,1,Marcin Tybura,1
-UFC 309: Jones vs. Miocic,Jim Miller,Damon Jackson,1,0.9888072,1,Jim Miller,1
-UFC 309: Jones vs. Miocic,Bassil Hafez,Oban Elliott,0,0.0016217923,0,Oban Elliott,1
-UFC 309: Jones vs. Miocic,Mickey Gall,Ramiz Brahimaj,0,0.4111189,0,Ramiz Brahimaj,1
-UFC 309: Jones vs. Miocic,David Onama,Roberto Romero,1,0.99601585,1,David Onama,1
-UFC 309: Jones vs. Miocic,James Llontop,Mauricio Ruffy,0,0.0020627778,0,Mauricio Ruffy,1
-UFC 309: Jones vs. Miocic,Marcus McGhee,Jonathan Martinez,1,0.9777759,1,Marcus McGhee,1
-UFC 309: Jones vs. Miocic,Karine Silva,Viviane Araujo,0,0.051531255,0,Viviane Araujo,1
-UFC 309: Jones vs. Miocic,Bo Nickal,Paul Craig,1,0.9676281,1,Bo Nickal,1
-UFC 309: Jones vs. Miocic,Charles Oliveira,Michael Chandler,1,0.99680364,1,Charles Oliveira,1
-UFC 309: Jones vs. Miocic,Jon Jones,Stipe Miocic,1,0.95890915,1,Jon Jones,1
-UFC 309: Jones vs. Miocic,Eduarda Moura,Veronica Hardy,1,0.97082114,1,Eduarda Moura,1
-UFC Fight Night: Yan vs. Figueiredo,DongHun Choi,Kiru Sahota,1,0.3460028,0,Kiru Sahota,0
-UFC Fight Night: Yan vs. Figueiredo,Maheshate,Nikolas Motta,0,0.034558445,0,Nikolas Motta,1
-UFC Fight Night: Yan vs. Figueiredo,Quang Le,Xiao Long,0,0.023425497,0,Xiao Long,1
-UFC Fight Night: Yan vs. Figueiredo,Lone'er Kavanagh,Jose Ochoa,1,0.3331126,0,Jose Ochoa,0
-UFC Fight Night: Yan vs. Figueiredo,Carlos Hernandez,Nyamjargal Tumendemberel,1,0.9640007,1,Carlos Hernandez,1
-UFC Fight Night: Yan vs. Figueiredo,Shi Ming,Feng Xiaocan,1,0.069485515,0,Feng Xiaocan,0
-UFC Fight Night: Yan vs. Figueiredo,Zhang Mingyang,Ozzy Diaz,1,0.9876243,1,Zhang Mingyang,1
-UFC Fight Night: Yan vs. Figueiredo,Volkan Oezdemir,Carlos Ulberg,0,0.030700922,0,Carlos Ulberg,1
-UFC Fight Night: Yan vs. Figueiredo,Gabriella Fernandes,Wang Cong,1,0.9875218,1,Gabriella Fernandes,1
-UFC Fight Night: Yan vs. Figueiredo,Muslim Salikhov,Song Kenan,1,0.919259,1,Muslim Salikhov,1
-UFC Fight Night: Yan vs. Figueiredo,Yan Xiaonan,Tabatha Ricci,1,0.22661607,0,Tabatha Ricci,0
-UFC Fight Night: Yan vs. Figueiredo,Petr Yan,Deiveson Figueiredo,1,0.95205003,1,Petr Yan,1
-UFC Fight Night: Yan vs. Figueiredo,SuYoung You,Baergeng Jieleyisi,1,0.04544787,0,Baergeng Jieleyisi,0
-UFC 310: Pantoja vs. Asakura,Movsar Evloev,Aljamain Sterling,1,0.9670925,1,Movsar Evloev,1
-UFC 310: Pantoja vs. Asakura,Lukasz Brzeski,Kennedy Nzechukwu,0,0.0033528986,0,Kennedy Nzechukwu,1
-UFC 310: Pantoja vs. Asakura,Chase Hooper,Clay Guida,1,0.96876055,1,Chase Hooper,1
-UFC 310: Pantoja vs. Asakura,Max Griffin,Michael Chiesa,0,0.010165405,0,Michael Chiesa,1
-UFC 310: Pantoja vs. Asakura,Cody Durden,Joshua Van,0,0.03620233,0,Joshua Van,1
-UFC 310: Pantoja vs. Asakura,Chris Weidman,Eryk Anders,0,0.00901658,0,Eryk Anders,1
-UFC 310: Pantoja vs. Asakura,Anthony Smith,Dominick Reyes,0,0.20937684,0,Dominick Reyes,1
-UFC 310: Pantoja vs. Asakura,Themba Gorimbo,Vicente Luque,0,0.019208834,0,Vicente Luque,1
-UFC 310: Pantoja vs. Asakura,Dooho Choi,Nate Landwehr,1,0.42859924,0,Nate Landwehr,0
-UFC 310: Pantoja vs. Asakura,Bryce Mitchell,Kron Gracie,1,0.9989347,1,Bryce Mitchell,1
-UFC 310: Pantoja vs. Asakura,Ciryl Gane,Alexander Volkov,1,0.7015308,1,Ciryl Gane,1
-UFC 310: Pantoja vs. Asakura,Ian Machado Garry,Shavkat Rakhmonov,0,0.1664891,0,Shavkat Rakhmonov,1
-UFC 310: Pantoja vs. Asakura,Kai Asakura,Alexandre Pantoja,0,0.00090411503,0,Alexandre Pantoja,1
-UFC 310: Pantoja vs. Asakura,Bryan Battle,Randy Brown,1,0.99142236,1,Bryan Battle,1
-UFC Fight Night: Covington vs. Buckley,Piera Rodriguez,Josefine Knutsson,1,0.98741233,1,Piera Rodriguez,1
-UFC Fight Night: Covington vs. Buckley,Davey Grant,Ramon Taveras,1,0.3819722,0,Ramon Taveras,0
-UFC Fight Night: Covington vs. Buckley,Miranda Maverick,Jamey-Lyn Horth,1,0.9977736,1,Miranda Maverick,1
-UFC Fight Night: Covington vs. Buckley,Felipe Lima,Miles Johns,1,0.99134266,1,Felipe Lima,1
-UFC Fight Night: Covington vs. Buckley,Sean Woodson,Fernando Padilla,1,0.9947143,1,Sean Woodson,1
-UFC Fight Night: Covington vs. Buckley,Joel Alvarez,Drakkar Klose,1,0.9965958,1,Joel Alvarez,1
-UFC Fight Night: Covington vs. Buckley,Michael Johnson,Ottman Azaitar,1,0.85380214,1,Michael Johnson,1
-UFC Fight Night: Covington vs. Buckley,Navajo Stirling,Tuco Tokkos,1,0.9949303,1,Navajo Stirling,1
-UFC Fight Night: Covington vs. Buckley,Adrian Yanez,Daniel Marcos,0,0.21141413,0,Daniel Marcos,1
-UFC Fight Night: Covington vs. Buckley,Vitor Petrino,Dustin Jacoby,0,0.1372557,0,Dustin Jacoby,1
-UFC Fight Night: Covington vs. Buckley,Bruno Silva,Manel Kape,0,0.029662708,0,Manel Kape,1
-UFC Fight Night: Covington vs. Buckley,Manel Kape,Bruno Silva,1,0.96535695,1,Manel Kape,1
-UFC Fight Night: Covington vs. Buckley,Cub Swanson,Billy Quarantillo,1,0.9206592,1,Cub Swanson,1
-UFC Fight Night: Covington vs. Buckley,Colby Covington,Joaquin Buckley,0,0.06738748,0,Joaquin Buckley,1
-UFC Fight Night: Dern vs. Ribas 2,Marco Tulio,Ihor Potieria,1,0.97658324,1,Marco Tulio,1
-UFC Fight Night: Dern vs. Ribas 2,Joe Solecki,Nurullo Aliev,0,0.004239952,0,Nurullo Aliev,1
-UFC Fight Night: Dern vs. Ribas 2,Viktoriia Dudakova,Fatima Kline,0,0.0032509414,0,Fatima Kline,1
-UFC Fight Night: Dern vs. Ribas 2,Ernesta Kareckaite,Nicolle Caliari,1,0.9891418,1,Ernesta Kareckaite,1
-UFC Fight Night: Dern vs. Ribas 2,Preston Parsons,Jacobe Smith,0,0.17602284,0,Jacobe Smith,1
-UFC Fight Night: Dern vs. Ribas 2,Trey Ogden,Thiago Moises,0,0.26502267,0,Thiago Moises,1
-UFC Fight Night: Dern vs. Ribas 2,Magomed Gadzhiyasulov,Bruno Lopes,0,0.027529428,0,Bruno Lopes,1
-UFC Fight Night: Dern vs. Ribas 2,Jose Johnson,Felipe Bunes,0,0.65341324,1,Jose Johnson,0
-UFC Fight Night: Dern vs. Ribas 2,Punahele Soriano,Uros Medic,1,0.9908551,1,Punahele Soriano,1
-UFC Fight Night: Dern vs. Ribas 2,Christian Rodriguez,Austin Bashi,1,0.99650073,1,Christian Rodriguez,1
-UFC Fight Night: Dern vs. Ribas 2,Roman Kopylov,Chris Curtis,1,0.9483824,1,Roman Kopylov,1
-UFC Fight Night: Dern vs. Ribas 2,Mackenzie Dern,Amanda Ribas,1,0.3757497,0,Amanda Ribas,0
-UFC Fight Night: Dern vs. Ribas 2,Carlston Harris,Santiago Ponzinibbio,0,0.014113673,0,Santiago Ponzinibbio,1
-UFC Fight Night: Dern vs. Ribas 2,Cesar Almeida,Abdul Razak Alhassan,1,0.73330617,1,Cesar Almeida,1
-UFC 311: Makhachev vs. Moicano,Billy Elekana,Bogdan Guskov,0,0.010499831,0,Bogdan Guskov,1
-UFC 311: Makhachev vs. Moicano,Clayton Carpenter,Tagir Ulanbekov,0,0.0063542905,0,Tagir Ulanbekov,1
-UFC 311: Makhachev vs. Moicano,Muin Gafurov,Rinya Nakamura,1,0.99669456,1,Muin Gafurov,1
-UFC 311: Makhachev vs. Moicano,Karol Rosa,Ailin Perez,0,0.029100275,0,Ailin Perez,1
-UFC 311: Makhachev vs. Moicano,Diego Ferreira,Grant Dawson,0,0.01082585,0,Grant Dawson,1
-UFC 311: Makhachev vs. Moicano,Ricky Turcios,Benardo Sopaj,0,0.009254062,0,Benardo Sopaj,1
-UFC 311: Makhachev vs. Moicano,Azamat Bekoev,Zachary Reese,1,0.9949049,1,Azamat Bekoev,1
-UFC 311: Makhachev vs. Moicano,Payton Talbott,Raoni Barcelos,0,0.50486714,1,Payton Talbott,0
-UFC 311: Makhachev vs. Moicano,Kevin Holland,Reinier de Ridder,0,0.009719393,0,Reinier de Ridder,1
-UFC 311: Makhachev vs. Moicano,Jailton Almeida,Serghei Spivac,1,0.8422263,1,Jailton Almeida,1
-UFC 311: Makhachev vs. Moicano,Jamahal Hill,Jiri Prochazka,0,0.0039485786,0,Jiri Prochazka,1
-UFC 311: Makhachev vs. Moicano,Islam Makhachev,Renato Moicano,1,0.98331463,1,Islam Makhachev,1
-UFC 311: Makhachev vs. Moicano,Umar Nurmagomedov,Merab Dvalishvili,0,0.016590042,0,Merab Dvalishvili,1
-UFC Fight Night: Adesanya vs. Imavov,Shamil Gaziev,Thomas Petersen,1,0.9890609,1,Shamil Gaziev,1
-UFC Fight Night: Adesanya vs. Imavov,Hamdy Abdelwahab,Jamal Pogues,1,0.98214704,1,Hamdy Abdelwahab,1
-UFC Fight Night: Adesanya vs. Imavov,Bogdan Grad,Lucas Alexander,1,0.98456603,1,Bogdan Grad,1
-UFC Fight Night: Adesanya vs. Imavov,Jasmine Jasudavicius,Mayra Bueno Silva,1,0.9958038,1,Jasmine Jasudavicius,1
-UFC Fight Night: Adesanya vs. Imavov,Damir Hadzovic,Terrance McKinney,0,0.0062180916,0,Terrance McKinney,1
-UFC Fight Night: Adesanya vs. Imavov,Vinicius Oliveira,Said Nurmagomedov,1,0.97947145,1,Vinicius Oliveira,1
-UFC Fight Night: Adesanya vs. Imavov,Fares Ziam,Mike Davis,1,0.46621332,0,Mike Davis,0
-UFC Fight Night: Adesanya vs. Imavov,Fares Ziam,Mike Davis,1,0.96579427,1,Fares Ziam,1
-UFC Fight Night: Adesanya vs. Imavov,Sergei Pavlovich,Jairzinho Rozenstruik,1,0.9120718,1,Sergei Pavlovich,1
-UFC Fight Night: Adesanya vs. Imavov,Michael Page,Shara Magomedov,1,0.982601,1,Michael Page,1
-UFC Fight Night: Adesanya vs. Imavov,Nassourdine Imavov,Israel Adesanya,1,0.98274475,1,Nassourdine Imavov,1
-UFC Fight Night: Adesanya vs. Imavov,Kaan Ofli,Muhammad Naimov,0,0.0008812488,0,Muhammad Naimov,1
-UFC 312: Du Plessis vs. Strickland 2,Jonathan Micallef,Kevin Jousset,1,0.995106,1,Jonathan Micallef,1
-UFC 312: Du Plessis vs. Strickland 2,Aleksandre Topuria,Colby Thicknesse,1,0.7567291,1,Aleksandre Topuria,1
-UFC 312: Du Plessis vs. Strickland 2,Tom Nolan,Viacheslav Borshchev,1,0.99554473,1,Tom Nolan,1
-UFC 312: Du Plessis vs. Strickland 2,Anshul Jubli,Quillan Salkilld,0,0.12515618,0,Quillan Salkilld,1
-UFC 312: Du Plessis vs. Strickland 2,Wang Cong,Bruna Brasil,1,0.7018482,1,Wang Cong,1
-UFC 312: Du Plessis vs. Strickland 2,Rongzhu,Kody Steele,1,0.97943133,1,Rongzhu,1
-UFC 312: Du Plessis vs. Strickland 2,Gabriel Santos,Jack Jenkins,1,0.9944193,1,Gabriel Santos,1
-UFC 312: Du Plessis vs. Strickland 2,Rodolfo Bellato,Jimmy Crute,0,0.11278351,0,Jimmy Crute,1
-UFC 312: Du Plessis vs. Strickland 2,Justin Tafa,Tallison Teixeira,0,0.023390554,0,Tallison Teixeira,1
-UFC 312: Du Plessis vs. Strickland 2,Tatiana Suarez,Zhang Weili,0,0.39173484,0,Zhang Weili,1
-UFC 312: Du Plessis vs. Strickland 2,Sean Strickland,Dricus Du Plessis,0,0.4125025,0,Dricus Du Plessis,1
-UFC 312: Du Plessis vs. Strickland 2,Jake Matthews,Francisco Prado,1,0.99439055,1,Jake Matthews,1
-UFC Fight Night: Cannonier vs. Rodrigues,Ketlen Souza,Angela Hill,0,0.14828894,0,Angela Hill,1
-UFC Fight Night: Cannonier vs. Rodrigues,Jacqueline Cavalcanti,Julia Avila,1,0.9900023,1,Jacqueline Cavalcanti,1
-UFC Fight Night: Cannonier vs. Rodrigues,Don'Tale Mayes,Valter Walker,0,0.12399077,0,Valter Walker,1
-UFC Fight Night: Cannonier vs. Rodrigues,Vince Morales,Elijah Smith,0,0.007844454,0,Elijah Smith,1
-UFC Fight Night: Cannonier vs. Rodrigues,Gabriel Bonfim,Khaos Williams,1,0.9883039,1,Gabriel Bonfim,1
-UFC Fight Night: Cannonier vs. Rodrigues,Jesus Aguilar,Rafael Estevam,0,0.0073398524,0,Rafael Estevam,1
-UFC Fight Night: Cannonier vs. Rodrigues,Gregory Rodrigues,Jared Cannonier,0,0.65106064,1,Gregory Rodrigues,0
-UFC Fight Night: Cannonier vs. Rodrigues,Connor Matthews,Jose Delgado,0,0.0066222055,0,Jose Delgado,1
-UFC Fight Night: Cannonier vs. Rodrigues,Andre Petroski,Rodolfo Vieira,1,0.9968098,1,Andre Petroski,1
-UFC Fight Night: Cannonier vs. Rodrigues,Nazim Sadykhov,Ismael Bonfim,1,0.9879732,1,Nazim Sadykhov,1
-UFC Fight Night: Cannonier vs. Rodrigues,Dylan Budka,Edmen Shahbazyan,0,0.0050272285,0,Edmen Shahbazyan,1
-UFC Fight Night: Cannonier vs. Rodrigues,Youssef Zalal,Calvin Kattar,1,0.97717905,1,Youssef Zalal,1
-UFC Fight Night: Cejudo vs. Song,Ibo Aslan,Ion Cutelaba,0,0.14894114,0,Ion Cutelaba,1
-UFC Fight Night: Cejudo vs. Song,Modestas Bukauskas,Rafael Cerqueira,1,0.9921731,1,Modestas Bukauskas,1
-UFC Fight Night: Cejudo vs. Song,Eric McConico,Nursulton Ruziboev,0,0.0094601475,0,Nursulton Ruziboev,1
-UFC Fight Night: Cejudo vs. Song,Austin Vanderford,Nikolay Veretennikov,1,0.9704077,1,Austin Vanderford,1
-UFC Fight Night: Cejudo vs. Song,Ricky Simon,Javid Basharat,1,0.66523606,1,Ricky Simon,1
-UFC Fight Night: Cejudo vs. Song,Nick Klein,Mansur Abdul-Malik,0,0.0055922605,0,Mansur Abdul-Malik,1
-UFC Fight Night: Cejudo vs. Song,Henry Cejudo,Song Yadong,0,0.070712775,0,Song Yadong,1
-UFC Fight Night: Cejudo vs. Song,Julius Walker,Alonzo Menifield,0,0.009299547,0,Alonzo Menifield,1
-UFC Fight Night: Cejudo vs. Song,Melsik Baghdasaryan,Jean Silva,0,0.002561208,0,Jean Silva,1
-UFC Fight Night: Cejudo vs. Song,Melsik Baghdasaryan,Jean Silva,0,0.004103219,0,Jean Silva,1
-UFC Fight Night: Cejudo vs. Song,Jean Matsumoto,Rob Font,0,0.027173663,0,Rob Font,1
-UFC Fight Night: Cejudo vs. Song,Anthony Hernandez,Brendan Allen,1,0.9832683,1,Anthony Hernandez,1
-UFC Fight Night: Cejudo vs. Song,Andre Fili,Melquizael Costa,0,0.00382887,0,Melquizael Costa,1
-UFC Fight Night: Kape vs. Almabayev,JJ Aldrich,Andrea Lee,1,0.991252,1,JJ Aldrich,1
-UFC Fight Night: Kape vs. Almabayev,Austen Lane,Mario Pinto,0,0.4218065,0,Mario Pinto,1
-UFC Fight Night: Kape vs. Almabayev,Ramazan Temirov,Charles Johnson,1,0.9837499,1,Ramazan Temirov,1
-UFC Fight Night: Kape vs. Almabayev,Lucas Almeida,Danny Silva,0,0.014325136,0,Danny Silva,1
-UFC Fight Night: Kape vs. Almabayev,Sam Patterson,Danny Barlow,1,0.9646347,1,Sam Patterson,1
-UFC Fight Night: Kape vs. Almabayev,Ricardo Ramos,Chepe Mariscal,0,0.24476112,0,Chepe Mariscal,1
-UFC Fight Night: Kape vs. Almabayev,Esteban Ribovics,Nasrat Haqparast,0,0.0067956387,0,Nasrat Haqparast,1
-UFC Fight Night: Kape vs. Almabayev,Cody Brundage,Julian Marquez,1,0.6576973,1,Cody Brundage,1
-UFC Fight Night: Kape vs. Almabayev,Manel Kape,Asu Almabayev,1,0.30398086,0,Asu Almabayev,0
-UFC Fight Night: Kape vs. Almabayev,Hyder Amil,William Gomis,1,0.9809457,1,Hyder Amil,1
-UFC 313: Pereira vs. Ankalaev,Alex Pereira,Magomed Ankalaev,0,0.69732374,1,Alex Pereira,0
-UFC 313: Pereira vs. Ankalaev,Rafael Fiziev,Justin Gaethje,0,0.0058172094,0,Justin Gaethje,1
-UFC 313: Pereira vs. Ankalaev,Ignacio Bahamondes,Jalin Turner,1,0.8635695,1,Ignacio Bahamondes,1
-UFC 313: Pereira vs. Ankalaev,Joshua Van,Rei Tsuruya,1,0.98117584,1,Joshua Van,1
-UFC 313: Pereira vs. Ankalaev,Mauricio Ruffy,King Green,1,0.99103314,1,Mauricio Ruffy,1
-UFC 313: Pereira vs. Ankalaev,Alex Morono,Carlos Leal,0,0.008028523,0,Carlos Leal,1
-UFC 313: Pereira vs. Ankalaev,Francis Marshall,Mairon Santos,0,0.017134128,0,Mairon Santos,1
-UFC 313: Pereira vs. Ankalaev,Ozzy Diaz,Djorden Santos,1,0.9338142,1,Ozzy Diaz,1
-UFC 313: Pereira vs. Ankalaev,Amanda Lemos,Iasmin Lucindo,1,0.51202226,1,Amanda Lemos,1
-UFC 313: Pereira vs. Ankalaev,Armen Petrosyan,Brunno Ferreira,0,0.04226993,0,Brunno Ferreira,1
-UFC Fight Night: Vettori vs. Dolidze 2,Sam Hughes,Stephanie Luciano,1,0.92104137,1,Sam Hughes,1
-UFC Fight Night: Vettori vs. Dolidze 2,Priscila Cachoeira,Josiane Nunes,1,0.9450157,1,Priscila Cachoeira,1
-UFC Fight Night: Vettori vs. Dolidze 2,Daniel Barez,Andre Lima,0,0.0017184197,0,Andre Lima,1
-UFC Fight Night: Vettori vs. Dolidze 2,Josias Musasa,Carlos Vera,0,0.024089897,0,Carlos Vera,1
-UFC Fight Night: Vettori vs. Dolidze 2,Waldo Cortes-Acosta,Ryan Spann,1,0.8705474,1,Waldo Cortes-Acosta,1
-UFC Fight Night: Vettori vs. Dolidze 2,AJ Cunningham,SuYoung You,0,0.0007376074,0,SuYoung You,1
-UFC Fight Night: Vettori vs. Dolidze 2,Da'Mon Blackshear,Cody Gibson,1,0.9747491,1,Da'Mon Blackshear,1
-UFC Fight Night: Vettori vs. Dolidze 2,Kevin Vallejos,SeungWoo Choi,1,0.9587469,1,Kevin Vallejos,1
-UFC Fight Night: Vettori vs. Dolidze 2,Elizeu Zaleski dos Santos,Chidi Njokuani,0,0.0038128004,0,Chidi Njokuani,1
-UFC Fight Night: Vettori vs. Dolidze 2,Brendson Ribeiro,Diyar Nurgozhay,1,0.98379636,1,Brendson Ribeiro,1
-UFC Fight Night: Vettori vs. Dolidze 2,Marvin Vettori,Roman Dolidze,0,0.35047874,0,Roman Dolidze,1
-UFC Fight Night: Vettori vs. Dolidze 2,Kurt Holobaugh,Alexander Hernandez,0,0.006974913,0,Alexander Hernandez,1
-UFC Fight Night: Vettori vs. Dolidze 2,Carli Judice,Yuneisy Duben,1,0.98669493,1,Carli Judice,1
-UFC Fight Night: Edwards vs. Brady,Chris Padilla,Jai Herbert,1,0.980374,1,Chris Padilla,1
-UFC Fight Night: Edwards vs. Brady,Puja Tomar,Shauna Bannon,0,0.011926918,0,Shauna Bannon,1
-UFC Fight Night: Edwards vs. Brady,Marcin Tybura,Mick Parkin,1,0.8902852,1,Marcin Tybura,1
-UFC Fight Night: Edwards vs. Brady,Kaue Fernandes,Guram Kutateladze,1,0.81472695,1,Kaue Fernandes,1
-UFC Fight Night: Edwards vs. Brady,Caolan Loughran,Nathan Fletcher,1,0.9868737,1,Caolan Loughran,1
-UFC Fight Night: Edwards vs. Brady,Lone'er Kavanagh,Felipe dos Santos,1,0.99410963,1,Lone'er Kavanagh,1
-UFC Fight Night: Edwards vs. Brady,Leon Edwards,Sean Brady,0,0.02623138,0,Sean Brady,1
-UFC Fight Night: Edwards vs. Brady,Morgan Charriere,Nathaniel Wood,0,0.003390012,0,Nathaniel Wood,1
-UFC Fight Night: Edwards vs. Brady,Carlos Ulberg,Jan Blachowicz,1,0.9704524,1,Carlos Ulberg,1
-UFC Fight Night: Edwards vs. Brady,Molly McCann,Alexia Thainara,0,0.092581205,0,Alexia Thainara,1
-UFC Fight Night: Edwards vs. Brady,Chris Duncan,Jordan Vucenic,1,0.9961324,1,Chris Duncan,1
-UFC Fight Night: Edwards vs. Brady,Gunnar Nelson,Kevin Holland,0,0.13654307,0,Kevin Holland,1
-UFC Fight Night: Edwards vs. Brady,Andrey Pulyaev,Christian Leroy Duncan,0,0.0103295855,0,Christian Leroy Duncan,1
-UFC Fight Night: Moreno vs. Erceg,Austin Hubbard,MarQuel Mederos,0,0.0048258663,0,MarQuel Mederos,1
-UFC Fight Night: Moreno vs. Erceg,Gabriel Miranda,Jamall Emmers,0,0.04469468,0,Jamall Emmers,1
-UFC Fight Night: Moreno vs. Erceg,Vinc Pichel,Rafa Garcia,0,0.0020081755,0,Rafa Garcia,1
-UFC Fight Night: Moreno vs. Erceg,Loopy Godinez,Julia Polastri,1,0.9896792,1,Loopy Godinez,1
-UFC Fight Night: Moreno vs. Erceg,Melquizael Costa,Christian Rodriguez,1,0.9929537,1,Melquizael Costa,1
-UFC Fight Night: Moreno vs. Erceg,Jose Daniel Medina,Ateba Gautier,0,0.0048344224,0,Ateba Gautier,1
-UFC Fight Night: Moreno vs. Erceg,Ronaldo Rodriguez,Kevin Borjas,0,0.0030789888,0,Kevin Borjas,1
-UFC Fight Night: Moreno vs. Erceg,David Martinez,Saimon Oliveira,1,0.9966725,1,David Martinez,1
-UFC Fight Night: Moreno vs. Erceg,Vince Morales,Raul Rosas Jr.,0,0.0006018494,0,Raul Rosas Jr.,1
-UFC Fight Night: Moreno vs. Erceg,Edgar Chairez,CJ Vergara,1,0.9736302,1,Edgar Chairez,1
-UFC Fight Night: Moreno vs. Erceg,Manuel Torres,Drew Dober,1,0.3731266,0,Drew Dober,0
-UFC Fight Night: Moreno vs. Erceg,Brandon Moreno,Steve Erceg,1,0.9943078,1,Brandon Moreno,1
-UFC Fight Night: Emmett vs. Murphy,Dione Barbosa,Diana Belbita,1,0.95539206,1,Dione Barbosa,1
-UFC Fight Night: Emmett vs. Murphy,Martin Buday,Uran Satybaldiev,1,0.9966683,1,Martin Buday,1
-UFC Fight Night: Emmett vs. Murphy,Victor Henry,Pedro Falcao,1,0.96970683,1,Victor Henry,1
-UFC Fight Night: Emmett vs. Murphy,Loma Lookboonmee,Istela Nunes,1,0.9977089,1,Loma Lookboonmee,1
-UFC Fight Night: Emmett vs. Murphy,Daniel Frunza,Rhys McKee,0,0.00749593,0,Rhys McKee,1
-UFC Fight Night: Emmett vs. Murphy,Josh Emmett,Lerone Murphy,0,0.05119228,0,Lerone Murphy,1
-UFC Fight Night: Emmett vs. Murphy,Robert Valentin,Torrez Finney,0,0.017608628,0,Torrez Finney,1
-UFC Fight Night: Emmett vs. Murphy,Luis Gurule,Ode Osbourne,0,0.023726631,0,Ode Osbourne,1
-UFC Fight Night: Emmett vs. Murphy,Brad Tavares,Gerald Meerschaert,1,0.66352683,1,Brad Tavares,1
-UFC Fight Night: Emmett vs. Murphy,Cortavious Romious,ChangHo Lee,0,0.0035619098,0,ChangHo Lee,1
-UFC Fight Night: Emmett vs. Murphy,Joanderson Brito,Pat Sabatini,0,0.2902082,0,Pat Sabatini,1
-UFC Fight Night: Emmett vs. Murphy,Vanessa Demopoulos,Talita Alencar,0,0.0028046186,0,Talita Alencar,1
-UFC 314: Volkanovski vs. Lopes,Virna Jandiroba,Yan Xiaonan,1,0.8958247,1,Virna Jandiroba,1
-UFC 314: Volkanovski vs. Lopes,Nora Cornolle,Hailey Cowan,1,0.9931144,1,Nora Cornolle,1
-UFC 314: Volkanovski vs. Lopes,Julian Erosa,Darren Elkins,1,0.9980995,1,Julian Erosa,1
-UFC 314: Volkanovski vs. Lopes,Mitch Raposo,Sumudaerji,0,0.1302622,0,Sumudaerji,1
-UFC 314: Volkanovski vs. Lopes,Sedriques Dumas,Michal Oleksiejczuk,0,0.1309297,0,Michal Oleksiejczuk,1
-UFC 314: Volkanovski vs. Lopes,Chase Hooper,Jim Miller,1,0.9971444,1,Chase Hooper,1
-UFC 314: Volkanovski vs. Lopes,Alexander Volkanovski,Diego Lopes,1,0.9826643,1,Alexander Volkanovski,1
-UFC 314: Volkanovski vs. Lopes,Dan Ige,Sean Woodson,1,0.75824803,1,Dan Ige,1
-UFC 314: Volkanovski vs. Lopes,Jean Silva,Bryce Mitchell,1,0.91116613,1,Jean Silva,1
-UFC 314: Volkanovski vs. Lopes,Bryce Mitchell,Jean Silva,0,0.087193236,0,Jean Silva,1
-UFC 314: Volkanovski vs. Lopes,Yair Rodriguez,Patricio Freire,1,0.99608564,1,Yair Rodriguez,1
-UFC 314: Volkanovski vs. Lopes,Paddy Pimblett,Michael Chandler,1,0.99811435,1,Paddy Pimblett,1
-UFC 314: Volkanovski vs. Lopes,Dominick Reyes,Nikita Krylov,1,0.7750761,1,Dominick Reyes,1
-UFC 314: Volkanovski vs. Lopes,Marco Tulio,Tresean Gore,1,0.7945709,1,Marco Tulio,1
-UFC Fight Night: Machado Garry vs. Prates,John Castaneda,Chris Gutierrez,0,0.0027275663,0,Chris Gutierrez,1
-UFC Fight Night: Machado Garry vs. Prates,Chelsea Chandler,Joselyne Edwards,0,0.057988912,0,Joselyne Edwards,1
-UFC Fight Night: Machado Garry vs. Prates,Timmy Cuamba,Roberto Romero,1,0.8710244,1,Timmy Cuamba,1
-UFC Fight Night: Machado Garry vs. Prates,Jaqueline Amorim,Polyana Viana,1,0.996811,1,Jaqueline Amorim,1
-UFC Fight Night: Machado Garry vs. Prates,Cameron Saaiman,Malcolm Wellmaker,0,0.018052304,0,Malcolm Wellmaker,1
-UFC Fight Night: Machado Garry vs. Prates,Alatengheili,Da'Mon Blackshear,0,0.0091486825,0,Da'Mon Blackshear,1
-UFC Fight Night: Machado Garry vs. Prates,Matt Schnell,Jimmy Flick,1,0.9810418,1,Matt Schnell,1
-UFC Fight Night: Machado Garry vs. Prates,Andre Muniz,Ikram Aliskerov,0,0.0075912345,0,Ikram Aliskerov,1
-UFC Fight Night: Machado Garry vs. Prates,Nicolas Dalby,Randy Brown,0,0.027893849,0,Randy Brown,1
-UFC Fight Night: Machado Garry vs. Prates,Abus Magomedov,Michel Pereira,1,0.99150836,1,Abus Magomedov,1
-UFC Fight Night: Machado Garry vs. Prates,David Onama,Giga Chikadze,1,0.9935766,1,David Onama,1
-UFC Fight Night: Machado Garry vs. Prates,Zhang Mingyang,Anthony Smith,1,0.9083464,1,Zhang Mingyang,1
-UFC Fight Night: Machado Garry vs. Prates,Ian Machado Garry,Carlos Prates,1,0.981861,1,Ian Machado Garry,1
-UFC Fight Night: Machado Garry vs. Prates,Gauge Young,Evan Elder,0,0.10508403,0,Evan Elder,1
-UFC Fight Night: Sandhagen vs. Figueiredo,Yana Santos,Miesha Tate,1,0.8882373,1,Yana Santos,1
-UFC Fight Night: Sandhagen vs. Figueiredo,Juliana Miller,Ivana Petrovic,1,0.52652115,1,Juliana Miller,1
-UFC Fight Night: Sandhagen vs. Figueiredo,Thomas Petersen,Don'Tale Mayes,1,0.5931362,1,Thomas Petersen,1
-UFC Fight Night: Sandhagen vs. Figueiredo,Gillian Robertson,Marina Rodriguez,1,0.9952356,1,Gillian Robertson,1
-UFC Fight Night: Sandhagen vs. Figueiredo,Ryan Loder,Azamat Bekoev,0,0.8089501,1,Ryan Loder,0
-UFC Fight Night: Sandhagen vs. Figueiredo,Deiveson Figueiredo,Cory Sandhagen,0,0.038478363,0,Cory Sandhagen,1
-UFC Fight Night: Sandhagen vs. Figueiredo,Jeremy Stephens,Mason Jones,0,0.13068925,0,Mason Jones,1
-UFC Fight Night: Sandhagen vs. Figueiredo,Daniel Marcos,Montel Jackson,0,0.07399514,0,Montel Jackson,1
-UFC Fight Night: Sandhagen vs. Figueiredo,Daniel Rodriguez,Santiago Ponzinibbio,1,0.9501941,1,Daniel Rodriguez,1
-UFC Fight Night: Sandhagen vs. Figueiredo,Bo Nickal,Reinier de Ridder,0,0.024005316,0,Reinier de Ridder,1
-UFC Fight Night: Sandhagen vs. Figueiredo,Serhiy Sidey,Cameron Smotherman,1,0.9592248,1,Serhiy Sidey,1
-UFC Fight Night: Sandhagen vs. Figueiredo,Gaston Bolanos,Quang Le,0,0.0010761013,0,Quang Le,1
-UFC 315: Muhammad vs. Della Maddalena,Brad Katona,Bekzat Almakhan,0,0.17204693,0,Bekzat Almakhan,1
-UFC 315: Muhammad vs. Della Maddalena,JeongYeong Lee,Daniel Santos,0,0.10137861,0,Daniel Santos,1
-UFC 315: Muhammad vs. Della Maddalena,Bruno Silva,Marc-Andre Barriault,0,0.060859565,0,Marc-Andre Barriault,1
-UFC 315: Muhammad vs. Della Maddalena,Marc-Andre Barriault,Bruno Silva,1,0.7292723,1,Marc-Andre Barriault,1
-UFC 315: Muhammad vs. Della Maddalena,Navajo Stirling,Ivan Erslan,1,0.9959676,1,Navajo Stirling,1
-UFC 315: Muhammad vs. Della Maddalena,Ion Cutelaba,Modestas Bukauskas,0,0.40225238,0,Modestas Bukauskas,1
-UFC 315: Muhammad vs. Della Maddalena,Jasmine Jasudavicius,Jessica Andrade,1,0.55404365,1,Jasmine Jasudavicius,1
-UFC 315: Muhammad vs. Della Maddalena,Mike Malott,Charles Radtke,1,0.9963117,1,Mike Malott,1
-UFC 315: Muhammad vs. Della Maddalena,Benoit Saint Denis,Kyle Prepolec,1,0.99808574,1,Benoit Saint Denis,1
-UFC 315: Muhammad vs. Della Maddalena,Alexa Grasso,Natalia Silva,0,0.27027,0,Natalia Silva,1
-UFC 315: Muhammad vs. Della Maddalena,Jose Aldo,Aiemann Zahabi,0,0.008107669,0,Aiemann Zahabi,1
-UFC 315: Muhammad vs. Della Maddalena,Valentina Shevchenko,Manon Fiorot,1,0.9561213,1,Valentina Shevchenko,1
-UFC 315: Muhammad vs. Della Maddalena,Jack Della Maddalena,Belal Muhammad,1,0.9810113,1,Jack Della Maddalena,1
-UFC Fight Night: Burns vs. Morales,Luana Pinheiro,Tecia Pennington,0,0.005688056,0,Tecia Pennington,1
-UFC Fight Night: Burns vs. Morales,HyunSung Park,Carlos Hernandez,1,0.98119706,1,HyunSung Park,1
-UFC Fight Night: Burns vs. Morales,Elise Reed,Denise Gomes,0,0.001983015,0,Denise Gomes,1
-UFC Fight Night: Burns vs. Morales,Luana Santos,Tainara Lisboa,1,0.9259123,1,Luana Santos,1
-UFC Fight Night: Burns vs. Morales,Connor Matthews,Yadier del Valle,0,0.0020716626,0,Yadier del Valle,1
-UFC Fight Night: Burns vs. Morales,Jared Gordon,Thiago Moises,1,0.8499374,1,Jared Gordon,1
-UFC Fight Night: Burns vs. Morales,Matheus Camilo,Gabe Green,0,0.017681388,0,Gabe Green,1
-UFC Fight Night: Burns vs. Morales,Julian Erosa,Melquizael Costa,0,0.09354501,0,Melquizael Costa,1
-UFC Fight Night: Burns vs. Morales,Nursulton Ruziboev,Dustin Stoltzfus,1,0.9974039,1,Nursulton Ruziboev,1
-UFC Fight Night: Burns vs. Morales,Sodiq Yusuff,Mairon Santos,0,0.02600979,0,Mairon Santos,1
-UFC Fight Night: Burns vs. Morales,Michael Morales,Gilbert Burns,1,0.99215204,1,Michael Morales,1
-UFC Fight Night: Blanchfield vs. Barber,Allan Nascimento,Jafel Filho,1,0.49401164,0,Jafel Filho,0
-UFC Fight Night: Blanchfield vs. Barber,Rayanne dos Santos,Alice Ardelean,0,0.22765662,0,Alice Ardelean,1
-UFC Fight Night: Blanchfield vs. Barber,Michael Aswell,Bolaji Oki,0,0.3458774,0,Bolaji Oki,1
-UFC Fight Night: Blanchfield vs. Barber,Jordan Leavitt,Kurt Holobaugh,1,0.99545825,1,Jordan Leavitt,1
-UFC Fight Night: Blanchfield vs. Barber,Zachary Reese,Dusko Todorovic,1,0.99468285,1,Zachary Reese,1
-UFC Fight Night: Blanchfield vs. Barber,Dustin Jacoby,Bruno Lopes,1,0.14609572,0,Bruno Lopes,0
-UFC Fight Night: Blanchfield vs. Barber,Billy Ray Goff,Ramiz Brahimaj,0,0.2196399,0,Ramiz Brahimaj,1
-UFC Fight Night: Blanchfield vs. Barber,Mateusz Gamrot,Ludovit Klein,1,0.90976435,1,Mateusz Gamrot,1
-UFC Fight Night: Blanchfield vs. Barber,Ketlen Vieira,Macy Chiasson,1,0.8594504,1,Ketlen Vieira,1
-UFC 316: Dvalishvili vs. O'Malley 2,Andreas Gustafsson,Khaos Williams,1,0.9859385,1,Andreas Gustafsson,1
-UFC 316: Dvalishvili vs. O'Malley 2,Brendson Ribeiro,Azamat Murzakanov,0,0.008114951,0,Azamat Murzakanov,1
-UFC 316: Dvalishvili vs. O'Malley 2,Mark Choinski,MarQuel Mederos,0,0.0016303711,0,MarQuel Mederos,1
-UFC 316: Dvalishvili vs. O'Malley 2,Quillan Salkilld,Yanal Ashmouz,1,0.5340124,1,Quillan Salkilld,1
-UFC 316: Dvalishvili vs. O'Malley 2,Wang Cong,Ariane da Silva,1,0.89321756,1,Wang Cong,1
-UFC 316: Dvalishvili vs. O'Malley 2,Serghei Spivac,Waldo Cortes-Acosta,0,0.23301888,0,Waldo Cortes-Acosta,1
-UFC 316: Dvalishvili vs. O'Malley 2,Joe Pyfer,Kelvin Gastelum,1,0.91567135,1,Joe Pyfer,1
-UFC 316: Dvalishvili vs. O'Malley 2,Bruno Silva,Joshua Van,0,0.02197664,0,Joshua Van,1
-UFC 316: Dvalishvili vs. O'Malley 2,Vicente Luque,Kevin Holland,0,0.03860854,0,Kevin Holland,1
-UFC 316: Dvalishvili vs. O'Malley 2,Patchy Mix,Mario Bautista,0,0.0008060933,0,Mario Bautista,1
-UFC 316: Dvalishvili vs. O'Malley 2,Sean O'Malley,Merab Dvalishvili,0,0.010375998,0,Merab Dvalishvili,1
-UFC 316: Dvalishvili vs. O'Malley 2,Julianna Pena,Kayla Harrison,0,0.004803389,0,Kayla Harrison,1
-UFC 316: Dvalishvili vs. O'Malley 2,Bruno Silva,Joshua Van,0,0.009074697,0,Joshua Van,1
-UFC 316: Dvalishvili vs. O'Malley 2,Jeka Saragih,JooSang Yoo,0,0.005891141,0,JooSang Yoo,1
-UFC Fight Night: Usman vs. Buckley,Michael Chiesa,Court McGee,1,0.9976567,1,Michael Chiesa,1
-UFC Fight Night: Usman vs. Buckley,Jose Ochoa,Cody Durden,1,0.81149834,1,Jose Ochoa,1
-UFC Fight Night: Usman vs. Buckley,Phil Rowe,Ange Loosa,1,0.98872036,1,Phil Rowe,1
-UFC Fight Night: Usman vs. Buckley,Cameron Smotherman,Ricky Simon,0,0.0017190538,0,Ricky Simon,1
-UFC Fight Night: Usman vs. Buckley,Malcolm Wellmaker,Kris Moutinho,1,0.9937202,1,Malcolm Wellmaker,1
-UFC Fight Night: Usman vs. Buckley,Vanessa Demopoulos,Jamey-Lyn Horth,0,0.023260193,0,Jamey-Lyn Horth,1
-UFC Fight Night: Usman vs. Buckley,Paul Craig,Rodolfo Bellato,1,0.64922726,1,Paul Craig,1
-UFC Fight Night: Usman vs. Buckley,Mansur Abdul-Malik,Cody Brundage,1,0.99573,1,Mansur Abdul-Malik,1
-UFC Fight Night: Usman vs. Buckley,Cody Garbrandt,Raoni Barcelos,0,0.2405755,0,Raoni Barcelos,1
-UFC Fight Night: Usman vs. Buckley,Andre Petroski,Edmen Shahbazyan,0,0.0044886507,0,Edmen Shahbazyan,1
-UFC Fight Night: Usman vs. Buckley,Kamaru Usman,Joaquin Buckley,1,0.91132617,1,Kamaru Usman,1
-UFC Fight Night: Usman vs. Buckley,Alonzo Menifield,Oumar Sy,1,0.41078869,0,Oumar Sy,0
-UFC Fight Night: Usman vs. Buckley,Rose Namajunas,Miranda Maverick,1,0.82151484,1,Rose Namajunas,1
-UFC Fight Night: Hill vs. Rountree Jr.,Mohammed Usman,Hamdy Abdelwahab,1,0.8151519,1,Mohammed Usman,1
-UFC Fight Night: Hill vs. Rountree Jr.,Tagir Ulanbekov,Azat Maksum,1,0.99652654,1,Tagir Ulanbekov,1
-UFC Fight Night: Hill vs. Rountree Jr.,Irina Alekseeva,Klaudia Sygula,0,0.018119762,0,Klaudia Sygula,1
-UFC Fight Night: Hill vs. Rountree Jr.,Daria Zhelezniakova,Melissa Mullins,1,0.98084027,1,Daria Zhelezniakova,1
-UFC Fight Night: Hill vs. Rountree Jr.,Ismail Naurdiev,JunYong Park,0,0.012406398,0,JunYong Park,1
-UFC Fight Night: Hill vs. Rountree Jr.,Oban Elliott,Seokhyeon Ko,0,0.0016124616,0,Seokhyeon Ko,1
-UFC Fight Night: Hill vs. Rountree Jr.,Bogdan Grad,Muhammad Naimov,0,0.0034219087,0,Muhammad Naimov,1
-UFC Fight Night: Hill vs. Rountree Jr.,Nazim Sadykhov,Nikolas Motta,1,0.9977725,1,Nazim Sadykhov,1
-UFC Fight Night: Hill vs. Rountree Jr.,Myktybek Orolbai,Tofiq Musayev,1,0.9981664,1,Myktybek Orolbai,1
-UFC Fight Night: Hill vs. Rountree Jr.,Rizvan Kuniev,Curtis Blaydes,0,0.001948201,0,Curtis Blaydes,1
-UFC Fight Night: Hill vs. Rountree Jr.,Ignacio Bahamondes,Rafael Fiziev,0,0.020981645,0,Rafael Fiziev,1
-UFC Fight Night: Hill vs. Rountree Jr.,Jamahal Hill,Khalil Rountree Jr.,0,0.7642675,1,Jamahal Hill,0
-UFC 317: Topuria vs. Oliveira,Jose Delgado,Hyder Amil,1,0.9896633,1,Jose Delgado,1
-UFC 317: Topuria vs. Oliveira,Jhonata Diniz,Alvin Hines,1,0.99753153,1,Jhonata Diniz,1
-UFC 317: Topuria vs. Oliveira,Niko Price,Jacobe Smith,0,0.016553503,0,Jacobe Smith,1
-UFC 317: Topuria vs. Oliveira,Viacheslav Borshchev,Terrance McKinney,0,0.004160183,0,Terrance McKinney,1
-UFC 317: Topuria vs. Oliveira,Tracy Cortez,Viviane Araujo,1,0.9661688,1,Tracy Cortez,1
-UFC 317: Topuria vs. Oliveira,Felipe Lima,Payton Talbott,0,0.3421079,0,Payton Talbott,1
-UFC 317: Topuria vs. Oliveira,Beneil Dariush,Renato Moicano,1,0.97040784,1,Beneil Dariush,1
-UFC 317: Topuria vs. Oliveira,Brandon Royval,Joshua Van,0,0.049330655,0,Joshua Van,1
-UFC 317: Topuria vs. Oliveira,Kai Kara-France,Alexandre Pantoja,0,0.0010492076,0,Alexandre Pantoja,1
-UFC 317: Topuria vs. Oliveira,Charles Oliveira,Ilia Topuria,0,0.029550923,0,Ilia Topuria,1
-UFC 317: Topuria vs. Oliveira,Gregory Rodrigues,Jack Hermansson,1,0.983451,1,Gregory Rodrigues,1
-UFC Fight Night: Lewis vs. Teixeira,Max Griffin,Chris Curtis,0,0.20495225,0,Chris Curtis,1
-UFC Fight Night: Lewis vs. Teixeira,Melissa Martinez,Fatima Kline,0,0.029198918,0,Fatima Kline,1
-UFC Fight Night: Lewis vs. Teixeira,Mike Davis,Mitch Ramirez,1,0.9984487,1,Mike Davis,1
-UFC Fight Night: Lewis vs. Teixeira,Mike Davis,Mitch Ramirez,1,0.9987457,1,Mike Davis,1
-UFC Fight Night: Lewis vs. Teixeira,Kennedy Nzechukwu,Valter Walker,0,0.013860956,0,Valter Walker,1
-UFC Fight Night: Lewis vs. Teixeira,Chidi Njokuani,Jake Matthews,0,0.006833647,0,Jake Matthews,1
-UFC Fight Night: Lewis vs. Teixeira,Tuco Tokkos,Junior Tafa,1,0.9040475,1,Tuco Tokkos,1
-UFC Fight Night: Lewis vs. Teixeira,Austen Lane,Vitor Petrino,0,0.0029999544,0,Vitor Petrino,1
-UFC Fight Night: Lewis vs. Teixeira,Morgan Charriere,Nate Landwehr,1,0.9731568,1,Morgan Charriere,1
-UFC Fight Night: Lewis vs. Teixeira,Calvin Kattar,Steve Garcia,0,0.027886571,0,Steve Garcia,1
-UFC Fight Night: Lewis vs. Teixeira,Stephen Thompson,Gabriel Bonfim,0,0.40538627,0,Gabriel Bonfim,1
-UFC Fight Night: Lewis vs. Teixeira,Tallison Teixeira,Derrick Lewis,0,0.018335091,0,Derrick Lewis,1
-UFC Fight Night: Lewis vs. Teixeira,Eduarda Moura,Lauren Murphy,1,0.9886148,1,Eduarda Moura,1
-UFC 318: Holloway vs. Poirier 3,Francisco Prado,Nikolay Veretennikov,0,0.77375317,1,Francisco Prado,0
-UFC 318: Holloway vs. Poirier 3,Nicolle Caliari,Carli Judice,0,0.013195449,0,Carli Judice,1
-UFC 318: Holloway vs. Poirier 3,Jackson McVey,Brunno Ferreira,0,0.011695153,0,Brunno Ferreira,1
-UFC 318: Holloway vs. Poirier 3,Jimmy Crute,Marcin Prachnio,1,0.99719656,1,Jimmy Crute,1
-UFC 318: Holloway vs. Poirier 3,Adam Fugitt,Islam Dulatov,0,0.0592428,0,Islam Dulatov,1
-UFC 318: Holloway vs. Poirier 3,Ateba Gautier,Robert Valentin,1,0.99690336,1,Ateba Gautier,1
-UFC 318: Holloway vs. Poirier 3,Ryan Spann,Lukasz Brzeski,1,0.9980117,1,Ryan Spann,1
-UFC 318: Holloway vs. Poirier 3,Marvin Vettori,Brendan Allen,0,0.025886549,0,Brendan Allen,1
-UFC 318: Holloway vs. Poirier 3,Vinicius Oliveira,Kyler Phillips,1,0.48792094,0,Kyler Phillips,0
-UFC 318: Holloway vs. Poirier 3,Patricio Freire,Dan Ige,1,0.983089,1,Patricio Freire,1
-UFC 318: Holloway vs. Poirier 3,Kevin Holland,Daniel Rodriguez,0,0.7734277,1,Kevin Holland,0
-UFC 318: Holloway vs. Poirier 3,Roman Kopylov,Paulo Costa,0,0.17036447,0,Paulo Costa,1
-UFC 318: Holloway vs. Poirier 3,Dustin Poirier,Max Holloway,0,0.7285967,1,Dustin Poirier,0
-UFC 318: Holloway vs. Poirier 3,Daniel Zellhuber,Michael Johnson,0,0.43528068,0,Michael Johnson,1
+UFC Fight Night: Moreno vs. Albazi,Charles Jourdain,Victor Henry,1,0.36564282,0,Victor Henry,0
+UFC Fight Night: Moreno vs. Albazi,Cody Gibson,Chad Anheliger,1,0.24504259,0,Chad Anheliger,0
+UFC Fight Night: Moreno vs. Albazi,Serhiy Sidey,Garrett Armfield,1,0.30650645,0,Garrett Armfield,0
+UFC Fight Night: Moreno vs. Albazi,Rodrigo Nascimento,Alexandr Romanov,0,0.38158312,0,Alexandr Romanov,1
+UFC Fight Night: Moreno vs. Albazi,Youssef Zalal,Jack Shore,1,0.8140388,1,Youssef Zalal,1
+UFC Fight Night: Moreno vs. Albazi,Ivana Petrovic,Jamey-Lyn Horth,0,0.8213973,1,Ivana Petrovic,0
+UFC Fight Night: Moreno vs. Albazi,Pedro Munhoz,Aiemann Zahabi,0,0.3160463,0,Aiemann Zahabi,1
+UFC Fight Night: Moreno vs. Albazi,Mike Malott,Trevin Giles,1,0.6784585,1,Mike Malott,1
+UFC Fight Night: Moreno vs. Albazi,Dustin Stoltzfus,Marc-Andre Barriault,1,0.59526014,1,Dustin Stoltzfus,1
+UFC Fight Night: Moreno vs. Albazi,Jasmine Jasudavicius,Ariane da Silva,1,0.41786298,0,Ariane da Silva,0
+UFC Fight Night: Moreno vs. Albazi,Brandon Moreno,Amir Albazi,1,0.4119927,0,Amir Albazi,0
+UFC Fight Night: Moreno vs. Albazi,Caio Machado,Brendson Ribeiro,0,0.2645395,0,Brendson Ribeiro,1
+UFC Fight Night: Moreno vs. Albazi,Erin Blanchfield,Rose Namajunas,1,0.85361207,1,Erin Blanchfield,1
+UFC Fight Night: Magny vs. Prates,Elizeu Zaleski dos Santos,Zachary Scroggin,1,0.6072183,1,Elizeu Zaleski dos Santos,1
+UFC Fight Night: Magny vs. Prates,Klaudia Sygula,Melissa Mullins,0,0.9120042,1,Klaudia Sygula,0
+UFC Fight Night: Magny vs. Prates,Antonio Trocoli,Tresean Gore,0,0.42812493,0,Tresean Gore,1
+UFC Fight Night: Magny vs. Prates,Cody Stamann,Da'Mon Blackshear,0,0.44126314,0,Da'Mon Blackshear,1
+UFC Fight Night: Magny vs. Prates,Charles Radtke,Matthew Semelsberger,1,0.1943135,0,Matthew Semelsberger,0
+UFC Fight Night: Magny vs. Prates,Karolina Kowalkiewicz,Denise Gomes,0,0.019744247,0,Denise Gomes,1
+UFC Fight Night: Magny vs. Prates,Luana Pinheiro,Gillian Robertson,0,0.30897036,0,Gillian Robertson,1
+UFC Fight Night: Magny vs. Prates,Gaston Bolanos,Cortavious Romious,1,0.55307746,1,Gaston Bolanos,1
+UFC Fight Night: Magny vs. Prates,Reinier de Ridder,Gerald Meerschaert,1,0.71603775,1,Reinier de Ridder,1
+UFC Fight Night: Magny vs. Prates,Neil Magny,Carlos Prates,0,0.30949518,0,Carlos Prates,1
+UFC Fight Night: Magny vs. Prates,Mansur Abdul-Malik,Dusko Todorovic,1,0.9676221,1,Mansur Abdul-Malik,1
+UFC 309: Jones vs. Miocic,Marcin Tybura,Jhonata Diniz,1,0.28985724,0,Jhonata Diniz,0
+UFC 309: Jones vs. Miocic,Jim Miller,Damon Jackson,1,0.20922644,0,Damon Jackson,0
+UFC 309: Jones vs. Miocic,Bassil Hafez,Oban Elliott,0,0.083993495,0,Oban Elliott,1
+UFC 309: Jones vs. Miocic,Mickey Gall,Ramiz Brahimaj,0,0.6928756,1,Mickey Gall,0
+UFC 309: Jones vs. Miocic,David Onama,Roberto Romero,1,0.7435996,1,David Onama,1
+UFC 309: Jones vs. Miocic,James Llontop,Mauricio Ruffy,0,0.17528461,0,Mauricio Ruffy,1
+UFC 309: Jones vs. Miocic,Marcus McGhee,Jonathan Martinez,1,0.17178082,0,Jonathan Martinez,0
+UFC 309: Jones vs. Miocic,Karine Silva,Viviane Araujo,0,0.87873757,1,Karine Silva,0
+UFC 309: Jones vs. Miocic,Bo Nickal,Paul Craig,1,0.82044053,1,Bo Nickal,1
+UFC 309: Jones vs. Miocic,Charles Oliveira,Michael Chandler,1,0.8545878,1,Charles Oliveira,1
+UFC 309: Jones vs. Miocic,Jon Jones,Stipe Miocic,1,0.8351133,1,Jon Jones,1
+UFC 309: Jones vs. Miocic,Eduarda Moura,Veronica Hardy,1,0.46191707,0,Veronica Hardy,0
+UFC Fight Night: Yan vs. Figueiredo,DongHun Choi,Kiru Sahota,1,0.36532584,0,Kiru Sahota,0
+UFC Fight Night: Yan vs. Figueiredo,Maheshate,Nikolas Motta,0,0.35814795,0,Nikolas Motta,1
+UFC Fight Night: Yan vs. Figueiredo,Quang Le,Xiao Long,0,0.089874744,0,Xiao Long,1
+UFC Fight Night: Yan vs. Figueiredo,Lone'er Kavanagh,Jose Ochoa,1,0.32768247,0,Jose Ochoa,0
+UFC Fight Night: Yan vs. Figueiredo,Carlos Hernandez,Nyamjargal Tumendemberel,1,0.23098451,0,Nyamjargal Tumendemberel,0
+UFC Fight Night: Yan vs. Figueiredo,Shi Ming,Feng Xiaocan,1,0.07939866,0,Feng Xiaocan,0
+UFC Fight Night: Yan vs. Figueiredo,Zhang Mingyang,Ozzy Diaz,1,0.6157502,1,Zhang Mingyang,1
+UFC Fight Night: Yan vs. Figueiredo,Volkan Oezdemir,Carlos Ulberg,0,0.2327502,0,Carlos Ulberg,1
+UFC Fight Night: Yan vs. Figueiredo,Gabriella Fernandes,Wang Cong,1,0.26270136,0,Wang Cong,0
+UFC Fight Night: Yan vs. Figueiredo,Muslim Salikhov,Song Kenan,1,0.09084846,0,Song Kenan,0
+UFC Fight Night: Yan vs. Figueiredo,Yan Xiaonan,Tabatha Ricci,1,0.061213728,0,Tabatha Ricci,0
+UFC Fight Night: Yan vs. Figueiredo,Petr Yan,Deiveson Figueiredo,1,0.5360037,1,Petr Yan,1
+UFC Fight Night: Yan vs. Figueiredo,SuYoung You,Baergeng Jieleyisi,1,0.044947594,0,Baergeng Jieleyisi,0
+UFC 310: Pantoja vs. Asakura,Movsar Evloev,Aljamain Sterling,1,0.80136603,1,Movsar Evloev,1
+UFC 310: Pantoja vs. Asakura,Lukasz Brzeski,Kennedy Nzechukwu,0,0.21115509,0,Kennedy Nzechukwu,1
+UFC 310: Pantoja vs. Asakura,Chase Hooper,Clay Guida,1,0.9032135,1,Chase Hooper,1
+UFC 310: Pantoja vs. Asakura,Max Griffin,Michael Chiesa,0,0.46731713,0,Michael Chiesa,1
+UFC 310: Pantoja vs. Asakura,Cody Durden,Joshua Van,0,0.5314591,1,Cody Durden,0
+UFC 310: Pantoja vs. Asakura,Chris Weidman,Eryk Anders,0,0.8862191,1,Chris Weidman,0
+UFC 310: Pantoja vs. Asakura,Anthony Smith,Dominick Reyes,0,0.24072324,0,Dominick Reyes,1
+UFC 310: Pantoja vs. Asakura,Themba Gorimbo,Vicente Luque,0,0.688769,1,Themba Gorimbo,0
+UFC 310: Pantoja vs. Asakura,Dooho Choi,Nate Landwehr,1,0.30566588,0,Nate Landwehr,0
+UFC 310: Pantoja vs. Asakura,Bryce Mitchell,Kron Gracie,1,0.91436964,1,Bryce Mitchell,1
+UFC 310: Pantoja vs. Asakura,Ciryl Gane,Alexander Volkov,1,0.48130935,0,Alexander Volkov,0
+UFC 310: Pantoja vs. Asakura,Ian Machado Garry,Shavkat Rakhmonov,0,0.87656486,1,Ian Machado Garry,0
+UFC 310: Pantoja vs. Asakura,Kai Asakura,Alexandre Pantoja,0,0.085885696,0,Alexandre Pantoja,1
+UFC 310: Pantoja vs. Asakura,Bryan Battle,Randy Brown,1,0.50593454,1,Bryan Battle,1
+UFC Fight Night: Covington vs. Buckley,Piera Rodriguez,Josefine Knutsson,1,0.3827314,0,Josefine Knutsson,0
+UFC Fight Night: Covington vs. Buckley,Davey Grant,Ramon Taveras,1,0.11508769,0,Ramon Taveras,0
+UFC Fight Night: Covington vs. Buckley,Miranda Maverick,Jamey-Lyn Horth,1,0.94099015,1,Miranda Maverick,1
+UFC Fight Night: Covington vs. Buckley,Felipe Lima,Miles Johns,1,0.6030033,1,Felipe Lima,1
+UFC Fight Night: Covington vs. Buckley,Sean Woodson,Fernando Padilla,1,0.6575555,1,Sean Woodson,1
+UFC Fight Night: Covington vs. Buckley,Joel Alvarez,Drakkar Klose,1,0.69618255,1,Joel Alvarez,1
+UFC Fight Night: Covington vs. Buckley,Michael Johnson,Ottman Azaitar,1,0.26820913,0,Ottman Azaitar,0
+UFC Fight Night: Covington vs. Buckley,Navajo Stirling,Tuco Tokkos,1,0.8084832,1,Navajo Stirling,1
+UFC Fight Night: Covington vs. Buckley,Adrian Yanez,Daniel Marcos,0,0.4257841,0,Daniel Marcos,1
+UFC Fight Night: Covington vs. Buckley,Vitor Petrino,Dustin Jacoby,0,0.9571266,1,Vitor Petrino,0
+UFC Fight Night: Covington vs. Buckley,Bruno Silva,Manel Kape,0,0.14282846,0,Manel Kape,1
+UFC Fight Night: Covington vs. Buckley,Manel Kape,Bruno Silva,1,0.5503283,1,Manel Kape,1
+UFC Fight Night: Covington vs. Buckley,Cub Swanson,Billy Quarantillo,1,0.11354436,0,Billy Quarantillo,0
+UFC Fight Night: Covington vs. Buckley,Colby Covington,Joaquin Buckley,0,0.530271,1,Colby Covington,0
+UFC Fight Night: Dern vs. Ribas 2,Marco Tulio,Ihor Potieria,1,0.104787454,0,Ihor Potieria,0
+UFC Fight Night: Dern vs. Ribas 2,Joe Solecki,Nurullo Aliev,0,0.122474335,0,Nurullo Aliev,1
+UFC Fight Night: Dern vs. Ribas 2,Viktoriia Dudakova,Fatima Kline,0,0.500521,1,Viktoriia Dudakova,0
+UFC Fight Night: Dern vs. Ribas 2,Ernesta Kareckaite,Nicolle Caliari,1,0.30518106,0,Nicolle Caliari,0
+UFC Fight Night: Dern vs. Ribas 2,Preston Parsons,Jacobe Smith,0,0.9360315,1,Preston Parsons,0
+UFC Fight Night: Dern vs. Ribas 2,Trey Ogden,Thiago Moises,0,0.4431351,0,Thiago Moises,1
+UFC Fight Night: Dern vs. Ribas 2,Magomed Gadzhiyasulov,Bruno Lopes,0,0.870698,1,Magomed Gadzhiyasulov,0
+UFC Fight Night: Dern vs. Ribas 2,Jose Johnson,Felipe Bunes,0,0.62801886,1,Jose Johnson,0
+UFC Fight Night: Dern vs. Ribas 2,Punahele Soriano,Uros Medic,1,0.19178747,0,Uros Medic,0
+UFC Fight Night: Dern vs. Ribas 2,Christian Rodriguez,Austin Bashi,1,0.7963513,1,Christian Rodriguez,1
+UFC Fight Night: Dern vs. Ribas 2,Roman Kopylov,Chris Curtis,1,0.88697857,1,Roman Kopylov,1
+UFC Fight Night: Dern vs. Ribas 2,Mackenzie Dern,Amanda Ribas,1,0.5975383,1,Mackenzie Dern,1
+UFC Fight Night: Dern vs. Ribas 2,Carlston Harris,Santiago Ponzinibbio,0,0.80497885,1,Carlston Harris,0
+UFC Fight Night: Dern vs. Ribas 2,Cesar Almeida,Abdul Razak Alhassan,1,0.8264215,1,Cesar Almeida,1
+UFC 311: Makhachev vs. Moicano,Billy Elekana,Bogdan Guskov,0,0.58391905,1,Billy Elekana,0
+UFC 311: Makhachev vs. Moicano,Clayton Carpenter,Tagir Ulanbekov,0,0.7267246,1,Clayton Carpenter,0
+UFC 311: Makhachev vs. Moicano,Muin Gafurov,Rinya Nakamura,1,0.098280326,0,Rinya Nakamura,0
+UFC 311: Makhachev vs. Moicano,Karol Rosa,Ailin Perez,0,0.15845348,0,Ailin Perez,1
+UFC 311: Makhachev vs. Moicano,Diego Ferreira,Grant Dawson,0,0.056878235,0,Grant Dawson,1
+UFC 311: Makhachev vs. Moicano,Ricky Turcios,Benardo Sopaj,0,0.2513249,0,Benardo Sopaj,1
+UFC 311: Makhachev vs. Moicano,Azamat Bekoev,Zachary Reese,1,0.19041486,0,Zachary Reese,0
+UFC 311: Makhachev vs. Moicano,Payton Talbott,Raoni Barcelos,0,0.6303763,1,Payton Talbott,0
+UFC 311: Makhachev vs. Moicano,Kevin Holland,Reinier de Ridder,0,0.10611738,0,Reinier de Ridder,1
+UFC 311: Makhachev vs. Moicano,Jailton Almeida,Serghei Spivac,1,0.38620177,0,Serghei Spivac,0
+UFC 311: Makhachev vs. Moicano,Jamahal Hill,Jiri Prochazka,0,0.22786455,0,Jiri Prochazka,1
+UFC 311: Makhachev vs. Moicano,Islam Makhachev,Renato Moicano,1,0.8333016,1,Islam Makhachev,1
+UFC 311: Makhachev vs. Moicano,Umar Nurmagomedov,Merab Dvalishvili,0,0.5283142,1,Umar Nurmagomedov,0
+UFC Fight Night: Adesanya vs. Imavov,Shamil Gaziev,Thomas Petersen,1,0.7129825,1,Shamil Gaziev,1
+UFC Fight Night: Adesanya vs. Imavov,Hamdy Abdelwahab,Jamal Pogues,1,0.41001996,0,Jamal Pogues,0
+UFC Fight Night: Adesanya vs. Imavov,Bogdan Grad,Lucas Alexander,1,0.12323925,0,Lucas Alexander,0
+UFC Fight Night: Adesanya vs. Imavov,Jasmine Jasudavicius,Mayra Bueno Silva,1,0.8818284,1,Jasmine Jasudavicius,1
+UFC Fight Night: Adesanya vs. Imavov,Damir Hadzovic,Terrance McKinney,0,0.2056773,0,Terrance McKinney,1
+UFC Fight Night: Adesanya vs. Imavov,Vinicius Oliveira,Said Nurmagomedov,1,0.51857126,1,Vinicius Oliveira,1
+UFC Fight Night: Adesanya vs. Imavov,Fares Ziam,Mike Davis,1,0.5511061,1,Fares Ziam,1
+UFC Fight Night: Adesanya vs. Imavov,Fares Ziam,Mike Davis,1,0.2758607,0,Mike Davis,0
+UFC Fight Night: Adesanya vs. Imavov,Sergei Pavlovich,Jairzinho Rozenstruik,1,0.8837948,1,Sergei Pavlovich,1
+UFC Fight Night: Adesanya vs. Imavov,Michael Page,Shara Magomedov,1,0.12505221,0,Shara Magomedov,0
+UFC Fight Night: Adesanya vs. Imavov,Nassourdine Imavov,Israel Adesanya,1,0.8312105,1,Nassourdine Imavov,1
+UFC Fight Night: Adesanya vs. Imavov,Kaan Ofli,Muhammad Naimov,0,0.08329207,0,Muhammad Naimov,1
+UFC 312: Du Plessis vs. Strickland 2,Jonathan Micallef,Kevin Jousset,1,0.53101486,1,Jonathan Micallef,1
+UFC 312: Du Plessis vs. Strickland 2,Aleksandre Topuria,Colby Thicknesse,1,0.70724124,1,Aleksandre Topuria,1
+UFC 312: Du Plessis vs. Strickland 2,Tom Nolan,Viacheslav Borshchev,1,0.5391024,1,Tom Nolan,1
+UFC 312: Du Plessis vs. Strickland 2,Anshul Jubli,Quillan Salkilld,0,0.536096,1,Anshul Jubli,0
+UFC 312: Du Plessis vs. Strickland 2,Wang Cong,Bruna Brasil,1,0.11090466,0,Bruna Brasil,0
+UFC 312: Du Plessis vs. Strickland 2,Rongzhu,Kody Steele,1,0.35473725,0,Kody Steele,0
+UFC 312: Du Plessis vs. Strickland 2,Gabriel Santos,Jack Jenkins,1,0.5797438,1,Gabriel Santos,1
+UFC 312: Du Plessis vs. Strickland 2,Rodolfo Bellato,Jimmy Crute,0,0.34680924,0,Jimmy Crute,1
+UFC 312: Du Plessis vs. Strickland 2,Justin Tafa,Tallison Teixeira,0,0.2925826,0,Tallison Teixeira,1
+UFC 312: Du Plessis vs. Strickland 2,Tatiana Suarez,Zhang Weili,0,0.78266484,1,Tatiana Suarez,0
+UFC 312: Du Plessis vs. Strickland 2,Sean Strickland,Dricus Du Plessis,0,0.26267213,0,Dricus Du Plessis,1
+UFC 312: Du Plessis vs. Strickland 2,Jake Matthews,Francisco Prado,1,0.464086,0,Francisco Prado,0
+UFC Fight Night: Cannonier vs. Rodrigues,Ketlen Souza,Angela Hill,0,0.51133657,1,Ketlen Souza,0
+UFC Fight Night: Cannonier vs. Rodrigues,Jacqueline Cavalcanti,Julia Avila,1,0.5894609,1,Jacqueline Cavalcanti,1
+UFC Fight Night: Cannonier vs. Rodrigues,Don'Tale Mayes,Valter Walker,0,0.38826263,0,Valter Walker,1
+UFC Fight Night: Cannonier vs. Rodrigues,Vince Morales,Elijah Smith,0,0.13854194,0,Elijah Smith,1
+UFC Fight Night: Cannonier vs. Rodrigues,Gabriel Bonfim,Khaos Williams,1,0.65344244,1,Gabriel Bonfim,1
+UFC Fight Night: Cannonier vs. Rodrigues,Jesus Aguilar,Rafael Estevam,0,0.24163939,0,Rafael Estevam,1
+UFC Fight Night: Cannonier vs. Rodrigues,Gregory Rodrigues,Jared Cannonier,0,0.8959053,1,Gregory Rodrigues,0
+UFC Fight Night: Cannonier vs. Rodrigues,Connor Matthews,Jose Delgado,0,0.30137947,0,Jose Delgado,1
+UFC Fight Night: Cannonier vs. Rodrigues,Andre Petroski,Rodolfo Vieira,1,0.7607688,1,Andre Petroski,1
+UFC Fight Night: Cannonier vs. Rodrigues,Nazim Sadykhov,Ismael Bonfim,1,0.7391615,1,Nazim Sadykhov,1
+UFC Fight Night: Cannonier vs. Rodrigues,Dylan Budka,Edmen Shahbazyan,0,0.42770627,0,Edmen Shahbazyan,1
+UFC Fight Night: Cannonier vs. Rodrigues,Youssef Zalal,Calvin Kattar,1,0.8678476,1,Youssef Zalal,1
+UFC Fight Night: Cejudo vs. Song,Ibo Aslan,Ion Cutelaba,0,0.78101784,1,Ibo Aslan,0
+UFC Fight Night: Cejudo vs. Song,Modestas Bukauskas,Rafael Cerqueira,1,0.62695026,1,Modestas Bukauskas,1
+UFC Fight Night: Cejudo vs. Song,Eric McConico,Nursulton Ruziboev,0,0.25752142,0,Nursulton Ruziboev,1
+UFC Fight Night: Cejudo vs. Song,Austin Vanderford,Nikolay Veretennikov,1,0.031446073,0,Nikolay Veretennikov,0
+UFC Fight Night: Cejudo vs. Song,Ricky Simon,Javid Basharat,1,0.3700125,0,Javid Basharat,0
+UFC Fight Night: Cejudo vs. Song,Nick Klein,Mansur Abdul-Malik,0,0.25122887,0,Mansur Abdul-Malik,1
+UFC Fight Night: Cejudo vs. Song,Henry Cejudo,Song Yadong,0,0.06195834,0,Song Yadong,1
+UFC Fight Night: Cejudo vs. Song,Julius Walker,Alonzo Menifield,0,0.553508,1,Julius Walker,0
+UFC Fight Night: Cejudo vs. Song,Melsik Baghdasaryan,Jean Silva,0,0.024167504,0,Jean Silva,1
+UFC Fight Night: Cejudo vs. Song,Melsik Baghdasaryan,Jean Silva,0,0.14890866,0,Jean Silva,1
+UFC Fight Night: Cejudo vs. Song,Jean Matsumoto,Rob Font,0,0.76089895,1,Jean Matsumoto,0
+UFC Fight Night: Cejudo vs. Song,Anthony Hernandez,Brendan Allen,1,0.8841424,1,Anthony Hernandez,1
+UFC Fight Night: Cejudo vs. Song,Andre Fili,Melquizael Costa,0,0.1570154,0,Melquizael Costa,1
+UFC Fight Night: Kape vs. Almabayev,JJ Aldrich,Andrea Lee,1,0.6999767,1,JJ Aldrich,1
+UFC Fight Night: Kape vs. Almabayev,Austen Lane,Mario Pinto,0,0.40469724,0,Mario Pinto,1
+UFC Fight Night: Kape vs. Almabayev,Ramazan Temirov,Charles Johnson,1,0.22092405,0,Charles Johnson,0
+UFC Fight Night: Kape vs. Almabayev,Lucas Almeida,Danny Silva,0,0.032474045,0,Danny Silva,1
+UFC Fight Night: Kape vs. Almabayev,Sam Patterson,Danny Barlow,1,0.41599318,0,Danny Barlow,0
+UFC Fight Night: Kape vs. Almabayev,Ricardo Ramos,Chepe Mariscal,0,0.6367854,1,Ricardo Ramos,0
+UFC Fight Night: Kape vs. Almabayev,Esteban Ribovics,Nasrat Haqparast,0,0.52253145,1,Esteban Ribovics,0
+UFC Fight Night: Kape vs. Almabayev,Cody Brundage,Julian Marquez,1,0.56199205,1,Cody Brundage,1
+UFC Fight Night: Kape vs. Almabayev,Manel Kape,Asu Almabayev,1,0.12369474,0,Asu Almabayev,0
+UFC Fight Night: Kape vs. Almabayev,Hyder Amil,William Gomis,1,0.46407738,0,William Gomis,0
+UFC 313: Pereira vs. Ankalaev,Alex Pereira,Magomed Ankalaev,0,0.74370325,1,Alex Pereira,0
+UFC 313: Pereira vs. Ankalaev,Rafael Fiziev,Justin Gaethje,0,0.40857828,0,Justin Gaethje,1
+UFC 313: Pereira vs. Ankalaev,Ignacio Bahamondes,Jalin Turner,1,0.4178138,0,Jalin Turner,0
+UFC 313: Pereira vs. Ankalaev,Joshua Van,Rei Tsuruya,1,0.4321866,0,Rei Tsuruya,0
+UFC 313: Pereira vs. Ankalaev,Mauricio Ruffy,King Green,1,0.66609454,1,Mauricio Ruffy,1
+UFC 313: Pereira vs. Ankalaev,Alex Morono,Carlos Leal,0,0.8075426,1,Alex Morono,0
+UFC 313: Pereira vs. Ankalaev,Francis Marshall,Mairon Santos,0,0.12662917,0,Mairon Santos,1
+UFC 313: Pereira vs. Ankalaev,Ozzy Diaz,Djorden Santos,1,0.12722388,0,Djorden Santos,0
+UFC 313: Pereira vs. Ankalaev,Amanda Lemos,Iasmin Lucindo,1,0.074148476,0,Iasmin Lucindo,0
+UFC 313: Pereira vs. Ankalaev,Armen Petrosyan,Brunno Ferreira,0,0.24026059,0,Brunno Ferreira,1
+UFC Fight Night: Vettori vs. Dolidze 2,Sam Hughes,Stephanie Luciano,1,0.09945157,0,Stephanie Luciano,0
+UFC Fight Night: Vettori vs. Dolidze 2,Priscila Cachoeira,Josiane Nunes,1,0.19701433,0,Josiane Nunes,0
+UFC Fight Night: Vettori vs. Dolidze 2,Daniel Barez,Andre Lima,0,0.036237013,0,Andre Lima,1
+UFC Fight Night: Vettori vs. Dolidze 2,Josias Musasa,Carlos Vera,0,0.56319433,1,Josias Musasa,0
+UFC Fight Night: Vettori vs. Dolidze 2,Waldo Cortes-Acosta,Ryan Spann,1,0.78267086,1,Waldo Cortes-Acosta,1
+UFC Fight Night: Vettori vs. Dolidze 2,AJ Cunningham,SuYoung You,0,0.048594892,0,SuYoung You,1
+UFC Fight Night: Vettori vs. Dolidze 2,Da'Mon Blackshear,Cody Gibson,1,0.87793,1,Da'Mon Blackshear,1
+UFC Fight Night: Vettori vs. Dolidze 2,Kevin Vallejos,SeungWoo Choi,1,0.205184,0,SeungWoo Choi,0
+UFC Fight Night: Vettori vs. Dolidze 2,Elizeu Zaleski dos Santos,Chidi Njokuani,0,0.4368461,0,Chidi Njokuani,1
+UFC Fight Night: Vettori vs. Dolidze 2,Brendson Ribeiro,Diyar Nurgozhay,1,0.356752,0,Diyar Nurgozhay,0
+UFC Fight Night: Vettori vs. Dolidze 2,Marvin Vettori,Roman Dolidze,0,0.6261377,1,Marvin Vettori,0
+UFC Fight Night: Vettori vs. Dolidze 2,Kurt Holobaugh,Alexander Hernandez,0,0.12908724,0,Alexander Hernandez,1
+UFC Fight Night: Vettori vs. Dolidze 2,Carli Judice,Yuneisy Duben,1,0.2887969,0,Yuneisy Duben,0
+UFC Fight Night: Edwards vs. Brady,Chris Padilla,Jai Herbert,1,0.6639032,1,Chris Padilla,1
+UFC Fight Night: Edwards vs. Brady,Puja Tomar,Shauna Bannon,0,0.5938636,1,Puja Tomar,0
+UFC Fight Night: Edwards vs. Brady,Marcin Tybura,Mick Parkin,1,0.121432066,0,Mick Parkin,0
+UFC Fight Night: Edwards vs. Brady,Kaue Fernandes,Guram Kutateladze,1,0.44940472,0,Guram Kutateladze,0
+UFC Fight Night: Edwards vs. Brady,Caolan Loughran,Nathan Fletcher,1,0.051497806,0,Nathan Fletcher,0
+UFC Fight Night: Edwards vs. Brady,Lone'er Kavanagh,Felipe dos Santos,1,0.6105533,1,Lone'er Kavanagh,1
+UFC Fight Night: Edwards vs. Brady,Leon Edwards,Sean Brady,0,0.57125545,1,Leon Edwards,0
+UFC Fight Night: Edwards vs. Brady,Morgan Charriere,Nathaniel Wood,0,0.80127203,1,Morgan Charriere,0
+UFC Fight Night: Edwards vs. Brady,Carlos Ulberg,Jan Blachowicz,1,0.7434829,1,Carlos Ulberg,1
+UFC Fight Night: Edwards vs. Brady,Molly McCann,Alexia Thainara,0,0.66055036,1,Molly McCann,0
+UFC Fight Night: Edwards vs. Brady,Chris Duncan,Jordan Vucenic,1,0.47315976,0,Jordan Vucenic,0
+UFC Fight Night: Edwards vs. Brady,Gunnar Nelson,Kevin Holland,0,0.32656667,0,Kevin Holland,1
+UFC Fight Night: Edwards vs. Brady,Andrey Pulyaev,Christian Leroy Duncan,0,0.58943874,1,Andrey Pulyaev,0
+UFC Fight Night: Moreno vs. Erceg,Austin Hubbard,MarQuel Mederos,0,0.11698899,0,MarQuel Mederos,1
+UFC Fight Night: Moreno vs. Erceg,Gabriel Miranda,Jamall Emmers,0,0.39733568,0,Jamall Emmers,1
+UFC Fight Night: Moreno vs. Erceg,Vinc Pichel,Rafa Garcia,0,0.044409662,0,Rafa Garcia,1
+UFC Fight Night: Moreno vs. Erceg,Loopy Godinez,Julia Polastri,1,0.3409508,0,Julia Polastri,0
+UFC Fight Night: Moreno vs. Erceg,Melquizael Costa,Christian Rodriguez,1,0.65348285,1,Melquizael Costa,1
+UFC Fight Night: Moreno vs. Erceg,Jose Daniel Medina,Ateba Gautier,0,0.3625965,0,Ateba Gautier,1
+UFC Fight Night: Moreno vs. Erceg,Ronaldo Rodriguez,Kevin Borjas,0,0.60369843,1,Ronaldo Rodriguez,0
+UFC Fight Night: Moreno vs. Erceg,David Martinez,Saimon Oliveira,1,0.6953212,1,David Martinez,1
+UFC Fight Night: Moreno vs. Erceg,Vince Morales,Raul Rosas Jr.,0,0.009932222,0,Raul Rosas Jr.,1
+UFC Fight Night: Moreno vs. Erceg,Edgar Chairez,CJ Vergara,1,0.38759097,0,CJ Vergara,0
+UFC Fight Night: Moreno vs. Erceg,Manuel Torres,Drew Dober,1,0.72470236,1,Manuel Torres,1
+UFC Fight Night: Moreno vs. Erceg,Brandon Moreno,Steve Erceg,1,0.7685852,1,Brandon Moreno,1
+UFC Fight Night: Emmett vs. Murphy,Dione Barbosa,Diana Belbita,1,0.38229328,0,Diana Belbita,0
+UFC Fight Night: Emmett vs. Murphy,Martin Buday,Uran Satybaldiev,1,0.6842766,1,Martin Buday,1
+UFC Fight Night: Emmett vs. Murphy,Victor Henry,Pedro Falcao,1,0.47397915,0,Pedro Falcao,0
+UFC Fight Night: Emmett vs. Murphy,Loma Lookboonmee,Istela Nunes,1,0.84017,1,Loma Lookboonmee,1
+UFC Fight Night: Emmett vs. Murphy,Daniel Frunza,Rhys McKee,0,0.4194502,0,Rhys McKee,1
+UFC Fight Night: Emmett vs. Murphy,Josh Emmett,Lerone Murphy,0,0.046924725,0,Lerone Murphy,1
+UFC Fight Night: Emmett vs. Murphy,Robert Valentin,Torrez Finney,0,0.47539607,0,Torrez Finney,1
+UFC Fight Night: Emmett vs. Murphy,Luis Gurule,Ode Osbourne,0,0.5292042,1,Luis Gurule,0
+UFC Fight Night: Emmett vs. Murphy,Brad Tavares,Gerald Meerschaert,1,0.750118,1,Brad Tavares,1
+UFC Fight Night: Emmett vs. Murphy,Cortavious Romious,ChangHo Lee,0,0.33315802,0,ChangHo Lee,1
+UFC Fight Night: Emmett vs. Murphy,Joanderson Brito,Pat Sabatini,0,0.4295703,0,Pat Sabatini,1
+UFC Fight Night: Emmett vs. Murphy,Vanessa Demopoulos,Talita Alencar,0,0.27647406,0,Talita Alencar,1
+UFC 314: Volkanovski vs. Lopes,Virna Jandiroba,Yan Xiaonan,1,0.2748255,0,Yan Xiaonan,0
+UFC 314: Volkanovski vs. Lopes,Nora Cornolle,Hailey Cowan,1,0.45529163,0,Hailey Cowan,0
+UFC 314: Volkanovski vs. Lopes,Julian Erosa,Darren Elkins,1,0.7679394,1,Julian Erosa,1
+UFC 314: Volkanovski vs. Lopes,Mitch Raposo,Sumudaerji,0,0.5052866,1,Mitch Raposo,0
+UFC 314: Volkanovski vs. Lopes,Sedriques Dumas,Michal Oleksiejczuk,0,0.868371,1,Sedriques Dumas,0
+UFC 314: Volkanovski vs. Lopes,Chase Hooper,Jim Miller,1,0.9218485,1,Chase Hooper,1
+UFC 314: Volkanovski vs. Lopes,Alexander Volkanovski,Diego Lopes,1,0.37142593,0,Diego Lopes,0
+UFC 314: Volkanovski vs. Lopes,Dan Ige,Sean Woodson,1,0.061240293,0,Sean Woodson,0
+UFC 314: Volkanovski vs. Lopes,Jean Silva,Bryce Mitchell,1,0.57394004,1,Jean Silva,1
+UFC 314: Volkanovski vs. Lopes,Bryce Mitchell,Jean Silva,0,0.5741036,1,Bryce Mitchell,0
+UFC 314: Volkanovski vs. Lopes,Yair Rodriguez,Patricio Freire,1,0.30502772,0,Patricio Freire,0
+UFC 314: Volkanovski vs. Lopes,Paddy Pimblett,Michael Chandler,1,0.78044295,1,Paddy Pimblett,1
+UFC 314: Volkanovski vs. Lopes,Dominick Reyes,Nikita Krylov,1,0.44101545,0,Nikita Krylov,0
+UFC 314: Volkanovski vs. Lopes,Marco Tulio,Tresean Gore,1,0.6634404,1,Marco Tulio,1
+UFC Fight Night: Machado Garry vs. Prates,John Castaneda,Chris Gutierrez,0,0.44947445,0,Chris Gutierrez,1
+UFC Fight Night: Machado Garry vs. Prates,Chelsea Chandler,Joselyne Edwards,0,0.06184214,0,Joselyne Edwards,1
+UFC Fight Night: Machado Garry vs. Prates,Timmy Cuamba,Roberto Romero,1,0.2953561,0,Roberto Romero,0
+UFC Fight Night: Machado Garry vs. Prates,Jaqueline Amorim,Polyana Viana,1,0.9448834,1,Jaqueline Amorim,1
+UFC Fight Night: Machado Garry vs. Prates,Cameron Saaiman,Malcolm Wellmaker,0,0.8526175,1,Cameron Saaiman,0
+UFC Fight Night: Machado Garry vs. Prates,Alatengheili,Da'Mon Blackshear,0,0.47190034,0,Da'Mon Blackshear,1
+UFC Fight Night: Machado Garry vs. Prates,Matt Schnell,Jimmy Flick,1,0.7098581,1,Matt Schnell,1
+UFC Fight Night: Machado Garry vs. Prates,Andre Muniz,Ikram Aliskerov,0,0.74000937,1,Andre Muniz,0
+UFC Fight Night: Machado Garry vs. Prates,Nicolas Dalby,Randy Brown,0,0.087331094,0,Randy Brown,1
+UFC Fight Night: Machado Garry vs. Prates,Abus Magomedov,Michel Pereira,1,0.18175805,0,Michel Pereira,0
+UFC Fight Night: Machado Garry vs. Prates,David Onama,Giga Chikadze,1,0.6492412,1,David Onama,1
+UFC Fight Night: Machado Garry vs. Prates,Zhang Mingyang,Anthony Smith,1,0.8949845,1,Zhang Mingyang,1
+UFC Fight Night: Machado Garry vs. Prates,Ian Machado Garry,Carlos Prates,1,0.65218246,1,Ian Machado Garry,1
+UFC Fight Night: Machado Garry vs. Prates,Gauge Young,Evan Elder,0,0.16131073,0,Evan Elder,1
+UFC Fight Night: Sandhagen vs. Figueiredo,Yana Santos,Miesha Tate,1,0.45839578,0,Miesha Tate,0
+UFC Fight Night: Sandhagen vs. Figueiredo,Juliana Miller,Ivana Petrovic,1,0.5002685,1,Juliana Miller,1
+UFC Fight Night: Sandhagen vs. Figueiredo,Thomas Petersen,Don'Tale Mayes,1,0.5781025,1,Thomas Petersen,1
+UFC Fight Night: Sandhagen vs. Figueiredo,Gillian Robertson,Marina Rodriguez,1,0.7989018,1,Gillian Robertson,1
+UFC Fight Night: Sandhagen vs. Figueiredo,Ryan Loder,Azamat Bekoev,0,0.76215696,1,Ryan Loder,0
+UFC Fight Night: Sandhagen vs. Figueiredo,Deiveson Figueiredo,Cory Sandhagen,0,0.39136934,0,Cory Sandhagen,1
+UFC Fight Night: Sandhagen vs. Figueiredo,Jeremy Stephens,Mason Jones,0,0.37841082,0,Mason Jones,1
+UFC Fight Night: Sandhagen vs. Figueiredo,Daniel Marcos,Montel Jackson,0,0.26141447,0,Montel Jackson,1
+UFC Fight Night: Sandhagen vs. Figueiredo,Daniel Rodriguez,Santiago Ponzinibbio,1,0.7912969,1,Daniel Rodriguez,1
+UFC Fight Night: Sandhagen vs. Figueiredo,Bo Nickal,Reinier de Ridder,0,0.6518537,1,Bo Nickal,0
+UFC Fight Night: Sandhagen vs. Figueiredo,Serhiy Sidey,Cameron Smotherman,1,0.23238038,0,Cameron Smotherman,0
+UFC Fight Night: Sandhagen vs. Figueiredo,Gaston Bolanos,Quang Le,0,0.26379833,0,Quang Le,1
+UFC 315: Muhammad vs. Della Maddalena,Brad Katona,Bekzat Almakhan,0,0.114544325,0,Bekzat Almakhan,1
+UFC 315: Muhammad vs. Della Maddalena,JeongYeong Lee,Daniel Santos,0,0.2236622,0,Daniel Santos,1
+UFC 315: Muhammad vs. Della Maddalena,Bruno Silva,Marc-Andre Barriault,0,0.3372101,0,Marc-Andre Barriault,1
+UFC 315: Muhammad vs. Della Maddalena,Marc-Andre Barriault,Bruno Silva,1,0.5327351,1,Marc-Andre Barriault,1
+UFC 315: Muhammad vs. Della Maddalena,Navajo Stirling,Ivan Erslan,1,0.87417984,1,Navajo Stirling,1
+UFC 315: Muhammad vs. Della Maddalena,Ion Cutelaba,Modestas Bukauskas,0,0.47936425,0,Modestas Bukauskas,1
+UFC 315: Muhammad vs. Della Maddalena,Jasmine Jasudavicius,Jessica Andrade,1,0.6836621,1,Jasmine Jasudavicius,1
+UFC 315: Muhammad vs. Della Maddalena,Mike Malott,Charles Radtke,1,0.8793127,1,Mike Malott,1
+UFC 315: Muhammad vs. Della Maddalena,Benoit Saint Denis,Kyle Prepolec,1,0.88322127,1,Benoit Saint Denis,1
+UFC 315: Muhammad vs. Della Maddalena,Alexa Grasso,Natalia Silva,0,0.4070672,0,Natalia Silva,1
+UFC 315: Muhammad vs. Della Maddalena,Jose Aldo,Aiemann Zahabi,0,0.32654688,0,Aiemann Zahabi,1
+UFC 315: Muhammad vs. Della Maddalena,Valentina Shevchenko,Manon Fiorot,1,0.59828997,1,Valentina Shevchenko,1
+UFC 315: Muhammad vs. Della Maddalena,Jack Della Maddalena,Belal Muhammad,1,0.73687726,1,Jack Della Maddalena,1
+UFC Fight Night: Burns vs. Morales,Luana Pinheiro,Tecia Pennington,0,0.4235957,0,Tecia Pennington,1
+UFC Fight Night: Burns vs. Morales,HyunSung Park,Carlos Hernandez,1,0.77001494,1,HyunSung Park,1
+UFC Fight Night: Burns vs. Morales,Elise Reed,Denise Gomes,0,0.025905095,0,Denise Gomes,1
+UFC Fight Night: Burns vs. Morales,Luana Santos,Tainara Lisboa,1,0.9354152,1,Luana Santos,1
+UFC Fight Night: Burns vs. Morales,Connor Matthews,Yadier del Valle,0,0.036307037,0,Yadier del Valle,1
+UFC Fight Night: Burns vs. Morales,Jared Gordon,Thiago Moises,1,0.17919612,0,Thiago Moises,0
+UFC Fight Night: Burns vs. Morales,Matheus Camilo,Gabe Green,0,0.22037311,0,Gabe Green,1
+UFC Fight Night: Burns vs. Morales,Julian Erosa,Melquizael Costa,0,0.4096952,0,Melquizael Costa,1
+UFC Fight Night: Burns vs. Morales,Nursulton Ruziboev,Dustin Stoltzfus,1,0.37546498,0,Dustin Stoltzfus,0
+UFC Fight Night: Burns vs. Morales,Sodiq Yusuff,Mairon Santos,0,0.3198511,0,Mairon Santos,1
+UFC Fight Night: Burns vs. Morales,Michael Morales,Gilbert Burns,1,0.97639924,1,Michael Morales,1
+UFC Fight Night: Blanchfield vs. Barber,Allan Nascimento,Jafel Filho,1,0.53900385,1,Allan Nascimento,1
+UFC Fight Night: Blanchfield vs. Barber,Rayanne dos Santos,Alice Ardelean,0,0.13795653,0,Alice Ardelean,1
+UFC Fight Night: Blanchfield vs. Barber,Michael Aswell,Bolaji Oki,0,0.2419346,0,Bolaji Oki,1
+UFC Fight Night: Blanchfield vs. Barber,Jordan Leavitt,Kurt Holobaugh,1,0.9104924,1,Jordan Leavitt,1
+UFC Fight Night: Blanchfield vs. Barber,Zachary Reese,Dusko Todorovic,1,0.8324486,1,Zachary Reese,1
+UFC Fight Night: Blanchfield vs. Barber,Dustin Jacoby,Bruno Lopes,1,0.11772375,0,Bruno Lopes,0
+UFC Fight Night: Blanchfield vs. Barber,Billy Ray Goff,Ramiz Brahimaj,0,0.6733577,1,Billy Ray Goff,0
+UFC Fight Night: Blanchfield vs. Barber,Mateusz Gamrot,Ludovit Klein,1,0.66736174,1,Mateusz Gamrot,1
+UFC Fight Night: Blanchfield vs. Barber,Ketlen Vieira,Macy Chiasson,1,0.41369838,0,Macy Chiasson,0
+UFC 316: Dvalishvili vs. O'Malley 2,Andreas Gustafsson,Khaos Williams,1,0.046967812,0,Khaos Williams,0
+UFC 316: Dvalishvili vs. O'Malley 2,Brendson Ribeiro,Azamat Murzakanov,0,0.41154462,0,Azamat Murzakanov,1
+UFC 316: Dvalishvili vs. O'Malley 2,Mark Choinski,MarQuel Mederos,0,0.0340836,0,MarQuel Mederos,1
+UFC 316: Dvalishvili vs. O'Malley 2,Quillan Salkilld,Yanal Ashmouz,1,0.40141708,0,Yanal Ashmouz,0
+UFC 316: Dvalishvili vs. O'Malley 2,Wang Cong,Ariane da Silva,1,0.82924014,1,Wang Cong,1
+UFC 316: Dvalishvili vs. O'Malley 2,Serghei Spivac,Waldo Cortes-Acosta,0,0.5666814,1,Serghei Spivac,0
+UFC 316: Dvalishvili vs. O'Malley 2,Joe Pyfer,Kelvin Gastelum,1,0.87493473,1,Joe Pyfer,1
+UFC 316: Dvalishvili vs. O'Malley 2,Bruno Silva,Joshua Van,0,0.2073785,0,Joshua Van,1
+UFC 316: Dvalishvili vs. O'Malley 2,Vicente Luque,Kevin Holland,0,0.32189658,0,Kevin Holland,1
+UFC 316: Dvalishvili vs. O'Malley 2,Patchy Mix,Mario Bautista,0,0.033982147,0,Mario Bautista,1
+UFC 316: Dvalishvili vs. O'Malley 2,Sean O'Malley,Merab Dvalishvili,0,0.15803276,0,Merab Dvalishvili,1
+UFC 316: Dvalishvili vs. O'Malley 2,Julianna Pena,Kayla Harrison,0,0.5760467,1,Julianna Pena,0
+UFC 316: Dvalishvili vs. O'Malley 2,Bruno Silva,Joshua Van,0,0.057228334,0,Joshua Van,1
+UFC 316: Dvalishvili vs. O'Malley 2,Jeka Saragih,JooSang Yoo,0,0.33472347,0,JooSang Yoo,1
+UFC Fight Night: Usman vs. Buckley,Michael Chiesa,Court McGee,1,0.9447614,1,Michael Chiesa,1
+UFC Fight Night: Usman vs. Buckley,Jose Ochoa,Cody Durden,1,0.82794863,1,Jose Ochoa,1
+UFC Fight Night: Usman vs. Buckley,Phil Rowe,Ange Loosa,1,0.8297368,1,Phil Rowe,1
+UFC Fight Night: Usman vs. Buckley,Cameron Smotherman,Ricky Simon,0,0.28347397,0,Ricky Simon,1
+UFC Fight Night: Usman vs. Buckley,Malcolm Wellmaker,Kris Moutinho,1,0.35639903,0,Kris Moutinho,0
+UFC Fight Night: Usman vs. Buckley,Vanessa Demopoulos,Jamey-Lyn Horth,0,0.29307145,0,Jamey-Lyn Horth,1
+UFC Fight Night: Usman vs. Buckley,Paul Craig,Rodolfo Bellato,1,0.86941445,1,Paul Craig,1
+UFC Fight Night: Usman vs. Buckley,Mansur Abdul-Malik,Cody Brundage,1,0.97555166,1,Mansur Abdul-Malik,1
+UFC Fight Night: Usman vs. Buckley,Cody Garbrandt,Raoni Barcelos,0,0.32359466,0,Raoni Barcelos,1
+UFC Fight Night: Usman vs. Buckley,Andre Petroski,Edmen Shahbazyan,0,0.33552393,0,Edmen Shahbazyan,1
+UFC Fight Night: Usman vs. Buckley,Kamaru Usman,Joaquin Buckley,1,0.26474252,0,Joaquin Buckley,0
+UFC Fight Night: Usman vs. Buckley,Alonzo Menifield,Oumar Sy,1,0.09714259,0,Oumar Sy,0
+UFC Fight Night: Usman vs. Buckley,Rose Namajunas,Miranda Maverick,1,0.30028424,0,Miranda Maverick,0
+UFC Fight Night: Hill vs. Rountree Jr.,Mohammed Usman,Hamdy Abdelwahab,1,0.44329455,0,Hamdy Abdelwahab,0
+UFC Fight Night: Hill vs. Rountree Jr.,Tagir Ulanbekov,Azat Maksum,1,0.6592971,1,Tagir Ulanbekov,1
+UFC Fight Night: Hill vs. Rountree Jr.,Irina Alekseeva,Klaudia Sygula,0,0.40289867,0,Klaudia Sygula,1
+UFC Fight Night: Hill vs. Rountree Jr.,Daria Zhelezniakova,Melissa Mullins,1,0.20751013,0,Melissa Mullins,0
+UFC Fight Night: Hill vs. Rountree Jr.,Ismail Naurdiev,JunYong Park,0,0.37849823,0,JunYong Park,1
+UFC Fight Night: Hill vs. Rountree Jr.,Oban Elliott,Seokhyeon Ko,0,0.77567637,1,Oban Elliott,0
+UFC Fight Night: Hill vs. Rountree Jr.,Bogdan Grad,Muhammad Naimov,0,0.27636126,0,Muhammad Naimov,1
+UFC Fight Night: Hill vs. Rountree Jr.,Nazim Sadykhov,Nikolas Motta,1,0.8037564,1,Nazim Sadykhov,1
+UFC Fight Night: Hill vs. Rountree Jr.,Myktybek Orolbai,Tofiq Musayev,1,0.961754,1,Myktybek Orolbai,1
+UFC Fight Night: Hill vs. Rountree Jr.,Rizvan Kuniev,Curtis Blaydes,0,0.3142783,0,Curtis Blaydes,1
+UFC Fight Night: Hill vs. Rountree Jr.,Ignacio Bahamondes,Rafael Fiziev,0,0.7789734,1,Ignacio Bahamondes,0
+UFC Fight Night: Hill vs. Rountree Jr.,Jamahal Hill,Khalil Rountree Jr.,0,0.8931222,1,Jamahal Hill,0
+UFC 317: Topuria vs. Oliveira,Jose Delgado,Hyder Amil,1,0.26192054,0,Hyder Amil,0
+UFC 317: Topuria vs. Oliveira,Jhonata Diniz,Alvin Hines,1,0.7240493,1,Jhonata Diniz,1
+UFC 317: Topuria vs. Oliveira,Niko Price,Jacobe Smith,0,0.1701557,0,Jacobe Smith,1
+UFC 317: Topuria vs. Oliveira,Viacheslav Borshchev,Terrance McKinney,0,0.20818318,0,Terrance McKinney,1
+UFC 317: Topuria vs. Oliveira,Tracy Cortez,Viviane Araujo,1,0.8934291,1,Tracy Cortez,1
+UFC 317: Topuria vs. Oliveira,Felipe Lima,Payton Talbott,0,0.8611198,1,Felipe Lima,0
+UFC 317: Topuria vs. Oliveira,Beneil Dariush,Renato Moicano,1,0.5319876,1,Beneil Dariush,1
+UFC 317: Topuria vs. Oliveira,Brandon Royval,Joshua Van,0,0.29848135,0,Joshua Van,1
+UFC 317: Topuria vs. Oliveira,Kai Kara-France,Alexandre Pantoja,0,0.08226424,0,Alexandre Pantoja,1
+UFC 317: Topuria vs. Oliveira,Charles Oliveira,Ilia Topuria,0,0.14022507,0,Ilia Topuria,1
+UFC 317: Topuria vs. Oliveira,Gregory Rodrigues,Jack Hermansson,1,0.7648516,1,Gregory Rodrigues,1
+UFC Fight Night: Lewis vs. Teixeira,Max Griffin,Chris Curtis,0,0.4945467,0,Chris Curtis,1
+UFC Fight Night: Lewis vs. Teixeira,Melissa Martinez,Fatima Kline,0,0.15976526,0,Fatima Kline,1
+UFC Fight Night: Lewis vs. Teixeira,Mike Davis,Mitch Ramirez,1,0.9139159,1,Mike Davis,1
+UFC Fight Night: Lewis vs. Teixeira,Mike Davis,Mitch Ramirez,1,0.84965634,1,Mike Davis,1
+UFC Fight Night: Lewis vs. Teixeira,Kennedy Nzechukwu,Valter Walker,0,0.7375217,1,Kennedy Nzechukwu,0
+UFC Fight Night: Lewis vs. Teixeira,Chidi Njokuani,Jake Matthews,0,0.22781566,0,Jake Matthews,1
+UFC Fight Night: Lewis vs. Teixeira,Tuco Tokkos,Junior Tafa,1,0.0756977,0,Junior Tafa,0
+UFC Fight Night: Lewis vs. Teixeira,Austen Lane,Vitor Petrino,0,0.17910402,0,Vitor Petrino,1
+UFC Fight Night: Lewis vs. Teixeira,Morgan Charriere,Nate Landwehr,1,0.3405582,0,Nate Landwehr,0
+UFC Fight Night: Lewis vs. Teixeira,Calvin Kattar,Steve Garcia,0,0.30452234,0,Steve Garcia,1
+UFC Fight Night: Lewis vs. Teixeira,Stephen Thompson,Gabriel Bonfim,0,0.21334848,0,Gabriel Bonfim,1
+UFC Fight Night: Lewis vs. Teixeira,Tallison Teixeira,Derrick Lewis,0,0.9054521,1,Tallison Teixeira,0
+UFC Fight Night: Lewis vs. Teixeira,Eduarda Moura,Lauren Murphy,1,0.8586984,1,Eduarda Moura,1
+UFC 318: Holloway vs. Poirier 3,Francisco Prado,Nikolay Veretennikov,0,0.9471103,1,Francisco Prado,0
+UFC 318: Holloway vs. Poirier 3,Nicolle Caliari,Carli Judice,0,0.21813005,0,Carli Judice,1
+UFC 318: Holloway vs. Poirier 3,Jackson McVey,Brunno Ferreira,0,0.7911339,1,Jackson McVey,0
+UFC 318: Holloway vs. Poirier 3,Jimmy Crute,Marcin Prachnio,1,0.852153,1,Jimmy Crute,1
+UFC 318: Holloway vs. Poirier 3,Adam Fugitt,Islam Dulatov,0,0.6453674,1,Adam Fugitt,0
+UFC 318: Holloway vs. Poirier 3,Ateba Gautier,Robert Valentin,1,0.8017128,1,Ateba Gautier,1
+UFC 318: Holloway vs. Poirier 3,Ryan Spann,Lukasz Brzeski,1,0.83055353,1,Ryan Spann,1
+UFC 318: Holloway vs. Poirier 3,Marvin Vettori,Brendan Allen,0,0.46388778,0,Brendan Allen,1
+UFC 318: Holloway vs. Poirier 3,Vinicius Oliveira,Kyler Phillips,1,0.36314783,0,Kyler Phillips,0
+UFC 318: Holloway vs. Poirier 3,Patricio Freire,Dan Ige,1,0.21164553,0,Dan Ige,0
+UFC 318: Holloway vs. Poirier 3,Kevin Holland,Daniel Rodriguez,0,0.740551,1,Kevin Holland,0
+UFC 318: Holloway vs. Poirier 3,Roman Kopylov,Paulo Costa,0,0.5824309,1,Roman Kopylov,0
+UFC 318: Holloway vs. Poirier 3,Dustin Poirier,Max Holloway,0,0.8864283,1,Dustin Poirier,0
+UFC 318: Holloway vs. Poirier 3,Daniel Zellhuber,Michael Johnson,0,0.95131284,1,Daniel Zellhuber,0
