@@ -1,16 +1,28 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: Taira vs. Park,Tatsuro Taira,HyunSung Park,Tatsuro Taira,,,,,View,Matchup,,,Flyweight,,,,
-UFC Fight Night: Taira vs. Park,Mateusz Rebecki,Chris Duncan,Mateusz Rebecki,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Taira vs. Park,Elves Brener,Esteban Ribovics,Elves Brener,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Taira vs. Park,Karol Rosa,Nora Cornolle,Karol Rosa,,,,,View Matchup,,,,Women's Bantamweight,,,,
-UFC Fight Night: Taira vs. Park,Neil Magny,Elizeu Zaleski dos Santos,Neil Magny,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Taira vs. Park,Danny Silva,Kevin Vallejos,Danny Silva,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Taira vs. Park,Rinya Nakamura,Nathan Fletcher,Rinya Nakamura,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Taira vs. Park,Rodolfo Vieira,Tresean Gore,Rodolfo Vieira,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Taira vs. Park,Nick Klein,Andrey Pulyaev,Nick Klein,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Taira vs. Park,Austin Bashi,John Yannis,Austin Bashi,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Taira vs. Park,Rafael Estevam,Felipe Bunes,Rafael Estevam,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: Taira vs. Park,Piera Rodriguez,Ketlen Souza,Piera Rodriguez,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Dolidze vs. Hernandez,Roman Dolidze,Anthony Hernandez,Roman Dolidze,,,,,View,Matchup,,,Middleweight,,,,
+UFC Fight Night: Dolidze vs. Hernandez,Steve Erceg,Ode Osbourne,Steve Erceg,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Dolidze vs. Hernandez,Iasmin Lucindo,Angela Hill,Iasmin Lucindo,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Dolidze vs. Hernandez,Andre Fili,Christian Rodriguez,Andre Fili,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Dolidze vs. Hernandez,Miles Johns,Jean Matsumoto,Miles Johns,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Dolidze vs. Hernandez,Eryk Anders,Christian Leroy Duncan,Eryk Anders,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Dolidze vs. Hernandez,Julius Walker,Rafael Cerqueira,Julius Walker,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC Fight Night: Dolidze vs. Hernandez,Elijah Smith,Toshiomi Kazama,Elijah Smith,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Dolidze vs. Hernandez,Joselyne Edwards,Priscila Cachoeira,Joselyne Edwards,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC Fight Night: Dolidze vs. Hernandez,Uros Medic,Gilbert Urbina,Uros Medic,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Dolidze vs. Hernandez,Gabriella Fernandes,Julija Stoliarenko,Gabriella Fernandes,,,,,View Matchup,,,,Women's Flyweight,,,,
+UFC Fight Night: Dolidze vs. Hernandez,Cody Brundage,Eric McConico,Cody Brundage,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC Fight Night: Taira vs. Park,Tatsuro Taira,HyunSung Park,Tatsuro Taira,1,0,7,3,4,0,1,0,Flyweight,SUB Neck Crank,2,1:06,http://ufcstats.com/fight-details/282c8c6c1ed82bfb
+UFC Fight Night: Taira vs. Park,Chris Duncan,Mateusz Rebecki,Chris Duncan,0,0,92,114,0,2,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/426a69e343822ab3
+UFC Fight Night: Taira vs. Park,Esteban Ribovics,Elves Brener,Esteban Ribovics,0,0,122,118,0,0,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/878941394f9e3538
+UFC Fight Night: Taira vs. Park,Karol Rosa,Nora Cornolle,Karol Rosa,0,0,33,27,2,0,2,0,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/c62ed8a6002b5360
+UFC Fight Night: Taira vs. Park,Neil Magny,Elizeu Zaleski dos Santos,Neil Magny,0,0,42,20,2,1,0,0,Welterweight,KO/TKO Punches,2,4:39,http://ufcstats.com/fight-details/ac57250e3de89d5d
+UFC Fight Night: Taira vs. Park,Kevin Vallejos,Danny Silva,Kevin Vallejos,0,0,90,69,2,1,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/111e66eb922449e4
+UFC Fight Night: Taira vs. Park,Rinya Nakamura,Nathan Fletcher,Rinya Nakamura,1,0,12,3,0,0,0,0,Bantamweight,KO/TKO Kick,1,1:02,http://ufcstats.com/fight-details/eeeffa7f514e0c0e
+UFC Fight Night: Taira vs. Park,Rodolfo Vieira,Tresean Gore,Rodolfo Vieira,0,0,89,41,1,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/45781930d64da456
+UFC Fight Night: Taira vs. Park,Andrey Pulyaev,Nick Klein,Andrey Pulyaev,1,0,23,10,0,4,0,1,Middleweight,KO/TKO Kick,2,1:31,http://ufcstats.com/fight-details/b3c695728e177fd4
+UFC Fight Night: Taira vs. Park,Austin Bashi,John Yannis,Austin Bashi,0,0,2,0,1,0,1,0,Featherweight,SUB Rear Naked Choke,1,3:39,http://ufcstats.com/fight-details/07c2af68b6dbc4ec
+UFC Fight Night: Taira vs. Park,Rafael Estevam,Felipe Bunes,Rafael Estevam,0,0,33,26,5,0,0,2,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/b47db03affb279c3
+UFC Fight Night: Taira vs. Park,Piera Rodriguez,Ketlen Souza,Piera Rodriguez,0,0,64,56,7,0,0,0,Women's Strawweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/d98d6b2c13557a87
 UFC Fight Night: Whittaker vs. De Ridder,Reinier de Ridder,Robert Whittaker,Reinier de Ridder,0,1,67,66,2,0,0,0,Middleweight,S-DEC,5,5:00,http://ufcstats.com/fight-details/6b8be0ee3e569ad2
 UFC Fight Night: Whittaker vs. De Ridder,Petr Yan,Marcus McGhee,Petr Yan,0,0,81,64,1,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d4d4ee045b0ca695
 UFC Fight Night: Whittaker vs. De Ridder,Shara Magomedov,Marc-Andre Barriault,Shara Magomedov,0,0,93,39,0,2,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/582d66ce97309e29
