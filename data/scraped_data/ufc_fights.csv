@@ -1,18 +1,28 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC 319: Du Plessis vs. Chimaev,Dricus Du Plessis,Khamzat Chimaev,Dricus Du Plessis,,,,,View,Matchup,,,Middleweight,,,,
-UFC 319: Du Plessis vs. Chimaev,Lerone Murphy,Aaron Pico,Lerone Murphy,,,,,View Matchup,,,,Featherweight,,,,
-UFC 319: Du Plessis vs. Chimaev,Geoff Neal,Carlos Prates,Geoff Neal,,,,,View Matchup,,,,Welterweight,,,,
-UFC 319: Du Plessis vs. Chimaev,Jared Cannonier,Michael Page,Jared Cannonier,,,,,View Matchup,,,,Middleweight,,,,
-UFC 319: Du Plessis vs. Chimaev,Tim Elliott,Kai Asakura,Tim Elliott,,,,,View Matchup,,,,Flyweight,,,,
-UFC 319: Du Plessis vs. Chimaev,King Green,Diego Ferreira,King Green,,,,,View Matchup,,,,Lightweight,,,,
-UFC 319: Du Plessis vs. Chimaev,Gerald Meerschaert,Michal Oleksiejczuk,Gerald Meerschaert,,,,,View Matchup,,,,Middleweight,,,,
-UFC 319: Du Plessis vs. Chimaev,Jessica Andrade,Loopy Godinez,Jessica Andrade,,,,,View Matchup,,,,Women's Strawweight,,,,
-UFC 319: Du Plessis vs. Chimaev,Chase Hooper,Alexander Hernandez,Chase Hooper,,,,,View Matchup,,,,Lightweight,,,,
-UFC 319: Du Plessis vs. Chimaev,Edson Barboza,Drakkar Klose,Edson Barboza,,,,,View Matchup,,,,Lightweight,,,,
-UFC 319: Du Plessis vs. Chimaev,Bryan Battle,Nursulton Ruziboev,Bryan Battle,,,,,View Matchup,,,,Middleweight,,,,
-UFC 319: Du Plessis vs. Chimaev,Karine Silva,Dione Barbosa,Karine Silva,,,,,View Matchup,,,,Women's Flyweight,,,,
-UFC 319: Du Plessis vs. Chimaev,Rodrigo Sezinando,Daniil Donchenko,Rodrigo Sezinando,,,,,View Matchup,,,,Welterweight,,,,
-UFC 319: Du Plessis vs. Chimaev,Alibi Idiris,Joseph Morales,Alibi Idiris,,,,,View Matchup,,,,Flyweight,,,,
+UFC Fight Night: Walker vs. Zhang,Johnny Walker,Zhang Mingyang,Johnny Walker,,,,,View,Matchup,,,Light Heavyweight,,,,
+UFC Fight Night: Walker vs. Zhang,Brian Ortega,Aljamain Sterling,Brian Ortega,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Walker vs. Zhang,Sergei Pavlovich,Waldo Cortes-Acosta,Sergei Pavlovich,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Walker vs. Zhang,Sumudaerji,Kevin Borjas,Sumudaerji,,,,,View Matchup,,,,Flyweight,,,,
+UFC Fight Night: Walker vs. Zhang,Taiyilake Nueraji,Kiefer Crosbie,Taiyilake Nueraji,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Walker vs. Zhang,Maheshate,Gauge Young,Maheshate,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Walker vs. Zhang,Charles Johnson,Lone'er Kavanagh,Charles Johnson,,,,,View Matchup,,,,Flyweight,,,,
+UFC Fight Night: Walker vs. Zhang,Rongzhu,Austin Hubbard,Rongzhu,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Walker vs. Zhang,Michel Pereira,Kyle Daukaus,Michel Pereira,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Walker vs. Zhang,Yizha,Westin Wilson,Yizha,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Walker vs. Zhang,Xiao Long,SuYoung You,Xiao Long,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Walker vs. Zhang,Uran Satybaldiev,Diyar Nurgozhay,Uran Satybaldiev,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC 319: Du Plessis vs. Chimaev,Khamzat Chimaev,Dricus Du Plessis,Khamzat Chimaev,0,0,37,13,12,1,0,1,Middleweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/12cedec11b37ddc0
+UFC 319: Du Plessis vs. Chimaev,Lerone Murphy,Aaron Pico,Lerone Murphy,1,0,8,13,0,2,1,0,Featherweight,KO/TKO Spinning Back Elbow,1,3:21,http://ufcstats.com/fight-details/9fa6a029f7f8241c
+UFC 319: Du Plessis vs. Chimaev,Carlos Prates,Geoff Neal,Carlos Prates,1,0,32,25,0,0,0,0,Welterweight,KO/TKO Spinning Back Elbow,1,4:59,http://ufcstats.com/fight-details/42585ce706c086de
+UFC 319: Du Plessis vs. Chimaev,Michael Page,Jared Cannonier,Michael Page,0,0,29,20,0,2,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/9939d7073462e07e
+UFC 319: Du Plessis vs. Chimaev,Tim Elliott,Kai Asakura,Tim Elliott,0,0,27,21,2,0,2,0,Flyweight,SUB Guillotine Choke,2,4:39,http://ufcstats.com/fight-details/82338ba457fbe87f
+UFC 319: Du Plessis vs. Chimaev,Baisangur Susurkaev,Eric Nolan,Baisangur Susurkaev,0,0,36,22,2,0,1,0,Middleweight,SUB Rear Naked Choke,2,2:01,http://ufcstats.com/fight-details/5efd13a12be06706
+UFC 319: Du Plessis vs. Chimaev,Michal Oleksiejczuk,Gerald Meerschaert,Michal Oleksiejczuk,1,0,23,3,0,0,0,0,Middleweight,KO/TKO Punches,1,3:03,http://ufcstats.com/fight-details/5b880d10b0ed7acc
+UFC 319: Du Plessis vs. Chimaev,Loopy Godinez,Jessica Andrade,Loopy Godinez,0,0,107,90,1,0,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/a2eafd9e1d5031b1
+UFC 319: Du Plessis vs. Chimaev,Alexander Hernandez,Chase Hooper,Alexander Hernandez,1,0,17,20,0,0,0,0,Lightweight,KO/TKO Punch,1,4:58,http://ufcstats.com/fight-details/1d8dc0fb5d47357f
+UFC 319: Du Plessis vs. Chimaev,Drakkar Klose,Edson Barboza,Drakkar Klose,0,0,53,71,0,0,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/bc63f1b2e52f603e
+UFC 319: Du Plessis vs. Chimaev,Karine Silva,Dione Barbosa,Karine Silva,0,0,26,31,1,3,2,1,Women's Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/88020d22cf905792
+UFC 319: Du Plessis vs. Chimaev,Joseph Morales,Alibi Idiris,Joseph Morales,0,0,29,28,2,0,2,0,Flyweight,SUB Triangle Choke,2,3:04,http://ufcstats.com/fight-details/68c423c7119004f3
 UFC Fight Night: Dolidze vs. Hernandez,Anthony Hernandez,Roman Dolidze,Anthony Hernandez,0,0,91,36,9,0,1,0,Middleweight,SUB Rear Naked Choke,4,2:45,http://ufcstats.com/fight-details/68fe62bac7fd8bb0
 UFC Fight Night: Dolidze vs. Hernandez,Steve Erceg,Ode Osbourne,Steve Erceg,0,0,20,35,3,1,1,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/37d58369782cb86b
 UFC Fight Night: Dolidze vs. Hernandez,Iasmin Lucindo,Angela Hill,Iasmin Lucindo,0,0,72,64,3,0,0,1,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/646c79a7ecd12e5f
@@ -213,7 +223,7 @@ UFC Fight Night: Moreno vs. Erceg,Edgar Chairez,CJ Vergara,Edgar Chairez,0,0,8,6
 UFC Fight Night: Moreno vs. Erceg,Raul Rosas Jr.,Vince Morales,Raul Rosas Jr.,0,0,20,17,4,1,0,2,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/0f20c1d7c44fa5fe
 UFC Fight Night: Moreno vs. Erceg,David Martinez,Saimon Oliveira,David Martinez,1,0,27,7,0,0,0,0,Bantamweight,KO/TKO Knee,1,4:38,http://ufcstats.com/fight-details/55376d5c205fa844
 UFC Fight Night: Moreno vs. Erceg,Kevin Borjas,Ronaldo Rodriguez,Kevin Borjas,1,0,83,64,0,1,0,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/5ba7dd466e30169f
-UFC Fight Night: Moreno vs. Erceg,Ateba Gautier,Jose Daniel Medina,Ateba Gautier,1,0,28,17,0,0,0,0,Middleweight,KO/TKO Knee,1,3:32,http://ufcstats.com/fight-details/64fe6e61a24dbf39
+UFC Fight Night: Moreno vs. Erceg,Ateba Gautier,Jose Medina,Ateba Gautier,1,0,28,17,0,0,0,0,Middleweight,KO/TKO Knee,1,3:32,http://ufcstats.com/fight-details/64fe6e61a24dbf39
 UFC Fight Night: Moreno vs. Erceg,Melquizael Costa,Christian Rodriguez,Melquizael Costa,0,0,65,64,1,6,1,1,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/41cdbcc0f3635b8f
 UFC Fight Night: Moreno vs. Erceg,Loopy Godinez,Julia Polastri,Loopy Godinez,0,0,84,87,5,0,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/7efca050bc7be8ac
 UFC Fight Night: Moreno vs. Erceg,Rafa Garcia,Vinc Pichel,Rafa Garcia,0,0,64,79,2,0,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/7e3fc760b26b6ae4
@@ -506,7 +516,7 @@ UFC Fight Night: Cannonier vs. Borralho,Mairon Santos,Kaan Ofli,Mairon Santos,1,
 UFC Fight Night: Cannonier vs. Borralho,Michael Morales,Neil Magny,Michael Morales,1,0,34,5,0,0,0,0,Welterweight,KO/TKO Punches,1,4:39,http://ufcstats.com/fight-details/ae50a1a655b1a8f6
 UFC Fight Night: Cannonier vs. Borralho,Gerald Meerschaert,Edmen Shahbazyan,Gerald Meerschaert,0,0,21,48,1,0,1,0,Middleweight,SUB Arm Triangle,2,4:12,http://ufcstats.com/fight-details/2cbd53e43d3f606b
 UFC Fight Night: Cannonier vs. Borralho,Francis Marshall,Dennis Buzukja,Francis Marshall,1,0,57,66,1,0,0,0,Lightweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/560f1e26c2a6690a
-UFC Fight Night: Cannonier vs. Borralho,Zachary Reese,Jose Daniel Medina,Zachary Reese,0,0,75,32,5,1,1,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d2caa1ddb9de7481
+UFC Fight Night: Cannonier vs. Borralho,Zachary Reese,Jose Medina,Zachary Reese,0,0,75,32,5,1,1,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d2caa1ddb9de7481
 UFC Fight Night: Cannonier vs. Borralho,Viacheslav Borshchev,James Llontop,Viacheslav Borshchev,0,0,96,93,0,0,0,0,Lightweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/ba8eda6993922ba0
 UFC Fight Night: Cannonier vs. Borralho,Jacqueline Cavalcanti,Josiane Nunes,Jacqueline Cavalcanti,0,0,91,52,0,0,0,0,Women's Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/903d588b30a471e8
 UFC Fight Night: Cannonier vs. Borralho,Wang Cong,Victoria Leonardo,Wang Cong,1,0,10,1,0,0,0,0,Women's Flyweight,KO/TKO Punches,1,1:02,http://ufcstats.com/fight-details/d4127baf74b0e791
