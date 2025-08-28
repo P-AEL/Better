@@ -1,16 +1,29 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: Walker vs. Zhang,Johnny Walker,Zhang Mingyang,Johnny Walker,,,,,View,Matchup,,,Light Heavyweight,,,,
-UFC Fight Night: Walker vs. Zhang,Brian Ortega,Aljamain Sterling,Brian Ortega,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Walker vs. Zhang,Sergei Pavlovich,Waldo Cortes-Acosta,Sergei Pavlovich,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Walker vs. Zhang,Sumudaerji,Kevin Borjas,Sumudaerji,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: Walker vs. Zhang,Taiyilake Nueraji,Kiefer Crosbie,Taiyilake Nueraji,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Walker vs. Zhang,Maheshate,Gauge Young,Maheshate,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Walker vs. Zhang,Charles Johnson,Lone'er Kavanagh,Charles Johnson,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: Walker vs. Zhang,Rongzhu,Austin Hubbard,Rongzhu,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Walker vs. Zhang,Michel Pereira,Kyle Daukaus,Michel Pereira,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Walker vs. Zhang,Yizha,Westin Wilson,Yizha,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Walker vs. Zhang,Xiao Long,SuYoung You,Xiao Long,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Walker vs. Zhang,Uran Satybaldiev,Diyar Nurgozhay,Uran Satybaldiev,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Nassourdine Imavov,Caio Borralho,Nassourdine Imavov,,,,,View,Matchup,,,Middleweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Benoit Saint Denis,Mauricio Ruffy,Benoit Saint Denis,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Bolaji Oki,Mason Jones,Bolaji Oki,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Modestas Bukauskas,Paul Craig,Modestas Bukauskas,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Fares Ziam,Kaue Fernandes,Fares Ziam,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Patricio Freire,Losene Keita,Patricio Freire,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Imavov vs. Borralho,William Gomis,Robert Ruchala,William Gomis,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Oumar Sy,Brendson Ribeiro,Oumar Sy,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Marcin Tybura,Ante Delija,Marcin Tybura,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Sam Patterson,Trey Waters,Sam Patterson,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Brad Tavares,Robert Bryczek,Brad Tavares,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Andreas Gustafsson,Rinat Fakhretdinov,Andreas Gustafsson,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Shauna Bannon,Sam Hughes,Shauna Bannon,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Walker vs. Zhang,Johnny Walker,Zhang Mingyang,Johnny Walker,1,0,50,20,0,0,0,0,Light Heavyweight,KO/TKO Punches,2,2:37,http://ufcstats.com/fight-details/2eecf0c36192e40c
+UFC Fight Night: Walker vs. Zhang,Aljamain Sterling,Brian Ortega,Aljamain Sterling,0,0,124,55,3,0,0,0,Catch Weight,U-DEC,5,5:00,http://ufcstats.com/fight-details/58080e8989927500
+UFC Fight Night: Walker vs. Zhang,Sergei Pavlovich,Waldo Cortes-Acosta,Sergei Pavlovich,0,0,61,45,0,0,0,0,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/5538d15c4eeac3b3
+UFC Fight Night: Walker vs. Zhang,Sumudaerji,Kevin Borjas,Sumudaerji,0,0,73,16,0,0,0,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ce6bd165bef82bd7
+UFC Fight Night: Walker vs. Zhang,Taiyilake Nueraji,Kiefer Crosbie,Taiyilake Nueraji,0,0,27,2,1,0,0,0,Welterweight,KO/TKO Elbows,1,3:33,http://ufcstats.com/fight-details/1452c20d964c0a63
+UFC Fight Night: Walker vs. Zhang,Gauge Young,Maheshate,Gauge Young,0,0,112,66,3,0,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/0b1460c666e66d39
+UFC Fight Night: Walker vs. Zhang,Charles Johnson,Lone'er Kavanagh,Charles Johnson,1,0,44,59,1,1,0,1,Flyweight,KO/TKO Punch,2,4:35,http://ufcstats.com/fight-details/1ab1ed99a4bc5494
+UFC Fight Night: Walker vs. Zhang,Rongzhu,Austin Hubbard,Rongzhu,0,0,101,75,0,2,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/f55749e32ce5c6f3
+UFC Fight Night: Walker vs. Zhang,Kyle Daukaus,Michel Pereira,Kyle Daukaus,1,0,5,2,0,0,0,0,Middleweight,KO/TKO Elbows,1,0:43,http://ufcstats.com/fight-details/130e622d4d2aee3e
+UFC Fight Night: Walker vs. Zhang,Yizha,Westin Wilson,Yizha,2,0,13,0,0,0,0,0,Featherweight,KO/TKO Punches,1,0:37,http://ufcstats.com/fight-details/f0b7caa90faf47e5
+UFC Fight Night: Walker vs. Zhang,SuYoung You,Xiao Long,SuYoung You,0,0,58,68,0,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/2f6065fe0804d1d8
+UFC Fight Night: Walker vs. Zhang,Uran Satybaldiev,Diyar Nurgozhay,Uran Satybaldiev,1,0,2,7,0,1,2,0,Light Heavyweight,SUB Ezekiel Choke,1,2:45,http://ufcstats.com/fight-details/7fc5f1dc2df84ac7
 UFC 319: Du Plessis vs. Chimaev,Khamzat Chimaev,Dricus Du Plessis,Khamzat Chimaev,0,0,37,13,12,1,0,1,Middleweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/12cedec11b37ddc0
 UFC 319: Du Plessis vs. Chimaev,Lerone Murphy,Aaron Pico,Lerone Murphy,1,0,8,13,0,2,1,0,Featherweight,KO/TKO Spinning Back Elbow,1,3:21,http://ufcstats.com/fight-details/9fa6a029f7f8241c
 UFC 319: Du Plessis vs. Chimaev,Carlos Prates,Geoff Neal,Carlos Prates,1,0,32,25,0,0,0,0,Welterweight,KO/TKO Spinning Back Elbow,1,4:59,http://ufcstats.com/fight-details/42585ce706c086de
