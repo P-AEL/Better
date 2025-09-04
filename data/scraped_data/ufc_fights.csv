@@ -1,13 +1,14 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
 UFC Fight Night: Imavov vs. Borralho,Nassourdine Imavov,Caio Borralho,Nassourdine Imavov,,,,,View,Matchup,,,Middleweight,,,,
 UFC Fight Night: Imavov vs. Borralho,Benoit Saint Denis,Mauricio Ruffy,Benoit Saint Denis,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Imavov vs. Borralho,Bolaji Oki,Mason Jones,Bolaji Oki,,,,,View Matchup,,,,Lightweight,,,,
 UFC Fight Night: Imavov vs. Borralho,Modestas Bukauskas,Paul Craig,Modestas Bukauskas,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC Fight Night: Imavov vs. Borralho,Fares Ziam,Kaue Fernandes,Fares Ziam,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Bolaji Oki,Mason Jones,Bolaji Oki,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Axel Sola,Rhys McKee,Axel Sola,,,,,View Matchup,,,,Welterweight,,,,
 UFC Fight Night: Imavov vs. Borralho,Patricio Freire,Losene Keita,Patricio Freire,,,,,View Matchup,,,,Featherweight,,,,
 UFC Fight Night: Imavov vs. Borralho,William Gomis,Robert Ruchala,William Gomis,,,,,View Matchup,,,,Featherweight,,,,
 UFC Fight Night: Imavov vs. Borralho,Oumar Sy,Brendson Ribeiro,Oumar Sy,,,,,View Matchup,,,,Light Heavyweight,,,,
 UFC Fight Night: Imavov vs. Borralho,Marcin Tybura,Ante Delija,Marcin Tybura,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Imavov vs. Borralho,Harry Hardwick,Kaue Fernandes,Harry Hardwick,,,,,View Matchup,,,,Lightweight,,,,
 UFC Fight Night: Imavov vs. Borralho,Sam Patterson,Trey Waters,Sam Patterson,,,,,View Matchup,,,,Welterweight,,,,
 UFC Fight Night: Imavov vs. Borralho,Brad Tavares,Robert Bryczek,Brad Tavares,,,,,View Matchup,,,,Middleweight,,,,
 UFC Fight Night: Imavov vs. Borralho,Andreas Gustafsson,Rinat Fakhretdinov,Andreas Gustafsson,,,,,View Matchup,,,,Welterweight,,,,
@@ -764,7 +765,7 @@ UFC Fight Night: Ribas vs. Namajunas,Trey Ogden,Kurt Holobaugh,Trey Ogden,0,0,35
 UFC Fight Night: Ribas vs. Namajunas,Julian Erosa,Ricardo Ramos,Julian Erosa,0,0,4,7,0,2,1,0,Featherweight,SUB Guillotine Choke,1,2:15,http://ufcstats.com/fight-details/8c8337ce8437fe2e
 UFC Fight Night: Ribas vs. Namajunas,Miles Johns,Cody Gibson,Miles Johns,0,0,25,18,2,1,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/48ff3f1bcefbf965
 UFC Fight Night: Ribas vs. Namajunas,Jarno Errens,Steven Nguyen,Jarno Errens,1,0,105,63,0,1,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/0e6782b758451063
-UFC Fight Night: Ribas vs. Namajunas,Daria Zhelezniakova,Montserrat Rendon,Daria Zhelezniakova,0,0,57,25,0,3,0,0,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/f1c3abce15ef053e
+UFC Fight Night: Ribas vs. Namajunas,Daria Zhelezniakova,Montse Rendon,Daria Zhelezniakova,0,0,57,25,0,3,0,0,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/f1c3abce15ef053e
 UFC Fight Night: Ribas vs. Namajunas,Andre Lima,Igor Severino,Andre Lima,0,0,30,36,1,5,2,0,Flyweight,DQ,2,2:52,http://ufcstats.com/fight-details/f4ea27d942a390a5
 UFC Fight Night: Ribas vs. Namajunas,Mick Parkin,Mohammed Usman,Mick Parkin,0,0,72,57,0,0,0,0,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3223b7e196a07224
 UFC Fight Night: Tuivasa vs. Tybura,Marcin Tybura,Tai Tuivasa,Marcin Tybura,0,0,27,15,1,0,1,0,Heavyweight,SUB Rear Naked Choke,1,4:08,http://ufcstats.com/fight-details/8bc0c220f7dcefa7
@@ -995,7 +996,7 @@ UFC Fight Night: Fiziev vs. Gamrot,Tim Means,Andre Fialho,Tim Means,2,0,104,51,0
 UFC Fight Night: Fiziev vs. Gamrot,Cody Brundage,Jacob Malkoun,Cody Brundage,0,0,2,28,1,1,0,0,Middleweight,DQ,1,4:15,http://ufcstats.com/fight-details/1496969c1497dc85
 UFC Fight Night: Fiziev vs. Gamrot,Mohammed Usman,Jake Collier,Mohammed Usman,0,0,85,87,1,0,0,2,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/49ede01b061cfae3
 UFC Fight Night: Fiziev vs. Gamrot,Mizuki,Hannah Goldy,Mizuki,0,0,55,47,1,1,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/adb411b0f418ce33
-UFC Fight Night: Fiziev vs. Gamrot,Montserrat Rendon,Tamires Vidal,Montserrat Rendon,0,0,69,60,3,0,0,1,Women's Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/0732e6b6eb0a607d
+UFC Fight Night: Fiziev vs. Gamrot,Montse Rendon,Tamires Vidal,Montse Rendon,0,0,69,60,3,0,0,1,Women's Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/0732e6b6eb0a607d
 UFC Fight Night: Grasso vs. Shevchenko 2,Alexa Grasso,Valentina Shevchenko,Alexa Grasso,1,0,84,80,1,4,1,1,Women's Flyweight,S-DEC,5,5:00,http://ufcstats.com/fight-details/b395c89e19a3fec4
 UFC Fight Night: Grasso vs. Shevchenko 2,Jack Della Maddalena,Kevin Holland,Jack Della Maddalena,0,0,105,127,0,0,0,0,Welterweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/697efaf0d162e877
 UFC Fight Night: Grasso vs. Shevchenko 2,Raul Rosas Jr.,Terrence Mitchell,Raul Rosas Jr.,1,0,18,6,0,0,0,0,Bantamweight,KO/TKO Punches,1,0:54,http://ufcstats.com/fight-details/c0ca4c201d086ea8
