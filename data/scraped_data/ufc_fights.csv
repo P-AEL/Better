@@ -1,18 +1,30 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: Ulberg vs. Reyes,Carlos Ulberg,Dominick Reyes,Carlos Ulberg,,,,,View,Matchup,,,Light Heavyweight,,,,
-UFC Fight Night: Ulberg vs. Reyes,Jimmy Crute,Ivan Erslan,Jimmy Crute,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC Fight Night: Ulberg vs. Reyes,Jack Jenkins,Ramon Taveras,Jack Jenkins,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Ulberg vs. Reyes,Jake Matthews,Neil Magny,Jake Matthews,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Ulberg vs. Reyes,Justin Tafa,Louie Sutherland,Justin Tafa,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Ulberg vs. Reyes,Tom Nolan,Charlie Campbell,Tom Nolan,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Ulberg vs. Reyes,Navajo Stirling,Rodolfo Bellato,Navajo Stirling,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC Fight Night: Ulberg vs. Reyes,Cameron Rowston,Andre Petroski,Cameron Rowston,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Ulberg vs. Reyes,Jonathan Micallef,Oban Elliott,Jonathan Micallef,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Ulberg vs. Reyes,Jamie Mullarkey,Rolando Bedoya,Jamie Mullarkey,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Ulberg vs. Reyes,Colby Thicknesse,Josias Musasa,Colby Thicknesse,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Ulberg vs. Reyes,Michelle Montague,Luana Carolina,Michelle Montague,,,,,View Matchup,,,,Women's Bantamweight,,,,
-UFC Fight Night: Ulberg vs. Reyes,Brando Pericic,Elisha Ellison,Brando Pericic,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Ulberg vs. Reyes,Loma Lookboonmee,Alexia Thainara,Loma Lookboonmee,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Magomed Ankalaev,Alex Pereira,Magomed Ankalaev,,,,,View,Matchup,,,Light Heavyweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Merab Dvalishvili,Cory Sandhagen,Merab Dvalishvili,,,,,View Matchup,,,,Bantamweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Jiri Prochazka,Khalil Rountree Jr.,Jiri Prochazka,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Josh Emmett,Youssef Zalal,Josh Emmett,,,,,View Matchup,,,,Featherweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Abus Magomedov,Joe Pyfer,Abus Magomedov,,,,,View Matchup,,,,Middleweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Ateba Gautier,Tre'ston Vines,Ateba Gautier,,,,,View Matchup,,,,Middleweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Edmen Shahbazyan,Andre Muniz,Edmen Shahbazyan,,,,,View Matchup,,,,Middleweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Chris Gutierrez,Farid Basharat,Chris Gutierrez,,,,,View Matchup,,,,Bantamweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Daniel Santos,JooSang Yoo,Daniel Santos,,,,,View Matchup,,,,Featherweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Macy Chiasson,Yana Santos,Macy Chiasson,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Patchy Mix,Jakub Wiklacz,Patchy Mix,,,,,View Matchup,,,,Bantamweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Punahele Soriano,Nikolay Veretennikov,Punahele Soriano,,,,,View Matchup,,,,Welterweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Ramiz Brahimaj,Austin Vanderford,Ramiz Brahimaj,,,,,View Matchup,,,,Welterweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Veronica Hardy,Brogan Walker,Veronica Hardy,,,,,View Matchup,,,,Women's Flyweight,,,,
+UFC Fight Night: Ulberg vs. Reyes,Carlos Ulberg,Dominick Reyes,Carlos Ulberg,1,0,11,5,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,4:27,http://ufcstats.com/fight-details/a3ee907c77544cde
+UFC Fight Night: Ulberg vs. Reyes,Jimmy Crute,Ivan Erslan,Jimmy Crute,0,0,12,10,2,0,1,0,Light Heavyweight,SUB Rear Naked Choke,1,3:19,http://ufcstats.com/fight-details/f5fb8b182020c59d
+UFC Fight Night: Ulberg vs. Reyes,Jack Jenkins,Ramon Taveras,Jack Jenkins,0,0,65,43,3,0,1,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/38248c5d13f273e6
+UFC Fight Night: Ulberg vs. Reyes,Neil Magny,Jake Matthews,Neil Magny,0,0,31,18,3,0,1,3,Welterweight,SUB D'Arce Choke,3,3:08,http://ufcstats.com/fight-details/1ff24d5f760e0491
+UFC Fight Night: Ulberg vs. Reyes,Tom Nolan,Charlie Campbell,Tom Nolan,0,0,26,15,1,0,1,0,Lightweight,SUB Rear Naked Choke,1,4:08,http://ufcstats.com/fight-details/8abad36b4c5e4070
+UFC Fight Night: Ulberg vs. Reyes,Navajo Stirling,Rodolfo Bellato,Navajo Stirling,0,0,81,43,1,2,0,0,Light Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/dc31d3260dea7dcf
+UFC Fight Night: Ulberg vs. Reyes,Cam Rowston,Andre Petroski,Cam Rowston,1,0,12,7,0,0,0,0,Middleweight,KO/TKO Punches,1,2:41,http://ufcstats.com/fight-details/93a0a19c2c1cfe66
+UFC Fight Night: Ulberg vs. Reyes,Jamie Mullarkey,Rolando Bedoya,Jamie Mullarkey,0,0,43,46,3,0,0,1,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/e2dc4fb7b5c0ce76
+UFC Fight Night: Ulberg vs. Reyes,Colby Thicknesse,Josias Musasa,Colby Thicknesse,0,0,62,43,2,1,1,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/81127436605d3c88
+UFC Fight Night: Ulberg vs. Reyes,Michelle Montague,Luana Carolina,Michelle Montague,0,0,41,48,5,0,0,1,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/44cd8c9f622e155f
+UFC Fight Night: Ulberg vs. Reyes,Brando Pericic,Elisha Ellison,Brando Pericic,0,0,29,3,0,0,0,0,Heavyweight,KO/TKO Punches,1,1:55,http://ufcstats.com/fight-details/140937779a2466a7
+UFC Fight Night: Ulberg vs. Reyes,Alexia Thainara,Loma Lookboonmee,Alexia Thainara,0,0,44,30,5,0,1,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/e35f7504d83b8b07
 UFC Fight Night: Lopes vs. Silva,Diego Lopes,Jean Silva,Diego Lopes,1,0,74,43,3,0,0,0,Featherweight,KO/TKO Punches,2,4:48,http://ufcstats.com/fight-details/de1a3734be60e6a1
 UFC Fight Night: Lopes vs. Silva,David Martinez,Rob Font,David Martinez,0,0,62,49,0,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/944b929130b23c2a
 UFC Fight Night: Lopes vs. Silva,Rafa Garcia,Jared Gordon,Rafa Garcia,1,0,91,65,2,1,2,0,Lightweight,KO/TKO Elbows,3,2:27,http://ufcstats.com/fight-details/7cbfeba85f86d1bf
