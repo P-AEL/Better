@@ -1,18 +1,31 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC 320: Ankalaev vs. Pereira 2,Magomed Ankalaev,Alex Pereira,Magomed Ankalaev,,,,,View,Matchup,,,Light Heavyweight,,,,
-UFC 320: Ankalaev vs. Pereira 2,Merab Dvalishvili,Cory Sandhagen,Merab Dvalishvili,,,,,View Matchup,,,,Bantamweight,,,,
-UFC 320: Ankalaev vs. Pereira 2,Jiri Prochazka,Khalil Rountree Jr.,Jiri Prochazka,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC 320: Ankalaev vs. Pereira 2,Josh Emmett,Youssef Zalal,Josh Emmett,,,,,View Matchup,,,,Featherweight,,,,
-UFC 320: Ankalaev vs. Pereira 2,Abus Magomedov,Joe Pyfer,Abus Magomedov,,,,,View Matchup,,,,Middleweight,,,,
-UFC 320: Ankalaev vs. Pereira 2,Ateba Gautier,Tre'ston Vines,Ateba Gautier,,,,,View Matchup,,,,Middleweight,,,,
-UFC 320: Ankalaev vs. Pereira 2,Edmen Shahbazyan,Andre Muniz,Edmen Shahbazyan,,,,,View Matchup,,,,Middleweight,,,,
-UFC 320: Ankalaev vs. Pereira 2,Chris Gutierrez,Farid Basharat,Chris Gutierrez,,,,,View Matchup,,,,Bantamweight,,,,
-UFC 320: Ankalaev vs. Pereira 2,Daniel Santos,JooSang Yoo,Daniel Santos,,,,,View Matchup,,,,Featherweight,,,,
-UFC 320: Ankalaev vs. Pereira 2,Macy Chiasson,Yana Santos,Macy Chiasson,,,,,View Matchup,,,,Women's Bantamweight,,,,
-UFC 320: Ankalaev vs. Pereira 2,Patchy Mix,Jakub Wiklacz,Patchy Mix,,,,,View Matchup,,,,Bantamweight,,,,
-UFC 320: Ankalaev vs. Pereira 2,Punahele Soriano,Nikolay Veretennikov,Punahele Soriano,,,,,View Matchup,,,,Welterweight,,,,
-UFC 320: Ankalaev vs. Pereira 2,Ramiz Brahimaj,Austin Vanderford,Ramiz Brahimaj,,,,,View Matchup,,,,Welterweight,,,,
-UFC 320: Ankalaev vs. Pereira 2,Veronica Hardy,Brogan Walker,Veronica Hardy,,,,,View Matchup,,,,Women's Flyweight,,,,
+UFC Fight Night: Oliveira vs. Gamrot,Charles Oliveira,Mateusz Gamrot,Charles Oliveira,,,,,View,Matchup,,,Lightweight,,,,
+UFC Fight Night: Oliveira vs. Gamrot,Deiveson Figueiredo,Montel Jackson,Deiveson Figueiredo,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Oliveira vs. Gamrot,Vicente Luque,Joel Alvarez,Vicente Luque,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Oliveira vs. Gamrot,Jhonata Diniz,Mario Pinto,Jhonata Diniz,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Oliveira vs. Gamrot,Ricardo Ramos,Kaan Ofli,Ricardo Ramos,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Oliveira vs. Gamrot,Lucas Almeida,Michael Aswell Jr.,Lucas Almeida,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Oliveira vs. Gamrot,Jafel Filho,Clayton Carpenter,Jafel Filho,,,,,View Matchup,,,,Flyweight,,,,
+UFC Fight Night: Oliveira vs. Gamrot,Vitor Petrino,Thomas Petersen,Vitor Petrino,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Oliveira vs. Gamrot,Bia Mesquita,Irina Alekseeva,Bia Mesquita,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC Fight Night: Oliveira vs. Gamrot,Lucas Rocha,Stewart Nicoll,Lucas Rocha,,,,,View Matchup,,,,Flyweight,,,,
+UFC Fight Night: Oliveira vs. Gamrot,Valter Walker,Mohammed Usman,Valter Walker,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Oliveira vs. Gamrot,Julia Polastri,Karolina Kowalkiewicz,Julia Polastri,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Oliveira vs. Gamrot,Luan Lacerda,Saimon Oliveira,Luan Lacerda,,,,,View Matchup,,,,Bantamweight,,,,
+UFC 320: Ankalaev vs. Pereira 2,Alex Pereira,Magomed Ankalaev,Alex Pereira,0,0,28,4,0,0,0,0,Light Heavyweight,KO/TKO Elbows,1,1:20,http://ufcstats.com/fight-details/0de1ef0b9f3a79c0
+UFC 320: Ankalaev vs. Pereira 2,Merab Dvalishvili,Cory Sandhagen,Merab Dvalishvili,0,0,114,80,20,0,0,0,Bantamweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/a8511df8285f5c91
+UFC 320: Ankalaev vs. Pereira 2,Jiri Prochazka,Khalil Rountree Jr.,Jiri Prochazka,1,0,71,66,0,0,0,0,Light Heavyweight,KO/TKO Punches,3,3:04,http://ufcstats.com/fight-details/2560ea97b2cce4ef
+UFC 320: Ankalaev vs. Pereira 2,Youssef Zalal,Josh Emmett,Youssef Zalal,0,0,0,0,1,0,1,0,Featherweight,SUB Armbar,1,1:38,http://ufcstats.com/fight-details/84ebd144d5e79c88
+UFC 320: Ankalaev vs. Pereira 2,Joe Pyfer,Abus Magomedov,Joe Pyfer,1,0,6,11,0,1,2,1,Middleweight,SUB Rear Naked Choke,2,1:46,http://ufcstats.com/fight-details/d006dd2513bd376d
+UFC 320: Ankalaev vs. Pereira 2,Ateba Gautier,Tre'ston Vines,Ateba Gautier,1,0,6,0,1,0,0,0,Middleweight,KO/TKO Punches,1,1:41,http://ufcstats.com/fight-details/9418ebb3db2a4bae
+UFC 320: Ankalaev vs. Pereira 2,Daniel Santos,JooSang Yoo,Daniel Santos,1,0,27,31,1,0,0,0,Catch Weight,KO/TKO Punch,2,0:21,http://ufcstats.com/fight-details/7b34aa1eb09b8301
+UFC 320: Ankalaev vs. Pereira 2,Jakub Wiklacz,Patchy Mix,Jakub Wiklacz,0,0,46,37,0,5,3,0,Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/b09ecdc8ef0f0d20
+UFC 320: Ankalaev vs. Pereira 2,Edmen Shahbazyan,Andre Muniz,Edmen Shahbazyan,1,0,25,15,0,1,0,0,Middleweight,KO/TKO Elbows,1,4:58,http://ufcstats.com/fight-details/1c7cc3a22ab7d907
+UFC 320: Ankalaev vs. Pereira 2,Punahele Soriano,Nikolay Veretennikov,Punahele Soriano,0,0,39,9,4,0,1,2,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/a951090fb402fd20
+UFC 320: Ankalaev vs. Pereira 2,Yana Santos,Macy Chiasson,Yana Santos,0,0,65,54,0,2,0,1,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/8353b491afa7bc32
+UFC 320: Ankalaev vs. Pereira 2,Farid Basharat,Chris Gutierrez,Farid Basharat,0,0,41,31,2,1,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/e53fd165a3bc1f8e
+UFC 320: Ankalaev vs. Pereira 2,Ramiz Brahimaj,Austin Vanderford,Ramiz Brahimaj,0,0,21,5,0,3,2,0,Welterweight,SUB Guillotine Choke,2,2:24,http://ufcstats.com/fight-details/b98bc1ecb94ef4a5
+UFC 320: Ankalaev vs. Pereira 2,Veronica Hardy,Brogan Walker,Veronica Hardy,1,0,39,22,0,3,1,0,Women's Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/98883348ddb3be33
 UFC Fight Night: Ulberg vs. Reyes,Carlos Ulberg,Dominick Reyes,Carlos Ulberg,1,0,11,5,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,4:27,http://ufcstats.com/fight-details/a3ee907c77544cde
 UFC Fight Night: Ulberg vs. Reyes,Jimmy Crute,Ivan Erslan,Jimmy Crute,0,0,12,10,2,0,1,0,Light Heavyweight,SUB Rear Naked Choke,1,3:19,http://ufcstats.com/fight-details/f5fb8b182020c59d
 UFC Fight Night: Ulberg vs. Reyes,Jack Jenkins,Ramon Taveras,Jack Jenkins,0,0,65,43,3,0,1,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/38248c5d13f273e6
@@ -194,7 +207,7 @@ UFC Fight Night: Blanchfield vs. Barber,Ketlen Vieira,Macy Chiasson,Ketlen Vieir
 UFC Fight Night: Blanchfield vs. Barber,Zachary Reese,Dusko Todorovic,Zachary Reese,0,0,50,35,2,4,0,1,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ad68450307a21ab1
 UFC Fight Night: Blanchfield vs. Barber,Allan Nascimento,Jafel Filho,Allan Nascimento,0,0,12,14,1,4,1,1,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/baa2ee0bf7f97079
 UFC Fight Night: Blanchfield vs. Barber,Jordan Leavitt,Kurt Holobaugh,Jordan Leavitt,0,0,1,0,3,0,1,0,Lightweight,SUB Anaconda Choke,1,1:39,http://ufcstats.com/fight-details/2521fed000747f47
-UFC Fight Night: Blanchfield vs. Barber,Bolaji Oki,Michael Aswell,Bolaji Oki,0,0,136,118,0,0,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ae89ba793121fe0c
+UFC Fight Night: Blanchfield vs. Barber,Bolaji Oki,Michael Aswell Jr.,Bolaji Oki,0,0,136,118,0,0,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ae89ba793121fe0c
 UFC Fight Night: Blanchfield vs. Barber,Alice Ardelean,Rayanne dos Santos,Alice Ardelean,0,0,154,78,1,1,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/73240bea13ed5e71
 UFC Fight Night: Burns vs. Morales,Michael Morales,Gilbert Burns,Michael Morales,2,0,33,5,0,1,0,0,Welterweight,KO/TKO Punches,1,3:39,http://ufcstats.com/fight-details/a81ad236a2f221f2
 UFC Fight Night: Burns vs. Morales,Mairon Santos,Sodiq Yusuff,Mairon Santos,0,0,40,36,0,1,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/dcb27eef6441268c
