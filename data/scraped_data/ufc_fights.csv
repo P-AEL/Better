@@ -1,17 +1,31 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: De Ridder vs. Allen,Reinier de Ridder,Brendan Allen,Reinier de Ridder,,,,,View,Matchup,,,Middleweight,,,,
-UFC Fight Night: De Ridder vs. Allen,Kevin Holland,Mike Malott,Kevin Holland,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: De Ridder vs. Allen,Marlon Vera,Aiemann Zahabi,Marlon Vera,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: De Ridder vs. Allen,Manon Fiorot,Jasmine Jasudavicius,Manon Fiorot,,,,,View Matchup,,,,Women's Flyweight,,,,
-UFC Fight Night: De Ridder vs. Allen,Cody Gibson,Aoriqileng,Cody Gibson,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: De Ridder vs. Allen,Kyle Nelson,Matt Frevola,Kyle Nelson,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: De Ridder vs. Allen,Charles Jourdain,Davey Grant,Charles Jourdain,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: De Ridder vs. Allen,Bruno Silva,HyunSung Park,Bruno Silva,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: De Ridder vs. Allen,Danny Barlow,Djorden Santos,Danny Barlow,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: De Ridder vs. Allen,Kyle Prepolec,Drew Dober,Kyle Prepolec,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: De Ridder vs. Allen,Stephanie Luciano,Ravena Oliveira,Stephanie Luciano,,,,,View Matchup,,,,Women's Strawweight,,,,
-UFC Fight Night: De Ridder vs. Allen,Azamat Bekoev,Yousri Belgaroui,Azamat Bekoev,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: De Ridder vs. Allen,Melissa Croden,Tainara Lisboa,Melissa Croden,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC 321: Aspinall vs. Gane,Tom Aspinall,Ciryl Gane,Tom Aspinall,,,,,View,Matchup,,,Heavyweight,,,,
+UFC 321: Aspinall vs. Gane,Virna Jandiroba,Mackenzie Dern,Virna Jandiroba,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC 321: Aspinall vs. Gane,Umar Nurmagomedov,Mario Bautista,Umar Nurmagomedov,,,,,View Matchup,,,,Bantamweight,,,,
+UFC 321: Aspinall vs. Gane,Alexander Volkov,Jailton Almeida,Alexander Volkov,,,,,View Matchup,,,,Heavyweight,,,,
+UFC 321: Aspinall vs. Gane,Aleksandar Rakic,Azamat Murzakanov,Aleksandar Rakic,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC 321: Aspinall vs. Gane,Nasrat Haqparast,Quillan Salkilld,Nasrat Haqparast,,,,,View Matchup,,,,Lightweight,,,,
+UFC 321: Aspinall vs. Gane,Ikram Aliskerov,JunYong Park,Ikram Aliskerov,,,,,View Matchup,,,,Middleweight,,,,
+UFC 321: Aspinall vs. Gane,Ludovit Klein,Mateusz Rebecki,Ludovit Klein,,,,,View Matchup,,,,Lightweight,,,,
+UFC 321: Aspinall vs. Gane,Abdul-Kareem Al-Selwady,Matheus Camilo,Abdul-Kareem Al-Selwady,,,,,View Matchup,,,,Lightweight,,,,
+UFC 321: Aspinall vs. Gane,Valter Walker,Louie Sutherland,Valter Walker,,,,,View Matchup,,,,Heavyweight,,,,
+UFC 321: Aspinall vs. Gane,Nathaniel Wood,Jose Delgado,Nathaniel Wood,,,,,View Matchup,,,,Featherweight,,,,
+UFC 321: Aspinall vs. Gane,Hamdy Abdelwahab,Chris Barnett,Hamdy Abdelwahab,,,,,View Matchup,,,,Heavyweight,,,,
+UFC 321: Aspinall vs. Gane,Azat Maksum,Mitch Raposo,Azat Maksum,,,,,View Matchup,,,,Flyweight,,,,
+UFC 321: Aspinall vs. Gane,Jaqueline Amorim,Mizuki,Jaqueline Amorim,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: De Ridder vs. Allen,Brendan Allen,Reinier de Ridder,Brendan Allen,0,0,22,9,1,3,1,1,Middleweight,KO/TKO,4,5:00,http://ufcstats.com/fight-details/d61373d9fdf01a12
+UFC Fight Night: De Ridder vs. Allen,Mike Malott,Kevin Holland,Mike Malott,0,0,49,52,1,1,1,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/cdd565a16975c711
+UFC Fight Night: De Ridder vs. Allen,Aiemann Zahabi,Marlon Vera,Aiemann Zahabi,0,1,81,56,0,0,0,0,Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/857d274e47aa8c4e
+UFC Fight Night: De Ridder vs. Allen,Manon Fiorot,Jasmine Jasudavicius,Manon Fiorot,0,0,16,2,0,0,0,0,Women's Flyweight,KO/TKO Punches,1,1:14,http://ufcstats.com/fight-details/c82acd7b17915591
+UFC Fight Night: De Ridder vs. Allen,Charles Jourdain,Davey Grant,Charles Jourdain,1,0,25,9,0,0,1,0,Bantamweight,SUB Guillotine Choke,1,3:05,http://ufcstats.com/fight-details/a18edcb638ba7e39
+UFC Fight Night: De Ridder vs. Allen,Kyle Nelson,Matt Frevola,Kyle Nelson,1,0,63,43,2,2,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3af1bdc5a510bba9
+UFC Fight Night: De Ridder vs. Allen,Drew Dober,Kyle Prepolec,Drew Dober,0,0,83,51,0,0,0,0,Lightweight,KO/TKO Punches,3,1:16,http://ufcstats.com/fight-details/ecdbb3a5216b815e
+UFC Fight Night: De Ridder vs. Allen,Aoriqileng,Cody Gibson,Aoriqileng,1,0,5,3,0,0,0,0,Bantamweight,KO/TKO Punch,1,0:21,http://ufcstats.com/fight-details/970f083af8368f57
+UFC Fight Night: De Ridder vs. Allen,Bruno Silva,HyunSung Park,Bruno Silva,1,0,46,31,5,1,1,0,Flyweight,SUB Rear Naked Choke,3,2:15,http://ufcstats.com/fight-details/668a44403a130043
+UFC Fight Night: De Ridder vs. Allen,Djorden Santos,Danny Barlow,Djorden Santos,0,0,99,93,0,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/096e00355c8c84ac
+UFC Fight Night: De Ridder vs. Allen,Stephanie Luciano,Ravena Oliveira,Stephanie Luciano,0,0,60,24,3,0,1,0,Women's Strawweight,SUB Rear Naked Choke,3,2:50,http://ufcstats.com/fight-details/8d9458121f0c4b95
+UFC Fight Night: De Ridder vs. Allen,Yousri Belgaroui,Azamat Bekoev,Yousri Belgaroui,0,0,102,24,1,4,0,0,Middleweight,KO/TKO Punches,3,0:55,http://ufcstats.com/fight-details/87ac0e5face106b4
+UFC Fight Night: De Ridder vs. Allen,Melissa Croden,Tainara Lisboa,Melissa Croden,1,0,99,42,2,2,0,0,Women's Bantamweight,KO/TKO Punches,3,4:32,http://ufcstats.com/fight-details/dec301fd5e99ca46
 UFC Fight Night: Oliveira vs. Gamrot,Charles Oliveira,Mateusz Gamrot,Charles Oliveira,0,0,11,18,1,1,1,0,Lightweight,SUB Rear Naked Choke,2,2:48,http://ufcstats.com/fight-details/79865287be90e4be
 UFC Fight Night: Oliveira vs. Gamrot,Deiveson Figueiredo,Montel Jackson,Deiveson Figueiredo,0,0,23,30,2,1,0,0,Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/f295eb2a7b0ba4b7
 UFC Fight Night: Oliveira vs. Gamrot,Joel Alvarez,Vicente Luque,Joel Alvarez,0,0,89,30,1,0,1,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/6188b7fb3f8daacc
