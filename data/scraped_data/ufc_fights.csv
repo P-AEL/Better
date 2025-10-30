@@ -1,18 +1,30 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC 321: Aspinall vs. Gane,Tom Aspinall,Ciryl Gane,Tom Aspinall,,,,,View,Matchup,,,Heavyweight,,,,
-UFC 321: Aspinall vs. Gane,Virna Jandiroba,Mackenzie Dern,Virna Jandiroba,,,,,View Matchup,,,,Women's Strawweight,,,,
-UFC 321: Aspinall vs. Gane,Umar Nurmagomedov,Mario Bautista,Umar Nurmagomedov,,,,,View Matchup,,,,Bantamweight,,,,
-UFC 321: Aspinall vs. Gane,Alexander Volkov,Jailton Almeida,Alexander Volkov,,,,,View Matchup,,,,Heavyweight,,,,
-UFC 321: Aspinall vs. Gane,Aleksandar Rakic,Azamat Murzakanov,Aleksandar Rakic,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC 321: Aspinall vs. Gane,Nasrat Haqparast,Quillan Salkilld,Nasrat Haqparast,,,,,View Matchup,,,,Lightweight,,,,
-UFC 321: Aspinall vs. Gane,Ikram Aliskerov,JunYong Park,Ikram Aliskerov,,,,,View Matchup,,,,Middleweight,,,,
-UFC 321: Aspinall vs. Gane,Ludovit Klein,Mateusz Rebecki,Ludovit Klein,,,,,View Matchup,,,,Lightweight,,,,
-UFC 321: Aspinall vs. Gane,Abdul-Kareem Al-Selwady,Matheus Camilo,Abdul-Kareem Al-Selwady,,,,,View Matchup,,,,Lightweight,,,,
-UFC 321: Aspinall vs. Gane,Valter Walker,Louie Sutherland,Valter Walker,,,,,View Matchup,,,,Heavyweight,,,,
-UFC 321: Aspinall vs. Gane,Nathaniel Wood,Jose Delgado,Nathaniel Wood,,,,,View Matchup,,,,Featherweight,,,,
-UFC 321: Aspinall vs. Gane,Hamdy Abdelwahab,Chris Barnett,Hamdy Abdelwahab,,,,,View Matchup,,,,Heavyweight,,,,
-UFC 321: Aspinall vs. Gane,Azat Maksum,Mitch Raposo,Azat Maksum,,,,,View Matchup,,,,Flyweight,,,,
-UFC 321: Aspinall vs. Gane,Jaqueline Amorim,Mizuki,Jaqueline Amorim,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Garcia vs. Onama,Steve Garcia,David Onama,Steve Garcia,,,,,View,Matchup,,,Featherweight,,,,
+UFC Fight Night: Garcia vs. Onama,Waldo Cortes-Acosta,Ante Delija,Waldo Cortes-Acosta,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Garcia vs. Onama,Jeremiah Wells,Themba Gorimbo,Jeremiah Wells,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Garcia vs. Onama,Isaac Dulgarian,Yadier del Valle,Isaac Dulgarian,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Garcia vs. Onama,Charles Radtke,Daniel Frunza,Charles Radtke,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Garcia vs. Onama,Allan Nascimento,Cody Durden,Allan Nascimento,,,,,View Matchup,,,,Catch Weight,,,,
+UFC Fight Night: Garcia vs. Onama,Billy Elekana,Kevin Christian,Billy Elekana,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC Fight Night: Garcia vs. Onama,Timmy Cuamba,ChangHo Lee,Timmy Cuamba,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Garcia vs. Onama,Donte Johnson,Sedriques Dumas,Donte Johnson,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Garcia vs. Onama,Ketlen Vieira,Norma Dumont,Ketlen Vieira,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC Fight Night: Garcia vs. Onama,Alice Ardelean,Montserrat Conejo Ruiz,Alice Ardelean,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Garcia vs. Onama,Phil Rowe,Seokhyeon Ko,Phil Rowe,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Garcia vs. Onama,Talita Alencar,Ariane Carnelossi,Talita Alencar,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC 321: Aspinall vs. Gane,Tom Aspinall,Ciryl Gane,Tom Aspinall,0,0,27,30,0,0,0,0,Heavyweight,CNC,1,4:35,http://ufcstats.com/fight-details/6390c8e74630473e
+UFC 321: Aspinall vs. Gane,Mackenzie Dern,Virna Jandiroba,Mackenzie Dern,0,0,118,106,2,9,0,0,Women's Strawweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/7d3da3c4153717de
+UFC 321: Aspinall vs. Gane,Umar Nurmagomedov,Mario Bautista,Umar Nurmagomedov,0,1,32,20,11,0,0,1,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/e69f9b4b9cae12a4
+UFC 321: Aspinall vs. Gane,Alexander Volkov,Jailton Almeida,Alexander Volkov,0,0,24,9,0,7,0,0,Heavyweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/b42a3386a7dccb3d
+UFC 321: Aspinall vs. Gane,Azamat Murzakanov,Aleksandar Rakic,Azamat Murzakanov,1,0,3,9,0,0,0,0,Light Heavyweight,KO/TKO Punch,1,3:11,http://ufcstats.com/fight-details/ef12d2aaaadaf6d0
+UFC 321: Aspinall vs. Gane,Quillan Salkilld,Nasrat Haqparast,Quillan Salkilld,1,0,14,10,0,0,0,0,Lightweight,KO/TKO Kick,1,2:30,http://ufcstats.com/fight-details/cb902d73389ed34b
+UFC 321: Aspinall vs. Gane,Ikram Aliskerov,JunYong Park,Ikram Aliskerov,0,0,91,78,5,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/0230a9dd2739add4
+UFC 321: Aspinall vs. Gane,Ludovit Klein,Mateusz Rebecki,Ludovit Klein,0,0,82,72,0,3,0,0,Lightweight,M-DEC,3,5:00,http://ufcstats.com/fight-details/e9c034cec33b3479
+UFC 321: Aspinall vs. Gane,Valter Walker,Louie Sutherland,Valter Walker,0,0,5,3,1,0,1,0,Heavyweight,SUB Heel Hook,1,1:24,http://ufcstats.com/fight-details/f2c2a49fed32bd75
+UFC 321: Aspinall vs. Gane,Nathaniel Wood,Jose Delgado,Nathaniel Wood,1,1,99,134,2,0,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/bd7394f07247d9ca
+UFC 321: Aspinall vs. Gane,Hamdy Abdelwahab,Chris Barnett,Hamdy Abdelwahab,0,0,99,18,9,0,0,0,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3fdb4c4b39218cf4
+UFC 321: Aspinall vs. Gane,Mitch Raposo,Azat Maksum,Mitch Raposo,0,0,30,19,0,7,0,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/22dd728012944f0a
+UFC 321: Aspinall vs. Gane,Mizuki,Jaqueline Amorim,Mizuki,1,0,62,26,2,2,0,1,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ef1519c8c1d20977
 UFC Fight Night: De Ridder vs. Allen,Brendan Allen,Reinier de Ridder,Brendan Allen,0,0,22,9,1,3,1,1,Middleweight,KO/TKO,4,5:00,http://ufcstats.com/fight-details/d61373d9fdf01a12
 UFC Fight Night: De Ridder vs. Allen,Mike Malott,Kevin Holland,Mike Malott,0,0,49,52,1,1,1,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/cdd565a16975c711
 UFC Fight Night: De Ridder vs. Allen,Aiemann Zahabi,Marlon Vera,Aiemann Zahabi,0,1,81,56,0,0,0,0,Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/857d274e47aa8c4e
