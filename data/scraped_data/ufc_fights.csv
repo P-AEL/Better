@@ -1,15 +1,30 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: Bonfim vs. Brown,Gabriel Bonfim,Randy Brown,Gabriel Bonfim,,,,,View,Matchup,,,Welterweight,,,,
-UFC Fight Night: Bonfim vs. Brown,Matt Schnell,Joseph Morales,Matt Schnell,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: Bonfim vs. Brown,Muslim Salikhov,Uros Medic,Muslim Salikhov,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Bonfim vs. Brown,Chris Padilla,Ismael Bonfim,Chris Padilla,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Bonfim vs. Brown,Christian Leroy Duncan,Marco Tulio,Christian Leroy Duncan,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Bonfim vs. Brown,Hyder Amil,Jamall Emmers,Hyder Amil,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Bonfim vs. Brown,Ricky Simon,Raoni Barcelos,Ricky Simon,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Bonfim vs. Brown,Mayra Bueno Silva,Jacqueline Cavalcanti,Mayra Bueno Silva,,,,,View Matchup,,,,Women's Bantamweight,,,,
-UFC Fight Night: Bonfim vs. Brown,Josh Hokit,Max Gimenis,Josh Hokit,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Bonfim vs. Brown,Tecia Pennington,Denise Gomes,Tecia Pennington,,,,,View Matchup,,,,Women's Strawweight,,,,
-UFC Fight Night: Bonfim vs. Brown,Miles Johns,Daniel Marcos,Miles Johns,,,,,View Matchup,,,,Bantamweight,,,,
+UFC 322: Della Maddalena vs. Makhachev,Jack Della Maddalena,Islam Makhachev,Jack Della Maddalena,,,,,View,Matchup,,,Welterweight,,,,
+UFC 322: Della Maddalena vs. Makhachev,Valentina Shevchenko,Zhang Weili,Valentina Shevchenko,,,,,View Matchup,,,,Women's Flyweight,,,,
+UFC 322: Della Maddalena vs. Makhachev,Sean Brady,Michael Morales,Sean Brady,,,,,View Matchup,,,,Welterweight,,,,
+UFC 322: Della Maddalena vs. Makhachev,Leon Edwards,Carlos Prates,Leon Edwards,,,,,View Matchup,,,,Welterweight,,,,
+UFC 322: Della Maddalena vs. Makhachev,Beneil Dariush,Benoit Saint Denis,Beneil Dariush,,,,,View Matchup,,,,Lightweight,,,,
+UFC 322: Della Maddalena vs. Makhachev,Bo Nickal,Rodolfo Vieira,Bo Nickal,,,,,View Matchup,,,,Middleweight,,,,
+UFC 322: Della Maddalena vs. Makhachev,Roman Kopylov,Gregory Rodrigues,Roman Kopylov,,,,,View Matchup,,,,Middleweight,,,,
+UFC 322: Della Maddalena vs. Makhachev,Erin Blanchfield,Tracy Cortez,Erin Blanchfield,,,,,View Matchup,,,,Women's Flyweight,,,,
+UFC 322: Della Maddalena vs. Makhachev,Malcolm Wellmaker,Cody Haddon,Malcolm Wellmaker,,,,,View Matchup,,,,Bantamweight,,,,
+UFC 322: Della Maddalena vs. Makhachev,Kyle Daukaus,Gerald Meerschaert,Kyle Daukaus,,,,,View Matchup,,,,Middleweight,,,,
+UFC 322: Della Maddalena vs. Makhachev,Pat Sabatini,Chepe Mariscal,Pat Sabatini,,,,,View Matchup,,,,Featherweight,,,,
+UFC 322: Della Maddalena vs. Makhachev,Angela Hill,Fatima Kline,Angela Hill,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC 322: Della Maddalena vs. Makhachev,Baisangur Susurkaev,Eric McConico,Baisangur Susurkaev,,,,,View Matchup,,,,Middleweight,,,,
+UFC 322: Della Maddalena vs. Makhachev,Viacheslav Borshchev,Matheus Camilo,Viacheslav Borshchev,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Bonfim vs. Brown,Gabriel Bonfim,Randy Brown,Gabriel Bonfim,1,0,35,33,0,0,0,0,Welterweight,KO/TKO Knee,2,1:40,http://ufcstats.com/fight-details/4e224ebb6394611d
+UFC Fight Night: Bonfim vs. Brown,Joseph Morales,Matt Schnell,Joseph Morales,0,0,5,4,0,1,1,0,Flyweight,SUB Guillotine Choke,1,2:54,http://ufcstats.com/fight-details/f7e9bd2d6f81aeae
+UFC Fight Night: Bonfim vs. Brown,Uros Medic,Muslim Salikhov,Uros Medic,1,0,8,2,0,0,0,0,Welterweight,KO/TKO Punch,1,1:03,http://ufcstats.com/fight-details/b23fa678cc65cf5b
+UFC Fight Night: Bonfim vs. Brown,Chris Padilla,Ismael Bonfim,Chris Padilla,0,0,64,42,0,1,0,0,Lightweight,KO/TKO Punches,2,4:30,http://ufcstats.com/fight-details/20971ed9a842b0cb
+UFC Fight Night: Bonfim vs. Brown,Christian Leroy Duncan,Marco Tulio,Christian Leroy Duncan,1,0,23,27,1,2,0,0,Middleweight,KO/TKO Punch,2,3:20,http://ufcstats.com/fight-details/ac4343150638b635
+UFC Fight Night: Bonfim vs. Brown,Jamall Emmers,Hyder Amil,Jamall Emmers,0,0,50,47,7,0,1,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/e3d657dd88864ba7
+UFC Fight Night: Bonfim vs. Brown,Raoni Barcelos,Ricky Simon,Raoni Barcelos,0,0,82,67,1,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/c6d56aad93f98249
+UFC Fight Night: Bonfim vs. Brown,Jacqueline Cavalcanti,Mayra Bueno Silva,Jacqueline Cavalcanti,0,0,80,39,0,0,0,0,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/80eae31bc0a94a65
+UFC Fight Night: Bonfim vs. Brown,Josh Hokit,Max Gimenis,Josh Hokit,2,0,9,3,0,0,0,0,Heavyweight,KO/TKO Punches,1,0:56,http://ufcstats.com/fight-details/87dcb3eab20f6ac1
+UFC Fight Night: Bonfim vs. Brown,Denise Gomes,Tecia Pennington,Denise Gomes,0,0,53,58,3,1,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/9126633d921afb57
+UFC Fight Night: Bonfim vs. Brown,Daniel Marcos,Miles Johns,Daniel Marcos,0,0,27,28,3,0,1,0,Bantamweight,SUB Rear Naked Choke,2,4:23,http://ufcstats.com/fight-details/238c274c90587e21
+UFC Fight Night: Bonfim vs. Brown,Zach Reese,Jackson McVey,Zach Reese,0,0,32,56,3,0,1,0,Catch Weight,SUB Rear Naked Choke,2,1:38,http://ufcstats.com/fight-details/84b66bf7fba2d59d
 UFC Fight Night: Garcia vs. Onama,Steve Garcia,David Onama,Steve Garcia,1,0,33,2,0,0,0,0,Featherweight,KO/TKO Punches,1,3:34,http://ufcstats.com/fight-details/747d922b329b7f30
 UFC Fight Night: Garcia vs. Onama,Waldo Cortes Acosta,Ante Delija,Waldo Cortes Acosta,1,0,12,16,0,0,0,0,Heavyweight,KO/TKO Punch,1,3:59,http://ufcstats.com/fight-details/9d9390b550d77e06
 UFC Fight Night: Garcia vs. Onama,Jeremiah Wells,Themba Gorimbo,Jeremiah Wells,0,0,32,18,3,6,3,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/b0f68344e01884ff
@@ -97,7 +112,7 @@ UFC Fight Night: Lopes vs. Silva,Dusko Todorovic,Jose Daniel Medina,Dusko Todoro
 UFC Fight Night: Lopes vs. Silva,Joaquim Silva,Claudio Puelles,Joaquim Silva,1,0,25,21,0,4,1,0,Lightweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/352839a03b428e74
 UFC Fight Night: Lopes vs. Silva,Tatiana Suarez,Amanda Lemos,Tatiana Suarez,0,0,20,23,3,0,0,1,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/9474f64347aade7a
 UFC Fight Night: Lopes vs. Silva,Jesus Aguilar,Luis Gurule,Jesus Aguilar,0,0,85,65,1,0,0,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3dc1a6335d890650
-UFC Fight Night: Lopes vs. Silva,Zachary Reese,Sedriques Dumas,Zachary Reese,0,0,2,3,0,0,0,0,Middleweight,CNC,1,0:51,http://ufcstats.com/fight-details/d822ebc7dbc6c259
+UFC Fight Night: Lopes vs. Silva,Zach Reese,Sedriques Dumas,Zach Reese,0,0,2,3,0,0,0,0,Middleweight,CNC,1,0:51,http://ufcstats.com/fight-details/d822ebc7dbc6c259
 UFC Fight Night: Lopes vs. Silva,Alden Coria,Alessandro Costa,Alden Coria,0,0,42,12,2,1,0,2,Flyweight,KO/TKO Punches,3,0:47,http://ufcstats.com/fight-details/a1e193425e716b42
 UFC Fight Night: Lopes vs. Silva,Montse Rendon,Alice Pereira,Montse Rendon,0,0,45,37,0,0,1,0,Women's Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/c4a6174b0698652e
 UFC Fight Night: Lopes vs. Silva,Daniil Donchenko,Rodrigo Sezinando,Daniil Donchenko,1,0,39,10,1,1,0,0,Welterweight,KO/TKO Punches,1,4:27,http://ufcstats.com/fight-details/3dd2fde7bff79c51
@@ -144,7 +159,7 @@ UFC Fight Night: Dolidze vs. Hernandez,Iasmin Lucindo,Angela Hill,Iasmin Lucindo
 UFC Fight Night: Dolidze vs. Hernandez,Andre Fili,Christian Rodriguez,Andre Fili,0,0,64,83,3,1,0,0,Featherweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/98d6771af9b0ebe5
 UFC Fight Night: Dolidze vs. Hernandez,Jean Matsumoto,Miles Johns,Jean Matsumoto,0,0,95,83,0,5,2,0,Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/ed5383b50ffcdded
 UFC Fight Night: Dolidze vs. Hernandez,Christian Leroy Duncan,Eryk Anders,Christian Leroy Duncan,1,0,24,7,0,1,0,0,Middleweight,KO/TKO Punches,1,3:53,http://ufcstats.com/fight-details/75a84211f50c53f5
-UFC Fight Night: Dolidze vs. Hernandez,Julius Walker,Rafael Cerqueira,Julius Walker,1,0,44,19,6,0,0,0,Light Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3d6571790c21527c
+UFC Fight Night: Dolidze vs. Hernandez,Julius Walker,Rafael Cerquiera,Julius Walker,1,0,44,19,6,0,0,0,Light Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3d6571790c21527c
 UFC Fight Night: Dolidze vs. Hernandez,Elijah Smith,Toshiomi Kazama,Elijah Smith,0,0,37,0,0,1,0,1,Bantamweight,KO/TKO Slam,1,4:10,http://ufcstats.com/fight-details/ae7a8f19743e8154
 UFC Fight Night: Dolidze vs. Hernandez,Joselyne Edwards,Priscila Cachoeira,Joselyne Edwards,1,0,26,18,0,0,0,0,Women's Bantamweight,KO/TKO Punch,1,2:24,http://ufcstats.com/fight-details/aef44145740741b3
 UFC Fight Night: Dolidze vs. Hernandez,Uros Medic,Gilbert Urbina,Uros Medic,1,1,5,5,0,0,0,0,Welterweight,KO/TKO Punch,1,1:03,http://ufcstats.com/fight-details/7d923267c44dd93b
@@ -253,7 +268,7 @@ UFC Fight Night: Blanchfield vs. Barber,Mateusz Gamrot,Ludovit Klein,Mateusz Gam
 UFC Fight Night: Blanchfield vs. Barber,Ramiz Brahimaj,Billy Ray Goff,Ramiz Brahimaj,0,0,1,1,2,0,1,0,Welterweight,SUB Guillotine Choke,1,3:16,http://ufcstats.com/fight-details/305d8c85b35a7d4e
 UFC Fight Night: Blanchfield vs. Barber,Dustin Jacoby,Bruno Lopes,Dustin Jacoby,1,0,17,3,0,0,0,0,Light Heavyweight,KO/TKO Punch,1,1:50,http://ufcstats.com/fight-details/7aaa810540132a4b
 UFC Fight Night: Blanchfield vs. Barber,Ketlen Vieira,Macy Chiasson,Ketlen Vieira,0,0,28,22,0,0,0,0,Women's Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/106918bfbe24335d
-UFC Fight Night: Blanchfield vs. Barber,Zachary Reese,Dusko Todorovic,Zachary Reese,0,0,50,35,2,4,0,1,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ad68450307a21ab1
+UFC Fight Night: Blanchfield vs. Barber,Zach Reese,Dusko Todorovic,Zach Reese,0,0,50,35,2,4,0,1,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ad68450307a21ab1
 UFC Fight Night: Blanchfield vs. Barber,Allan Nascimento,Jafel Filho,Allan Nascimento,0,0,12,14,1,4,1,1,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/baa2ee0bf7f97079
 UFC Fight Night: Blanchfield vs. Barber,Jordan Leavitt,Kurt Holobaugh,Jordan Leavitt,0,0,1,0,3,0,1,0,Lightweight,SUB Anaconda Choke,1,1:39,http://ufcstats.com/fight-details/2521fed000747f47
 UFC Fight Night: Blanchfield vs. Barber,Bolaji Oki,Michael Aswell Jr.,Bolaji Oki,0,0,136,118,0,0,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ae89ba793121fe0c
@@ -401,7 +416,7 @@ UFC Fight Night: Cejudo vs. Song,Mansur Abdul-Malik,Nick Klein,Mansur Abdul-Mali
 UFC Fight Night: Cejudo vs. Song,Ricky Simon,Javid Basharat,Ricky Simon,1,0,11,20,1,0,0,0,Bantamweight,KO/TKO Punch,1,3:58,http://ufcstats.com/fight-details/bc6d70ab959dce70
 UFC Fight Night: Cejudo vs. Song,Austin Vanderford,Nikolay Veretennikov,Austin Vanderford,0,0,39,5,2,0,1,0,Catch Weight,KO/TKO Punches,2,4:13,http://ufcstats.com/fight-details/615f7f894bafad82
 UFC Fight Night: Cejudo vs. Song,Nursulton Ruziboev,Eric McConico,Nursulton Ruziboev,2,0,20,5,0,0,0,0,Middleweight,KO/TKO Punch,2,0:33,http://ufcstats.com/fight-details/e9dfc2f009a77a8d
-UFC Fight Night: Cejudo vs. Song,Modestas Bukauskas,Rafael Cerqueira,Modestas Bukauskas,1,0,16,9,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,2:12,http://ufcstats.com/fight-details/b6475543ab6d20c9
+UFC Fight Night: Cejudo vs. Song,Modestas Bukauskas,Rafael Cerquiera,Modestas Bukauskas,1,0,16,9,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,2:12,http://ufcstats.com/fight-details/b6475543ab6d20c9
 UFC Fight Night: Cannonier vs. Rodrigues,Jared Cannonier,Gregory Rodrigues,Jared Cannonier,2,2,98,93,1,0,0,0,Middleweight,KO/TKO Punches,4,0:21,http://ufcstats.com/fight-details/365e2d891b98b86d
 UFC Fight Night: Cannonier vs. Rodrigues,Youssef Zalal,Calvin Kattar,Youssef Zalal,0,0,74,38,0,0,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/68913a422f548ccc
 UFC Fight Night: Cannonier vs. Rodrigues,Edmen Shahbazyan,Dylan Budka,Edmen Shahbazyan,1,0,7,1,0,0,0,0,Middleweight,KO/TKO Punch,1,1:35,http://ufcstats.com/fight-details/f5386c98fea7f5d4
@@ -443,7 +458,7 @@ UFC 311: Makhachev vs. Moicano,Jiri Prochazka,Jamahal Hill,Jiri Prochazka,2,0,97
 UFC 311: Makhachev vs. Moicano,Jailton Almeida,Serghei Spivac,Jailton Almeida,0,0,23,15,1,1,0,0,Heavyweight,KO/TKO Punches,1,4:53,http://ufcstats.com/fight-details/54d48b33e7240452
 UFC 311: Makhachev vs. Moicano,Reinier de Ridder,Kevin Holland,Reinier de Ridder,0,0,12,11,2,0,1,0,Middleweight,SUB Rear Naked Choke,1,3:31,http://ufcstats.com/fight-details/69d63c057aebffaf
 UFC 311: Makhachev vs. Moicano,Raoni Barcelos,Payton Talbott,Raoni Barcelos,0,0,62,49,8,1,2,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d14f98b24691d082
-UFC 311: Makhachev vs. Moicano,Azamat Bekoev,Zachary Reese,Azamat Bekoev,0,0,21,13,1,0,0,0,Middleweight,KO/TKO Punches,1,3:04,http://ufcstats.com/fight-details/938081fae11dcbbf
+UFC 311: Makhachev vs. Moicano,Azamat Bekoev,Zach Reese,Azamat Bekoev,0,0,21,13,1,0,0,0,Middleweight,KO/TKO Punches,1,3:04,http://ufcstats.com/fight-details/938081fae11dcbbf
 UFC 311: Makhachev vs. Moicano,Bogdan Guskov,Billy Elekana,Bogdan Guskov,0,0,47,20,0,1,2,0,Light Heavyweight,SUB Guillotine Choke,2,3:33,http://ufcstats.com/fight-details/a6db8eb1fb3eebf2
 UFC 311: Makhachev vs. Moicano,Grant Dawson,Diego Ferreira,Grant Dawson,0,0,56,41,6,0,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/aa3fca085d476636
 UFC 311: Makhachev vs. Moicano,Ailin Perez,Karol Rosa,Ailin Perez,0,0,62,53,2,0,0,0,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/340fcdcabc49f142
@@ -545,7 +560,7 @@ UFC 308: Topuria vs. Holloway,Khamzat Chimaev,Robert Whittaker,Khamzat Chimaev,0
 UFC 308: Topuria vs. Holloway,Magomed Ankalaev,Aleksandar Rakic,Magomed Ankalaev,0,0,55,53,0,0,0,0,Light Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/b09f54654b0f95f5
 UFC 308: Topuria vs. Holloway,Lerone Murphy,Dan Ige,Lerone Murphy,0,1,52,46,3,1,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/cc11a0762f246fa4
 UFC 308: Topuria vs. Holloway,Shara Magomedov,Armen Petrosyan,Shara Magomedov,1,0,65,77,0,0,0,0,Middleweight,KO/TKO Spinning Back Fist,2,4:52,http://ufcstats.com/fight-details/108434acbbd75d26
-UFC 308: Topuria vs. Holloway,Ibo Aslan,Rafael Cerqueira,Ibo Aslan,0,0,28,1,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,0:51,http://ufcstats.com/fight-details/781a2ea50f5ae68f
+UFC 308: Topuria vs. Holloway,Ibo Aslan,Rafael Cerquiera,Ibo Aslan,0,0,28,1,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,0:51,http://ufcstats.com/fight-details/781a2ea50f5ae68f
 UFC 308: Topuria vs. Holloway,Geoff Neal,Rafael Dos Anjos,Geoff Neal,1,0,18,4,1,0,0,0,Welterweight,KO/TKO,1,1:30,http://ufcstats.com/fight-details/1d65c141776949d6
 UFC 308: Topuria vs. Holloway,Mateusz Rebecki,Myktybek Orolbai,Mateusz Rebecki,1,0,71,61,3,2,0,0,Catch Weight,S-DEC,3,5:00,http://ufcstats.com/fight-details/919e3c5cc6999cb3
 UFC 308: Topuria vs. Holloway,Abus Magomedov,Brunno Ferreira,Abus Magomedov,0,0,26,29,4,0,1,1,Middleweight,SUB Arm Triangle,3,3:14,http://ufcstats.com/fight-details/af6eeea1cfe33240
@@ -631,7 +646,7 @@ UFC Fight Night: Cannonier vs. Borralho,Mairon Santos,Kaan Ofli,Mairon Santos,1,
 UFC Fight Night: Cannonier vs. Borralho,Michael Morales,Neil Magny,Michael Morales,1,0,34,5,0,0,0,0,Welterweight,KO/TKO Punches,1,4:39,http://ufcstats.com/fight-details/ae50a1a655b1a8f6
 UFC Fight Night: Cannonier vs. Borralho,Gerald Meerschaert,Edmen Shahbazyan,Gerald Meerschaert,0,0,21,48,1,0,1,0,Middleweight,SUB Arm Triangle,2,4:12,http://ufcstats.com/fight-details/2cbd53e43d3f606b
 UFC Fight Night: Cannonier vs. Borralho,Francis Marshall,Dennis Buzukja,Francis Marshall,1,0,57,66,1,0,0,0,Lightweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/560f1e26c2a6690a
-UFC Fight Night: Cannonier vs. Borralho,Zachary Reese,Jose Daniel Medina,Zachary Reese,0,0,75,32,5,1,1,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d2caa1ddb9de7481
+UFC Fight Night: Cannonier vs. Borralho,Zach Reese,Jose Daniel Medina,Zach Reese,0,0,75,32,5,1,1,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d2caa1ddb9de7481
 UFC Fight Night: Cannonier vs. Borralho,Viacheslav Borshchev,James Llontop,Viacheslav Borshchev,0,0,96,93,0,0,0,0,Lightweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/ba8eda6993922ba0
 UFC Fight Night: Cannonier vs. Borralho,Jacqueline Cavalcanti,Josiane Nunes,Jacqueline Cavalcanti,0,0,91,52,0,0,0,0,Women's Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/903d588b30a471e8
 UFC Fight Night: Cannonier vs. Borralho,Wang Cong,Victoria Leonardo,Wang Cong,1,0,10,1,0,0,0,0,Women's Flyweight,KO/TKO Punches,1,1:02,http://ufcstats.com/fight-details/d4127baf74b0e791
@@ -746,7 +761,7 @@ UFC Fight Night: Cannonier vs. Imavov,Nassourdine Imavov,Jared Cannonier,Nassour
 UFC Fight Night: Cannonier vs. Imavov,Dominick Reyes,Dustin Jacoby,Dominick Reyes,2,0,20,6,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,2:00,http://ufcstats.com/fight-details/2d12ae4683bbf433
 UFC Fight Night: Cannonier vs. Imavov,Raul Rosas Jr.,Ricky Turcios,Raul Rosas Jr.,0,0,3,7,4,0,1,1,Bantamweight,SUB Rear Naked Choke,2,2:22,http://ufcstats.com/fight-details/b34abcfe4c2e8a57
 UFC Fight Night: Cannonier vs. Imavov,Brunno Ferreira,Dustin Stoltzfus,Brunno Ferreira,1,0,24,18,0,1,0,2,Middleweight,KO/TKO Spinning Back Elbow,1,4:51,http://ufcstats.com/fight-details/dcc0c53100fa1dd2
-UFC Fight Night: Cannonier vs. Imavov,Zachary Reese,Julian Marquez,Zachary Reese,1,0,6,1,0,0,0,0,Middleweight,KO/TKO Punch,1,0:20,http://ufcstats.com/fight-details/3b12094dd48c2dc5
+UFC Fight Night: Cannonier vs. Imavov,Zach Reese,Julian Marquez,Zach Reese,1,0,6,1,0,0,0,0,Middleweight,KO/TKO Punch,1,0:20,http://ufcstats.com/fight-details/3b12094dd48c2dc5
 UFC Fight Night: Cannonier vs. Imavov,Punahele Soriano,Miguel Baeza,Punahele Soriano,0,0,144,7,5,0,0,3,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/393f9bc7b51791a6
 UFC Fight Night: Cannonier vs. Imavov,Ludovit Klein,Thiago Moises,Ludovit Klein,2,0,56,24,1,0,0,1,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/251983e1bdae20fe
 UFC Fight Night: Cannonier vs. Imavov,Carlos Prates,Charles Radtke,Carlos Prates,1,0,15,14,0,0,0,0,Welterweight,KO/TKO Knee,1,4:47,http://ufcstats.com/fight-details/8afe89f5c451b372
@@ -1011,7 +1026,7 @@ UFC Fight Night: Dariush vs. Tsarukyan,Sean Brady,Kelvin Gastelum,Sean Brady,0,0
 UFC Fight Night: Dariush vs. Tsarukyan,Joaquim Silva,Clay Guida,Joaquim Silva,0,0,46,43,2,2,2,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/20bfa549cb2cabe7
 UFC Fight Night: Dariush vs. Tsarukyan,Dustin Stoltzfus,Punahele Soriano,Dustin Stoltzfus,1,0,64,31,4,0,1,0,Middleweight,SUB Rear Naked Choke,2,4:10,http://ufcstats.com/fight-details/02713b2d25f74d43
 UFC Fight Night: Dariush vs. Tsarukyan,Miesha Tate,Julia Avila,Miesha Tate,0,0,32,3,4,0,1,0,Women's Bantamweight,SUB Rear Naked Choke,3,1:15,http://ufcstats.com/fight-details/626c82ed45fdcf59
-UFC Fight Night: Dariush vs. Tsarukyan,Cody Brundage,Zachary Reese,Cody Brundage,0,0,9,4,1,0,0,1,Middleweight,KO/TKO Slam,1,1:49,http://ufcstats.com/fight-details/0320a6a967069571
+UFC Fight Night: Dariush vs. Tsarukyan,Cody Brundage,Zach Reese,Cody Brundage,0,0,9,4,1,0,0,1,Middleweight,KO/TKO Slam,1,1:49,http://ufcstats.com/fight-details/0320a6a967069571
 UFC Fight Night: Dariush vs. Tsarukyan,Drakkar Klose,Joe Solecki,Drakkar Klose,0,0,2,1,0,1,0,0,Lightweight,KO/TKO Slam,1,1:41,http://ufcstats.com/fight-details/d0602cdc04d2c159
 UFC Fight Night: Dariush vs. Tsarukyan,Rodolfo Bellato,Ihor Potieria,Rodolfo Bellato,0,1,80,73,1,0,0,0,Light Heavyweight,KO/TKO Punches,2,4:17,http://ufcstats.com/fight-details/0dc2fc8d39e226a3
 UFC Fight Night: Dariush vs. Tsarukyan,Jared Gooden,Wellington Turman,Jared Gooden,0,0,53,37,1,1,1,0,Welterweight,SUB Rear Naked Choke,2,1:11,http://ufcstats.com/fight-details/32813f5f46f045e8
