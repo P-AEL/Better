@@ -1,18 +1,32 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: Tsarukyan vs. Hooker,Arman Tsarukyan,Dan Hooker,Arman Tsarukyan,,,,,View,Matchup,,,Lightweight,,,,
-UFC Fight Night: Tsarukyan vs. Hooker,Belal Muhammad,Ian Machado Garry,Belal Muhammad,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Tsarukyan vs. Hooker,Volkan Oezdemir,Alonzo Menifield,Volkan Oezdemir,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC Fight Night: Tsarukyan vs. Hooker,Jack Hermansson,Myktybek Orolbai,Jack Hermansson,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Tsarukyan vs. Hooker,Serghei Spivac,Shamil Gaziev,Serghei Spivac,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Tsarukyan vs. Hooker,Tagir Ulanbekov,Kyoji Horiguchi,Tagir Ulanbekov,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: Tsarukyan vs. Hooker,Bogdan Grad,Luke Riley,Bogdan Grad,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Tsarukyan vs. Hooker,Nicolas Dalby,Saygid Izagakhmaev,Nicolas Dalby,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Tsarukyan vs. Hooker,Alex Perez,Asu Almabayev,Alex Perez,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: Tsarukyan vs. Hooker,Abdul Rakhman Yakhyaev,Rafael Cerquiera,Abdul Rakhman Yakhyaev,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC Fight Night: Tsarukyan vs. Hooker,Bekzat Almakhan,Aleksandre Topuria,Bekzat Almakhan,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Tsarukyan vs. Hooker,Ismail Naurdiev,Ryan Loder,Ismail Naurdiev,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Tsarukyan vs. Hooker,Nurullo Aliev,Shem Rock,Nurullo Aliev,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Tsarukyan vs. Hooker,Marek Bujlo,Denzel Freeman,Marek Bujlo,,,,,View Matchup,,,,Heavyweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Merab Dvalishvili,Petr Yan,Merab Dvalishvili,,,,,View,Matchup,,,Bantamweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Alexandre Pantoja,Joshua Van,Alexandre Pantoja,,,,,View Matchup,,,,Flyweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Brandon Moreno,Tatsuro Taira,Brandon Moreno,,,,,View Matchup,,,,Flyweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Henry Cejudo,Payton Talbott,Henry Cejudo,,,,,View Matchup,,,,Bantamweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Jan Blachowicz,Bogdan Guskov,Jan Blachowicz,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Grant Dawson,Manuel Torres,Grant Dawson,,,,,View Matchup,,,,Lightweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Terrance McKinney,Chris Duncan,Terrance McKinney,,,,,View Matchup,,,,Lightweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Maycee Barber,Karine Silva,Maycee Barber,,,,,View Matchup,,,,Women's Flyweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Nazim Sadykhov,Fares Ziam,Nazim Sadykhov,,,,,View Matchup,,,,Lightweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Marvin Vettori,Brunno Ferreira,Marvin Vettori,,,,,View Matchup,,,,Middleweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Edson Barboza,Jalin Turner,Edson Barboza,,,,,View Matchup,,,,Lightweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Iwo Baraniewski,Ibo Aslan,Iwo Baraniewski,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Mansur Abdul-Malik,Antonio Trocoli,Mansur Abdul-Malik,,,,,View Matchup,,,,Middleweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Muhammad Naimov,Mairon Santos,Muhammad Naimov,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Tsarukyan vs. Hooker,Arman Tsarukyan,Dan Hooker,Arman Tsarukyan,0,0,42,10,2,0,1,2,Lightweight,SUB Arm Triangle,2,3:34,http://ufcstats.com/fight-details/5f5b626e67529056
+UFC Fight Night: Tsarukyan vs. Hooker,Ian Machado Garry,Belal Muhammad,Ian Machado Garry,0,0,72,56,0,0,0,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/b2218930b982d9b6
+UFC Fight Night: Tsarukyan vs. Hooker,Volkan Oezdemir,Alonzo Menifield,Volkan Oezdemir,1,0,13,2,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,1:27,http://ufcstats.com/fight-details/870d374f8d9af65a
+UFC Fight Night: Tsarukyan vs. Hooker,Myktybek Orolbai,Jack Hermansson,Myktybek Orolbai,1,0,15,19,0,0,0,0,Welterweight,KO/TKO Punch,1,2:46,http://ufcstats.com/fight-details/8ed609d80e135d94
+UFC Fight Night: Tsarukyan vs. Hooker,Waldo Cortes Acosta,Shamil Gaziev,Waldo Cortes Acosta,2,0,10,6,0,0,0,0,Heavyweight,KO/TKO Punch,1,1:22,http://ufcstats.com/fight-details/e8307c7686c42d8c
+UFC Fight Night: Tsarukyan vs. Hooker,Kyoji Horiguchi,Tagir Ulanbekov,Kyoji Horiguchi,2,0,49,6,0,1,1,1,Flyweight,SUB Rear Naked Choke,3,2:18,http://ufcstats.com/fight-details/00ee51bba08b7a08
+UFC Fight Night: Tsarukyan vs. Hooker,Luke Riley,Bogdan Grad,Luke Riley,1,0,14,7,0,4,0,0,Featherweight,KO/TKO Punches,2,0:30,http://ufcstats.com/fight-details/5e6a74db89f5410c
+UFC Fight Night: Tsarukyan vs. Hooker,Nicolas Dalby,Saygid Izagakhmaev,Nicolas Dalby,0,0,26,20,0,4,0,0,Welterweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/c49485cedb878cf0
+UFC Fight Night: Tsarukyan vs. Hooker,Asu Almabayev,Alex Perez,Asu Almabayev,0,0,36,40,2,3,1,0,Flyweight,SUB Guillotine Choke,3,0:22,http://ufcstats.com/fight-details/443f30a4a856584a
+UFC Fight Night: Tsarukyan vs. Hooker,Abdul Rakhman Yakhyaev,Rafael Cerqueira,Abdul Rakhman Yakhyaev,1,0,6,0,1,0,1,0,Light Heavyweight,SUB Rear Naked Choke,1,0:33,http://ufcstats.com/fight-details/f5564a9eeebd4ea0
+UFC Fight Night: Tsarukyan vs. Hooker,Aleksandre Topuria,Bekzat Almakhan,Aleksandre Topuria,0,0,47,39,2,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/6f0231915cc28507
+UFC Fight Night: Tsarukyan vs. Hooker,Ismail Naurdiev,Ryan Loder,Ismail Naurdiev,1,0,3,1,0,0,0,0,Middleweight,KO/TKO Punch,1,1:26,http://ufcstats.com/fight-details/335064c3380e2f10
+UFC Fight Night: Tsarukyan vs. Hooker,Nurullo Aliev,Shem Rock,Nurullo Aliev,0,0,51,44,1,1,1,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/46f81d5ecd974c1c
+UFC Fight Night: Tsarukyan vs. Hooker,Denzel Freeman,Marek Bujlo,Denzel Freeman,0,0,49,31,0,0,0,0,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/9027e156c6f1988a
 UFC 322: Della Maddalena vs. Makhachev,Islam Makhachev,Jack Della Maddalena,Islam Makhachev,0,0,30,18,4,0,0,0,Welterweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/856f6ee049373843
 UFC 322: Della Maddalena vs. Makhachev,Valentina Shevchenko,Zhang Weili,Valentina Shevchenko,0,0,41,32,5,0,0,0,Women's Flyweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/7606f6b6c19f2d73
 UFC 322: Della Maddalena vs. Makhachev,Michael Morales,Sean Brady,Michael Morales,1,0,24,8,0,0,0,0,Welterweight,KO/TKO Punches,1,3:27,http://ufcstats.com/fight-details/477af74ea3cbba8b
@@ -173,7 +187,7 @@ UFC Fight Night: Dolidze vs. Hernandez,Iasmin Lucindo,Angela Hill,Iasmin Lucindo
 UFC Fight Night: Dolidze vs. Hernandez,Andre Fili,Christian Rodriguez,Andre Fili,0,0,64,83,3,1,0,0,Featherweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/98d6771af9b0ebe5
 UFC Fight Night: Dolidze vs. Hernandez,Jean Matsumoto,Miles Johns,Jean Matsumoto,0,0,95,83,0,5,2,0,Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/ed5383b50ffcdded
 UFC Fight Night: Dolidze vs. Hernandez,Christian Leroy Duncan,Eryk Anders,Christian Leroy Duncan,1,0,24,7,0,1,0,0,Middleweight,KO/TKO Punches,1,3:53,http://ufcstats.com/fight-details/75a84211f50c53f5
-UFC Fight Night: Dolidze vs. Hernandez,Julius Walker,Rafael Cerquiera,Julius Walker,1,0,44,19,6,0,0,0,Light Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3d6571790c21527c
+UFC Fight Night: Dolidze vs. Hernandez,Julius Walker,Rafael Cerqueira,Julius Walker,1,0,44,19,6,0,0,0,Light Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3d6571790c21527c
 UFC Fight Night: Dolidze vs. Hernandez,Elijah Smith,Toshiomi Kazama,Elijah Smith,0,0,37,0,0,1,0,1,Bantamweight,KO/TKO Slam,1,4:10,http://ufcstats.com/fight-details/ae7a8f19743e8154
 UFC Fight Night: Dolidze vs. Hernandez,Joselyne Edwards,Priscila Cachoeira,Joselyne Edwards,1,0,26,18,0,0,0,0,Women's Bantamweight,KO/TKO Punch,1,2:24,http://ufcstats.com/fight-details/aef44145740741b3
 UFC Fight Night: Dolidze vs. Hernandez,Uros Medic,Gilbert Urbina,Uros Medic,1,1,5,5,0,0,0,0,Welterweight,KO/TKO Punch,1,1:03,http://ufcstats.com/fight-details/7d923267c44dd93b
@@ -430,7 +444,7 @@ UFC Fight Night: Cejudo vs. Song,Mansur Abdul-Malik,Nick Klein,Mansur Abdul-Mali
 UFC Fight Night: Cejudo vs. Song,Ricky Simon,Javid Basharat,Ricky Simon,1,0,11,20,1,0,0,0,Bantamweight,KO/TKO Punch,1,3:58,http://ufcstats.com/fight-details/bc6d70ab959dce70
 UFC Fight Night: Cejudo vs. Song,Austin Vanderford,Nikolay Veretennikov,Austin Vanderford,0,0,39,5,2,0,1,0,Catch Weight,KO/TKO Punches,2,4:13,http://ufcstats.com/fight-details/615f7f894bafad82
 UFC Fight Night: Cejudo vs. Song,Nursulton Ruziboev,Eric McConico,Nursulton Ruziboev,2,0,20,5,0,0,0,0,Middleweight,KO/TKO Punch,2,0:33,http://ufcstats.com/fight-details/e9dfc2f009a77a8d
-UFC Fight Night: Cejudo vs. Song,Modestas Bukauskas,Rafael Cerquiera,Modestas Bukauskas,1,0,16,9,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,2:12,http://ufcstats.com/fight-details/b6475543ab6d20c9
+UFC Fight Night: Cejudo vs. Song,Modestas Bukauskas,Rafael Cerqueira,Modestas Bukauskas,1,0,16,9,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,2:12,http://ufcstats.com/fight-details/b6475543ab6d20c9
 UFC Fight Night: Cannonier vs. Rodrigues,Jared Cannonier,Gregory Rodrigues,Jared Cannonier,2,2,98,93,1,0,0,0,Middleweight,KO/TKO Punches,4,0:21,http://ufcstats.com/fight-details/365e2d891b98b86d
 UFC Fight Night: Cannonier vs. Rodrigues,Youssef Zalal,Calvin Kattar,Youssef Zalal,0,0,74,38,0,0,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/68913a422f548ccc
 UFC Fight Night: Cannonier vs. Rodrigues,Edmen Shahbazyan,Dylan Budka,Edmen Shahbazyan,1,0,7,1,0,0,0,0,Middleweight,KO/TKO Punch,1,1:35,http://ufcstats.com/fight-details/f5386c98fea7f5d4
@@ -574,7 +588,7 @@ UFC 308: Topuria vs. Holloway,Khamzat Chimaev,Robert Whittaker,Khamzat Chimaev,0
 UFC 308: Topuria vs. Holloway,Magomed Ankalaev,Aleksandar Rakic,Magomed Ankalaev,0,0,55,53,0,0,0,0,Light Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/b09f54654b0f95f5
 UFC 308: Topuria vs. Holloway,Lerone Murphy,Dan Ige,Lerone Murphy,0,1,52,46,3,1,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/cc11a0762f246fa4
 UFC 308: Topuria vs. Holloway,Shara Magomedov,Armen Petrosyan,Shara Magomedov,1,0,65,77,0,0,0,0,Middleweight,KO/TKO Spinning Back Fist,2,4:52,http://ufcstats.com/fight-details/108434acbbd75d26
-UFC 308: Topuria vs. Holloway,Ibo Aslan,Rafael Cerquiera,Ibo Aslan,0,0,28,1,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,0:51,http://ufcstats.com/fight-details/781a2ea50f5ae68f
+UFC 308: Topuria vs. Holloway,Ibo Aslan,Rafael Cerqueira,Ibo Aslan,0,0,28,1,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,0:51,http://ufcstats.com/fight-details/781a2ea50f5ae68f
 UFC 308: Topuria vs. Holloway,Geoff Neal,Rafael Dos Anjos,Geoff Neal,1,0,18,4,1,0,0,0,Welterweight,KO/TKO,1,1:30,http://ufcstats.com/fight-details/1d65c141776949d6
 UFC 308: Topuria vs. Holloway,Mateusz Rebecki,Myktybek Orolbai,Mateusz Rebecki,1,0,71,61,3,2,0,0,Catch Weight,S-DEC,3,5:00,http://ufcstats.com/fight-details/919e3c5cc6999cb3
 UFC 308: Topuria vs. Holloway,Abus Magomedov,Brunno Ferreira,Abus Magomedov,0,0,26,29,4,0,1,1,Middleweight,SUB Arm Triangle,3,3:14,http://ufcstats.com/fight-details/af6eeea1cfe33240
