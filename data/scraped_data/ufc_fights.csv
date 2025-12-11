@@ -1,18 +1,31 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC 323: Dvalishvili vs. Yan 2,Merab Dvalishvili,Petr Yan,Merab Dvalishvili,,,,,View,Matchup,,,Bantamweight,,,,
-UFC 323: Dvalishvili vs. Yan 2,Alexandre Pantoja,Joshua Van,Alexandre Pantoja,,,,,View Matchup,,,,Flyweight,,,,
-UFC 323: Dvalishvili vs. Yan 2,Brandon Moreno,Tatsuro Taira,Brandon Moreno,,,,,View Matchup,,,,Flyweight,,,,
-UFC 323: Dvalishvili vs. Yan 2,Henry Cejudo,Payton Talbott,Henry Cejudo,,,,,View Matchup,,,,Bantamweight,,,,
-UFC 323: Dvalishvili vs. Yan 2,Jan Blachowicz,Bogdan Guskov,Jan Blachowicz,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC 323: Dvalishvili vs. Yan 2,Grant Dawson,Manuel Torres,Grant Dawson,,,,,View Matchup,,,,Lightweight,,,,
-UFC 323: Dvalishvili vs. Yan 2,Terrance McKinney,Chris Duncan,Terrance McKinney,,,,,View Matchup,,,,Lightweight,,,,
-UFC 323: Dvalishvili vs. Yan 2,Maycee Barber,Karine Silva,Maycee Barber,,,,,View Matchup,,,,Women's Flyweight,,,,
-UFC 323: Dvalishvili vs. Yan 2,Nazim Sadykhov,Fares Ziam,Nazim Sadykhov,,,,,View Matchup,,,,Lightweight,,,,
-UFC 323: Dvalishvili vs. Yan 2,Marvin Vettori,Brunno Ferreira,Marvin Vettori,,,,,View Matchup,,,,Middleweight,,,,
-UFC 323: Dvalishvili vs. Yan 2,Edson Barboza,Jalin Turner,Edson Barboza,,,,,View Matchup,,,,Lightweight,,,,
-UFC 323: Dvalishvili vs. Yan 2,Iwo Baraniewski,Ibo Aslan,Iwo Baraniewski,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC 323: Dvalishvili vs. Yan 2,Mansur Abdul-Malik,Antonio Trocoli,Mansur Abdul-Malik,,,,,View Matchup,,,,Middleweight,,,,
-UFC 323: Dvalishvili vs. Yan 2,Muhammad Naimov,Mairon Santos,Muhammad Naimov,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Royval vs. Kape,Brandon Royval,Manel Kape,Brandon Royval,,,,,View,Matchup,,,Flyweight,,,,
+UFC Fight Night: Royval vs. Kape,Giga Chikadze,Kevin Vallejos,Giga Chikadze,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Royval vs. Kape,Cesar Almeida,Cezary Oleksiejczuk,Cesar Almeida,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Royval vs. Kape,Melquizael Costa,Morgan Charriere,Melquizael Costa,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Royval vs. Kape,Kennedy Nzechukwu,Marcus Buchecha,Kennedy Nzechukwu,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Royval vs. Kape,King Green,Lance Gibson Jr.,King Green,,,,,View Matchup,,,,Catch Weight,,,,
+UFC Fight Night: Royval vs. Kape,Amanda Lemos,Gillian Robertson,Amanda Lemos,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Royval vs. Kape,Joanderson Brito,Isaac Thomson,Joanderson Brito,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Royval vs. Kape,Neil Magny,Yaroslav Amosov,Neil Magny,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Royval vs. Kape,Sean Sharaf,Steven Asplund,Sean Sharaf,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Royval vs. Kape,Melissa Croden,Luana Santos,Melissa Croden,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC Fight Night: Royval vs. Kape,Allen Frye Jr.,Guilherme Pat,Allen Frye Jr.,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Royval vs. Kape,Jamey-Lyn Horth,Tereza Bleda,Jamey-Lyn Horth,,,,,View Matchup,,,,Women's Flyweight,,,,
+UFC 323: Dvalishvili vs. Yan 2,Petr Yan,Merab Dvalishvili,Petr Yan,0,0,139,134,5,2,0,2,Bantamweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/4a0db214d9721d6e
+UFC 323: Dvalishvili vs. Yan 2,Joshua Van,Alexandre Pantoja,Joshua Van,0,0,2,6,0,0,0,0,Flyweight,KO/TKO,1,0:26,http://ufcstats.com/fight-details/dfa692db6d39330c
+UFC 323: Dvalishvili vs. Yan 2,Tatsuro Taira,Brandon Moreno,Tatsuro Taira,0,0,28,9,1,0,0,1,Flyweight,KO/TKO Punches,2,2:24,http://ufcstats.com/fight-details/fbbb9e72900b71f5
+UFC 323: Dvalishvili vs. Yan 2,Payton Talbott,Henry Cejudo,Payton Talbott,1,0,134,60,3,1,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/1dc29f4c6fcdd356
+UFC 323: Dvalishvili vs. Yan 2,Jan Blachowicz,Bogdan Guskov,Jan Blachowicz,1,1,84,80,0,0,1,0,Light Heavyweight,M-DEC,3,5:00,http://ufcstats.com/fight-details/6d6ab10cbaa45e8c
+UFC 323: Dvalishvili vs. Yan 2,Manuel Torres,Grant Dawson,Manuel Torres,1,0,9,8,0,0,0,0,Lightweight,KO/TKO Punch,1,2:25,http://ufcstats.com/fight-details/c797b58d85c840a4
+UFC 323: Dvalishvili vs. Yan 2,Chris Duncan,Terrance McKinney,Chris Duncan,1,0,38,31,1,0,1,0,Lightweight,SUB Anaconda Choke,1,2:30,http://ufcstats.com/fight-details/b3d2ac2244e4f791
+UFC 323: Dvalishvili vs. Yan 2,Maycee Barber,Karine Silva,Maycee Barber,0,0,55,21,3,2,0,0,Women's Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/2417cc7bc1eea75b
+UFC 323: Dvalishvili vs. Yan 2,Fares Ziam,Nazim Sadykhov,Fares Ziam,1,0,31,4,2,0,2,0,Lightweight,KO/TKO Punches,2,4:59,http://ufcstats.com/fight-details/10a57b983e59f727
+UFC 323: Dvalishvili vs. Yan 2,Brunno Ferreira,Marvin Vettori,Brunno Ferreira,0,0,77,88,1,1,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3c683da1924b6c44
+UFC 323: Dvalishvili vs. Yan 2,Jalin Turner,Edson Barboza,Jalin Turner,2,0,39,10,0,0,0,0,Lightweight,KO/TKO Punches,1,2:24,http://ufcstats.com/fight-details/7af407397532f7cf
+UFC 323: Dvalishvili vs. Yan 2,Iwo Baraniewski,Ibo Aslan,Iwo Baraniewski,2,1,22,30,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,1:29,http://ufcstats.com/fight-details/ea660db65bfa998f
+UFC 323: Dvalishvili vs. Yan 2,Mansur Abdul-Malik,Antonio Trocoli,Mansur Abdul-Malik,0,0,2,3,1,0,1,0,Middleweight,SUB Guillotine Choke,1,1:09,http://ufcstats.com/fight-details/964ea1777695851b
+UFC 323: Dvalishvili vs. Yan 2,Mairon Santos,Muhammad Naimov,Mairon Santos,1,0,27,18,0,0,0,0,Featherweight,KO/TKO Punches,3,0:21,http://ufcstats.com/fight-details/40fa4f8b4b93884e
 UFC Fight Night: Tsarukyan vs. Hooker,Arman Tsarukyan,Dan Hooker,Arman Tsarukyan,0,0,42,10,2,0,1,2,Lightweight,SUB Arm Triangle,2,3:34,http://ufcstats.com/fight-details/5f5b626e67529056
 UFC Fight Night: Tsarukyan vs. Hooker,Ian Machado Garry,Belal Muhammad,Ian Machado Garry,0,0,72,56,0,0,0,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/b2218930b982d9b6
 UFC Fight Night: Tsarukyan vs. Hooker,Volkan Oezdemir,Alonzo Menifield,Volkan Oezdemir,1,0,13,2,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,1:27,http://ufcstats.com/fight-details/870d374f8d9af65a
