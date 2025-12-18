@@ -1,17 +1,29 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: Royval vs. Kape,Brandon Royval,Manel Kape,Brandon Royval,,,,,View,Matchup,,,Flyweight,,,,
-UFC Fight Night: Royval vs. Kape,Giga Chikadze,Kevin Vallejos,Giga Chikadze,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Royval vs. Kape,Cesar Almeida,Cezary Oleksiejczuk,Cesar Almeida,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Royval vs. Kape,Melquizael Costa,Morgan Charriere,Melquizael Costa,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Royval vs. Kape,Kennedy Nzechukwu,Marcus Buchecha,Kennedy Nzechukwu,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Royval vs. Kape,King Green,Lance Gibson Jr.,King Green,,,,,View Matchup,,,,Catch Weight,,,,
-UFC Fight Night: Royval vs. Kape,Amanda Lemos,Gillian Robertson,Amanda Lemos,,,,,View Matchup,,,,Women's Strawweight,,,,
-UFC Fight Night: Royval vs. Kape,Joanderson Brito,Isaac Thomson,Joanderson Brito,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Royval vs. Kape,Neil Magny,Yaroslav Amosov,Neil Magny,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Royval vs. Kape,Sean Sharaf,Steven Asplund,Sean Sharaf,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Royval vs. Kape,Melissa Croden,Luana Santos,Melissa Croden,,,,,View Matchup,,,,Women's Bantamweight,,,,
-UFC Fight Night: Royval vs. Kape,Allen Frye Jr.,Guilherme Pat,Allen Frye Jr.,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Royval vs. Kape,Jamey-Lyn Horth,Tereza Bleda,Jamey-Lyn Horth,,,,,View Matchup,,,,Women's Flyweight,,,,
+UFC 324: Gaethje vs. Pimblett,Justin Gaethje,Paddy Pimblett,Justin Gaethje,,,,,View,Matchup,,,Lightweight,,,,
+UFC 324: Gaethje vs. Pimblett,Kayla Harrison,Amanda Nunes,Kayla Harrison,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC 324: Gaethje vs. Pimblett,Sean O'Malley,Song Yadong,Sean O'Malley,,,,,View Matchup,,,,Bantamweight,,,,
+UFC 324: Gaethje vs. Pimblett,Waldo Cortes Acosta,Derrick Lewis,Waldo Cortes Acosta,,,,,View Matchup,,,,Heavyweight,,,,
+UFC 324: Gaethje vs. Pimblett,Arnold Allen,Jean Silva,Arnold Allen,,,,,View Matchup,,,,Featherweight,,,,
+UFC 324: Gaethje vs. Pimblett,Natalia Silva,Rose Namajunas,Natalia Silva,,,,,View Matchup,,,,Women's Flyweight,,,,
+UFC 324: Gaethje vs. Pimblett,Umar Nurmagomedov,Deiveson Figueiredo,Umar Nurmagomedov,,,,,View Matchup,,,,Bantamweight,,,,
+UFC 324: Gaethje vs. Pimblett,Ateba Gautier,Andrey Pulyaev,Ateba Gautier,,,,,View Matchup,,,,Middleweight,,,,
+UFC 324: Gaethje vs. Pimblett,Michael Johnson,Alexander Hernandez,Michael Johnson,,,,,View Matchup,,,,Lightweight,,,,
+UFC 324: Gaethje vs. Pimblett,Nikita Krylov,Modestas Bukauskas,Nikita Krylov,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC 324: Gaethje vs. Pimblett,Alex Perez,Charles Johnson,Alex Perez,,,,,View Matchup,,,,Flyweight,,,,
+UFC 324: Gaethje vs. Pimblett,Josh Hokit,Denzel Freeman,Josh Hokit,,,,,View Matchup,,,,Heavyweight,,,,
+UFC 324: Gaethje vs. Pimblett,Ricky Turcios,Cameron Smotherman,Ricky Turcios,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Royval vs. Kape,Manel Kape,Brandon Royval,Manel Kape,1,0,17,17,0,0,0,0,Flyweight,KO/TKO Punches,1,3:18,http://ufcstats.com/fight-details/a5a81a39ccf9b680
+UFC Fight Night: Royval vs. Kape,Kevin Vallejos,Giga Chikadze,Kevin Vallejos,1,0,20,12,0,0,0,0,Featherweight,KO/TKO Spinning Back Fist,2,1:29,http://ufcstats.com/fight-details/24bb03f0a3415fbe
+UFC Fight Night: Royval vs. Kape,Cezary Oleksiejczuk,Cesar Almeida,Cezary Oleksiejczuk,0,0,14,12,6,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d000cb692343cdcd
+UFC Fight Night: Royval vs. Kape,Melquizael Costa,Morgan Charriere,Melquizael Costa,1,0,4,2,0,0,0,0,Featherweight,KO/TKO Kick,1,1:14,http://ufcstats.com/fight-details/93ca562453f65b8d
+UFC Fight Night: Royval vs. Kape,Kennedy Nzechukwu,Marcus Buchecha,Kennedy Nzechukwu,0,0,24,27,0,3,0,0,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/47149f3187661509
+UFC Fight Night: Royval vs. Kape,King Green,Lance Gibson Jr.,King Green,0,0,65,30,1,2,0,0,Catch Weight,S-DEC,3,5:00,http://ufcstats.com/fight-details/fc4ab243d21b795d
+UFC Fight Night: Royval vs. Kape,Yaroslav Amosov,Neil Magny,Yaroslav Amosov,0,0,9,5,1,0,1,0,Welterweight,SUB Anaconda Choke,1,3:14,http://ufcstats.com/fight-details/0fca825e14429c1f
+UFC Fight Night: Royval vs. Kape,Joanderson Brito,Isaac Thomson,Joanderson Brito,0,0,33,21,8,4,2,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/225e93ebed9b71b8
+UFC Fight Night: Royval vs. Kape,Steven Asplund,Sean Sharaf,Steven Asplund,0,0,170,66,0,0,0,0,Heavyweight,KO/TKO Punches,2,3:49,http://ufcstats.com/fight-details/a2523a8565fe4361
+UFC Fight Night: Royval vs. Kape,Luana Santos,Melissa Croden,Luana Santos,0,0,12,22,3,0,1,0,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ceb5b0f1f6daddf6
+UFC Fight Night: Royval vs. Kape,Guilherme Pat,Allen Frye Jr.,Guilherme Pat,0,0,64,33,0,0,0,0,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ac56a1052c4c8f63
+UFC Fight Night: Royval vs. Kape,Jamey-Lyn Horth,Tereza Bleda,Jamey-Lyn Horth,0,0,16,2,0,0,0,0,Women's Flyweight,KO/TKO Punches,1,2:05,http://ufcstats.com/fight-details/71170fb7ade3e1f4
 UFC 323: Dvalishvili vs. Yan 2,Petr Yan,Merab Dvalishvili,Petr Yan,0,0,139,134,5,2,0,2,Bantamweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/4a0db214d9721d6e
 UFC 323: Dvalishvili vs. Yan 2,Joshua Van,Alexandre Pantoja,Joshua Van,0,0,2,6,0,0,0,0,Flyweight,KO/TKO,1,0:26,http://ufcstats.com/fight-details/dfa692db6d39330c
 UFC 323: Dvalishvili vs. Yan 2,Tatsuro Taira,Brandon Moreno,Tatsuro Taira,0,0,28,9,1,0,0,1,Flyweight,KO/TKO Punches,2,2:24,http://ufcstats.com/fight-details/fbbb9e72900b71f5
