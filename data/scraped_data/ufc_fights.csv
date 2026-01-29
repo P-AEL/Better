@@ -1,17 +1,29 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC 324: Gaethje vs. Pimblett,Justin Gaethje,Paddy Pimblett,Justin Gaethje,,,,,View,Matchup,,,Lightweight,,,,
-UFC 324: Gaethje vs. Pimblett,Sean O'Malley,Song Yadong,Sean O'Malley,,,,,View Matchup,,,,Bantamweight,,,,
-UFC 324: Gaethje vs. Pimblett,Waldo Cortes Acosta,Derrick Lewis,Waldo Cortes Acosta,,,,,View Matchup,,,,Heavyweight,,,,
-UFC 324: Gaethje vs. Pimblett,Natalia Silva,Rose Namajunas,Natalia Silva,,,,,View Matchup,,,,Women's Flyweight,,,,
-UFC 324: Gaethje vs. Pimblett,Arnold Allen,Jean Silva,Arnold Allen,,,,,View Matchup,,,,Featherweight,,,,
-UFC 324: Gaethje vs. Pimblett,Umar Nurmagomedov,Deiveson Figueiredo,Umar Nurmagomedov,,,,,View Matchup,,,,Bantamweight,,,,
-UFC 324: Gaethje vs. Pimblett,Ateba Gautier,Andrey Pulyaev,Ateba Gautier,,,,,View Matchup,,,,Middleweight,,,,
-UFC 324: Gaethje vs. Pimblett,Nikita Krylov,Modestas Bukauskas,Nikita Krylov,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC 324: Gaethje vs. Pimblett,Alex Perez,Charles Johnson,Alex Perez,,,,,View Matchup,,,,Flyweight,,,,
-UFC 324: Gaethje vs. Pimblett,Michael Johnson,Alexander Hernandez,Michael Johnson,,,,,View Matchup,,,,Lightweight,,,,
-UFC 324: Gaethje vs. Pimblett,Josh Hokit,Denzel Freeman,Josh Hokit,,,,,View Matchup,,,,Heavyweight,,,,
-UFC 324: Gaethje vs. Pimblett,Ricky Turcios,Cameron Smotherman,Ricky Turcios,,,,,View Matchup,,,,Bantamweight,,,,
-UFC 324: Gaethje vs. Pimblett,Adam Fugitt,Ty Miller,Adam Fugitt,,,,,View Matchup,,,,Welterweight,,,,
+UFC 325: Volkanovski vs. Lopes 2,Alexander Volkanovski,Diego Lopes,Alexander Volkanovski,,,,,View,Matchup,,,Featherweight,,,,
+UFC 325: Volkanovski vs. Lopes 2,Dan Hooker,Benoit Saint Denis,Dan Hooker,,,,,View Matchup,,,,Lightweight,,,,
+UFC 325: Volkanovski vs. Lopes 2,Rafael Fiziev,Mauricio Ruffy,Rafael Fiziev,,,,,View Matchup,,,,Lightweight,,,,
+UFC 325: Volkanovski vs. Lopes 2,Tai Tuivasa,Tallison Teixeira,Tai Tuivasa,,,,,View Matchup,,,,Heavyweight,,,,
+UFC 325: Volkanovski vs. Lopes 2,Quillan Salkilld,Jamie Mullarkey,Quillan Salkilld,,,,,View Matchup,,,,Lightweight,,,,
+UFC 325: Volkanovski vs. Lopes 2,Junior Tafa,Billy Elekana,Junior Tafa,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC 325: Volkanovski vs. Lopes 2,Cam Rowston,Cody Brundage,Cam Rowston,,,,,View Matchup,,,,Middleweight,,,,
+UFC 325: Volkanovski vs. Lopes 2,Jacob Malkoun,Torrez Finney,Jacob Malkoun,,,,,View Matchup,,,,Middleweight,,,,
+UFC 325: Volkanovski vs. Lopes 2,Jonathan Micallef,Oban Elliott,Jonathan Micallef,,,,,View Matchup,,,,Welterweight,,,,
+UFC 325: Volkanovski vs. Lopes 2,Kaan Ofli,Yizha,Kaan Ofli,,,,,View Matchup,,,,Featherweight,,,,
+UFC 325: Volkanovski vs. Lopes 2,Sangwook Kim,Dom Mar Fan,Sangwook Kim,,,,,View Matchup,,,,Lightweight,,,,
+UFC 325: Volkanovski vs. Lopes 2,Keiichiro Nakamura,Sebastian Szalay,Keiichiro Nakamura,,,,,View Matchup,,,,Featherweight,,,,
+UFC 325: Volkanovski vs. Lopes 2,Sulangrangbo,Lawrence Lui,Sulangrangbo,,,,,View Matchup,,,,Bantamweight,,,,
+UFC 325: Volkanovski vs. Lopes 2,Aaron Tau,Namsrai Batbayar,Aaron Tau,,,,,View Matchup,,,,Flyweight,,,,
+UFC 324: Gaethje vs. Pimblett,Justin Gaethje,Paddy Pimblett,Justin Gaethje,2,0,144,156,3,0,0,0,Lightweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/fa4b3f5ce8055921
+UFC 324: Gaethje vs. Pimblett,Sean O'Malley,Song Yadong,Sean O'Malley,0,0,48,36,0,3,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/007e8e0d4a39d82c
+UFC 324: Gaethje vs. Pimblett,Waldo Cortes Acosta,Derrick Lewis,Waldo Cortes Acosta,1,0,44,8,1,0,0,0,Heavyweight,KO/TKO Punches,2,3:14,http://ufcstats.com/fight-details/d93ee3860196c4ae
+UFC 324: Gaethje vs. Pimblett,Natalia Silva,Rose Namajunas,Natalia Silva,0,0,51,26,1,1,0,0,Women's Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d63c9aa4f4873001
+UFC 324: Gaethje vs. Pimblett,Jean Silva,Arnold Allen,Jean Silva,0,0,74,56,4,0,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/836a188a90e479a5
+UFC 324: Gaethje vs. Pimblett,Umar Nurmagomedov,Deiveson Figueiredo,Umar Nurmagomedov,0,0,34,8,2,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/6c9f4799990c3c33
+UFC 324: Gaethje vs. Pimblett,Ateba Gautier,Andrey Pulyaev,Ateba Gautier,2,0,34,59,0,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/33be2456161c14c3
+UFC 324: Gaethje vs. Pimblett,Nikita Krylov,Modestas Bukauskas,Nikita Krylov,1,0,72,40,1,0,0,0,Light Heavyweight,KO/TKO Punch,3,4:57,http://ufcstats.com/fight-details/780cab0cd07589e4
+UFC 324: Gaethje vs. Pimblett,Alex Perez,Charles Johnson,Alex Perez,2,0,39,8,0,0,0,0,Flyweight,KO/TKO Punch,1,3:16,http://ufcstats.com/fight-details/b5aafe149bec4306
+UFC 324: Gaethje vs. Pimblett,Josh Hokit,Denzel Freeman,Josh Hokit,0,0,37,0,1,0,0,0,Heavyweight,KO/TKO Punches,1,4:59,http://ufcstats.com/fight-details/abfb3ed6dcb0e1f0
+UFC 324: Gaethje vs. Pimblett,Ty Miller,Adam Fugitt,Ty Miller,1,0,59,36,0,0,0,0,Welterweight,KO/TKO Punches,1,4:59,http://ufcstats.com/fight-details/210fc45074fba464
 UFC Fight Night: Royval vs. Kape,Manel Kape,Brandon Royval,Manel Kape,1,0,17,17,0,0,0,0,Flyweight,KO/TKO Punches,1,3:18,http://ufcstats.com/fight-details/a5a81a39ccf9b680
 UFC Fight Night: Royval vs. Kape,Kevin Vallejos,Giga Chikadze,Kevin Vallejos,1,0,20,12,0,0,0,0,Featherweight,KO/TKO Spinning Back Fist,2,1:29,http://ufcstats.com/fight-details/24bb03f0a3415fbe
 UFC Fight Night: Royval vs. Kape,Cezary Oleksiejczuk,Cesar Almeida,Cezary Oleksiejczuk,0,0,14,12,6,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d000cb692343cdcd
@@ -194,6 +206,8 @@ UFC Fight Night: Walker vs. Zhang,Kyle Daukaus,Michel Pereira,Kyle Daukaus,1,0,5
 UFC Fight Night: Walker vs. Zhang,Yizha,Westin Wilson,Yizha,2,0,13,0,0,0,0,0,Featherweight,KO/TKO Punches,1,0:37,http://ufcstats.com/fight-details/f0b7caa90faf47e5
 UFC Fight Night: Walker vs. Zhang,SuYoung You,Xiao Long,SuYoung You,0,0,58,68,0,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/2f6065fe0804d1d8
 UFC Fight Night: Walker vs. Zhang,Uran Satybaldiev,Diyar Nurgozhay,Uran Satybaldiev,1,0,2,7,0,1,2,0,Light Heavyweight,SUB Ezekiel Choke,1,2:45,http://ufcstats.com/fight-details/7fc5f1dc2df84ac7
+UFC - Road to UFC 4.6,Bruna Brasil,Shi Ming,Bruna Brasil,0,0,31,32,1,2,1,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/abf5f4d6f777cf7b
+UFC - Road to UFC 4.6,Nyamjargal Tumendemberel,Terrance Saeteurn,Nyamjargal Tumendemberel,0,0,11,11,2,0,1,0,Flyweight,SUB Anaconda Choke,1,2:53,http://ufcstats.com/fight-details/16523b1bec3cd7b0
 UFC 319: Du Plessis vs. Chimaev,Khamzat Chimaev,Dricus Du Plessis,Khamzat Chimaev,0,0,37,13,12,1,0,1,Middleweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/12cedec11b37ddc0
 UFC 319: Du Plessis vs. Chimaev,Lerone Murphy,Aaron Pico,Lerone Murphy,1,0,8,13,0,2,1,0,Featherweight,KO/TKO Spinning Back Elbow,1,3:21,http://ufcstats.com/fight-details/9fa6a029f7f8241c
 UFC 319: Du Plessis vs. Chimaev,Carlos Prates,Geoff Neal,Carlos Prates,1,0,32,25,0,0,0,0,Welterweight,KO/TKO Spinning Back Elbow,1,4:59,http://ufcstats.com/fight-details/42585ce706c086de
