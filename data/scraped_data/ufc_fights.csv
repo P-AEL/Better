@@ -1,17 +1,30 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: Bautista vs. Oliveira,Mario Bautista,Vinicius Oliveira,Mario Bautista,,,,,View,Matchup,,,Bantamweight,,,,
-UFC Fight Night: Bautista vs. Oliveira,Amir Albazi,Kyoji Horiguchi,Amir Albazi,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: Bautista vs. Oliveira,Jailton Almeida,Rizvan Kuniev,Jailton Almeida,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Bautista vs. Oliveira,Michal Oleksiejczuk,Marc-Andre Barriault,Michal Oleksiejczuk,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Bautista vs. Oliveira,Jean Matsumoto,Farid Basharat,Jean Matsumoto,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Bautista vs. Oliveira,Dustin Jacoby,Julius Walker,Dustin Jacoby,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC Fight Night: Bautista vs. Oliveira,Alex Morono,Daniil Donchenko,Alex Morono,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Bautista vs. Oliveira,Nikolay Veretennikov,Niko Price,Nikolay Veretennikov,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Bautista vs. Oliveira,Bruna Brasil,Ketlen Souza,Bruna Brasil,,,,,View Matchup,,,,Women's Strawweight,,,,
-UFC Fight Night: Bautista vs. Oliveira,Said Nurmagomedov,Javid Basharat,Said Nurmagomedov,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Bautista vs. Oliveira,Wang Cong,Eduarda Moura,Wang Cong,,,,,View Matchup,,,,Women's Flyweight,,,,
-UFC Fight Night: Bautista vs. Oliveira,Muin Gafurov,Jakub Wiklacz,Muin Gafurov,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Bautista vs. Oliveira,Klaudia Sygula,Priscila Cachoeira,Klaudia Sygula,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC Fight Night: Strickland vs. Hernandez,Sean Strickland,Anthony Hernandez,Sean Strickland,,,,,View,Matchup,,,Middleweight,,,,
+UFC Fight Night: Strickland vs. Hernandez,Dan Ige,Melquizael Costa,Dan Ige,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Strickland vs. Hernandez,Serghei Spivac,Ante Delija,Serghei Spivac,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Strickland vs. Hernandez,Jacobe Smith,Seokhyeon Ko,Jacobe Smith,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Strickland vs. Hernandez,Zach Reese,Michel Pereira,Zach Reese,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Strickland vs. Hernandez,Chidi Njokuani,Carlos Leal,Chidi Njokuani,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Strickland vs. Hernandez,Ode Osbourne,Alibi Idiris,Ode Osbourne,,,,,View Matchup,,,,Flyweight,,,,
+UFC Fight Night: Strickland vs. Hernandez,Alden Coria,Luis Gurule,Alden Coria,,,,,View Matchup,,,,Flyweight,,,,
+UFC Fight Night: Strickland vs. Hernandez,Nora Cornolle,Joselyne Edwards,Nora Cornolle,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC Fight Night: Strickland vs. Hernandez,Austin Vanderford,Jean-Paul Lebosnoyani,Austin Vanderford,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Strickland vs. Hernandez,Jordan Leavitt,Yadier del Valle,Jordan Leavitt,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Strickland vs. Hernandez,Juliana Miller,Carli Judice,Juliana Miller,,,,,View Matchup,,,,Women's Flyweight,,,,
+UFC Fight Night: Strickland vs. Hernandez,Geoff Neal,Uros Medic,Geoff Neal,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Bautista vs. Oliveira,Mario Bautista,Vinicius Oliveira,Mario Bautista,0,0,15,12,5,0,1,0,Bantamweight,SUB Rear Naked Choke,2,4:46,http://ufcstats.com/fight-details/fb4b1754d510b0d0
+UFC Fight Night: Bautista vs. Oliveira,Kyoji Horiguchi,Amir Albazi,Kyoji Horiguchi,0,0,73,16,0,0,0,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/dbbf8334a2600895
+UFC Fight Night: Bautista vs. Oliveira,Rizvan Kuniev,Jailton Almeida,Rizvan Kuniev,0,0,43,31,0,0,0,0,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/a5c5f76cf0a7c784
+UFC Fight Night: Bautista vs. Oliveira,Michal Oleksiejczuk,Marc-Andre Barriault,Michal Oleksiejczuk,0,0,140,77,1,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/8fea32ab0445859c
+UFC Fight Night: Bautista vs. Oliveira,Farid Basharat,Jean Matsumoto,Farid Basharat,0,0,80,76,2,7,0,0,Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/2a26c0cfa06265b7
+UFC Fight Night: Bautista vs. Oliveira,Dustin Jacoby,Julius Walker,Dustin Jacoby,1,0,42,7,0,3,0,0,Light Heavyweight,KO/TKO Punches,2,1:42,http://ufcstats.com/fight-details/6cca11f353a2b42d
+UFC Fight Night: Bautista vs. Oliveira,Daniil Donchenko,Alex Morono,Daniil Donchenko,1,0,100,40,0,0,0,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/f964d2dda87f25f0
+UFC Fight Night: Bautista vs. Oliveira,Nikolay Veretennikov,Niko Price,Nikolay Veretennikov,0,0,19,9,0,0,0,0,Welterweight,KO/TKO Punches,1,1:42,http://ufcstats.com/fight-details/abefaf1807941ee4
+UFC Fight Night: Bautista vs. Oliveira,Ketlen Souza,Bruna Brasil,Ketlen Souza,0,0,33,31,1,1,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/cc5c5a8cff4c1ae9
+UFC Fight Night: Bautista vs. Oliveira,Javid Basharat,Gianni Vazquez,Javid Basharat,1,0,59,24,3,0,0,2,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/86df0e75f41784d8
+UFC Fight Night: Bautista vs. Oliveira,Wang Cong,Eduarda Moura,Wang Cong,1,0,39,12,0,3,1,1,Catch Weight,U-DEC,3,5:00,http://ufcstats.com/fight-details/84e8ccc3c97c2b4c
+UFC Fight Night: Bautista vs. Oliveira,Jakub Wiklacz,Muin Gafurov,Jakub Wiklacz,0,0,56,79,0,2,2,0,Bantamweight,SUB Guillotine Choke,3,4:59,http://ufcstats.com/fight-details/9d30c887e8bd8824
+UFC Fight Night: Bautista vs. Oliveira,Klaudia Sygula,Priscila Cachoeira,Klaudia Sygula,0,0,151,99,0,1,0,0,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/2bbfbb234c255249
 UFC 325: Volkanovski vs. Lopes 2,Alexander Volkanovski,Diego Lopes,Alexander Volkanovski,0,0,98,70,2,2,1,0,Featherweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/b06b43670238c2d8
 UFC 325: Volkanovski vs. Lopes 2,Benoit Saint Denis,Dan Hooker,Benoit Saint Denis,0,0,97,30,2,0,2,2,Lightweight,KO/TKO Punches,2,4:45,http://ufcstats.com/fight-details/a7ae8f6eb5fc3a79
 UFC 325: Volkanovski vs. Lopes 2,Mauricio Ruffy,Rafael Fiziev,Mauricio Ruffy,1,0,55,36,0,0,0,0,Lightweight,KO/TKO Punches,2,4:30,http://ufcstats.com/fight-details/57d7a683b85bb87b
