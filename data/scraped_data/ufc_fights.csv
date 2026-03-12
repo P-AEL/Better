@@ -1,17 +1,30 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC 326: Holloway vs. Oliveira 2,Max Holloway,Charles Oliveira,Max Holloway,,,,,View,Matchup,,,Lightweight,,,,
-UFC 326: Holloway vs. Oliveira 2,Caio Borralho,Reinier de Ridder,Caio Borralho,,,,,View Matchup,,,,Middleweight,,,,
-UFC 326: Holloway vs. Oliveira 2,Rob Font,Raul Rosas Jr.,Rob Font,,,,,View Matchup,,,,Bantamweight,,,,
-UFC 326: Holloway vs. Oliveira 2,Drew Dober,Michael Johnson,Drew Dober,,,,,View Matchup,,,,Lightweight,,,,
-UFC 326: Holloway vs. Oliveira 2,Gregory Rodrigues,Brunno Ferreira,Gregory Rodrigues,,,,,View Matchup,,,,Middleweight,,,,
-UFC 326: Holloway vs. Oliveira 2,Cody Garbrandt,Xiao Long,Cody Garbrandt,,,,,View Matchup,,,,Bantamweight,,,,
-UFC 326: Holloway vs. Oliveira 2,Donte Johnson,Cody Brundage,Donte Johnson,,,,,View Matchup,,,,Middleweight,,,,
-UFC 326: Holloway vs. Oliveira 2,Ricky Turcios,Alberto Montes,Ricky Turcios,,,,,View Matchup,,,,Featherweight,,,,
-UFC 326: Holloway vs. Oliveira 2,Cody Durden,Nyamjargal Tumendemberel,Cody Durden,,,,,View Matchup,,,,Flyweight,,,,
-UFC 326: Holloway vs. Oliveira 2,Sumudaerji,Jesus Aguilar,Sumudaerji,,,,,View Matchup,,,,Flyweight,,,,
-UFC 326: Holloway vs. Oliveira 2,Rafael Tobias,Diyar Nurgozhay,Rafael Tobias,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC 326: Holloway vs. Oliveira 2,JeongYeong Lee,Gaston Bolanos,JeongYeong Lee,,,,,View Matchup,,,,Featherweight,,,,
-UFC 326: Holloway vs. Oliveira 2,Luke Fernandez,Rodolfo Bellato,Luke Fernandez,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Josh Emmett,Kevin Vallejos,Josh Emmett,,,,,View,Matchup,,,Featherweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Amanda Lemos,Gillian Robertson,Amanda Lemos,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Andre Fili,Jose Delgado,Andre Fili,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Marwan Rahiki,Harry Hardwick,Marwan Rahiki,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Ion Cutelaba,Oumar Sy,Ion Cutelaba,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Charles Johnson,Bruno Silva,Charles Johnson,,,,,View Matchup,,,,Flyweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Chris Curtis,Myktybek Orolbai,Chris Curtis,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Vitor Petrino,Steven Asplund,Vitor Petrino,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Elijah Smith,SuYoung You,Elijah Smith,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Bolaji Oki,Manoel Sousa,Bolaji Oki,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Brad Tavares,Eryk Anders,Brad Tavares,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Bia Mesquita,Montse Rendon,Bia Mesquita,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Luan Lacerda,Hecher Sosa,Luan Lacerda,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Piera Rodriguez,Sam Hughes,Piera Rodriguez,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC 326: Holloway vs. Oliveira 2,Charles Oliveira,Max Holloway,Charles Oliveira,0,0,50,26,5,0,4,0,Lightweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/f030febede41c661
+UFC 326: Holloway vs. Oliveira 2,Caio Borralho,Reinier de Ridder,Caio Borralho,0,0,57,55,1,2,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d564db29997e1371
+UFC 326: Holloway vs. Oliveira 2,Raul Rosas Jr.,Rob Font,Raul Rosas Jr.,0,0,8,10,16,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/bed89a91da9d04c1
+UFC 326: Holloway vs. Oliveira 2,Drew Dober,Michael Johnson,Drew Dober,1,0,22,27,0,0,0,0,Lightweight,KO/TKO Punch,2,1:53,http://ufcstats.com/fight-details/f02c0adc4ae629c6
+UFC 326: Holloway vs. Oliveira 2,Gregory Rodrigues,Brunno Ferreira,Gregory Rodrigues,1,0,2,2,0,0,0,0,Middleweight,KO/TKO Punch,1,1:47,http://ufcstats.com/fight-details/6a4738656c493ee9
+UFC 326: Holloway vs. Oliveira 2,Cody Garbrandt,Xiao Long,Cody Garbrandt,0,0,28,59,0,1,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ecd16d14a138d7fb
+UFC 326: Holloway vs. Oliveira 2,Donte Johnson,Cody Brundage,Donte Johnson,0,0,45,31,0,2,0,0,Middleweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/9c8d5dbd8905a715
+UFC 326: Holloway vs. Oliveira 2,Alberto Montes,Ricky Turcios,Alberto Montes,0,0,32,22,0,0,1,0,Featherweight,SUB Anaconda Choke,2,0:40,http://ufcstats.com/fight-details/6feb49a6b7e8433c
+UFC 326: Holloway vs. Oliveira 2,Nyamjargal Tumendemberel,Cody Durden,Nyamjargal Tumendemberel,0,0,25,8,4,3,1,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/f661ef429055f8c1
+UFC 326: Holloway vs. Oliveira 2,Sumudaerji,Jesus Aguilar,Sumudaerji,0,0,62,31,4,1,0,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/a22fd3735819d858
+UFC 326: Holloway vs. Oliveira 2,Diyar Nurgozhay,Rafael Tobias,Diyar Nurgozhay,0,0,94,39,0,2,0,1,Light Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/cc03e698c4b7da52
+UFC 326: Holloway vs. Oliveira 2,Rodolfo Bellato,Luke Fernandez,Rodolfo Bellato,1,0,30,16,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,2:42,http://ufcstats.com/fight-details/a5abdc461cb1538e
 UFC Fight Night: Moreno vs. Kavanagh,Lone'er Kavanagh,Brandon Moreno,Lone'er Kavanagh,0,0,97,79,0,0,0,0,Flyweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/1330b5c21269fe92
 UFC Fight Night: Moreno vs. Kavanagh,David Martinez,Marlon Vera,David Martinez,0,0,71,42,2,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/36d12b31957e94db
 UFC Fight Night: Moreno vs. Kavanagh,King Green,Daniel Zellhuber,King Green,1,0,86,17,3,0,0,1,Lightweight,KO/TKO Punches,2,4:55,http://ufcstats.com/fight-details/81f3d28d30d17378
