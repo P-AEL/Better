@@ -1,18 +1,32 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: Emmett vs. Vallejos,Josh Emmett,Kevin Vallejos,Josh Emmett,,,,,View,Matchup,,,Featherweight,,,,
-UFC Fight Night: Emmett vs. Vallejos,Amanda Lemos,Gillian Robertson,Amanda Lemos,,,,,View Matchup,,,,Women's Strawweight,,,,
-UFC Fight Night: Emmett vs. Vallejos,Andre Fili,Jose Delgado,Andre Fili,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Emmett vs. Vallejos,Marwan Rahiki,Harry Hardwick,Marwan Rahiki,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Emmett vs. Vallejos,Ion Cutelaba,Oumar Sy,Ion Cutelaba,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC Fight Night: Emmett vs. Vallejos,Charles Johnson,Bruno Silva,Charles Johnson,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: Emmett vs. Vallejos,Chris Curtis,Myktybek Orolbai,Chris Curtis,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Emmett vs. Vallejos,Vitor Petrino,Steven Asplund,Vitor Petrino,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Emmett vs. Vallejos,Elijah Smith,SuYoung You,Elijah Smith,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Emmett vs. Vallejos,Bolaji Oki,Manoel Sousa,Bolaji Oki,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Emmett vs. Vallejos,Brad Tavares,Eryk Anders,Brad Tavares,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Emmett vs. Vallejos,Bia Mesquita,Montse Rendon,Bia Mesquita,,,,,View Matchup,,,,Women's Bantamweight,,,,
-UFC Fight Night: Emmett vs. Vallejos,Luan Lacerda,Hecher Sosa,Luan Lacerda,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Emmett vs. Vallejos,Piera Rodriguez,Sam Hughes,Piera Rodriguez,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Evloev vs. Murphy,Movsar Evloev,Lerone Murphy,Movsar Evloev,,,,,View,Matchup,,,Featherweight,,,,
+UFC Fight Night: Evloev vs. Murphy,Luke Riley,Michael Aswell Jr.,Luke Riley,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Evloev vs. Murphy,Michael Page,Sam Patterson,Michael Page,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Evloev vs. Murphy,Iwo Baraniewski,Austen Lane,Iwo Baraniewski,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC Fight Night: Evloev vs. Murphy,Roman Dolidze,Christian Leroy Duncan,Roman Dolidze,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Evloev vs. Murphy,Kurtis Campbell,Danny Silva,Kurtis Campbell,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Evloev vs. Murphy,Mason Jones,Axel Sola,Mason Jones,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Evloev vs. Murphy,Nathaniel Wood,Losene Keita,Nathaniel Wood,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Evloev vs. Murphy,Mario Pinto,Felipe Franco,Mario Pinto,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Evloev vs. Murphy,Mantas Kondratavicius,Antonio Trocoli,Mantas Kondratavicius,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Evloev vs. Murphy,Louie Sutherland,Brando Pericic,Louie Sutherland,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Evloev vs. Murphy,Shem Rock,Abdul-Kareem Al-Selwady,Shem Rock,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Evloev vs. Murphy,Shanelle Dyer,Ravena Oliveira,Shanelle Dyer,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Evloev vs. Murphy,Melissa Mullins,Luana Carolina,Melissa Mullins,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC Fight Night: Emmett vs. Vallejos,Kevin Vallejos,Josh Emmett,Kevin Vallejos,2,0,36,3,0,0,0,0,Featherweight,KO/TKO Punches,1,3:33,http://ufcstats.com/fight-details/f594fc5c2bc6237e
+UFC Fight Night: Emmett vs. Vallejos,Gillian Robertson,Amanda Lemos,Gillian Robertson,0,0,12,42,3,1,0,1,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3b7b771b9578383d
+UFC Fight Night: Emmett vs. Vallejos,Jose Delgado,Andre Fili,Jose Delgado,0,0,94,62,1,4,0,0,Featherweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/8bee5192baec71d8
+UFC Fight Night: Emmett vs. Vallejos,Marwan Rahiki,Harry Hardwick,Marwan Rahiki,0,0,90,65,0,0,0,0,Featherweight,KO/TKO,2,5:00,http://ufcstats.com/fight-details/e0acd0cf4930671b
+UFC Fight Night: Emmett vs. Vallejos,Ion Cutelaba,Oumar Sy,Ion Cutelaba,0,0,14,5,1,0,1,0,Light Heavyweight,SUB Guillotine Choke,1,4:24,http://ufcstats.com/fight-details/db7694f4513120d5
+UFC Fight Night: Emmett vs. Vallejos,Charles Johnson,Bruno Silva,Charles Johnson,0,0,85,73,0,0,0,0,Flyweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/fc9168fd102e2e66
+UFC Fight Night: Emmett vs. Vallejos,Myktybek Orolbai,Chris Curtis,Myktybek Orolbai,0,0,20,12,19,0,0,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/f26c0bdf7689aea2
+UFC Fight Night: Emmett vs. Vallejos,Vitor Petrino,Steven Asplund,Vitor Petrino,0,1,92,61,0,0,0,0,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/2c330a6f7f1e55f0
+UFC Fight Night: Emmett vs. Vallejos,Elijah Smith,SuYoung You,Elijah Smith,1,0,16,3,0,4,1,0,Bantamweight,SUB Rear Naked Choke,2,1:04,http://ufcstats.com/fight-details/f44b4e998b6829f6
+UFC Fight Night: Emmett vs. Vallejos,Manoel Sousa,Bolaji Oki,Manoel Sousa,2,0,71,84,0,1,1,0,Lightweight,KO/TKO Punch,3,4:12,http://ufcstats.com/fight-details/c769dd861357af9f
+UFC Fight Night: Emmett vs. Vallejos,Eryk Anders,Brad Tavares,Eryk Anders,0,1,35,48,3,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/cff81d681a01ae18
+UFC Fight Night: Emmett vs. Vallejos,Bia Mesquita,Montse Rendon,Bia Mesquita,0,0,18,0,1,0,1,0,Women's Bantamweight,SUB Rear Naked Choke,1,2:07,http://ufcstats.com/fight-details/8cab057e6549afd0
+UFC Fight Night: Emmett vs. Vallejos,Hecher Sosa,Luan Lacerda,Hecher Sosa,0,0,104,62,0,4,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/32d371462c539bee
+UFC Fight Night: Emmett vs. Vallejos,Piera Rodriguez,Sam Hughes,Piera Rodriguez,0,0,107,77,1,0,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/244285b7fd0ddece
 UFC 326: Holloway vs. Oliveira 2,Charles Oliveira,Max Holloway,Charles Oliveira,0,0,50,26,5,0,4,0,Lightweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/f030febede41c661
 UFC 326: Holloway vs. Oliveira 2,Caio Borralho,Reinier de Ridder,Caio Borralho,0,0,57,55,1,2,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d564db29997e1371
 UFC 326: Holloway vs. Oliveira 2,Raul Rosas Jr.,Rob Font,Raul Rosas Jr.,0,0,8,10,16,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/bed89a91da9d04c1
