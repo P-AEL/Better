@@ -1,17 +1,30 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: Adesanya vs. Pyfer,Israel Adesanya,Joe Pyfer,Israel Adesanya,,,,,View,Matchup,,,Middleweight,,,,
-UFC Fight Night: Adesanya vs. Pyfer,Alexa Grasso,Maycee Barber,Alexa Grasso,,,,,View Matchup,,,,Women's Flyweight,,,,
-UFC Fight Night: Adesanya vs. Pyfer,Michael Chiesa,Niko Price,Michael Chiesa,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Adesanya vs. Pyfer,Julian Erosa,Lerryan Douglas,Julian Erosa,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Adesanya vs. Pyfer,Mansur Abdul-Malik,Yousri Belgaroui,Mansur Abdul-Malik,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Adesanya vs. Pyfer,Terrance McKinney,Kyle Nelson,Terrance McKinney,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Adesanya vs. Pyfer,Ignacio Bahamondes,Tofiq Musayev,Ignacio Bahamondes,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Adesanya vs. Pyfer,Chase Hooper,Lance Gibson Jr.,Chase Hooper,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Adesanya vs. Pyfer,Marcin Tybura,Tyrell Fortune,Marcin Tybura,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Adesanya vs. Pyfer,Casey O'Neill,Gabriella Fernandes,Casey O'Neill,,,,,View Matchup,,,,Women's Flyweight,,,,
-UFC Fight Night: Adesanya vs. Pyfer,Navajo Stirling,Bruno Lopes,Navajo Stirling,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC Fight Night: Adesanya vs. Pyfer,Ricky Simon,Adrian Yanez,Ricky Simon,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Adesanya vs. Pyfer,Alexia Thainara,Bruna Brasil,Alexia Thainara,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Moicano vs. Duncan,Renato Moicano,Chris Duncan,Renato Moicano,,,,,View,Matchup,,,Lightweight,,,,
+UFC Fight Night: Moicano vs. Duncan,Virna Jandiroba,Tabatha Ricci,Virna Jandiroba,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Moicano vs. Duncan,Abdul Rakhman Yakhyaev,Brendson Ribeiro,Abdul Rakhman Yakhyaev,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC Fight Night: Moicano vs. Duncan,Ethyn Ewing,Rafael Estevam,Ethyn Ewing,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Moicano vs. Duncan,Tommy McMillen,Manolo Zecchini,Tommy McMillen,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Moicano vs. Duncan,Jose Delano,Robert Ruchala,Jose Delano,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Moicano vs. Duncan,Guilherme Pat,Thomas Petersen,Guilherme Pat,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Moicano vs. Duncan,Alessandro Costa,Stewart Nicoll,Alessandro Costa,,,,,View Matchup,,,,Flyweight,,,,
+UFC Fight Night: Moicano vs. Duncan,Lando Vannata,Darrius Flowers,Lando Vannata,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Moicano vs. Duncan,Alice Pereira,Hailey Cowan,Alice Pereira,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC Fight Night: Moicano vs. Duncan,Azamat Bekoev,Tresean Gore,Azamat Bekoev,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Moicano vs. Duncan,Dione Barbosa,Melissa Gatto,Dione Barbosa,,,,,View Matchup,,,,Women's Flyweight,,,,
+UFC Fight Night: Moicano vs. Duncan,Kai Kamaka III,Dakota Hope,Kai Kamaka III,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Adesanya vs. Pyfer,Joe Pyfer,Israel Adesanya,Joe Pyfer,0,0,36,42,2,0,0,0,Middleweight,KO/TKO Punches,2,4:18,http://ufcstats.com/fight-details/85e94a6c071fd9fa
+UFC Fight Night: Adesanya vs. Pyfer,Alexa Grasso,Maycee Barber,Alexa Grasso,1,0,12,5,0,0,1,0,Women's Flyweight,KO/TKO Punch,1,2:42,http://ufcstats.com/fight-details/9a0ecee6e8ca173f
+UFC Fight Night: Adesanya vs. Pyfer,Michael Chiesa,Niko Price,Michael Chiesa,0,0,0,1,1,1,1,0,Welterweight,SUB Rear Naked Choke,1,1:03,http://ufcstats.com/fight-details/6102e7a6dcbc62f0
+UFC Fight Night: Adesanya vs. Pyfer,Lerryan Douglas,Julian Erosa,Lerryan Douglas,2,0,29,17,0,0,0,0,Featherweight,KO/TKO Punches,1,3:33,http://ufcstats.com/fight-details/f9f5071b993a5f4b
+UFC Fight Night: Adesanya vs. Pyfer,Yousri Belgaroui,Mansur Abdul-Malik,Yousri Belgaroui,2,0,94,16,0,3,0,0,Middleweight,KO/TKO Knee,3,3:39,http://ufcstats.com/fight-details/e32dc26b11d1f81d
+UFC Fight Night: Adesanya vs. Pyfer,Terrance McKinney,Kyle Nelson,Terrance McKinney,0,0,13,1,0,0,0,0,Lightweight,KO/TKO Punches,1,0:24,http://ufcstats.com/fight-details/a76e14495e61cf19
+UFC Fight Night: Adesanya vs. Pyfer,Tofiq Musayev,Ignacio Bahamondes,Tofiq Musayev,0,1,34,32,3,0,0,2,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/fa96d6252579b51e
+UFC Fight Night: Adesanya vs. Pyfer,Lance Gibson Jr.,Chase Hooper,Lance Gibson Jr.,1,0,13,11,0,0,0,0,Lightweight,KO/TKO Knees,1,2:56,http://ufcstats.com/fight-details/689384b01b40ef5c
+UFC Fight Night: Adesanya vs. Pyfer,Tyrell Fortune,Marcin Tybura,Tyrell Fortune,0,0,30,47,3,0,0,0,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/08d4e3864c44f8a5
+UFC Fight Night: Adesanya vs. Pyfer,Casey O'Neill,Gabriella Fernandes,Casey O'Neill,1,0,25,8,0,0,0,0,Women's Flyweight,KO/TKO Punches,1,3:11,http://ufcstats.com/fight-details/1c50e43770ba84fc
+UFC Fight Night: Adesanya vs. Pyfer,Navajo Stirling,Bruno Lopes,Navajo Stirling,1,0,63,28,0,0,0,0,Light Heavyweight,KO/TKO Punches,2,4:05,http://ufcstats.com/fight-details/dbf1ee1a1912c735
+UFC Fight Night: Adesanya vs. Pyfer,Ricky Simon,Adrian Yanez,Ricky Simon,0,1,44,71,2,0,0,0,Bantamweight,M-DEC,3,5:00,http://ufcstats.com/fight-details/a997593977ba8cad
+UFC Fight Night: Adesanya vs. Pyfer,Alexia Thainara,Bruna Brasil,Alexia Thainara,0,0,73,37,6,0,2,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/796e1151896195aa
 UFC Fight Night: Evloev vs. Murphy,Movsar Evloev,Lerone Murphy,Movsar Evloev,0,0,86,89,9,0,0,0,Featherweight,M-DEC,5,5:00,http://ufcstats.com/fight-details/346e3897c2ead99a
 UFC Fight Night: Evloev vs. Murphy,Luke Riley,Michael Aswell Jr.,Luke Riley,0,0,100,61,0,1,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/fa534aaa5b997a69
 UFC Fight Night: Evloev vs. Murphy,Michael Page,Sam Patterson,Michael Page,0,0,27,12,0,0,0,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/5ee11b727e89e8ad
@@ -71,7 +84,7 @@ UFC Fight Night: Strickland vs. Hernandez,Serghei Spivac,Ante Delija,Serghei Spi
 UFC Fight Night: Strickland vs. Hernandez,Jacobe Smith,Josiah Harrell,Jacobe Smith,0,0,33,7,2,0,0,0,Welterweight,KO/TKO Punches,1,3:01,http://ufcstats.com/fight-details/54437b8dba3a6110
 UFC Fight Night: Strickland vs. Hernandez,Michel Pereira,Zach Reese,Michel Pereira,0,0,63,74,2,1,0,1,Middleweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/372d1dee0db8dbee
 UFC Fight Night: Strickland vs. Hernandez,Carlos Leal,Chidi Njokuani,Carlos Leal,0,0,115,120,0,0,0,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/202d3277e569ad03
-UFC Fight Night: Strickland vs. Hernandez,Alibi Idiris,Ode Osbourne,Alibi Idiris,0,0,30,32,5,0,0,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/7ffdaa44fc8d111b
+UFC Fight Night: Strickland vs. Hernandez,Ode Osbourne,Alibi Idiris,Ode Osbourne,0,0,32,30,0,5,0,0,Flyweight,Overturned,3,5:00,http://ufcstats.com/fight-details/7ffdaa44fc8d111b
 UFC Fight Night: Strickland vs. Hernandez,Alden Coria,Luis Gurule,Alden Coria,0,0,79,50,1,1,0,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ac39c1f00ae31e58
 UFC Fight Night: Strickland vs. Hernandez,Joselyne Edwards,Nora Cornolle,Joselyne Edwards,0,0,19,20,2,0,1,0,Women's Bantamweight,SUB Rear Naked Choke,2,2:44,http://ufcstats.com/fight-details/fd56a469e4589ebc
 UFC Fight Night: Strickland vs. Hernandez,Punahele Soriano,Ramiz Brahimaj,Punahele Soriano,0,0,40,38,3,3,0,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/8f9896e60047007f
@@ -2399,7 +2412,7 @@ UFC Fight Night: Hall vs. Strickland,Jared Gooden,Niklas Stolze,Jared Gooden,1,0
 UFC Fight Night: Hall vs. Strickland,Melsik Baghdasaryan,Collin Anglin,Melsik Baghdasaryan,1,0,44,25,0,1,0,0,Featherweight,KO/TKO Kick,2,1:50,http://ufcstats.com/fight-details/6671b567c4eb9982
 UFC Fight Night: Hall vs. Strickland,Jason Witt,Bryan Barberena,Jason Witt,1,0,35,50,8,0,1,0,Welterweight,M-DEC,3,5:00,http://ufcstats.com/fight-details/9eef9b7967991296
 UFC Fight Night: Hall vs. Strickland,Chris Gruetzemacher,Rafa Garcia,Chris Gruetzemacher,0,0,100,72,0,5,0,1,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/12ceec9431fb0827
-UFC Fight Night: Hall vs. Strickland,Danny Chavez,Kai Kamaka,Danny Chavez,0,0,41,48,1,0,0,0,Featherweight,M-DEC,3,5:00,http://ufcstats.com/fight-details/69397bbebdfa41d9
+UFC Fight Night: Hall vs. Strickland,Danny Chavez,Kai Kamaka III,Danny Chavez,0,0,41,48,1,0,0,0,Featherweight,M-DEC,3,5:00,http://ufcstats.com/fight-details/69397bbebdfa41d9
 UFC Fight Night: Hall vs. Strickland,Jinh Yu Frey,Ashley Yoder,Jinh Yu Frey,0,0,88,91,0,0,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/96c51bc6316a4b47
 UFC Fight Night: Hall vs. Strickland,Zarrukh Adashev,Ryan Benoit,Zarrukh Adashev,0,1,78,37,0,0,1,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/1978b44503c3d9ff
 UFC Fight Night: Hall vs. Strickland,Phil Rowe,Orion Cosce,Phil Rowe,1,0,46,22,0,2,0,0,Welterweight,KO/TKO Punches,2,4:21,http://ufcstats.com/fight-details/fb9095887dca34c7
@@ -2527,7 +2540,7 @@ UFC Fight Night: Reyes vs. Prochazka,Ion Cutelaba,Dustin Jacoby,Ion Cutelaba,0,0
 UFC Fight Night: Reyes vs. Prochazka,Sean Strickland,Krzysztof Jotko,Sean Strickland,0,0,84,37,0,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ffd8e8575a551875
 UFC Fight Night: Reyes vs. Prochazka,Merab Dvalishvili,Cody Stamann,Merab Dvalishvili,0,0,71,48,5,1,1,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/26202a4bd36d3fd2
 UFC Fight Night: Reyes vs. Prochazka,Luana Pinheiro,Randa Markos,Luana Pinheiro,0,0,29,18,5,0,0,0,Women's Strawweight,DQ,1,4:16,http://ufcstats.com/fight-details/c9c79de21823d941
-UFC Fight Night: Reyes vs. Prochazka,TJ Brown,Kai Kamaka,TJ Brown,0,1,82,61,2,1,1,0,Featherweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/d72f9b3ac742a9e3
+UFC Fight Night: Reyes vs. Prochazka,TJ Brown,Kai Kamaka III,TJ Brown,0,1,82,61,2,1,1,0,Featherweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/d72f9b3ac742a9e3
 UFC Fight Night: Reyes vs. Prochazka,Luana Carolina,Poliana Botelho,Luana Carolina,0,0,25,34,0,1,0,0,Women's Flyweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/2ef09c8fe29251ac
 UFC Fight Night: Reyes vs. Prochazka,Loma Lookboonmee,Sam Hughes,Loma Lookboonmee,0,0,84,49,4,0,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d6b5a6ad27a730ae
 UFC Fight Night: Reyes vs. Prochazka,Andreas Michailidis,KB Bhullar,Andreas Michailidis,0,0,73,70,1,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/78dc032441394331
@@ -2729,7 +2742,7 @@ UFC Fight Night: Smith vs. Clark,Miguel Baeza,Takashi Sato,Miguel Baeza,0,0,40,1
 UFC Fight Night: Smith vs. Clark,Parker Porter,Josh Parisian,Parker Porter,0,0,126,114,2,0,1,0,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/32a7da2f34ae3803
 UFC Fight Night: Smith vs. Clark,Bill Algeo,Spike Carlyle,Bill Algeo,0,0,70,23,1,4,0,1,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/181c3312f14de5a8
 UFC Fight Night: Smith vs. Clark,Norma Dumont,Ashlee Evans-Smith,Norma Dumont,1,0,94,42,2,0,0,0,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/2a7909acde26a240
-UFC Fight Night: Smith vs. Clark,Jonathan Pearce,Kai Kamaka,Jonathan Pearce,0,0,51,47,5,1,1,1,Featherweight,KO/TKO Punches,2,4:28,http://ufcstats.com/fight-details/4d56bcd82438e632
+UFC Fight Night: Smith vs. Clark,Jonathan Pearce,Kai Kamaka III,Jonathan Pearce,0,0,51,47,5,1,1,1,Featherweight,KO/TKO Punches,2,4:28,http://ufcstats.com/fight-details/4d56bcd82438e632
 UFC Fight Night: Smith vs. Clark,Anderson Dos Santos,Martin Day,Anderson Dos Santos,0,0,11,9,1,1,1,0,Bantamweight,SUB Guillotine Choke,1,4:35,http://ufcstats.com/fight-details/0c27552ea7bc8c8a
 UFC Fight Night: Smith vs. Clark,Gina Mazany,Rachael Ostovich,Gina Mazany,1,0,72,41,7,0,1,0,Women's Flyweight,KO/TKO Kick,3,4:10,http://ufcstats.com/fight-details/711f00d287344c77
 UFC Fight Night: Smith vs. Clark,Sumudaerji,Malcolm Gordon,Sumudaerji,1,0,9,0,0,0,0,0,Flyweight,KO/TKO Punches,1,0:44,http://ufcstats.com/fight-details/8868957c1735bcf0
@@ -2896,7 +2909,7 @@ UFC 252: Miocic vs. Cormier 3,Virna Jandiroba,Felice Herrig,Virna Jandiroba,0,0,
 UFC 252: Miocic vs. Cormier 3,Danny Chavez,TJ Brown,Danny Chavez,0,0,49,43,4,0,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3e4b8bd71e8bceb2
 UFC 252: Miocic vs. Cormier 3,Livinha Souza,Ashley Yoder,Livinha Souza,0,0,46,32,1,0,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/745bdd823161da89
 UFC 252: Miocic vs. Cormier 3,Chris Daukaus,Parker Porter,Chris Daukaus,2,0,37,17,0,0,0,0,Heavyweight,KO/TKO Knee,1,4:28,http://ufcstats.com/fight-details/2e9ad55f2e2f7c56
-UFC 252: Miocic vs. Cormier 3,Kai Kamaka,Tony Kelley,Kai Kamaka,0,0,114,114,5,0,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/86deadaab9905a03
+UFC 252: Miocic vs. Cormier 3,Kai Kamaka III,Tony Kelley,Kai Kamaka III,0,0,114,114,5,0,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/86deadaab9905a03
 UFC Fight Night: Lewis vs. Oleinik,Derrick Lewis,Aleksei Oleinik,Derrick Lewis,1,0,35,2,1,1,0,2,Heavyweight,KO/TKO Punches,2,0:21,http://ufcstats.com/fight-details/a2e34655a41ba45c
 UFC Fight Night: Lewis vs. Oleinik,Chris Weidman,Omari Akhmedov,Chris Weidman,0,0,29,33,5,4,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/22e10b23784e5efc
 UFC Fight Night: Lewis vs. Oleinik,Darren Stewart,Maki Pitolo,Darren Stewart,0,0,13,12,0,1,1,0,Middleweight,SUB Guillotine Choke,1,3:41,http://ufcstats.com/fight-details/c2ddadfa1a1056be
