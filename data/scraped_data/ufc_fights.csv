@@ -1,17 +1,29 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: Moicano vs. Duncan,Renato Moicano,Chris Duncan,Renato Moicano,,,,,View,Matchup,,,Lightweight,,,,
-UFC Fight Night: Moicano vs. Duncan,Virna Jandiroba,Tabatha Ricci,Virna Jandiroba,,,,,View Matchup,,,,Women's Strawweight,,,,
-UFC Fight Night: Moicano vs. Duncan,Abdul Rakhman Yakhyaev,Brendson Ribeiro,Abdul Rakhman Yakhyaev,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC Fight Night: Moicano vs. Duncan,Ethyn Ewing,Rafael Estevam,Ethyn Ewing,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Moicano vs. Duncan,Tommy McMillen,Manolo Zecchini,Tommy McMillen,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Moicano vs. Duncan,Jose Delano,Robert Ruchala,Jose Delano,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Moicano vs. Duncan,Guilherme Pat,Thomas Petersen,Guilherme Pat,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Moicano vs. Duncan,Alessandro Costa,Stewart Nicoll,Alessandro Costa,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: Moicano vs. Duncan,Lando Vannata,Darrius Flowers,Lando Vannata,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Moicano vs. Duncan,Alice Pereira,Hailey Cowan,Alice Pereira,,,,,View Matchup,,,,Women's Bantamweight,,,,
-UFC Fight Night: Moicano vs. Duncan,Azamat Bekoev,Tresean Gore,Azamat Bekoev,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Moicano vs. Duncan,Dione Barbosa,Melissa Gatto,Dione Barbosa,,,,,View Matchup,,,,Women's Flyweight,,,,
-UFC Fight Night: Moicano vs. Duncan,Kai Kamaka III,Dakota Hope,Kai Kamaka III,,,,,View Matchup,,,,Lightweight,,,,
+UFC 327: Prochazka vs. Ulberg,Jiri Prochazka,Carlos Ulberg,Jiri Prochazka,,,,,View,Matchup,,,Light Heavyweight,,,,
+UFC 327: Prochazka vs. Ulberg,Azamat Murzakanov,Paulo Costa,Azamat Murzakanov,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC 327: Prochazka vs. Ulberg,Curtis Blaydes,Josh Hokit,Curtis Blaydes,,,,,View Matchup,,,,Heavyweight,,,,
+UFC 327: Prochazka vs. Ulberg,Dominick Reyes,Johnny Walker,Dominick Reyes,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC 327: Prochazka vs. Ulberg,Cub Swanson,Nate Landwehr,Cub Swanson,,,,,View Matchup,,,,Featherweight,,,,
+UFC 327: Prochazka vs. Ulberg,Patricio Pitbull,Aaron Pico,Patricio Pitbull,,,,,View Matchup,,,,Featherweight,,,,
+UFC 327: Prochazka vs. Ulberg,Kevin Holland,Randy Brown,Kevin Holland,,,,,View Matchup,,,,Welterweight,,,,
+UFC 327: Prochazka vs. Ulberg,Mateusz Gamrot,Esteban Ribovics,Mateusz Gamrot,,,,,View Matchup,,,,Lightweight,,,,
+UFC 327: Prochazka vs. Ulberg,Tatiana Suarez,Loopy Godinez,Tatiana Suarez,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC 327: Prochazka vs. Ulberg,Chris Padilla,MarQuel Mederos,Chris Padilla,,,,,View Matchup,,,,Lightweight,,,,
+UFC 327: Prochazka vs. Ulberg,Kelvin Gastelum,Vicente Luque,Kelvin Gastelum,,,,,View Matchup,,,,Middleweight,,,,
+UFC 327: Prochazka vs. Ulberg,Charles Radtke,Francisco Prado,Charles Radtke,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Moicano vs. Duncan,Renato Moicano,Chris Duncan,Renato Moicano,0,0,21,27,1,0,1,0,Lightweight,SUB Rear Naked Choke,2,3:14,http://ufcstats.com/fight-details/d69bd8e53ec858dc
+UFC Fight Night: Moicano vs. Duncan,Virna Jandiroba,Tabatha Ricci,Virna Jandiroba,0,0,26,37,6,1,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/721642e7de112e9e
+UFC Fight Night: Moicano vs. Duncan,Abdul Rakhman Yakhyaev,Brendson Ribeiro,Abdul Rakhman Yakhyaev,0,0,7,8,2,0,1,0,Light Heavyweight,SUB Rear Naked Choke,1,2:52,http://ufcstats.com/fight-details/ad487d1c6141d90a
+UFC Fight Night: Moicano vs. Duncan,Ethyn Ewing,Rafael Estevam,Ethyn Ewing,1,0,114,44,0,0,0,0,Bantamweight,KO/TKO Punch,3,1:44,http://ufcstats.com/fight-details/fef80c98b2fba70c
+UFC Fight Night: Moicano vs. Duncan,Tommy McMillen,Manolo Zecchini,Tommy McMillen,1,0,74,20,0,0,0,0,Featherweight,KO/TKO Knee,1,3:57,http://ufcstats.com/fight-details/c27bec45d5a29a2c
+UFC Fight Night: Moicano vs. Duncan,Jose Delano,Robert Ruchala,Jose Delano,0,0,107,67,0,0,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/7924f10aac3543de
+UFC Fight Night: Moicano vs. Duncan,Thomas Petersen,Guilherme Pat,Thomas Petersen,1,0,28,17,0,0,0,0,Heavyweight,M-DEC,3,5:00,http://ufcstats.com/fight-details/0760bc02280574dd
+UFC Fight Night: Moicano vs. Duncan,Alessandro Costa,Stewart Nicoll,Alessandro Costa,1,0,43,47,2,0,0,0,Flyweight,KO/TKO Punch,2,4:56,http://ufcstats.com/fight-details/af2a9d47ca8115e4
+UFC Fight Night: Moicano vs. Duncan,Darrius Flowers,Lando Vannata,Darrius Flowers,0,0,20,27,2,2,1,0,Lightweight,KO/TKO Punches,2,0:52,http://ufcstats.com/fight-details/9c9c26679701b84d
+UFC Fight Night: Moicano vs. Duncan,Alice Pereira,Hailey Cowan,Alice Pereira,1,0,32,31,0,2,0,0,Women's Bantamweight,KO/TKO Knee,2,4:24,http://ufcstats.com/fight-details/74bb036ef0493bf7
+UFC Fight Night: Moicano vs. Duncan,Tresean Gore,Azamat Bekoev,Tresean Gore,0,1,78,70,2,2,1,0,Middleweight,SUB Guillotine Choke,3,3:27,http://ufcstats.com/fight-details/e284a194fb4648a9
+UFC Fight Night: Moicano vs. Duncan,Dione Barbosa,Melissa Gatto,Dione Barbosa,0,0,30,33,3,3,1,0,Women's Flyweight,M-DEC,3,5:00,http://ufcstats.com/fight-details/caf13346cbcfdb03
+UFC Fight Night: Moicano vs. Duncan,Kai Kamaka III,Dakota Hope,Kai Kamaka III,0,1,105,106,0,1,0,0,Lightweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/a5a749aa0061fdb4
 UFC Fight Night: Adesanya vs. Pyfer,Joe Pyfer,Israel Adesanya,Joe Pyfer,0,0,36,42,2,0,0,0,Middleweight,KO/TKO Punches,2,4:18,http://ufcstats.com/fight-details/85e94a6c071fd9fa
 UFC Fight Night: Adesanya vs. Pyfer,Alexa Grasso,Maycee Barber,Alexa Grasso,1,0,12,5,0,0,1,0,Women's Flyweight,KO/TKO Punch,1,2:42,http://ufcstats.com/fight-details/9a0ecee6e8ca173f
 UFC Fight Night: Adesanya vs. Pyfer,Michael Chiesa,Niko Price,Michael Chiesa,0,0,0,1,1,1,1,0,Welterweight,SUB Rear Naked Choke,1,1:03,http://ufcstats.com/fight-details/6102e7a6dcbc62f0
@@ -363,7 +375,7 @@ UFC Fight Night: Whittaker vs. De Ridder,Martin Buday,Marcus Buchecha,Martin Bud
 UFC 318: Holloway vs. Poirier 3,Max Holloway,Dustin Poirier,Max Holloway,1,1,198,109,0,0,0,1,Lightweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/d7507e2741fd4d05
 UFC 318: Holloway vs. Poirier 3,Paulo Costa,Roman Kopylov,Paulo Costa,1,0,99,48,0,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/23c963be9de38205
 UFC 318: Holloway vs. Poirier 3,Daniel Rodriguez,Kevin Holland,Daniel Rodriguez,2,1,77,82,0,1,0,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/5dde61734080ac4a
-UFC 318: Holloway vs. Poirier 3,Patricio Freire,Dan Ige,Patricio Freire,0,0,55,47,5,0,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/acc961fd5cf5c62e
+UFC 318: Holloway vs. Poirier 3,Patricio Pitbull,Dan Ige,Patricio Pitbull,0,0,55,47,5,0,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/acc961fd5cf5c62e
 UFC 318: Holloway vs. Poirier 3,Michael Johnson,Daniel Zellhuber,Michael Johnson,1,0,80,52,0,0,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/a95b03e9b5a91e47
 UFC 318: Holloway vs. Poirier 3,Vinicius Oliveira,Kyler Phillips,Vinicius Oliveira,1,0,96,49,1,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d2cb92fdf6a497e9
 UFC 318: Holloway vs. Poirier 3,Brendan Allen,Marvin Vettori,Brendan Allen,0,0,111,109,3,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/8e1feda9141602f1
@@ -495,7 +507,7 @@ UFC Fight Night: Machado Garry vs. Prates,Timmy Cuamba,Roberto Romero,Timmy Cuam
 UFC Fight Night: Machado Garry vs. Prates,Joselyne Edwards,Chelsea Chandler,Joselyne Edwards,0,0,30,10,1,0,0,0,Women's Bantamweight,KO/TKO Punches,1,2:31,http://ufcstats.com/fight-details/7fd6770fe2d4f258
 UFC 314: Volkanovski vs. Lopes,Alexander Volkanovski,Diego Lopes,Alexander Volkanovski,0,1,158,63,1,0,0,0,Featherweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/e733f148060bef2a
 UFC 314: Volkanovski vs. Lopes,Paddy Pimblett,Michael Chandler,Paddy Pimblett,0,0,80,11,1,4,0,0,Lightweight,KO/TKO Elbows,3,3:07,http://ufcstats.com/fight-details/d05cb4c4135ce402
-UFC 314: Volkanovski vs. Lopes,Yair Rodriguez,Patricio Freire,Yair Rodriguez,1,0,70,17,1,1,0,1,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d3be5a4e0ec273e2
+UFC 314: Volkanovski vs. Lopes,Yair Rodriguez,Patricio Pitbull,Yair Rodriguez,1,0,70,17,1,1,0,1,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d3be5a4e0ec273e2
 UFC 314: Volkanovski vs. Lopes,Jean Silva,Bryce Mitchell,Jean Silva,1,0,27,36,0,1,3,0,Featherweight,SUB Guillotine Choke,2,3:52,http://ufcstats.com/fight-details/8c540eb4afe8c43e
 UFC 314: Volkanovski vs. Lopes,Dominick Reyes,Nikita Krylov,Dominick Reyes,1,0,8,4,0,0,0,0,Light Heavyweight,KO/TKO Punch,1,2:24,http://ufcstats.com/fight-details/b2d731415bd367df
 UFC 314: Volkanovski vs. Lopes,Dan Ige,Sean Woodson,Dan Ige,0,0,44,51,0,0,0,0,Featherweight,KO/TKO Punches,3,1:12,http://ufcstats.com/fight-details/fc43d60cbd6b0e6a
