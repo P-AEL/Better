@@ -1,17 +1,29 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: Burns vs. Malott,Gilbert Burns,Mike Malott,Gilbert Burns,,,,,View,Matchup,,,Welterweight,,,,
-UFC Fight Night: Burns vs. Malott,Kyler Phillips,Charles Jourdain,Kyler Phillips,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Burns vs. Malott,Mandel Nallo,Jai Herbert,Mandel Nallo,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Burns vs. Malott,Jasmine Jasudavicius,Karine Silva,Jasmine Jasudavicius,,,,,View Matchup,,,,Women's Flyweight,,,,
-UFC Fight Night: Burns vs. Malott,Thiago Moises,Gauge Young,Thiago Moises,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Burns vs. Malott,Dennis Buzukja,Marcio Barbosa,Dennis Buzukja,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Burns vs. Malott,Julien Leblanc,Robert Valentin,Julien Leblanc,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Burns vs. Malott,Tanner Boser,Gokhan Saricam,Tanner Boser,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Burns vs. Malott,Melissa Croden,Daria Zhelezniakova,Melissa Croden,,,,,View Matchup,,,,Women's Bantamweight,,,,
-UFC Fight Night: Burns vs. Malott,Mitch Raposo,Allan Nascimento,Mitch Raposo,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: Burns vs. Malott,JJ Aldrich,Jamey-Lyn Horth,JJ Aldrich,,,,,View Matchup,,,,Women's Flyweight,,,,
-UFC Fight Night: Burns vs. Malott,John Castaneda,Mark Vologdin,John Castaneda,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Burns vs. Malott,Jamie Siraj,John Yannis,Jamie Siraj,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Sterling vs. Zalal,Aljamain Sterling,Youssef Zalal,Aljamain Sterling,,,,,View,Matchup,,,Featherweight,,,,
+UFC Fight Night: Sterling vs. Zalal,Norma Dumont,Joselyne Edwards,Norma Dumont,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC Fight Night: Sterling vs. Zalal,Rafa Garcia,Alexander Hernandez,Rafa Garcia,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Sterling vs. Zalal,Davey Grant,Adrian Luna Martinetti,Davey Grant,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Sterling vs. Zalal,Montel Jackson,Raoni Barcelos,Montel Jackson,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Sterling vs. Zalal,Marcus Buchecha,Ryan Spann,Marcus Buchecha,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Sterling vs. Zalal,Rodolfo Vieira,Eric McConico,Rodolfo Vieira,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Sterling vs. Zalal,Jackson McVey,Sedriques Dumas,Jackson McVey,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Sterling vs. Zalal,Mayra Bueno Silva,Michelle Montague,Mayra Bueno Silva,,,,,View Matchup,,,,Women's Bantamweight,,,,
+UFC Fight Night: Sterling vs. Zalal,Jafel Filho,Cody Durden,Jafel Filho,,,,,View Matchup,,,,Flyweight,,,,
+UFC Fight Night: Sterling vs. Zalal,Francis Marshall,Lucas Brennan,Francis Marshall,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Sterling vs. Zalal,Max Griffin,Victor Valenzuela,Max Griffin,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Sterling vs. Zalal,Talita Alencar,Julia Polastri,Talita Alencar,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Burns vs. Malott,Mike Malott,Gilbert Burns,Mike Malott,2,0,56,40,0,0,0,0,Welterweight,KO/TKO Punches,3,2:08,http://ufcstats.com/fight-details/32054bf2b36b0e47
+UFC Fight Night: Burns vs. Malott,Charles Jourdain,Kyler Phillips,Charles Jourdain,0,0,58,36,1,7,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/b5299e5b946015e5
+UFC Fight Night: Burns vs. Malott,Jai Herbert,Mandel Nallo,Jai Herbert,2,1,19,16,0,0,0,0,Lightweight,KO/TKO Punches,1,2:05,http://ufcstats.com/fight-details/e644218737c1a778
+UFC Fight Night: Burns vs. Malott,Jasmine Jasudavicius,Karine Silva,Jasmine Jasudavicius,0,0,18,15,3,0,0,2,Women's Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/5a209522211d7530
+UFC Fight Night: Burns vs. Malott,Gauge Young,Thiago Moises,Gauge Young,1,0,122,45,0,2,0,0,Lightweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/a661c0bee7c8d5af
+UFC Fight Night: Burns vs. Malott,Marcio Barbosa,Dennis Buzukja,Marcio Barbosa,1,0,4,5,0,0,0,0,Featherweight,KO/TKO Punch,1,1:20,http://ufcstats.com/fight-details/678440bd8274a18e
+UFC Fight Night: Burns vs. Malott,Robert Valentin,Julien Leblanc,Robert Valentin,0,0,7,4,1,0,1,0,Middleweight,SUB Rear Naked Choke,1,2:22,http://ufcstats.com/fight-details/9fab4b0ad082f670
+UFC Fight Night: Burns vs. Malott,Gokhan Saricam,Tanner Boser,Gokhan Saricam,1,0,57,60,0,0,0,0,Heavyweight,KO/TKO Punch,2,4:43,http://ufcstats.com/fight-details/85c7a0f44aa3e10a
+UFC Fight Night: Burns vs. Malott,Melissa Croden,Daria Zhelezniakova,Melissa Croden,0,0,69,41,4,0,1,0,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/bae4de7ef8c0769e
+UFC Fight Night: Burns vs. Malott,JJ Aldrich,Jamey-Lyn Horth,JJ Aldrich,0,0,50,70,0,0,0,0,Women's Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/0b6c13ab8ad7f82b
+UFC Fight Night: Burns vs. Malott,John Castaneda,Mark Vologdin,John Castaneda,0,0,135,91,0,1,0,0,Catch Weight,M-DEC,3,5:00,http://ufcstats.com/fight-details/552f7cdaf93e1055
+UFC Fight Night: Burns vs. Malott,John Yannis,Jamie Siraj,John Yannis,1,0,21,6,0,0,0,0,Bantamweight,KO/TKO Elbows,1,2:43,http://ufcstats.com/fight-details/32087c183dffcae0
 UFC 327: Prochazka vs. Ulberg,Carlos Ulberg,Jiri Prochazka,Carlos Ulberg,1,0,27,14,0,0,0,0,Light Heavyweight,KO/TKO Punch,1,3:45,http://ufcstats.com/fight-details/a031f062b7ffefee
 UFC 327: Prochazka vs. Ulberg,Paulo Costa,Azamat Murzakanov,Paulo Costa,1,0,55,34,0,1,0,1,Light Heavyweight,KO/TKO Kick,3,1:23,http://ufcstats.com/fight-details/aade9d76ac6c6aef
 UFC 327: Prochazka vs. Ulberg,Josh Hokit,Curtis Blaydes,Josh Hokit,0,0,177,174,0,2,0,0,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/903552edaba48f4a
