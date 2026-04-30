@@ -1,17 +1,30 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: Sterling vs. Zalal,Aljamain Sterling,Youssef Zalal,Aljamain Sterling,,,,,View,Matchup,,,Featherweight,,,,
-UFC Fight Night: Sterling vs. Zalal,Norma Dumont,Joselyne Edwards,Norma Dumont,,,,,View Matchup,,,,Women's Bantamweight,,,,
-UFC Fight Night: Sterling vs. Zalal,Rafa Garcia,Alexander Hernandez,Rafa Garcia,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Sterling vs. Zalal,Davey Grant,Adrian Luna Martinetti,Davey Grant,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Sterling vs. Zalal,Montel Jackson,Raoni Barcelos,Montel Jackson,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Sterling vs. Zalal,Marcus Buchecha,Ryan Spann,Marcus Buchecha,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Sterling vs. Zalal,Rodolfo Vieira,Eric McConico,Rodolfo Vieira,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Sterling vs. Zalal,Jackson McVey,Sedriques Dumas,Jackson McVey,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Sterling vs. Zalal,Mayra Bueno Silva,Michelle Montague,Mayra Bueno Silva,,,,,View Matchup,,,,Women's Bantamweight,,,,
-UFC Fight Night: Sterling vs. Zalal,Jafel Filho,Cody Durden,Jafel Filho,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: Sterling vs. Zalal,Francis Marshall,Lucas Brennan,Francis Marshall,,,,,View Matchup,,,,Lightweight,,,,
-UFC Fight Night: Sterling vs. Zalal,Max Griffin,Victor Valenzuela,Max Griffin,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Sterling vs. Zalal,Talita Alencar,Julia Polastri,Talita Alencar,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC Fight Night: Della Maddalena vs. Prates,Jack Della Maddalena,Carlos Prates,Jack Della Maddalena,,,,,View,Matchup,,,Welterweight,,,,
+UFC Fight Night: Della Maddalena vs. Prates,Beneil Dariush,Quillan Salkilld,Beneil Dariush,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Della Maddalena vs. Prates,Tim Elliott,Steve Erceg,Tim Elliott,,,,,View Matchup,,,,Flyweight,,,,
+UFC Fight Night: Della Maddalena vs. Prates,Marwan Rahiki,Ollie Schmid,Marwan Rahiki,,,,,View Matchup,,,,Featherweight,,,,
+UFC Fight Night: Della Maddalena vs. Prates,Shamil Gaziev,Brando Pericic,Shamil Gaziev,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Della Maddalena vs. Prates,Tai Tuivasa,Louie Sutherland,Tai Tuivasa,,,,,View Matchup,,,,Heavyweight,,,,
+UFC Fight Night: Della Maddalena vs. Prates,Cam Rowston,Robert Bryczek,Cam Rowston,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Della Maddalena vs. Prates,Junior Tafa,Kevin Christian,Junior Tafa,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC Fight Night: Della Maddalena vs. Prates,Jacob Malkoun,Gerald Meerschaert,Jacob Malkoun,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Della Maddalena vs. Prates,Colby Thicknesse,Vince Morales,Colby Thicknesse,,,,,View Matchup,,,,Bantamweight,,,,
+UFC Fight Night: Della Maddalena vs. Prates,Ben Johnston,Wes Schultz,Ben Johnston,,,,,View Matchup,,,,Middleweight,,,,
+UFC Fight Night: Della Maddalena vs. Prates,Jonathan Micallef,Themba Gorimbo,Jonathan Micallef,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Della Maddalena vs. Prates,Dom Mar Fan,Kody Steele,Dom Mar Fan,,,,,View Matchup,,,,Lightweight,,,,
+UFC Fight Night: Sterling vs. Zalal,Aljamain Sterling,Youssef Zalal,Aljamain Sterling,0,0,46,35,6,0,1,1,Featherweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/f524e42c36028de0
+UFC Fight Night: Sterling vs. Zalal,Joselyne Edwards,Norma Dumont,Joselyne Edwards,0,0,70,51,0,0,0,0,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/cb745968bd16bf56
+UFC Fight Night: Sterling vs. Zalal,Rafa Garcia,Alexander Hernandez,Rafa Garcia,0,0,59,50,4,0,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/84951374e4cdc679
+UFC Fight Night: Sterling vs. Zalal,Davey Grant,Adrian Luna Martinetti,Davey Grant,0,0,162,99,0,1,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/f5aff2f858311fbc
+UFC Fight Night: Sterling vs. Zalal,Raoni Barcelos,Montel Jackson,Raoni Barcelos,0,1,21,35,6,0,2,0,Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/348de8e364ecf041
+UFC Fight Night: Sterling vs. Zalal,Ryan Spann,Marcus Buchecha,Ryan Spann,1,0,15,8,0,1,0,1,Heavyweight,KO/TKO Punch,2,2:10,http://ufcstats.com/fight-details/7e551ddb1494a45f
+UFC Fight Night: Sterling vs. Zalal,Eric McConico,Rodolfo Vieira,Eric McConico,0,1,54,40,2,4,0,1,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/67f24cf244134661
+UFC Fight Night: Sterling vs. Zalal,Jackson McVey,Sedriques Dumas,Jackson McVey,1,0,21,3,0,0,1,0,Middleweight,SUB D'Arce Choke,1,2:14,http://ufcstats.com/fight-details/ef1cd6371a3f18e0
+UFC Fight Night: Sterling vs. Zalal,Michelle Montague,Mayra Bueno Silva,Michelle Montague,0,0,42,26,2,0,0,1,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/dcfd594b68ff5ae1
+UFC Fight Night: Sterling vs. Zalal,Cody Durden,Jafel Filho,Cody Durden,0,0,34,23,5,2,1,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d421f3cd158fd055
+UFC Fight Night: Sterling vs. Zalal,Francis Marshall,Lucas Brennan,Francis Marshall,0,0,33,9,2,0,0,1,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/c7fb90f1355291e4
+UFC Fight Night: Sterling vs. Zalal,Victor Valenzuela,Max Griffin,Victor Valenzuela,0,0,53,40,1,4,0,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/2e7f8d0ad385876d
+UFC Fight Night: Sterling vs. Zalal,Talita Alencar,Julia Polastri,Talita Alencar,0,0,60,78,3,0,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/0df4f4ac27cf2d26
 UFC Fight Night: Burns vs. Malott,Mike Malott,Gilbert Burns,Mike Malott,2,0,56,40,0,0,0,0,Welterweight,KO/TKO Punches,3,2:08,http://ufcstats.com/fight-details/32054bf2b36b0e47
 UFC Fight Night: Burns vs. Malott,Charles Jourdain,Kyler Phillips,Charles Jourdain,0,0,58,36,1,7,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/b5299e5b946015e5
 UFC Fight Night: Burns vs. Malott,Jai Herbert,Mandel Nallo,Jai Herbert,2,1,19,16,0,0,0,0,Lightweight,KO/TKO Punches,1,2:05,http://ufcstats.com/fight-details/e644218737c1a778
