@@ -3,6 +3,9 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [main]
+  # The gate job below turns this daily trigger into a stable every-other-day run.
+  schedule:
+    - cron: "0 7 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -13,8 +16,30 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  schedule_gate:
     runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.cadence.outputs.should_run }}
+    steps:
+      - name: Enforce 48-hour cadence
+        id: cadence
+        shell: bash
+        run: |
+          if [[ "$GITHUB_EVENT_NAME" != "schedule" ]]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          elif (( ($(date -u +%s) / 86400) % 2 == 0 )); then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  build:
+    needs: schedule_gate
+    if: needs.schedule_gate.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -28,11 +53,28 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Refresh next-event odds
+        if: github.event_name != 'push'
+        run: python odds_scraper.py
+
       - name: Validate source data and generator
         run: python -m unittest discover -s tests -v
 
       - name: Generate site data
         run: python generate_site.py
+
+      - name: Save refreshed odds and site data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/scraped_data/ufc_fight_odds.csv site/data/site-data.json
+          if git diff --cached --quiet; then
+            echo "No odds changes to commit."
+          else
+            git commit -m "Update next-event odds"
+            git push
+          fi
 
       - name: Configure Pages
         uses: actions/configure-pages@v6

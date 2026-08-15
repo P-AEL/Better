@@ -1,5 +1,6 @@
 requests
 beautifulsoup4
+cloudscraper
 pandas
 tqdm
 lxml

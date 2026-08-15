@@ -180,17 +180,21 @@ def market_for_fight(event_name, red_name, blue_name, odds_lookup):
     same_orientation = normalize_text(row.fighter_red) == normalize_text(red_name)
     red_open = row.red_open if same_orientation else row.blue_open
     blue_open = row.blue_open if same_orientation else row.red_open
-    if pd.isna(red_open) or pd.isna(blue_open):
+    red_current = row.red_close_high if same_orientation else row.blue_close_high
+    blue_current = row.blue_close_high if same_orientation else row.red_close_high
+    red_price = red_current if pd.notna(red_current) else red_open
+    blue_price = blue_current if pd.notna(blue_current) else blue_open
+    if pd.isna(red_price) or pd.isna(blue_price):
         return None
 
-    red_implied = american_to_implied(red_open)
-    blue_implied = american_to_implied(blue_open)
+    red_implied = american_to_implied(red_price)
+    blue_implied = american_to_implied(blue_price)
     total = red_implied + blue_implied
     return {
-        "red_american": display_american(red_open),
-        "blue_american": display_american(blue_open),
-        "red_decimal": american_to_decimal(red_open),
-        "blue_decimal": american_to_decimal(blue_open),
+        "red_american": display_american(red_price),
+        "blue_american": display_american(blue_price),
+        "red_decimal": american_to_decimal(red_price),
+        "blue_decimal": american_to_decimal(blue_price),
         "red_fair_probability": red_implied / total,
         "blue_fair_probability": blue_implied / total,
     }
