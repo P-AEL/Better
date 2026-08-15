@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Current MMA fighter Elo rankings calculated from UFCStats fight history.">
+  <title>Better | Fighter Elo Rankings</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/app.js"></script>
+</head>
+<body data-page="rankings">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell nav-shell">
+      <a class="brand" href="index.html" aria-label="Better predictions home">
+        <span class="brand-mark">B</span>
+        <span>BETTER</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Next event</a>
+        <a class="active" href="rankings.html">Elo rankings</a>
+      </nav>
+      <span class="data-status" id="generated-status">Loading data</span>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="ranking-intro">
+      <div class="shell intro-layout">
+        <div>
+          <p class="eyebrow dark">Global ratings</p>
+          <h1>Fighter Elo Rankings</h1>
+          <p class="intro-copy">Updated from the complete fight history, with draws scored evenly and no contests excluded.</p>
+        </div>
+        <div class="ranking-stat">
+          <strong id="ranking-total">--</strong>
+          <span>ranked fighters</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell content-section rankings-section" aria-labelledby="rankings-heading">
+      <div class="section-heading rankings-heading">
+        <div>
+          <p class="section-kicker">Current table</p>
+          <h2 id="rankings-heading">All fighters</h2>
+        </div>
+        <span class="model-note" id="ranking-model">--</span>
+      </div>
+
+      <div class="ranking-controls">
+        <label class="search-field">
+          <span>Search fighter</span>
+          <input id="ranking-search" type="search" placeholder="Name" autocomplete="off">
+        </label>
+        <label class="select-field">
+          <span>Division</span>
+          <select id="division-filter"><option value="">All divisions</option></select>
+        </label>
+        <label class="active-toggle">
+          <input id="active-filter" type="checkbox">
+          <span>Active in last 2 years</span>
+        </label>
+        <div class="result-count" id="ranking-count">--</div>
+      </div>
+
+      <div class="ranking-table-wrap">
+        <table class="ranking-table">
+          <thead>
+            <tr>
+              <th scope="col">Rank</th>
+              <th scope="col">Fighter</th>
+              <th scope="col">Division</th>
+              <th scope="col">Elo</th>
+              <th scope="col">Change</th>
+              <th scope="col">Record</th>
+              <th scope="col">Form</th>
+              <th scope="col">Last fight</th>
+            </tr>
+          </thead>
+          <tbody id="ranking-body"></tbody>
+        </table>
+      </div>
+      <button class="show-more" id="show-more" type="button">Show more</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-layout">
+      <span>Better Fight Intelligence</span>
+      <span>Elo is opponent-adjusted and updates after each result.</span>
+    </div>
+  </footer>
+</body>
+</html>

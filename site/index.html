@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Next-event MMA predictions, market edge, and fighter Elo ratings.">
+  <title>Better | Next Event Predictions</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/app.js"></script>
+</head>
+<body data-page="predictions">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell nav-shell">
+      <a class="brand" href="index.html" aria-label="Better predictions home">
+        <span class="brand-mark">B</span>
+        <span>BETTER</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a class="active" href="index.html">Next event</a>
+        <a href="rankings.html">Elo rankings</a>
+      </nav>
+      <span class="data-status" id="generated-status">Loading data</span>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="event-banner" aria-labelledby="event-name">
+      <div class="event-shade"></div>
+      <div class="shell event-content">
+        <p class="eyebrow">Next event</p>
+        <h1 id="event-name">Loading fight card</h1>
+        <div class="event-meta">
+          <span id="event-date">--</span>
+          <span id="event-location">--</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="metric-band" aria-label="Event model summary">
+      <div class="shell metric-grid">
+        <div class="metric"><span class="metric-label">Model</span><strong id="model-name">--</strong></div>
+        <div class="metric"><span class="metric-label">Fights</span><strong id="fight-count">--</strong></div>
+        <div class="metric"><span class="metric-label">Priced markets</span><strong id="priced-count">--</strong></div>
+        <div class="metric"><span class="metric-label">Positive EV</span><strong id="value-count">--</strong></div>
+      </div>
+    </section>
+
+    <section class="best-bet-band" aria-labelledby="best-bet-title">
+      <div class="shell best-bet-layout">
+        <div>
+          <p class="section-kicker">Highest model value</p>
+          <h2 id="best-bet-title">Evaluating markets</h2>
+        </div>
+        <div class="best-bet-detail" id="best-bet-detail">--</div>
+      </div>
+    </section>
+
+    <section class="shell content-section" aria-labelledby="fight-card-heading">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Model board</p>
+          <h2 id="fight-card-heading">Fight card predictions</h2>
+        </div>
+        <span class="model-note">Elo probability · market-adjusted value</span>
+      </div>
+
+      <div class="fight-table-head" aria-hidden="true">
+        <span>Matchup</span><span>Model probability</span><span>Model pick</span><span>Market</span><span>Call</span>
+      </div>
+      <div class="fight-list" id="fight-list" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-layout">
+      <span>Better Fight Intelligence</span>
+      <span>Model estimates are informational, not financial advice.</span>
+    </div>
+  </footer>
+</body>
+</html>
