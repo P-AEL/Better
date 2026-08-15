@@ -1,17 +1,137 @@
 event_name,fighter_red,fighter_blue,winner,kd_red,kd_blue,str_red,str_blue,td_red,td_blue,sub_red,sub_blue,weight_class,method,round,time,fight_link
-UFC Fight Night: Song vs. Figueiredo,Song Yadong,Deiveson Figueiredo,Song Yadong,,,,,View,Matchup,,,Bantamweight,,,,
-UFC Fight Night: Song vs. Figueiredo,Zhang Mingyang,Alonzo Menifield,Zhang Mingyang,,,,,View Matchup,,,,Light Heavyweight,,,,
-UFC Fight Night: Song vs. Figueiredo,Sergei Pavlovich,Tallison Teixeira,Sergei Pavlovich,,,,,View Matchup,,,,Heavyweight,,,,
-UFC Fight Night: Song vs. Figueiredo,Kai Asakura,Cameron Smotherman,Kai Asakura,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Song vs. Figueiredo,Muslim Salikhov,Jake Matthews,Muslim Salikhov,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Song vs. Figueiredo,Alex Perez,Sumudaerji,Alex Perez,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: Song vs. Figueiredo,Yi Sak Lee,Luis Felipe Dias,Yi Sak Lee,,,,,View Matchup,,,,Middleweight,,,,
-UFC Fight Night: Song vs. Figueiredo,Ding Meng,Jose Henrique,Ding Meng,,,,,View Matchup,,,,Welterweight,,,,
-UFC Fight Night: Song vs. Figueiredo,Aoriqileng,Cody Haddon,Aoriqileng,,,,,View Matchup,,,,Bantamweight,,,,
-UFC Fight Night: Song vs. Figueiredo,Rei Tsuruya,Jesus Aguilar,Rei Tsuruya,,,,,View Matchup,,,,Flyweight,,,,
-UFC Fight Night: Song vs. Figueiredo,Angela Hill,Xiong Jingnan,Angela Hill,,,,,View Matchup,,,,Women's Strawweight,,,,
-UFC Fight Night: Song vs. Figueiredo,Zhu Kangjie,Ramon Taveras,Zhu Kangjie,,,,,View Matchup,,,,Featherweight,,,,
-UFC Fight Night: Song vs. Figueiredo,Loma Lookboonmee,Jaqueline Amorim,Loma Lookboonmee,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC 330: Makhachev vs. Machado Garry,Islam Makhachev,Ian Machado Garry,Islam Makhachev,,,,,View,Matchup,,,Welterweight,,,,
+UFC 330: Makhachev vs. Machado Garry,Mackenzie Dern,Gillian Robertson,Mackenzie Dern,,,,,View Matchup,,,,Women's Strawweight,,,,
+UFC 330: Makhachev vs. Machado Garry,Jalin Turner,Kaue Fernandes,Jalin Turner,,,,,View Matchup,,,,Lightweight,,,,
+UFC 330: Makhachev vs. Machado Garry,Mansur Abdul-Malik,Dustin Stoltzfus,Mansur Abdul-Malik,,,,,View Matchup,,,,Middleweight,,,,
+UFC 330: Makhachev vs. Machado Garry,Edson Barboza,Esteban Ribovics,Edson Barboza,,,,,View Matchup,,,,Lightweight,,,,
+UFC 330: Makhachev vs. Machado Garry,Chidi Njokuani,Joel Alvarez,Chidi Njokuani,,,,,View Matchup,,,,Welterweight,,,,
+UFC 330: Makhachev vs. Machado Garry,Charles Johnson,Eduardo Chapolin,Charles Johnson,,,,,View Matchup,,,,Catch Weight,,,,
+UFC 330: Makhachev vs. Machado Garry,Donte Johnson,Eric McConico,Donte Johnson,,,,,View Matchup,,,,Middleweight,,,,
+UFC 330: Makhachev vs. Machado Garry,Vicente Luque,Tresean Gore,Vicente Luque,,,,,View Matchup,,,,Middleweight,,,,
+UFC 330: Makhachev vs. Machado Garry,Rafael Tobias,Lucas Fernando,Rafael Tobias,,,,,View Matchup,,,,Light Heavyweight,,,,
+UFC 330: Makhachev vs. Machado Garry,Neil Magny,Ramiz Brahimaj,Neil Magny,,,,,View Matchup,,,,Welterweight,,,,
+UFC 330: Makhachev vs. Machado Garry,Jeremiah Wells,Myktybek Orolbai,Jeremiah Wells,,,,,View Matchup,,,,Welterweight,,,,
+UFC Fight Night: Gamrot vs. Salkilld,Quillan Salkilld,Mateusz Gamrot,Quillan Salkilld,0,0,10,3,1,0,1,2,Lightweight,SUB Rear Naked Choke,1,4:25,http://ufcstats.com/fight-details/a10deecfb8558335
+UFC Fight Night: Gamrot vs. Salkilld,Diego Ferreira,Billy Quarantillo,Diego Ferreira,0,0,116,73,4,1,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d5245f5b96b8afdf
+UFC Fight Night: Gamrot vs. Salkilld,Yadier del Valle,Darren Elkins,Yadier del Valle,1,0,5,0,0,0,0,0,Featherweight,KO/TKO Punch,1,0:35,http://ufcstats.com/fight-details/06bfde3e3577906f
+UFC Fight Night: Gamrot vs. Salkilld,Alexia Thainara,Amanda Lemos,Alexia Thainara,0,0,81,56,2,0,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/13f31f7a784013a3
+UFC Fight Night: Gamrot vs. Salkilld,Ty Miller,Billy Ray Goff,Ty Miller,2,0,133,25,0,0,0,0,Welterweight,KO/TKO Punches,3,0:15,http://ufcstats.com/fight-details/f44ab9e9e4a89735
+UFC Fight Night: Gamrot vs. Salkilld,Steven Asplund,Guilherme Pat,Steven Asplund,2,1,66,45,0,0,1,0,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3050549d19395f6f
+UFC Fight Night: Gamrot vs. Salkilld,Diyar Nurgozhay,Bruno Lopes,Diyar Nurgozhay,2,0,48,14,0,1,0,0,Light Heavyweight,KO/TKO Punches,1,4:59,http://ufcstats.com/fight-details/13380a8d6cdbb381
+UFC Fight Night: Gamrot vs. Salkilld,Jose Montanha,Louie Sutherland,Jose Montanha,0,0,2,3,1,0,1,0,Heavyweight,SUB Neck Crank,1,1:50,http://ufcstats.com/fight-details/64829a32c78ab656
+UFC Fight Night: Gamrot vs. Salkilld,Manoel Sousa,Richie Miranda,Manoel Sousa,1,0,67,46,1,1,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/81ae2a465e0dfa4f
+UFC Fight Night: Gamrot vs. Salkilld,Miles Johns,Gianni Vazquez,Miles Johns,1,0,12,7,0,0,0,0,Featherweight,KO/TKO Punch,1,3:09,http://ufcstats.com/fight-details/1168a8e59aacfd72
+UFC Fight Night: Gamrot vs. Salkilld,Juliana Miller,Ravena Oliveira,Juliana Miller,0,0,24,7,2,0,1,0,Women's Flyweight,SUB Rear Naked Choke,2,1:38,http://ufcstats.com/fight-details/d463229133909215
+UFC Fight Night: Gamrot vs. Salkilld,Carol Foro,Gigi Canuto,Carol Foro,0,0,106,56,0,4,0,1,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ded584e13276cbcb
+UFC Fight Night: Medic vs. Rodriguez,Uros Medic,Daniel Rodriguez,Uros Medic,1,0,11,1,0,0,0,0,Welterweight,KO/TKO Punches,1,0:30,http://ufcstats.com/fight-details/68ae50dbf98dc15f
+UFC Fight Night: Medic vs. Rodriguez,Navajo Stirling,Jan Blachowicz,Navajo Stirling,0,0,35,3,0,0,0,0,Light Heavyweight,KO/TKO Punches,1,2:56,http://ufcstats.com/fight-details/0c3c835e681972d3
+UFC Fight Night: Medic vs. Rodriguez,Aleksandar Rakic,Marcin Tybura,Aleksandar Rakic,0,0,71,33,0,0,0,0,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/eb8753ed0476b3d1
+UFC Fight Night: Medic vs. Rodriguez,Robert Valentin,Dusko Todorovic,Robert Valentin,0,0,1,1,1,2,2,0,Middleweight,SUB Guillotine Choke,1,4:14,http://ufcstats.com/fight-details/f425b7a527dd53aa
+UFC Fight Night: Medic vs. Rodriguez,Gilbert Urbina,Vlasto Cepo,Gilbert Urbina,1,0,30,7,0,0,0,0,Middleweight,KO/TKO Elbows,1,1:01,http://ufcstats.com/fight-details/7ecb154439aca0f9
+UFC Fight Night: Medic vs. Rodriguez,Noah Gugnon,Milos Janicic,Noah Gugnon,0,0,5,6,0,0,1,0,Lightweight,SUB Rear Naked Choke,1,1:21,http://ufcstats.com/fight-details/fec91da886d80200
+UFC Fight Night: Medic vs. Rodriguez,Tofiq Musayev,Ludovit Klein,Tofiq Musayev,1,0,46,46,0,0,0,0,Lightweight,KO/TKO Punches,2,4:07,http://ufcstats.com/fight-details/fbd99ae7e1ff993a
+UFC Fight Night: Medic vs. Rodriguez,Michael Oliveira,Oban Elliott,Michael Oliveira,2,0,14,6,0,0,0,0,Welterweight,KO/TKO Punches,1,1:49,http://ufcstats.com/fight-details/f1bce0c9a3fa4bcb
+UFC Fight Night: Medic vs. Rodriguez,Borislav Nikolic,Mark Vologdin,Borislav Nikolic,0,1,57,42,1,3,2,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/4350abb4f1933f88
+UFC Fight Night: Medic vs. Rodriguez,Bogdan Grad,Dennis Buzukja,Bogdan Grad,0,0,44,46,4,0,2,0,Featherweight,SUB Arm Triangle,2,4:33,http://ufcstats.com/fight-details/13aa6688d0538095
+UFC Fight Night: Medic vs. Rodriguez,Mateusz Rebecki,Kyle Prepolec,Mateusz Rebecki,0,0,75,2,1,0,0,0,Lightweight,KO/TKO Punches,1,4:41,http://ufcstats.com/fight-details/5425c577ed4f50b3
+UFC Fight Night: Medic vs. Rodriguez,Nina Milosevic,Hailey Cowan,Nina Milosevic,1,0,21,13,0,0,0,0,Women's Bantamweight,KO/TKO Punch,1,3:41,http://ufcstats.com/fight-details/f78f34ef2ee7b02c
+UFC Fight Night: Medic vs. Rodriguez,Jovan Leka,Alexander Poppeck,Jovan Leka,1,0,10,8,0,0,0,0,Heavyweight,KO/TKO Kick,1,2:22,http://ufcstats.com/fight-details/94cef172179c9778
+UFC Fight Night: Medic vs. Rodriguez,Stephanie Luciano,Marina Spasic,Stephanie Luciano,0,0,20,25,1,0,1,0,Women's Strawweight,SUB Rear Naked Choke,1,3:20,http://ufcstats.com/fight-details/878a7e6fec3e4573
+UFC Fight Night: Ankalaev vs. Guskov,Magomed Ankalaev,Bogdan Guskov,Magomed Ankalaev,0,0,54,39,2,0,3,1,Light Heavyweight,KO/TKO Punches,5,2:41,http://ufcstats.com/fight-details/9009ec7b91f2be14
+UFC Fight Night: Ankalaev vs. Guskov,Ramazan Temirov,Steve Erceg,Ramazan Temirov,2,0,27,11,0,0,0,0,Flyweight,KO/TKO Punches,1,4:21,http://ufcstats.com/fight-details/c36cd04f8f560f0a
+UFC Fight Night: Ankalaev vs. Guskov,Magomed Zaynukov,Damian Rzepecki,Magomed Zaynukov,0,0,74,16,2,1,0,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/4ace64aa144389c5
+UFC Fight Night: Ankalaev vs. Guskov,Rizvan Kuniev,Tyrell Fortune,Rizvan Kuniev,1,0,66,20,0,0,0,0,Heavyweight,KO/TKO Knee,3,1:12,http://ufcstats.com/fight-details/5ffb251c6ea48b65
+UFC Fight Night: Ankalaev vs. Guskov,Abubakar Vagaev,Saygid Izagakhmaev,Abubakar Vagaev,0,0,27,33,4,2,0,3,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/61280e5644189c61
+UFC Fight Night: Ankalaev vs. Guskov,Valter Walker,Thomas Petersen,Valter Walker,0,0,1,0,0,0,2,0,Heavyweight,SUB Calf Slicer,1,1:32,http://ufcstats.com/fight-details/d7070ab1b2144f8d
+UFC Fight Night: Ankalaev vs. Guskov,Muhammad Saidov,Dustin Jacoby,Muhammad Saidov,2,0,60,34,0,0,0,0,Light Heavyweight,KO/TKO Kick,2,4:49,http://ufcstats.com/fight-details/05bc7a042156b6f6
+UFC Fight Night: Ankalaev vs. Guskov,Sam Patterson,Santiago Ponzinibbio,Sam Patterson,2,0,64,14,0,0,0,0,Welterweight,KO/TKO Punches,2,3:06,http://ufcstats.com/fight-details/f6e6b004f07363e9
+UFC Fight Night: Ankalaev vs. Guskov,Axel Sola,Ismael Bonfim,Axel Sola,1,0,33,1,0,1,1,0,Lightweight,SUB D'Arce Choke,1,4:44,http://ufcstats.com/fight-details/a122306d0ce5fbfb
+UFC Fight Night: Ankalaev vs. Guskov,Magomed Tuchalov,Brendson Ribeiro,Magomed Tuchalov,0,0,35,39,8,0,1,0,Light Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3ac870d6e7d323b7
+UFC Fight Night: Ankalaev vs. Guskov,Nurullo Aliev,Mike Davis,Nurullo Aliev,0,0,13,22,8,0,1,2,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3859314324918eeb
+UFC Fight Night: Ankalaev vs. Guskov,Abdul Hussein,Cody Gibson,Abdul Hussein,1,0,65,44,1,1,3,3,Bantamweight,SUB Arm Triangle,3,3:07,http://ufcstats.com/fight-details/532340708f0500bd
+UFC Fight Night: Du Plessis vs. Usman,Dricus Du Plessis,Kamaru Usman,Dricus Du Plessis,0,0,136,92,0,0,0,0,Middleweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/701c97405da76603
+UFC Fight Night: Du Plessis vs. Usman,Christian Leroy Duncan,Jared Cannonier,Christian Leroy Duncan,0,0,68,15,1,5,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/4eff5a845db17572
+UFC Fight Night: Du Plessis vs. Usman,Chase Hooper,Mitch Ramirez,Chase Hooper,0,0,3,1,1,0,1,0,Lightweight,SUB Rear Naked Choke,1,2:15,http://ufcstats.com/fight-details/f2abca7379982d4f
+UFC Fight Night: Du Plessis vs. Usman,Fatima Kline,Tabatha Ricci,Fatima Kline,0,0,66,24,7,1,1,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/52ddf20a10890b41
+UFC Fight Night: Du Plessis vs. Usman,Tommy McMillen,Alberto Montes,Tommy McMillen,2,0,252,56,0,0,0,0,Featherweight,KO/TKO Punches,3,3:29,http://ufcstats.com/fight-details/c64c6ba6eb1e1d06
+UFC Fight Night: Du Plessis vs. Usman,Jose Delgado,Austin Bashi,Jose Delgado,1,0,35,32,1,3,0,1,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3bd159c1bed14700
+UFC Fight Night: Du Plessis vs. Usman,Jean-Paul Lebosnoyani,Seokhyeon Ko,Jean-Paul Lebosnoyani,0,0,52,66,3,0,2,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/f2eb569176e46edf
+UFC Fight Night: Du Plessis vs. Usman,Felipe Franco,Levi Rodrigues Jr.,Felipe Franco,0,0,39,11,3,0,0,0,Light Heavyweight,KO/TKO Punches,2,1:40,http://ufcstats.com/fight-details/46d800ce45fdd3e6
+UFC Fight Night: Du Plessis vs. Usman,Ezra Elliott,Damien Anderson,Ezra Elliott,0,0,6,7,12,0,3,1,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/9e525f939fba3e73
+UFC Fight Night: Du Plessis vs. Usman,Alden Coria,Stewart Nicoll,Alden Coria,0,0,44,28,3,5,4,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/410e6b9e01660b35
+UFC Fight Night: Du Plessis vs. Usman,RJ Harris,Alvin Hines,RJ Harris,1,0,15,11,0,0,0,0,Heavyweight,KO/TKO Punch,1,1:40,http://ufcstats.com/fight-details/e05155c1b5c2dc74
+UFC Fight Night: Du Plessis vs. Usman,Dione Barbosa,Anna Melisano,Dione Barbosa,0,0,5,2,1,0,2,0,Women's Flyweight,SUB Rear Naked Choke,1,4:04,http://ufcstats.com/fight-details/307ea95ad7ebe466
+UFC 329: McGregor vs. Holloway 2,Max Holloway,Conor McGregor,Max Holloway,0,0,12,0,0,0,0,0,Welterweight,KO/TKO,1,1:09,http://ufcstats.com/fight-details/989760fa75321d69
+UFC 329: McGregor vs. Holloway 2,Paddy Pimblett,Benoit Saint Denis,Paddy Pimblett,0,0,4,1,0,0,1,0,Lightweight,SUB D'Arce Choke,1,0:52,http://ufcstats.com/fight-details/130b325610c54a64
+UFC 329: McGregor vs. Holloway 2,Mario Bautista,Cory Sandhagen,Mario Bautista,1,0,114,89,8,1,3,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/c572daedf2012a49
+UFC 329: McGregor vs. Holloway 2,Brandon Royval,Lone'er Kavanagh,Brandon Royval,0,1,84,56,3,1,2,1,Flyweight,SUB Rear Naked Choke,3,3:40,http://ufcstats.com/fight-details/a3ab1979192b647c
+UFC 329: McGregor vs. Holloway 2,King Green,Terrance McKinney,King Green,1,0,43,45,0,1,0,0,Lightweight,KO/TKO Punch,1,4:59,http://ufcstats.com/fight-details/a26ea74f2e908842
+UFC 329: McGregor vs. Holloway 2,Robert Whittaker,Nikita Krylov,Robert Whittaker,0,0,54,51,0,3,0,0,Light Heavyweight,KO/TKO Punch,3,1:01,http://ufcstats.com/fight-details/7765e5e779dd7dc9
+UFC 329: McGregor vs. Holloway 2,Gable Steveson,Elisha Ellison,Gable Steveson,1,0,41,13,0,0,0,0,Heavyweight,KO/TKO Punches,1,2:31,http://ufcstats.com/fight-details/118c25bda9392140
+UFC 329: McGregor vs. Holloway 2,Adrian Yanez,Cody Garbrandt,Adrian Yanez,1,0,16,13,0,0,0,0,Bantamweight,KO/TKO Punches,1,2:47,http://ufcstats.com/fight-details/e9f389ba3a1e33c4
+UFC 329: McGregor vs. Holloway 2,Luke Riley,Kai Kamaka III,Luke Riley,1,0,43,23,0,0,0,0,Featherweight,KO/TKO Punches,1,3:03,http://ufcstats.com/fight-details/930317fde9dbc55e
+UFC 329: McGregor vs. Holloway 2,Wang Cong,Tracy Cortez,Wang Cong,0,0,137,72,0,1,0,0,Women's Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/e84c3f1f9a33fa90
+UFC 329: McGregor vs. Holloway 2,Damian Pinas,Cesar Almeida,Damian Pinas,1,0,25,37,0,1,0,0,Middleweight,KO/TKO Punch,1,4:44,http://ufcstats.com/fight-details/b223b10ef19f912c
+UFC 329: McGregor vs. Holloway 2,Farid Basharat,John Garza,Farid Basharat,0,0,86,82,5,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/9e00ee7644774e18
+UFC 329: McGregor vs. Holloway 2,Ryan Gandra,Zach Reese,Ryan Gandra,1,0,10,5,0,0,0,0,Middleweight,KO/TKO Punch,1,1:15,http://ufcstats.com/fight-details/1162a74e3604c488
+UFC 329: McGregor vs. Holloway 2,Alessandro Costa,Cody Durden,Alessandro Costa,0,0,21,28,0,0,2,0,Flyweight,SUB Rear Naked Choke,2,2:19,http://ufcstats.com/fight-details/1b6a3b0d27654d3e
+UFC Fight Night: Fiziev vs. Torres,Rafael Fiziev,Manuel Torres,Rafael Fiziev,1,0,25,22,2,0,0,0,Lightweight,KO/TKO Punches,2,0:15,http://ufcstats.com/fight-details/c13dc0cccef263f7
+UFC Fight Night: Fiziev vs. Torres,Shara Magomedov,Michel Pereira,Shara Magomedov,0,1,52,35,0,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/012c307c9d446c4d
+UFC Fight Night: Fiziev vs. Torres,Matheus Camilo,Nazim Sadykhov,Matheus Camilo,1,0,4,0,0,0,0,0,Lightweight,KO/TKO Punch,1,1:31,http://ufcstats.com/fight-details/809814f03ff3140c
+UFC Fight Night: Fiziev vs. Torres,Asu Almabayev,Charles Johnson,Asu Almabayev,0,0,28,21,6,0,1,1,Flyweight,SUB Suloev Stretch,3,3:33,http://ufcstats.com/fight-details/81cde317c156723b
+UFC Fight Night: Fiziev vs. Torres,Ikram Aliskerov,Brunno Ferreira,Ikram Aliskerov,0,0,47,19,5,0,1,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/d83294b031502177
+UFC Fight Night: Fiziev vs. Torres,Abus Magomedov,Michal Oleksiejczuk,Abus Magomedov,1,0,10,5,0,0,1,0,Middleweight,SUB Guillotine Choke,1,3:25,http://ufcstats.com/fight-details/35985895d4ef321e
+UFC Fight Night: Fiziev vs. Torres,Farman Hasanov,Eric Nolan,Farman Hasanov,0,0,21,15,17,0,0,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/6a35ff33b8597904
+UFC Fight Night: Fiziev vs. Torres,Abdul Rakhman Yakhyaev,Julius Walker,Abdul Rakhman Yakhyaev,1,0,6,0,0,0,0,0,Light Heavyweight,KO/TKO Punch,1,0:08,http://ufcstats.com/fight-details/48b1ee7ab45add4c
+UFC Fight Night: Fiziev vs. Torres,Nursulton Ruziboev,Andrey Pulyaev,Nursulton Ruziboev,0,0,1,2,2,0,1,0,Middleweight,SUB Rear Naked Choke,1,3:58,http://ufcstats.com/fight-details/5e7f4ba1210f433d
+UFC Fight Night: Fiziev vs. Torres,Kaan Ofli,Javier Reyes,Kaan Ofli,1,0,17,7,0,0,1,0,Featherweight,SUB Arm Triangle,1,4:16,http://ufcstats.com/fight-details/1a7119f3996b5635
+UFC Fight Night: Fiziev vs. Torres,Daniil Donchenko,Theodor Berggren,Daniil Donchenko,2,0,71,23,0,0,0,0,Welterweight,KO/TKO Punches,2,1:35,http://ufcstats.com/fight-details/0e60ab32f3d03929
+UFC Fight Night: Fiziev vs. Torres,Jean Matsumoto,Bekzat Almakhan,Jean Matsumoto,0,1,79,69,2,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/ae0a91c8f92f4758
+UFC Fight Night: Fiziev vs. Torres,Tahir Abdullayev,Jefferson Nascimento,Tahir Abdullayev,0,0,37,35,2,0,0,0,Welterweight,KO/TKO Punches,3,4:28,http://ufcstats.com/fight-details/f1cb2e7ef096ec7c
+UFC Fight Night: Kape vs. Horiguchi,Manel Kape,Kyoji Horiguchi,Manel Kape,1,0,19,27,0,2,0,0,Flyweight,KO/TKO Punches,3,2:42,http://ufcstats.com/fight-details/33afdd7ad43a2756
+UFC Fight Night: Kape vs. Horiguchi,Navajo Stirling,Ion Cutelaba,Navajo Stirling,0,0,52,19,0,5,0,1,Light Heavyweight,KO/TKO Punches,2,3:23,http://ufcstats.com/fight-details/afc021700481ac4e
+UFC Fight Night: Kape vs. Horiguchi,Christian Rodriguez,Hyder Amil,Christian Rodriguez,1,0,20,23,1,0,1,0,Featherweight,SUB Guillotine Choke,1,3:43,http://ufcstats.com/fight-details/aaec28fa3c0c576d
+UFC Fight Night: Kape vs. Horiguchi,Murtazali Magomedov,Melsik Baghdasaryan,Murtazali Magomedov,0,0,5,3,1,0,1,0,Featherweight,SUB Twister,1,1:17,http://ufcstats.com/fight-details/e4849375d1949c74
+UFC Fight Night: Kape vs. Horiguchi,Vinicius Oliveira,Andre Fili,Vinicius Oliveira,1,0,105,40,0,0,0,0,Featherweight,KO/TKO Elbows,2,4:56,http://ufcstats.com/fight-details/571a3eabff5c7ba7
+UFC Fight Night: Kape vs. Horiguchi,Kevin Borjas,Andre Lima,Kevin Borjas,0,0,51,51,0,0,0,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/17d31249c9ab18af
+UFC Fight Night: Kape vs. Horiguchi,Bia Mesquita,Melissa Mullins,Bia Mesquita,0,0,3,10,0,1,1,0,Women's Bantamweight,SUB Armbar,1,3:16,http://ufcstats.com/fight-details/c0980a613f24accd
+UFC Fight Night: Kape vs. Horiguchi,Mitch Raposo,Allan Nascimento,Mitch Raposo,0,1,38,58,0,0,0,0,Flyweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/3b4803afa824fea3
+UFC Fight Night: Kape vs. Horiguchi,Gaston Bolanos,Michael Aswell Jr.,Gaston Bolanos,0,0,87,105,1,0,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/8b809ba1880aded0
+UFC Fight Night: Kape vs. Horiguchi,Levan Chokheli,Leon Shahbazyan,Levan Chokheli,1,0,6,0,0,0,0,0,Welterweight,KO/TKO Punch,1,0:23,http://ufcstats.com/fight-details/6658fe4531c86674
+UFC Fight Night: Kape vs. Horiguchi,Luana Santos,Karol Rosa,Luana Santos,0,0,9,7,2,0,0,0,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/b23a1a5d35eb438a
+UFC Fight Night: Kape vs. Horiguchi,Shane Collins,Otari Tanzilovi,Shane Collins,0,0,76,58,0,5,3,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/9efa4de316b8bf43
+UFC Freedom 250,Justin Gaethje,Ilia Topuria,Justin Gaethje,0,1,91,97,0,1,0,0,Lightweight,KO/TKO,4,5:00,http://ufcstats.com/fight-details/7208e40818401e88
+UFC Freedom 250,Ciryl Gane,Alex Pereira,Ciryl Gane,1,0,54,12,0,0,0,0,Heavyweight,KO/TKO Punches,2,1:27,http://ufcstats.com/fight-details/5727d5be8c373346
+UFC Freedom 250,Sean O'Malley,Aiemann Zahabi,Sean O'Malley,1,0,41,32,0,0,0,0,Bantamweight,KO/TKO Punches,2,4:02,http://ufcstats.com/fight-details/60de0423ae6ed097
+UFC Freedom 250,Josh Hokit,Derrick Lewis,Josh Hokit,1,0,86,7,2,0,1,0,Heavyweight,KO/TKO Punches,2,4:09,http://ufcstats.com/fight-details/30cdb851f6c63444
+UFC Freedom 250,Mauricio Ruffy,Michael Chandler,Mauricio Ruffy,2,0,19,3,0,0,0,0,Lightweight,KO/TKO Punches,1,4:29,http://ufcstats.com/fight-details/9a9b30b3165b62e4
+UFC Freedom 250,Bo Nickal,Kyle Daukaus,Bo Nickal,1,0,16,2,1,0,0,0,Middleweight,KO/TKO Punches,1,4:34,http://ufcstats.com/fight-details/00e8d4b961a65d21
+UFC Freedom 250,Diego Lopes,Steve Garcia,Diego Lopes,1,0,24,47,0,0,0,0,Featherweight,KO/TKO Punches,2,2:42,http://ufcstats.com/fight-details/127ba4a1ccb3d4a6
+UFC Fight Night: Muhammad vs. Bonfim,Gabriel Bonfim,Belal Muhammad,Gabriel Bonfim,0,0,128,86,0,0,0,0,Welterweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/5c69b019e6deee41
+UFC Fight Night: Muhammad vs. Bonfim,Brendan Allen,Edmen Shahbazyan,Brendan Allen,0,0,89,90,1,0,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/419fff06f338f5c6
+UFC Fight Night: Muhammad vs. Bonfim,Tom Nolan,Fares Ziam,Tom Nolan,0,0,31,16,2,3,0,1,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/58ffa2dac4f2e7d0
+UFC Fight Night: Muhammad vs. Bonfim,Bryce Mitchell,Santiago Luna,Bryce Mitchell,0,0,22,9,2,0,2,1,Bantamweight,SUB Arm Triangle,3,4:52,http://ufcstats.com/fight-details/c47796e11a801e12
+UFC Fight Night: Muhammad vs. Bonfim,Iwo Baraniewski,Junior Tafa,Iwo Baraniewski,1,0,6,0,0,0,0,0,Light Heavyweight,KO/TKO Kick,1,1:25,http://ufcstats.com/fight-details/bfe4950b3de83e9c
+UFC Fight Night: Muhammad vs. Bonfim,Alessandro Costa,Matt Schnell,Alessandro Costa,1,0,19,8,0,0,0,0,Catch Weight,KO/TKO Punch,1,2:28,http://ufcstats.com/fight-details/5d2eedd05081ed23
+UFC Fight Night: Muhammad vs. Bonfim,Marcus McGhee,John Yannis,Marcus McGhee,0,0,79,55,0,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/90940d93d6e0998f
+UFC Fight Night: Muhammad vs. Bonfim,Edgar Chairez,Bruno Silva,Edgar Chairez,2,0,24,17,0,0,1,0,Flyweight,SUB Rear Naked Choke,1,4:13,http://ufcstats.com/fight-details/20d74ed23d3e9b3a
+UFC Fight Night: Muhammad vs. Bonfim,Chelsea Chandler,Priscila Cachoeira,Chelsea Chandler,1,0,11,7,0,1,1,0,Women's Bantamweight,SUB Armbar,1,3:42,http://ufcstats.com/fight-details/98e77712f99956ff
+UFC Fight Night: Muhammad vs. Bonfim,Joanderson Brito,Jordan Leavitt,Joanderson Brito,0,0,5,7,0,0,1,1,Featherweight,SUB Guillotine Choke,1,4:19,http://ufcstats.com/fight-details/44cfbb8c3c356c65
+UFC Fight Night: Muhammad vs. Bonfim,Jeisla Chaves,Yuneisy Duben,Jeisla Chaves,0,0,64,62,3,2,1,0,Women's Flyweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/a6b211d8dab5edec
+UFC Fight Night: Muhammad vs. Bonfim,Ketlen Souza,Ariane Carnelossi,Ketlen Souza,1,0,13,8,0,0,0,0,Women's Strawweight,KO/TKO Kick,1,1:34,http://ufcstats.com/fight-details/b0474597b2c60482
+UFC Fight Night: Song vs. Figueiredo,Song Yadong,Deiveson Figueiredo,Song Yadong,0,0,24,9,1,1,1,0,Bantamweight,SUB Guillotine Choke,2,4:42,http://ufcstats.com/fight-details/423f32dd018ac218
+UFC Fight Night: Song vs. Figueiredo,Alonzo Menifield,Zhang Mingyang,Alonzo Menifield,2,0,28,16,0,0,0,0,Light Heavyweight,KO/TKO Punch,1,4:15,http://ufcstats.com/fight-details/a23d84f15207e459
+UFC Fight Night: Song vs. Figueiredo,Sergei Pavlovich,Tallison Teixeira,Sergei Pavlovich,1,0,7,0,0,0,0,0,Heavyweight,KO/TKO Punch,1,0:39,http://ufcstats.com/fight-details/f74e4afdf6ae29d1
+UFC Fight Night: Song vs. Figueiredo,Kai Asakura,Cameron Smotherman,Kai Asakura,1,0,9,3,0,0,0,0,Bantamweight,KO/TKO Punch,1,1:50,http://ufcstats.com/fight-details/00959e29e4a10e26
+UFC Fight Night: Song vs. Figueiredo,Jake Matthews,Carlston Harris,Jake Matthews,1,0,55,27,0,0,0,0,Welterweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/c1c9dfd0c0952f18
+UFC Fight Night: Song vs. Figueiredo,Alex Perez,Sumudaerji,Alex Perez,0,1,9,26,0,1,1,0,Flyweight,CNC,2,1:45,http://ufcstats.com/fight-details/7e8749cbf32ef1f8
+UFC Fight Night: Song vs. Figueiredo,Luis Felipe Dias,YiSak Lee,Luis Felipe Dias,1,0,21,10,0,0,0,0,Middleweight,KO/TKO Punch,1,3:40,http://ufcstats.com/fight-details/f6d09973de0f83e7
+UFC Fight Night: Song vs. Figueiredo,Jose Souza,Ding Meng,Jose Souza,0,0,72,63,0,0,0,0,Welterweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/bc0b3c16246e0d1d
+UFC Fight Night: Song vs. Figueiredo,Cody Haddon,Aoriqileng,Cody Haddon,1,0,57,6,2,0,0,1,Bantamweight,KO/TKO Knee,2,2:11,http://ufcstats.com/fight-details/3bc0190fb17ba42f
+UFC Fight Night: Song vs. Figueiredo,Rei Tsuruya,Luis Gurule,Rei Tsuruya,0,0,17,1,1,0,1,0,Bantamweight,SUB Rear Naked Choke,1,3:19,http://ufcstats.com/fight-details/224dce2c0b03e7eb
+UFC Fight Night: Song vs. Figueiredo,Angela Hill,Xiong Jingnan,Angela Hill,0,0,122,68,1,0,1,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3f719885c9916e06
+UFC Fight Night: Song vs. Figueiredo,Rodrigo Vera,Zhu Kangjie,Rodrigo Vera,1,0,17,7,1,0,0,0,Featherweight,KO/TKO Punches,1,1:50,http://ufcstats.com/fight-details/34d5ec676fb5bce3
+UFC Fight Night: Song vs. Figueiredo,Jaqueline Amorim,Loma Lookboonmee,Jaqueline Amorim,0,0,0,3,0,0,3,0,Women's Strawweight,SUB Armbar,1,4:04,http://ufcstats.com/fight-details/370ff29489150560
 UFC Fight Night: Allen vs. Costa,Arnold Allen,Melquizael Costa,Arnold Allen,1,0,98,100,7,0,0,0,Featherweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/e4aa608124896794
 UFC Fight Night: Allen vs. Costa,Dooho Choi,Daniel Santos,Dooho Choi,1,0,72,72,0,0,0,0,Featherweight,KO/TKO Punch,2,4:29,http://ufcstats.com/fight-details/fc1266e2892ed111
 UFC Fight Night: Allen vs. Costa,Juan Diaz,Malcolm Wellmaker,Juan Diaz,0,0,13,15,5,0,1,0,Bantamweight,SUB Rear Naked Choke,2,4:08,http://ufcstats.com/fight-details/ecb7ff543dd41bf8
@@ -339,7 +459,7 @@ UFC 320: Ankalaev vs. Pereira 2,Merab Dvalishvili,Cory Sandhagen,Merab Dvalishvi
 UFC 320: Ankalaev vs. Pereira 2,Jiri Prochazka,Khalil Rountree Jr.,Jiri Prochazka,1,0,71,66,0,0,0,0,Light Heavyweight,KO/TKO Punches,3,3:04,http://ufcstats.com/fight-details/2560ea97b2cce4ef
 UFC 320: Ankalaev vs. Pereira 2,Youssef Zalal,Josh Emmett,Youssef Zalal,0,0,0,0,1,0,1,0,Featherweight,SUB Armbar,1,1:38,http://ufcstats.com/fight-details/84ebd144d5e79c88
 UFC 320: Ankalaev vs. Pereira 2,Joe Pyfer,Abus Magomedov,Joe Pyfer,1,0,6,11,0,1,2,1,Middleweight,SUB Rear Naked Choke,2,1:46,http://ufcstats.com/fight-details/d006dd2513bd376d
-UFC 320: Ankalaev vs. Pereira 2,Ateba Gautier,Tre'ston Vines,Ateba Gautier,1,0,6,0,1,0,0,0,Middleweight,KO/TKO Punches,1,1:41,http://ufcstats.com/fight-details/9418ebb3db2a4bae
+UFC 320: Ankalaev vs. Pereira 2,Ateba Gautier,Treston Vines,Ateba Gautier,1,0,6,0,1,0,0,0,Middleweight,KO/TKO Punches,1,1:41,http://ufcstats.com/fight-details/9418ebb3db2a4bae
 UFC 320: Ankalaev vs. Pereira 2,Daniel Santos,JooSang Yoo,Daniel Santos,1,0,27,31,1,0,0,0,Catch Weight,KO/TKO Punch,2,0:21,http://ufcstats.com/fight-details/7b34aa1eb09b8301
 UFC 320: Ankalaev vs. Pereira 2,Jakub Wiklacz,Patchy Mix,Jakub Wiklacz,0,0,46,37,0,5,3,0,Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/b09ecdc8ef0f0d20
 UFC 320: Ankalaev vs. Pereira 2,Edmen Shahbazyan,Andre Muniz,Edmen Shahbazyan,1,0,25,15,0,1,0,0,Middleweight,KO/TKO Elbows,1,4:58,http://ufcstats.com/fight-details/1c7cc3a22ab7d907
@@ -360,20 +480,20 @@ UFC Fight Night: Ulberg vs. Reyes,Colby Thicknesse,Josias Musasa,Colby Thickness
 UFC Fight Night: Ulberg vs. Reyes,Michelle Montague,Luana Carolina,Michelle Montague,0,0,41,48,5,0,0,1,Women's Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/44cd8c9f622e155f
 UFC Fight Night: Ulberg vs. Reyes,Brando Pericic,Elisha Ellison,Brando Pericic,0,0,29,3,0,0,0,0,Heavyweight,KO/TKO Punches,1,1:55,http://ufcstats.com/fight-details/140937779a2466a7
 UFC Fight Night: Ulberg vs. Reyes,Alexia Thainara,Loma Lookboonmee,Alexia Thainara,0,0,44,30,5,0,1,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/e35f7504d83b8b07
-UFC Fight Night: Lopes vs. Silva,Diego Lopes,Jean Silva,Diego Lopes,1,0,74,43,3,0,0,0,Featherweight,KO/TKO Punches,2,4:48,http://ufcstats.com/fight-details/de1a3734be60e6a1
-UFC Fight Night: Lopes vs. Silva,David Martinez,Rob Font,David Martinez,0,0,62,49,0,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/944b929130b23c2a
-UFC Fight Night: Lopes vs. Silva,Rafa Garcia,Jared Gordon,Rafa Garcia,1,0,91,65,2,1,2,0,Lightweight,KO/TKO Elbows,3,2:27,http://ufcstats.com/fight-details/7cbfeba85f86d1bf
-UFC Fight Night: Lopes vs. Silva,Kelvin Gastelum,Dustin Stoltzfus,Kelvin Gastelum,1,0,57,64,0,1,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/114d2f6fcd3f6f00
-UFC Fight Night: Lopes vs. Silva,Alexander Hernandez,Diego Ferreira,Alexander Hernandez,1,0,30,23,0,0,0,0,Lightweight,KO/TKO Punches,2,3:46,http://ufcstats.com/fight-details/202c47db69768356
-UFC Fight Night: Lopes vs. Silva,Santiago Luna,Quang Le,Santiago Luna,2,0,15,12,0,0,0,0,Bantamweight,KO/TKO Punch,1,2:48,http://ufcstats.com/fight-details/8a884a7930d75ca9
-UFC Fight Night: Lopes vs. Silva,Dusko Todorovic,Jose Daniel Medina,Dusko Todorovic,0,0,16,9,2,0,1,0,Middleweight,SUB Rear Naked Choke,1,4:21,http://ufcstats.com/fight-details/07a378b257aad5a9
-UFC Fight Night: Lopes vs. Silva,Joaquim Silva,Claudio Puelles,Joaquim Silva,1,0,25,21,0,4,1,0,Lightweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/352839a03b428e74
-UFC Fight Night: Lopes vs. Silva,Tatiana Suarez,Amanda Lemos,Tatiana Suarez,0,0,20,23,3,0,0,1,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/9474f64347aade7a
-UFC Fight Night: Lopes vs. Silva,Jesus Aguilar,Luis Gurule,Jesus Aguilar,0,0,85,65,1,0,0,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3dc1a6335d890650
-UFC Fight Night: Lopes vs. Silva,Zach Reese,Sedriques Dumas,Zach Reese,0,0,2,3,0,0,0,0,Middleweight,CNC,1,0:51,http://ufcstats.com/fight-details/d822ebc7dbc6c259
-UFC Fight Night: Lopes vs. Silva,Alden Coria,Alessandro Costa,Alden Coria,0,0,42,12,2,1,0,2,Flyweight,KO/TKO Punches,3,0:47,http://ufcstats.com/fight-details/a1e193425e716b42
-UFC Fight Night: Lopes vs. Silva,Montse Rendon,Alice Pereira,Montse Rendon,0,0,45,37,0,0,1,0,Women's Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/c4a6174b0698652e
-UFC Fight Night: Lopes vs. Silva,Daniil Donchenko,Rodrigo Sezinando,Daniil Donchenko,1,0,39,10,1,1,0,0,Welterweight,KO/TKO Punches,1,4:27,http://ufcstats.com/fight-details/3dd2fde7bff79c51
+Noche UFC: Lopes vs. Silva,Diego Lopes,Jean Silva,Diego Lopes,1,0,74,43,3,0,0,0,Featherweight,KO/TKO Punches,2,4:48,http://ufcstats.com/fight-details/de1a3734be60e6a1
+Noche UFC: Lopes vs. Silva,David Martinez,Rob Font,David Martinez,0,0,62,49,0,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/944b929130b23c2a
+Noche UFC: Lopes vs. Silva,Rafa Garcia,Jared Gordon,Rafa Garcia,1,0,91,65,2,1,2,0,Lightweight,KO/TKO Elbows,3,2:27,http://ufcstats.com/fight-details/7cbfeba85f86d1bf
+Noche UFC: Lopes vs. Silva,Kelvin Gastelum,Dustin Stoltzfus,Kelvin Gastelum,1,0,57,64,0,1,0,0,Middleweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/114d2f6fcd3f6f00
+Noche UFC: Lopes vs. Silva,Alexander Hernandez,Diego Ferreira,Alexander Hernandez,1,0,30,23,0,0,0,0,Lightweight,KO/TKO Punches,2,3:46,http://ufcstats.com/fight-details/202c47db69768356
+Noche UFC: Lopes vs. Silva,Santiago Luna,Quang Le,Santiago Luna,2,0,15,12,0,0,0,0,Bantamweight,KO/TKO Punch,1,2:48,http://ufcstats.com/fight-details/8a884a7930d75ca9
+Noche UFC: Lopes vs. Silva,Dusko Todorovic,Jose Daniel Medina,Dusko Todorovic,0,0,16,9,2,0,1,0,Middleweight,SUB Rear Naked Choke,1,4:21,http://ufcstats.com/fight-details/07a378b257aad5a9
+Noche UFC: Lopes vs. Silva,Joaquim Silva,Claudio Puelles,Joaquim Silva,1,0,25,21,0,4,1,0,Lightweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/352839a03b428e74
+Noche UFC: Lopes vs. Silva,Tatiana Suarez,Amanda Lemos,Tatiana Suarez,0,0,20,23,3,0,0,1,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/9474f64347aade7a
+Noche UFC: Lopes vs. Silva,Jesus Aguilar,Luis Gurule,Jesus Aguilar,0,0,85,65,1,0,0,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/3dc1a6335d890650
+Noche UFC: Lopes vs. Silva,Zach Reese,Sedriques Dumas,Zach Reese,0,0,2,3,0,0,0,0,Middleweight,CNC,1,0:51,http://ufcstats.com/fight-details/d822ebc7dbc6c259
+Noche UFC: Lopes vs. Silva,Alden Coria,Alessandro Costa,Alden Coria,0,0,42,12,2,1,0,2,Flyweight,KO/TKO Punches,3,0:47,http://ufcstats.com/fight-details/a1e193425e716b42
+Noche UFC: Lopes vs. Silva,Montse Rendon,Alice Pereira,Montse Rendon,0,0,45,37,0,0,1,0,Women's Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/c4a6174b0698652e
+Noche UFC: Lopes vs. Silva,Daniil Donchenko,Rodrigo Sezinando,Daniil Donchenko,1,0,39,10,1,1,0,0,Welterweight,KO/TKO Punches,1,4:27,http://ufcstats.com/fight-details/3dd2fde7bff79c51
 UFC Fight Night: Imavov vs. Borralho,Nassourdine Imavov,Caio Borralho,Nassourdine Imavov,0,0,81,66,0,0,0,0,Middleweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/5bcd8abf6da01dae
 UFC Fight Night: Imavov vs. Borralho,Benoit Saint Denis,Mauricio Ruffy,Benoit Saint Denis,0,0,17,5,3,0,1,0,Lightweight,SUB Rear Naked Choke,2,2:56,http://ufcstats.com/fight-details/d14fea43712707f0
 UFC Fight Night: Imavov vs. Borralho,Modestas Bukauskas,Paul Craig,Modestas Bukauskas,0,0,22,6,0,0,0,0,Light Heavyweight,KO/TKO Elbow,1,5:00,http://ufcstats.com/fight-details/0149e875b31e57f8
@@ -399,8 +519,6 @@ UFC Fight Night: Walker vs. Zhang,Kyle Daukaus,Michel Pereira,Kyle Daukaus,1,0,5
 UFC Fight Night: Walker vs. Zhang,Yizha,Westin Wilson,Yizha,2,0,13,0,0,0,0,0,Featherweight,KO/TKO Punches,1,0:37,http://ufcstats.com/fight-details/f0b7caa90faf47e5
 UFC Fight Night: Walker vs. Zhang,SuYoung You,Xiao Long,SuYoung You,0,0,58,68,0,0,0,0,Bantamweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/2f6065fe0804d1d8
 UFC Fight Night: Walker vs. Zhang,Uran Satybaldiev,Diyar Nurgozhay,Uran Satybaldiev,1,0,2,7,0,1,2,0,Light Heavyweight,SUB Ezekiel Choke,1,2:45,http://ufcstats.com/fight-details/7fc5f1dc2df84ac7
-UFC - Road to UFC 4.6,Bruna Brasil,Shi Ming,Bruna Brasil,0,0,31,32,1,2,1,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/abf5f4d6f777cf7b
-UFC - Road to UFC 4.6,Nyamjargal Tumendemberel,Terrance Saeteurn,Nyamjargal Tumendemberel,0,0,11,11,2,0,1,0,Flyweight,SUB Anaconda Choke,1,2:53,http://ufcstats.com/fight-details/16523b1bec3cd7b0
 UFC 319: Du Plessis vs. Chimaev,Khamzat Chimaev,Dricus Du Plessis,Khamzat Chimaev,0,0,37,13,12,1,0,1,Middleweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/12cedec11b37ddc0
 UFC 319: Du Plessis vs. Chimaev,Lerone Murphy,Aaron Pico,Lerone Murphy,1,0,8,13,0,2,1,0,Featherweight,KO/TKO Spinning Back Elbow,1,3:21,http://ufcstats.com/fight-details/9fa6a029f7f8241c
 UFC 319: Du Plessis vs. Chimaev,Carlos Prates,Geoff Neal,Carlos Prates,1,0,32,25,0,0,0,0,Welterweight,KO/TKO Spinning Back Elbow,1,4:59,http://ufcstats.com/fight-details/42585ce706c086de
@@ -1373,17 +1491,17 @@ UFC Fight Night: Fiziev vs. Gamrot,Cody Brundage,Jacob Malkoun,Cody Brundage,0,0
 UFC Fight Night: Fiziev vs. Gamrot,Mohammed Usman,Jake Collier,Mohammed Usman,0,0,85,87,1,0,0,2,Heavyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/49ede01b061cfae3
 UFC Fight Night: Fiziev vs. Gamrot,Mizuki,Hannah Goldy,Mizuki,0,0,55,47,1,1,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/adb411b0f418ce33
 UFC Fight Night: Fiziev vs. Gamrot,Montse Rendon,Tamires Vidal,Montse Rendon,0,0,69,60,3,0,0,1,Women's Bantamweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/0732e6b6eb0a607d
-UFC Fight Night: Grasso vs. Shevchenko 2,Alexa Grasso,Valentina Shevchenko,Alexa Grasso,1,0,84,80,1,4,1,1,Women's Flyweight,S-DEC,5,5:00,http://ufcstats.com/fight-details/b395c89e19a3fec4
-UFC Fight Night: Grasso vs. Shevchenko 2,Jack Della Maddalena,Kevin Holland,Jack Della Maddalena,0,0,105,127,0,0,0,0,Welterweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/697efaf0d162e877
-UFC Fight Night: Grasso vs. Shevchenko 2,Raul Rosas Jr.,Terrence Mitchell,Raul Rosas Jr.,1,0,18,6,0,0,0,0,Bantamweight,KO/TKO Punches,1,0:54,http://ufcstats.com/fight-details/c0ca4c201d086ea8
-UFC Fight Night: Grasso vs. Shevchenko 2,Daniel Zellhuber,Christos Giagos,Daniel Zellhuber,0,0,36,38,0,0,1,0,Lightweight,SUB Anaconda Choke,2,3:26,http://ufcstats.com/fight-details/2e1435c160bfe8b2
-UFC Fight Night: Grasso vs. Shevchenko 2,Kyle Nelson,Fernando Padilla,Kyle Nelson,0,0,82,72,0,0,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/a5d76e93a5052e3f
-UFC Fight Night: Grasso vs. Shevchenko 2,Loopy Godinez,Elise Reed,Loopy Godinez,1,0,21,3,5,0,6,0,Women's Strawweight,SUB Rear Naked Choke,2,3:38,http://ufcstats.com/fight-details/79f03eca3fe5cdb3
-UFC Fight Night: Grasso vs. Shevchenko 2,Roman Kopylov,Josh Fremd,Roman Kopylov,1,0,49,38,0,0,0,0,Middleweight,KO/TKO Punch,2,4:44,http://ufcstats.com/fight-details/7a0813ec0fadc84e
-UFC Fight Night: Grasso vs. Shevchenko 2,Edgar Chairez,Daniel Lacerda,Edgar Chairez,0,0,12,4,0,1,1,0,Flyweight,Overturned,1,3:47,http://ufcstats.com/fight-details/5d3e046b6bcd49f5
-UFC Fight Night: Grasso vs. Shevchenko 2,Tracy Cortez,Jasmine Jasudavicius,Tracy Cortez,0,0,103,77,0,2,0,0,Women's Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/bcec26b425194e40
-UFC Fight Night: Grasso vs. Shevchenko 2,Charlie Campbell,Alex Reyes,Charlie Campbell,1,0,43,14,0,0,0,0,Lightweight,KO/TKO Punches,1,3:38,http://ufcstats.com/fight-details/58b2fdad7af9be02
-UFC Fight Night: Grasso vs. Shevchenko 2,Josefine Knutsson,Marnic Mann,Josefine Knutsson,0,0,81,8,3,0,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/11318a7807cee8ca
+Noche UFC: Grasso vs. Shevchenko 2,Alexa Grasso,Valentina Shevchenko,Alexa Grasso,1,0,84,80,1,4,1,1,Women's Flyweight,S-DEC,5,5:00,http://ufcstats.com/fight-details/b395c89e19a3fec4
+Noche UFC: Grasso vs. Shevchenko 2,Jack Della Maddalena,Kevin Holland,Jack Della Maddalena,0,0,105,127,0,0,0,0,Welterweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/697efaf0d162e877
+Noche UFC: Grasso vs. Shevchenko 2,Raul Rosas Jr.,Terrence Mitchell,Raul Rosas Jr.,1,0,18,6,0,0,0,0,Bantamweight,KO/TKO Punches,1,0:54,http://ufcstats.com/fight-details/c0ca4c201d086ea8
+Noche UFC: Grasso vs. Shevchenko 2,Daniel Zellhuber,Christos Giagos,Daniel Zellhuber,0,0,36,38,0,0,1,0,Lightweight,SUB Anaconda Choke,2,3:26,http://ufcstats.com/fight-details/2e1435c160bfe8b2
+Noche UFC: Grasso vs. Shevchenko 2,Kyle Nelson,Fernando Padilla,Kyle Nelson,0,0,82,72,0,0,0,0,Featherweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/a5d76e93a5052e3f
+Noche UFC: Grasso vs. Shevchenko 2,Loopy Godinez,Elise Reed,Loopy Godinez,1,0,21,3,5,0,6,0,Women's Strawweight,SUB Rear Naked Choke,2,3:38,http://ufcstats.com/fight-details/79f03eca3fe5cdb3
+Noche UFC: Grasso vs. Shevchenko 2,Roman Kopylov,Josh Fremd,Roman Kopylov,1,0,49,38,0,0,0,0,Middleweight,KO/TKO Punch,2,4:44,http://ufcstats.com/fight-details/7a0813ec0fadc84e
+Noche UFC: Grasso vs. Shevchenko 2,Edgar Chairez,Daniel Lacerda,Edgar Chairez,0,0,12,4,0,1,1,0,Flyweight,Overturned,1,3:47,http://ufcstats.com/fight-details/5d3e046b6bcd49f5
+Noche UFC: Grasso vs. Shevchenko 2,Tracy Cortez,Jasmine Jasudavicius,Tracy Cortez,0,0,103,77,0,2,0,0,Women's Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/bcec26b425194e40
+Noche UFC: Grasso vs. Shevchenko 2,Charlie Campbell,Alex Reyes,Charlie Campbell,1,0,43,14,0,0,0,0,Lightweight,KO/TKO Punches,1,3:38,http://ufcstats.com/fight-details/58b2fdad7af9be02
+Noche UFC: Grasso vs. Shevchenko 2,Josefine Knutsson,Marnic Mann,Josefine Knutsson,0,0,81,8,3,0,0,0,Women's Strawweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/11318a7807cee8ca
 UFC 293: Adesanya vs. Strickland,Sean Strickland,Israel Adesanya,Sean Strickland,1,0,137,94,0,0,0,0,Middleweight,U-DEC,5,5:00,http://ufcstats.com/fight-details/7f16e7725245bb2d
 UFC 293: Adesanya vs. Strickland,Alexander Volkov,Tai Tuivasa,Alexander Volkov,1,0,93,28,0,0,1,0,Heavyweight,SUB Ezekiel Choke,2,4:37,http://ufcstats.com/fight-details/e4ed294e16e16d81
 UFC 293: Adesanya vs. Strickland,Manel Kape,Felipe dos Santos,Manel Kape,1,0,112,99,1,0,0,0,Flyweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/222bb2c67a87d312
@@ -4861,7 +4979,7 @@ UFC Fight Night: Poirier vs. Johnson,Derek Brunson,Uriah Hall,Derek Brunson,1,0,
 UFC Fight Night: Poirier vs. Johnson,Evan Dunham,Ricky Glenn,Evan Dunham,0,0,144,58,3,0,2,0,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/0596fc5eba5c1fe0
 UFC Fight Night: Poirier vs. Johnson,Roan Carneiro,Kenny Robertson,Roan Carneiro,0,0,33,28,2,0,0,0,Welterweight,S-DEC,3,5:00,http://ufcstats.com/fight-details/054f1423ba7c121e
 UFC Fight Night: Poirier vs. Johnson,Islam Makhachev,Chris Wade,Islam Makhachev,0,0,12,5,4,0,2,2,Lightweight,U-DEC,3,5:00,http://ufcstats.com/fight-details/144b0c1dd6c909f3
-UFC Fight Night: Poirier vs. Johnson,Chas Skelly,Maximo Blanco,Chas Skelly,0,0,1,0,0,0,1,0,Featherweight,SUB D'Arce Choke,1,0:19,http://ufcstats.com/fight-details/00b7497b02b3b2bb
+UFC Fight Night: Poirier vs. Johnson,Chas Skelly,Maximo Blanco,Chas Skelly,0,0,1,0,0,0,1,0,Featherweight,SUB Anaconda Choke,1,0:19,http://ufcstats.com/fight-details/00b7497b02b3b2bb
 UFC Fight Night: Poirier vs. Johnson,Gabriel Benitez,Sam Sicilia,Gabriel Benitez,1,0,39,19,0,0,1,0,Featherweight,SUB Guillotine Choke,2,1:20,http://ufcstats.com/fight-details/4f6f7f1ad8954bb6
 UFC Fight Night: Poirier vs. Johnson,Belal Muhammad,Augusto Montano,Belal Muhammad,0,0,66,67,3,0,0,0,Welterweight,KO/TKO Punches,3,4:19,http://ufcstats.com/fight-details/4df1d3183929d021
 UFC Fight Night: Poirier vs. Johnson,Antonio Carlos Junior,Leonardo Guimaraes,Antonio Carlos Junior,0,0,32,6,7,0,1,2,Middleweight,SUB Rear Naked Choke,3,4:46,http://ufcstats.com/fight-details/c87d2569da8d4305
@@ -8713,11 +8831,3 @@ UFC 2: No Way Out,Frank Hamaker,Thaddeus Luster,Frank Hamaker,0,0,2,0,1,0,3,0,Op
 UFC 2: No Way Out,Johnny Rhodes,David Levicki,Johnny Rhodes,0,0,11,4,1,0,0,0,Open Weight,KO/TKO Punches,1,12:13,http://ufcstats.com/fight-details/ccee020be2e8d9f6
 UFC 2: No Way Out,Patrick Smith,Ray Wizard,Patrick Smith,0,0,1,1,0,0,1,0,Open Weight,SUB Guillotine Choke,1,0:58,http://ufcstats.com/fight-details/4b9ae533ccb3fcdf
 UFC 2: No Way Out,Scott Morris,Sean Daugherty,Scott Morris,0,0,1,0,1,0,1,0,Open Weight,SUB Guillotine Choke,1,0:20,http://ufcstats.com/fight-details/4acab67848e78327
-UFC 1: The Beginning,Royce Gracie,Gerard Gordeau,Royce Gracie,0,0,1,0,1,0,1,0,Open Weight,SUB Rear Naked Choke,1,1:44,http://ufcstats.com/fight-details/64139d1d505e46c5
-UFC 1: The Beginning,Jason DeLucia,Trent Jenkins,Jason DeLucia,0,0,3,1,1,0,1,0,Open Weight,SUB Rear Naked Choke,1,0:52,http://ufcstats.com/fight-details/00b0796724ec1c09
-UFC 1: The Beginning,Royce Gracie,Ken Shamrock,Royce Gracie,0,0,0,0,0,0,1,0,Open Weight,SUB Rear Naked Choke,1,0:57,http://ufcstats.com/fight-details/ffd16691c4c4aafc
-UFC 1: The Beginning,Gerard Gordeau,Kevin Rosier,Gerard Gordeau,1,0,11,0,0,0,0,0,Open Weight,KO/TKO,1,0:59,http://ufcstats.com/fight-details/ac7ca2ec38b96c1a
-UFC 1: The Beginning,Ken Shamrock,Patrick Smith,Ken Shamrock,0,0,1,4,1,0,2,0,Open Weight,SUB Heel Hook,1,1:49,http://ufcstats.com/fight-details/46acd54cc0c905fb
-UFC 1: The Beginning,Royce Gracie,Art Jimmerson,Royce Gracie,0,0,0,0,1,0,0,0,Open Weight,SUB Other,1,2:18,http://ufcstats.com/fight-details/cecdc0da584274b9
-UFC 1: The Beginning,Kevin Rosier,Zane Frazier,Kevin Rosier,2,0,15,12,0,0,0,0,Open Weight,KO/TKO,1,4:20,http://ufcstats.com/fight-details/2d2bbc86e941e05c
-UFC 1: The Beginning,Gerard Gordeau,Teila Tuli,Gerard Gordeau,0,0,3,0,0,0,0,0,Open Weight,KO/TKO Kick,1,0:26,http://ufcstats.com/fight-details/567a09fd200cfa05
