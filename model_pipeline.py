@@ -479,6 +479,28 @@ def symmetric_probability(artifact, frame):
     return float(np.clip((direct + 1.0 - reverse) / 2.0, 0.01, 0.99))
 
 
+def symmetric_component_probabilities(artifact, frame):
+    ensemble = artifact["ensemble"]
+    mirrored = frame.copy()
+    for column in DIFFERENCE_FEATURES:
+        mirrored[column] = -mirrored[column]
+
+    probabilities = {"ensemble": symmetric_probability(artifact, frame)}
+    for name in ensemble.model_names:
+        model = ensemble.models[name]
+        columns = ensemble.model_columns[name]
+        direct = model.predict_proba(frame[columns])[:, 1][0]
+        reverse = model.predict_proba(mirrored[columns])[:, 1][0]
+        probabilities[name] = float(np.clip((direct + 1.0 - reverse) / 2.0, 0.01, 0.99))
+
+    direct_glicko = sigmoid(frame[ensemble.glicko_column].to_numpy())[0]
+    reverse_glicko = sigmoid(mirrored[ensemble.glicko_column].to_numpy())[0]
+    probabilities["dynamic_glicko"] = float(
+        np.clip((direct_glicko + 1.0 - reverse_glicko) / 2.0, 0.01, 0.99)
+    )
+    return probabilities
+
+
 def residual_probability(artifact, model_probability, market_probability, frame):
     residual = artifact.get("market_residual")
     if residual is None:

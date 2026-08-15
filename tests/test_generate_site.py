@@ -61,6 +61,10 @@ class SiteGeneratorTests(unittest.TestCase):
             )
             self.assertGreaterEqual(prediction["independent_red_probability"], 0)
             self.assertLessEqual(prediction["independent_red_probability"], 1)
+            self.assertIn("ensemble", prediction["model_probabilities"])
+            for probability in prediction["model_probabilities"].values():
+                self.assertGreaterEqual(probability, 0)
+                self.assertLessEqual(probability, 1)
             if prediction["recommendation"]:
                 self.assertIn(
                     prediction["recommendation"],
@@ -83,6 +87,18 @@ class SiteGeneratorTests(unittest.TestCase):
             [row["elo"] for row in rankings],
             sorted((row["elo"] for row in rankings), reverse=True),
         )
+
+    def test_payload_exposes_model_filters_and_holdout_history(self):
+        model_keys = {
+            model["key"] for model in self.payload["model"]["prediction_models"]
+        }
+        self.assertEqual(
+            model_keys,
+            {"ensemble", "spline_logistic", "gradient", "catboost", "dynamic_glicko"},
+        )
+        history = self.payload["model"]["historical_performance"]
+        self.assertGreater(len(history), 0)
+        self.assertIn("ensemble", history[0]["models"])
 
 
 if __name__ == "__main__":

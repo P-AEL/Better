@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T15:23:42.476008+00:00",
+  "generated_at": "2026-08-15T17:13:28.158596+00:00",
   "model": {
     "name": "Calibrated temporal ensemble",
     "version": "3.0.0",
@@ -29,6 +29,3796 @@
       "log_loss": 0.5803851461743847,
       "brier": 0.19780695730051318
     },
+    "prediction_models": [
+      {
+        "key": "ensemble",
+        "label": "Calibrated ensemble"
+      },
+      {
+        "key": "spline_logistic",
+        "label": "Spline logistic"
+      },
+      {
+        "key": "gradient",
+        "label": "Gradient boosting"
+      },
+      {
+        "key": "catboost",
+        "label": "CatBoost"
+      },
+      {
+        "key": "dynamic_glicko",
+        "label": "Dynamic Glicko"
+      }
+    ],
+    "performance_models": [
+      {
+        "key": "ensemble",
+        "label": "Calibrated ensemble"
+      },
+      {
+        "key": "spline_logistic",
+        "label": "Spline logistic"
+      },
+      {
+        "key": "gradient",
+        "label": "Gradient boosting"
+      },
+      {
+        "key": "catboost",
+        "label": "CatBoost"
+      },
+      {
+        "key": "dynamic_glicko",
+        "label": "Dynamic Glicko"
+      }
+    ],
+    "historical_performance": [
+      {
+        "event_name": "UFC Fight Night: Gamrot vs. Salkilld",
+        "event_date": "2026-08-08",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.5920970979628214,
+            "brier": 0.2009746541321538
+          },
+          "catboost": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6284852672900104,
+            "brier": 0.21864859190164018
+          },
+          "gradient": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.5858996264978356,
+            "brier": 0.19846394072252213
+          },
+          "spline_logistic": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6059975916627284,
+            "brier": 0.20745843283393706
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.644601393969042,
+            "brier": 0.227276178019628
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Medic vs. Rodriguez",
+        "event_date": "2026-08-01",
+        "fight_count": 14,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.6763044812376249,
+            "brier": 0.24229351142419042
+          },
+          "catboost": {
+            "accuracy": 0.5714285714285714,
+            "log_loss": 0.6959132966710373,
+            "brier": 0.25118887373798165
+          },
+          "gradient": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.6862985150748833,
+            "brier": 0.2467475286913753
+          },
+          "spline_logistic": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.6524924013515169,
+            "brier": 0.23209407171904325
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5,
+            "log_loss": 0.6907090523507524,
+            "brier": 0.2527039962012595
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Ankalaev vs. Guskov",
+        "event_date": "2026-07-25",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.3333333333333333,
+            "log_loss": 0.7587617828806708,
+            "brier": 0.2810963621277683
+          },
+          "catboost": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.7208186665192923,
+            "brier": 0.26279962519914807
+          },
+          "gradient": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.7791928188134892,
+            "brier": 0.2901780629164256
+          },
+          "spline_logistic": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.7512777761020168,
+            "brier": 0.2790919733932273
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6628246184651769,
+            "brier": 0.2337223487240054
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Du Plessis vs. Usman",
+        "event_date": "2026-07-18",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.5805027691064083,
+            "brier": 0.19443971445955557
+          },
+          "catboost": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6568061329893154,
+            "brier": 0.2313091756900241
+          },
+          "gradient": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.6167483395468792,
+            "brier": 0.21040538031372544
+          },
+          "spline_logistic": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.5405257135220096,
+            "brier": 0.1771451600909932
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6204728761513717,
+            "brier": 0.22016631540401643
+          }
+        }
+      },
+      {
+        "event_name": "UFC 329: McGregor vs. Holloway 2",
+        "event_date": "2026-07-11",
+        "fight_count": 14,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.6244730109825164,
+            "brier": 0.21789870474592538
+          },
+          "catboost": {
+            "accuracy": 0.5,
+            "log_loss": 0.6520013061381141,
+            "brier": 0.23039735377740134
+          },
+          "gradient": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.6205935825410466,
+            "brier": 0.21636703937546248
+          },
+          "spline_logistic": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.6423585952082735,
+            "brier": 0.2267547904596545
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.551173604504515,
+            "brier": 0.18579749649823643
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Fiziev vs. Torres",
+        "event_date": "2026-06-27",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6084186046383404,
+            "brier": 0.20942862073312535
+          },
+          "catboost": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6183397300082013,
+            "brier": 0.21355759590898962
+          },
+          "gradient": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.6095960025779015,
+            "brier": 0.20984139195324075
+          },
+          "spline_logistic": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6309981173506076,
+            "brier": 0.22012246255462162
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.5636630674954347,
+            "brier": 0.18817274355271613
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Kape vs. Horiguchi",
+        "event_date": "2026-06-20",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6911920163166273,
+            "brier": 0.24881551801299231
+          },
+          "catboost": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.6813500957170975,
+            "brier": 0.2440790692981373
+          },
+          "gradient": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6981968479525295,
+            "brier": 0.25200139025152246
+          },
+          "spline_logistic": {
+            "accuracy": 0.5,
+            "log_loss": 0.6675582079049955,
+            "brier": 0.23819737368557758
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5,
+            "log_loss": 0.8901911378178435,
+            "brier": 0.318417250176701
+          }
+        }
+      },
+      {
+        "event_name": "UFC Freedom 250",
+        "event_date": "2026-06-14",
+        "fight_count": 7,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.5529556075174668,
+            "brier": 0.18251976106458676
+          },
+          "catboost": {
+            "accuracy": 0.8571428571428571,
+            "log_loss": 0.5868958294806824,
+            "brier": 0.1974919631843964
+          },
+          "gradient": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.563299389843207,
+            "brier": 0.18679258464057685
+          },
+          "spline_logistic": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.5438958289995343,
+            "brier": 0.17966321727673235
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.6139916286540689,
+            "brier": 0.21116537461768456
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Muhammad vs. Bonfim",
+        "event_date": "2026-06-06",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.5576084979622886,
+            "brier": 0.18389325279482568
+          },
+          "catboost": {
+            "accuracy": 0.9166666666666666,
+            "log_loss": 0.5797802290833479,
+            "brier": 0.19462588732965727
+          },
+          "gradient": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.5678215859760828,
+            "brier": 0.18993959995078533
+          },
+          "spline_logistic": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.581064432113667,
+            "brier": 0.19241052440572606
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.75,
+            "log_loss": 0.5547105687971965,
+            "brier": 0.18609788025855387
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Song vs. Figueiredo",
+        "event_date": "2026-05-30",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.6191156062744247,
+            "brier": 0.21419460947622435
+          },
+          "catboost": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6415593205659927,
+            "brier": 0.22476506068117097
+          },
+          "gradient": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.6094421041427136,
+            "brier": 0.21011910023062896
+          },
+          "spline_logistic": {
+            "accuracy": 0.75,
+            "log_loss": 0.6376914629269974,
+            "brier": 0.22247057883494362
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.75,
+            "log_loss": 0.5950323768763923,
+            "brier": 0.20407426562144967
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Allen vs. Costa",
+        "event_date": "2026-05-16",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.23076923076923078,
+            "log_loss": 0.7805858791303704,
+            "brier": 0.293582156302255
+          },
+          "catboost": {
+            "accuracy": 0.3076923076923077,
+            "log_loss": 0.7400235418489055,
+            "brier": 0.27334946478067834
+          },
+          "gradient": {
+            "accuracy": 0.3076923076923077,
+            "log_loss": 0.7757328857424821,
+            "brier": 0.2914154546312688
+          },
+          "spline_logistic": {
+            "accuracy": 0.3076923076923077,
+            "log_loss": 0.7637714923413524,
+            "brier": 0.2851713470133566
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.3076923076923077,
+            "log_loss": 0.8856289078842926,
+            "brier": 0.3381962585664248
+          }
+        }
+      },
+      {
+        "event_name": "UFC 328: Chimaev vs. Strickland",
+        "event_date": "2026-05-09",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6603011378926666,
+            "brier": 0.23640626633057732
+          },
+          "catboost": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6508193535932814,
+            "brier": 0.2299365747582335
+          },
+          "gradient": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6519689846874077,
+            "brier": 0.23281673213278375
+          },
+          "spline_logistic": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6784007626126471,
+            "brier": 0.24586844402291272
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.5563663259233831,
+            "brier": 0.185373523767865
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Della Maddalena vs. Prates",
+        "event_date": "2026-05-02",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6216660846657084,
+            "brier": 0.21511472437490817
+          },
+          "catboost": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6293755459149135,
+            "brier": 0.21878672291894777
+          },
+          "gradient": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6131240199295411,
+            "brier": 0.21138894997914873
+          },
+          "spline_logistic": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6221576971955175,
+            "brier": 0.21584783615723818
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.8080292144687335,
+            "brier": 0.2943593153703547
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Sterling vs. Zalal",
+        "event_date": "2026-04-25",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.756182081861675,
+            "brier": 0.2796416274005289
+          },
+          "catboost": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.7107617137988687,
+            "brier": 0.25842643098215096
+          },
+          "gradient": {
+            "accuracy": 0.38461538461538464,
+            "log_loss": 0.7544543565538485,
+            "brier": 0.2787288935035814
+          },
+          "spline_logistic": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.7635290172598415,
+            "brier": 0.2833900661705689
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.38461538461538464,
+            "log_loss": 0.7847486868991501,
+            "brier": 0.2896232284827996
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Burns vs. Malott",
+        "event_date": "2026-04-18",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.36363636363636365,
+            "log_loss": 0.7562866491078052,
+            "brier": 0.28118550317716146
+          },
+          "catboost": {
+            "accuracy": 0.36363636363636365,
+            "log_loss": 0.7280443820582666,
+            "brier": 0.26716883320282636
+          },
+          "gradient": {
+            "accuracy": 0.2727272727272727,
+            "log_loss": 0.74759376352957,
+            "brier": 0.27666442691248117
+          },
+          "spline_logistic": {
+            "accuracy": 0.2727272727272727,
+            "log_loss": 0.7521989932199198,
+            "brier": 0.279218975809336
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.2727272727272727,
+            "log_loss": 0.8547368151738485,
+            "brier": 0.3245736195691364
+          }
+        }
+      },
+      {
+        "event_name": "UFC 327: Prochazka vs. Ulberg",
+        "event_date": "2026-04-11",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.685560075243499,
+            "brier": 0.24681788176698216
+          },
+          "catboost": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.7091852979177666,
+            "brier": 0.2577483565887565
+          },
+          "gradient": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.67148480718819,
+            "brier": 0.23954258379875037
+          },
+          "spline_logistic": {
+            "accuracy": 0.45454545454545453,
+            "log_loss": 0.6906868464070415,
+            "brier": 0.24990919723033844
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.45454545454545453,
+            "log_loss": 0.7620442866984546,
+            "brier": 0.2803575794835679
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Moicano vs. Duncan",
+        "event_date": "2026-04-04",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.7414114723318443,
+            "brier": 0.27339137051880197
+          },
+          "catboost": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.7546087573660676,
+            "brier": 0.28006881095971614
+          },
+          "gradient": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.7389788123715147,
+            "brier": 0.27233054487469827
+          },
+          "spline_logistic": {
+            "accuracy": 0.38461538461538464,
+            "log_loss": 0.7236525841975499,
+            "brier": 0.2650851179051286
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.7681015670632809,
+            "brier": 0.2825062319665052
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Adesanya vs. Pyfer",
+        "event_date": "2026-03-28",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.8110093348564886,
+            "brier": 0.3030263662331914
+          },
+          "catboost": {
+            "accuracy": 0.5,
+            "log_loss": 0.7823194475542001,
+            "brier": 0.2914334030715662
+          },
+          "gradient": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.7950167389366629,
+            "brier": 0.29614659864429893
+          },
+          "spline_logistic": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.8184902732807577,
+            "brier": 0.3044947182914615
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.8730216638555196,
+            "brier": 0.3292645586746632
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Evloev vs. Murphy",
+        "event_date": "2026-03-21",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.9230769230769231,
+            "log_loss": 0.5147810641624802,
+            "brier": 0.16409194035000124
+          },
+          "catboost": {
+            "accuracy": 0.8461538461538461,
+            "log_loss": 0.5658388187599825,
+            "brier": 0.18778962000328273
+          },
+          "gradient": {
+            "accuracy": 0.9230769230769231,
+            "log_loss": 0.5141955605036859,
+            "brier": 0.16422686401997805
+          },
+          "spline_logistic": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.5494577477733659,
+            "brier": 0.18082916137428573
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.8461538461538461,
+            "log_loss": 0.46141874084690304,
+            "brier": 0.1426628844076225
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Emmett vs. Vallejos",
+        "event_date": "2026-03-14",
+        "fight_count": 14,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5714285714285714,
+            "log_loss": 0.6441898796048255,
+            "brier": 0.2271576941570739
+          },
+          "catboost": {
+            "accuracy": 0.5,
+            "log_loss": 0.6661098137415946,
+            "brier": 0.2370734225941489
+          },
+          "gradient": {
+            "accuracy": 0.42857142857142855,
+            "log_loss": 0.6709145638787699,
+            "brier": 0.24036974231547656
+          },
+          "spline_logistic": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.6104792151429675,
+            "brier": 0.21102860055324477
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.6870359794294386,
+            "brier": 0.24708226730776459
+          }
+        }
+      },
+      {
+        "event_name": "UFC 326: Holloway vs. Oliveira 2",
+        "event_date": "2026-03-07",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6366117572878002,
+            "brier": 0.2225079669278791
+          },
+          "catboost": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.669788442752418,
+            "brier": 0.23848674746703988
+          },
+          "gradient": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.620194838262273,
+            "brier": 0.21451526562588252
+          },
+          "spline_logistic": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6464317576912854,
+            "brier": 0.22754514202580103
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5,
+            "log_loss": 0.7578858532809827,
+            "brier": 0.2801737848504111
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Moreno vs. Kavanagh",
+        "event_date": "2026-02-28",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6227588091573032,
+            "brier": 0.21681451805814067
+          },
+          "catboost": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6129797612506207,
+            "brier": 0.21065045894779527
+          },
+          "gradient": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6390467750365295,
+            "brier": 0.22379588867364195
+          },
+          "spline_logistic": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6220610731723835,
+            "brier": 0.21796799212390194
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.6264415624632238,
+            "brier": 0.2141063511461588
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Strickland vs. Hernandez",
+        "event_date": "2026-02-21",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.6261604364760569,
+            "brier": 0.21616929401788093
+          },
+          "catboost": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6527564089252075,
+            "brier": 0.2298913829570798
+          },
+          "gradient": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.6587914300570883,
+            "brier": 0.23152374046027296
+          },
+          "spline_logistic": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.5994222257651349,
+            "brier": 0.20394400430281434
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6420413039683562,
+            "brier": 0.22810263770090244
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Bautista vs. Oliveira",
+        "event_date": "2026-02-07",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.7108756744703151,
+            "brier": 0.258257759196556
+          },
+          "catboost": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6954245699796805,
+            "brier": 0.2517333434226703
+          },
+          "gradient": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.7068297005794404,
+            "brier": 0.25727910156281797
+          },
+          "spline_logistic": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.7140112358868217,
+            "brier": 0.2580473181465917
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.7737059499488607,
+            "brier": 0.2743049260639708
+          }
+        }
+      },
+      {
+        "event_name": "UFC 325: Volkanovski vs. Lopes 2",
+        "event_date": "2026-01-31",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6385382441767417,
+            "brier": 0.22421702089838189
+          },
+          "catboost": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6651516430383096,
+            "brier": 0.2364370317312086
+          },
+          "gradient": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6662038039958654,
+            "brier": 0.23735048220594365
+          },
+          "spline_logistic": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.6198047228957833,
+            "brier": 0.215280767080846
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.8461538461538461,
+            "log_loss": 0.5834450271194604,
+            "brier": 0.1998395801747563
+          }
+        }
+      },
+      {
+        "event_name": "UFC 324: Gaethje vs. Pimblett",
+        "event_date": "2026-01-24",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6309075136701839,
+            "brier": 0.22055210999250088
+          },
+          "catboost": {
+            "accuracy": 0.45454545454545453,
+            "log_loss": 0.6567942117079728,
+            "brier": 0.23252377463299043
+          },
+          "gradient": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6465471937489496,
+            "brier": 0.22771730479133065
+          },
+          "spline_logistic": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.6179307195529881,
+            "brier": 0.21452101930484294
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.8181818181818182,
+            "log_loss": 0.6158882607696495,
+            "brier": 0.21243002326596783
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Royval vs. Kape",
+        "event_date": "2025-12-13",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.6498395420253712,
+            "brier": 0.2264245972498571
+          },
+          "catboost": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6656533048292786,
+            "brier": 0.23600798556506544
+          },
+          "gradient": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.6529683112239876,
+            "brier": 0.22811740116732218
+          },
+          "spline_logistic": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6557388549232591,
+            "brier": 0.22781002105040518
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.7217769245079567,
+            "brier": 0.25418853444693545
+          }
+        }
+      },
+      {
+        "event_name": "UFC 323: Dvalishvili vs. Yan 2",
+        "event_date": "2025-12-06",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6535035651356357,
+            "brier": 0.23154799240066587
+          },
+          "catboost": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6643427254125565,
+            "brier": 0.23610529135412894
+          },
+          "gradient": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6604072376409863,
+            "brier": 0.23434986769592395
+          },
+          "spline_logistic": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6295613795377413,
+            "brier": 0.2211233283038617
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.8236949294282593,
+            "brier": 0.31098398596994264
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Tsarukyan vs. Hooker",
+        "event_date": "2025-11-22",
+        "fight_count": 14,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7857142857142857,
+            "log_loss": 0.5069563557944249,
+            "brier": 0.16124035713614543
+          },
+          "catboost": {
+            "accuracy": 0.8571428571428571,
+            "log_loss": 0.552339973886432,
+            "brier": 0.18134129595543858
+          },
+          "gradient": {
+            "accuracy": 0.7857142857142857,
+            "log_loss": 0.5172786794841108,
+            "brier": 0.1661830903715682
+          },
+          "spline_logistic": {
+            "accuracy": 0.7857142857142857,
+            "log_loss": 0.5105467607200245,
+            "brier": 0.1634159483779948
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.7857142857142857,
+            "log_loss": 0.5415907631432725,
+            "brier": 0.17896480074291768
+          }
+        }
+      },
+      {
+        "event_name": "UFC 322: Della Maddalena vs. Makhachev",
+        "event_date": "2025-11-15",
+        "fight_count": 14,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.6185963973256442,
+            "brier": 0.21411513871982255
+          },
+          "catboost": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.651190392005465,
+            "brier": 0.22923666217363234
+          },
+          "gradient": {
+            "accuracy": 0.5714285714285714,
+            "log_loss": 0.6362602564403422,
+            "brier": 0.2220686035392896
+          },
+          "spline_logistic": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.5898931173328742,
+            "brier": 0.20109279223538995
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.42857142857142855,
+            "log_loss": 0.7486870838665919,
+            "brier": 0.27632284370944865
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Bonfim vs. Brown",
+        "event_date": "2025-11-08",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6221715452597437,
+            "brier": 0.21563818898583073
+          },
+          "catboost": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6365031609769628,
+            "brier": 0.22235975227303414
+          },
+          "gradient": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.6104276054559787,
+            "brier": 0.2097122482099201
+          },
+          "spline_logistic": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6377185423621912,
+            "brier": 0.2236076793655908
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5,
+            "log_loss": 0.7309439595547317,
+            "brier": 0.26637869592258995
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Garcia vs. Onama",
+        "event_date": "2025-11-01",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6447777856718291,
+            "brier": 0.22668849977066582
+          },
+          "catboost": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6642047530100308,
+            "brier": 0.235716700357036
+          },
+          "gradient": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6529372782217158,
+            "brier": 0.23053847672820224
+          },
+          "spline_logistic": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.641413072713941,
+            "brier": 0.224835111122175
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6532691724126842,
+            "brier": 0.23129634051490275
+          }
+        }
+      },
+      {
+        "event_name": "UFC 321: Aspinall vs. Gane",
+        "event_date": "2025-10-25",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6537602734890577,
+            "brier": 0.2304658107012014
+          },
+          "catboost": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6577340741432148,
+            "brier": 0.23265616391585944
+          },
+          "gradient": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6351188840853371,
+            "brier": 0.22187053523692157
+          },
+          "spline_logistic": {
+            "accuracy": 0.5,
+            "log_loss": 0.6730483631508023,
+            "brier": 0.2396140684030884
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.7426785900849945,
+            "brier": 0.27337943997527636
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: De Ridder vs. Allen",
+        "event_date": "2025-10-18",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.7880123198512549,
+            "brier": 0.29454643128314817
+          },
+          "catboost": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.7631196493147747,
+            "brier": 0.28375077251896375
+          },
+          "gradient": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.7994897265918953,
+            "brier": 0.3006525733354374
+          },
+          "spline_logistic": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.7621344742736891,
+            "brier": 0.2819575347597988
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.38461538461538464,
+            "log_loss": 0.8108643613468958,
+            "brier": 0.30604609690689705
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Oliveira vs. Gamrot",
+        "event_date": "2025-10-11",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.78774686046315,
+            "brier": 0.29449609299986473
+          },
+          "catboost": {
+            "accuracy": 0.3333333333333333,
+            "log_loss": 0.7553755927291798,
+            "brier": 0.27993505058959955
+          },
+          "gradient": {
+            "accuracy": 0.3333333333333333,
+            "log_loss": 0.7792541769489606,
+            "brier": 0.2905037215676438
+          },
+          "spline_logistic": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.7941610522880101,
+            "brier": 0.29750237973724597
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.7853446305714796,
+            "brier": 0.2900591387934249
+          }
+        }
+      },
+      {
+        "event_name": "UFC 320: Ankalaev vs. Pereira 2",
+        "event_date": "2025-10-04",
+        "fight_count": 14,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7857142857142857,
+            "log_loss": 0.5579877419846585,
+            "brier": 0.18536699023141354
+          },
+          "catboost": {
+            "accuracy": 0.7857142857142857,
+            "log_loss": 0.5942996082478386,
+            "brier": 0.20168377475563665
+          },
+          "gradient": {
+            "accuracy": 0.7857142857142857,
+            "log_loss": 0.5745673345181768,
+            "brier": 0.19318104753541723
+          },
+          "spline_logistic": {
+            "accuracy": 0.7857142857142857,
+            "log_loss": 0.5489612832961753,
+            "brier": 0.18213956234986597
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.6090218626534354,
+            "brier": 0.21130343260154308
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Ulberg vs. Reyes",
+        "event_date": "2025-09-27",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5,
+            "log_loss": 0.6902329088573161,
+            "brier": 0.24962331481026323
+          },
+          "catboost": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.6909900431961487,
+            "brier": 0.24895842723024333
+          },
+          "gradient": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.7077174336653362,
+            "brier": 0.2579045627085762
+          },
+          "spline_logistic": {
+            "accuracy": 0.5,
+            "log_loss": 0.6690669663237895,
+            "brier": 0.23952087089012622
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6676378881524078,
+            "brier": 0.2404304677445218
+          }
+        }
+      },
+      {
+        "event_name": "Noche UFC: Lopes vs. Silva",
+        "event_date": "2025-09-13",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6567438133588296,
+            "brier": 0.23171153096483071
+          },
+          "catboost": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6607025416725032,
+            "brier": 0.23402382570136443
+          },
+          "gradient": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.6597915293196526,
+            "brier": 0.23319531692025824
+          },
+          "spline_logistic": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6619091226732905,
+            "brier": 0.23341737903934312
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.7052320910508819,
+            "brier": 0.25438108797891895
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Imavov vs. Borralho",
+        "event_date": "2025-09-06",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6757648348423249,
+            "brier": 0.24093901956491454
+          },
+          "catboost": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6635973158308075,
+            "brier": 0.2357919516215592
+          },
+          "gradient": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6647384294005177,
+            "brier": 0.2365574546141915
+          },
+          "spline_logistic": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6851093590059121,
+            "brier": 0.2446773532844731
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.8180482232550692,
+            "brier": 0.2934000593307556
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Walker vs. Zhang",
+        "event_date": "2025-08-23",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6662327231036715,
+            "brier": 0.23621156315949332
+          },
+          "catboost": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.7100614468567485,
+            "brier": 0.2580297072063665
+          },
+          "gradient": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6878354018082536,
+            "brier": 0.24669662064412848
+          },
+          "spline_logistic": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6188244768055428,
+            "brier": 0.2143269378211704
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5,
+            "log_loss": 0.8006151133608331,
+            "brier": 0.29168503660189865
+          }
+        }
+      },
+      {
+        "event_name": "UFC 319: Du Plessis vs. Chimaev",
+        "event_date": "2025-08-16",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.75,
+            "log_loss": 0.6051065070548142,
+            "brier": 0.20768571173906233
+          },
+          "catboost": {
+            "accuracy": 0.75,
+            "log_loss": 0.6218216310882204,
+            "brier": 0.2148312586052369
+          },
+          "gradient": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.6073711658827929,
+            "brier": 0.20832327711449714
+          },
+          "spline_logistic": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6104834258005966,
+            "brier": 0.21079144441214806
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6606791487157349,
+            "brier": 0.23849573717256647
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Dolidze vs. Hernandez",
+        "event_date": "2025-08-09",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.75,
+            "log_loss": 0.5257807473616658,
+            "brier": 0.172968203728068
+          },
+          "catboost": {
+            "accuracy": 0.75,
+            "log_loss": 0.6079014116066332,
+            "brier": 0.20806853455740368
+          },
+          "gradient": {
+            "accuracy": 0.75,
+            "log_loss": 0.5524710450249767,
+            "brier": 0.1839882144852197
+          },
+          "spline_logistic": {
+            "accuracy": 0.75,
+            "log_loss": 0.4768950143747064,
+            "brier": 0.15747905030838236
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.75,
+            "log_loss": 0.5552879414532621,
+            "brier": 0.18535907172141483
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Taira vs. Park",
+        "event_date": "2025-08-02",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6018124540428283,
+            "brier": 0.20688174156840422
+          },
+          "catboost": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6234396582415631,
+            "brier": 0.21595806608573934
+          },
+          "gradient": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6039972335688738,
+            "brier": 0.2077061341771923
+          },
+          "spline_logistic": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6018580443954814,
+            "brier": 0.2078200875821077
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.644733323225909,
+            "brier": 0.22756830044308185
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Whittaker vs. De Ridder",
+        "event_date": "2025-07-26",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.7173546223589069,
+            "brier": 0.2626634310493845
+          },
+          "catboost": {
+            "accuracy": 0.5,
+            "log_loss": 0.6673559401154073,
+            "brier": 0.23762038556160203
+          },
+          "gradient": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.743422625854985,
+            "brier": 0.27429887421362276
+          },
+          "spline_logistic": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.7113872740518375,
+            "brier": 0.26053241374086844
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.5936322207872903,
+            "brier": 0.20467749908536814
+          }
+        }
+      },
+      {
+        "event_name": "UFC 318: Holloway vs. Poirier 3",
+        "event_date": "2025-07-19",
+        "fight_count": 14,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.6704695387280655,
+            "brier": 0.23706010715324805
+          },
+          "catboost": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.6653109531767402,
+            "brier": 0.23567498521275546
+          },
+          "gradient": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.6746942062006202,
+            "brier": 0.23930635296956865
+          },
+          "spline_logistic": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.6870815426479069,
+            "brier": 0.24473577604344662
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.7857142857142857,
+            "log_loss": 0.6034169685013123,
+            "brier": 0.20405316518985125
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Lewis vs. Teixeira",
+        "event_date": "2025-07-12",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.75,
+            "log_loss": 0.5500128370272982,
+            "brier": 0.18289173308577542
+          },
+          "catboost": {
+            "accuracy": 0.75,
+            "log_loss": 0.5728957094623973,
+            "brier": 0.1912622121358497
+          },
+          "gradient": {
+            "accuracy": 0.75,
+            "log_loss": 0.5631490589739047,
+            "brier": 0.18876046304731064
+          },
+          "spline_logistic": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.5441478215231349,
+            "brier": 0.18210739386556263
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6343615867999469,
+            "brier": 0.22442320964486503
+          }
+        }
+      },
+      {
+        "event_name": "UFC 317: Topuria vs. Oliveira",
+        "event_date": "2025-06-28",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.5939921184095955,
+            "brier": 0.20300761427102956
+          },
+          "catboost": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6118806147971965,
+            "brier": 0.21030247626732226
+          },
+          "gradient": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.594641694463843,
+            "brier": 0.20233276525566996
+          },
+          "spline_logistic": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.5900335219841873,
+            "brier": 0.2023593516656965
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.763441135511277,
+            "brier": 0.27640367404665855
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Hill vs. Rountree Jr.",
+        "event_date": "2025-06-21",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6630939101845721,
+            "brier": 0.2365938686712167
+          },
+          "catboost": {
+            "accuracy": 0.5,
+            "log_loss": 0.7014998893243992,
+            "brier": 0.2539903928667911
+          },
+          "gradient": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6555825343651122,
+            "brier": 0.23260769572380877
+          },
+          "spline_logistic": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6486666730125478,
+            "brier": 0.2314691470778778
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5,
+            "log_loss": 0.6874396951476341,
+            "brier": 0.251285263867362
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Usman vs. Buckley",
+        "event_date": "2025-06-14",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6404321522505539,
+            "brier": 0.22438677779383892
+          },
+          "catboost": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6945409499722507,
+            "brier": 0.25077239664609574
+          },
+          "gradient": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.656041774671836,
+            "brier": 0.23127931795570378
+          },
+          "spline_logistic": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6256641621629075,
+            "brier": 0.21816877735950577
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.5990081233080103,
+            "brier": 0.2104607250982564
+          }
+        }
+      },
+      {
+        "event_name": "UFC 316: Dvalishvili vs. O'Malley 2",
+        "event_date": "2025-06-07",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.6189094084827123,
+            "brier": 0.21287646374792546
+          },
+          "catboost": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.643170264161304,
+            "brier": 0.22505609130072987
+          },
+          "gradient": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.596083058361415,
+            "brier": 0.2024632615656192
+          },
+          "spline_logistic": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6560190778529361,
+            "brier": 0.22971018560863363
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6517615899267142,
+            "brier": 0.23323494941639716
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Blanchfield vs. Barber",
+        "event_date": "2025-05-31",
+        "fight_count": 9,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.4444444444444444,
+            "log_loss": 0.6935298943405437,
+            "brier": 0.25155771410670597
+          },
+          "catboost": {
+            "accuracy": 0.4444444444444444,
+            "log_loss": 0.6823507525477089,
+            "brier": 0.24524507743429355
+          },
+          "gradient": {
+            "accuracy": 0.5555555555555556,
+            "log_loss": 0.672118763985307,
+            "brier": 0.24076486125433785
+          },
+          "spline_logistic": {
+            "accuracy": 0.3333333333333333,
+            "log_loss": 0.7240121182130292,
+            "brier": 0.26701028864883547
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.7777777777777778,
+            "log_loss": 0.6087400660471033,
+            "brier": 0.20971752677900254
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Burns vs. Morales",
+        "event_date": "2025-05-17",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.8181818181818182,
+            "log_loss": 0.5280486268081639,
+            "brier": 0.1709414401180195
+          },
+          "catboost": {
+            "accuracy": 0.8181818181818182,
+            "log_loss": 0.5882086503532435,
+            "brier": 0.1984883267355064
+          },
+          "gradient": {
+            "accuracy": 0.8181818181818182,
+            "log_loss": 0.5439027217722129,
+            "brier": 0.17733514238061635
+          },
+          "spline_logistic": {
+            "accuracy": 0.8181818181818182,
+            "log_loss": 0.5231927877151903,
+            "brier": 0.1711668170984357
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.8181818181818182,
+            "log_loss": 0.5383951470441253,
+            "brier": 0.1773552434494479
+          }
+        }
+      },
+      {
+        "event_name": "UFC 315: Muhammad vs. Della Maddalena",
+        "event_date": "2025-05-10",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6164928164112988,
+            "brier": 0.2143566315857535
+          },
+          "catboost": {
+            "accuracy": 0.5,
+            "log_loss": 0.6471166323900451,
+            "brier": 0.22793359322131015
+          },
+          "gradient": {
+            "accuracy": 0.75,
+            "log_loss": 0.6444725618407449,
+            "brier": 0.22765274049413656
+          },
+          "spline_logistic": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.5774543585792715,
+            "brier": 0.19597057296900536
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.6599299482277969,
+            "brier": 0.2387153291217482
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Sandhagen vs. Figueiredo",
+        "event_date": "2025-05-03",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6502456462218683,
+            "brier": 0.22882098778087412
+          },
+          "catboost": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.6818178510373444,
+            "brier": 0.24441009818356738
+          },
+          "gradient": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6394944079717019,
+            "brier": 0.2237835634134403
+          },
+          "spline_logistic": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6467099967052218,
+            "brier": 0.22705413431077817
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.8164493207063453,
+            "brier": 0.304485737595501
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Machado Garry vs. Prates",
+        "event_date": "2025-04-26",
+        "fight_count": 14,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.6116024237067998,
+            "brier": 0.21065777186994422
+          },
+          "catboost": {
+            "accuracy": 0.5,
+            "log_loss": 0.6542057515157113,
+            "brier": 0.23100956684841295
+          },
+          "gradient": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.5856113200597503,
+            "brier": 0.197966026074864
+          },
+          "spline_logistic": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.6252984181541368,
+            "brier": 0.21684418954885445
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.35714285714285715,
+            "log_loss": 0.7551501814184259,
+            "brier": 0.28206057102679205
+          }
+        }
+      },
+      {
+        "event_name": "UFC 314: Volkanovski vs. Lopes",
+        "event_date": "2025-04-12",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.5846891708258645,
+            "brier": 0.19959681308608068
+          },
+          "catboost": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6374415066496755,
+            "brier": 0.223098095135269
+          },
+          "gradient": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6100166957348783,
+            "brier": 0.2121892341369844
+          },
+          "spline_logistic": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.5569611646830784,
+            "brier": 0.1875157345629594
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.5764533012953156,
+            "brier": 0.19781369026171317
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Emmett vs. Murphy",
+        "event_date": "2025-04-05",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6025524340420395,
+            "brier": 0.20728867803688603
+          },
+          "catboost": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6412641692475699,
+            "brier": 0.22492121960505027
+          },
+          "gradient": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6338205574706993,
+            "brier": 0.2227887605007889
+          },
+          "spline_logistic": {
+            "accuracy": 0.75,
+            "log_loss": 0.5785845207226868,
+            "brier": 0.19592028712449214
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.5545480881892192,
+            "brier": 0.1893366713157785
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Moreno vs. Erceg",
+        "event_date": "2025-03-29",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.5599650243921617,
+            "brier": 0.1854613659642301
+          },
+          "catboost": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.6034424489758284,
+            "brier": 0.20575242303562805
+          },
+          "gradient": {
+            "accuracy": 0.75,
+            "log_loss": 0.5682759357691427,
+            "brier": 0.1897020473306302
+          },
+          "spline_logistic": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.5537004028071432,
+            "brier": 0.18311124594368267
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6547964749936769,
+            "brier": 0.22626171420277374
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Edwards vs. Brady",
+        "event_date": "2025-03-22",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.6721888929407557,
+            "brier": 0.2388458814335172
+          },
+          "catboost": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6840839082830812,
+            "brier": 0.24545258117668156
+          },
+          "gradient": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6869850074492133,
+            "brier": 0.2462633438006835
+          },
+          "spline_logistic": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6565248571372624,
+            "brier": 0.23115407277338795
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.7564744513055914,
+            "brier": 0.2812170889904569
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Vettori vs. Dolidze 2",
+        "event_date": "2025-03-15",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.7220695521205696,
+            "brier": 0.26585708268292557
+          },
+          "catboost": {
+            "accuracy": 0.38461538461538464,
+            "log_loss": 0.7085740737466127,
+            "brier": 0.25819344193303884
+          },
+          "gradient": {
+            "accuracy": 0.38461538461538464,
+            "log_loss": 0.7204182256915996,
+            "brier": 0.26451802009893266
+          },
+          "spline_logistic": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.6965757571574718,
+            "brier": 0.25554448439673344
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.38461538461538464,
+            "log_loss": 0.8034691970114621,
+            "brier": 0.29916871861733196
+          }
+        }
+      },
+      {
+        "event_name": "UFC 313: Pereira vs. Ankalaev",
+        "event_date": "2025-03-08",
+        "fight_count": 10,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7,
+            "log_loss": 0.7217910512198469,
+            "brier": 0.2626824856978428
+          },
+          "catboost": {
+            "accuracy": 0.5,
+            "log_loss": 0.6804668411750617,
+            "brier": 0.2437110616806851
+          },
+          "gradient": {
+            "accuracy": 0.5,
+            "log_loss": 0.7316313617801875,
+            "brier": 0.2667089489107264
+          },
+          "spline_logistic": {
+            "accuracy": 0.6,
+            "log_loss": 0.7335159553113024,
+            "brier": 0.2675025950516971
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6,
+            "log_loss": 0.7526151221925179,
+            "brier": 0.2761759927326655
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Kape vs. Almabayev",
+        "event_date": "2025-03-01",
+        "fight_count": 10,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7,
+            "log_loss": 0.6524590802190087,
+            "brier": 0.22987425783541
+          },
+          "catboost": {
+            "accuracy": 0.6,
+            "log_loss": 0.658441607986964,
+            "brier": 0.23288909077266248
+          },
+          "gradient": {
+            "accuracy": 0.7,
+            "log_loss": 0.6379889797091159,
+            "brier": 0.22372472151552705
+          },
+          "spline_logistic": {
+            "accuracy": 0.7,
+            "log_loss": 0.6699979558254174,
+            "brier": 0.23824614127805396
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.7,
+            "log_loss": 0.6772921217702748,
+            "brier": 0.24348634552947454
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Cejudo vs. Song",
+        "event_date": "2025-02-22",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.5759144086924157,
+            "brier": 0.1960422119497449
+          },
+          "catboost": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6199666189748106,
+            "brier": 0.21457027056401198
+          },
+          "gradient": {
+            "accuracy": 0.5,
+            "log_loss": 0.6037177676745494,
+            "brier": 0.20885525812053862
+          },
+          "spline_logistic": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.54051331991461,
+            "brier": 0.18301012427035135
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6021675804587691,
+            "brier": 0.20710594973352825
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Cannonier vs. Rodrigues",
+        "event_date": "2025-02-15",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6444118605872853,
+            "brier": 0.2273926198619495
+          },
+          "catboost": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6563772233027491,
+            "brier": 0.23193100166113076
+          },
+          "gradient": {
+            "accuracy": 0.5,
+            "log_loss": 0.6460804737014015,
+            "brier": 0.22845435751924859
+          },
+          "spline_logistic": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6445114852090789,
+            "brier": 0.2278822427478454
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6593851298987462,
+            "brier": 0.23750271699484257
+          }
+        }
+      },
+      {
+        "event_name": "UFC 312: Du Plessis vs. Strickland 2",
+        "event_date": "2025-02-08",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.45454545454545453,
+            "log_loss": 0.6498141309837706,
+            "brier": 0.2293137598176274
+          },
+          "catboost": {
+            "accuracy": 0.45454545454545453,
+            "log_loss": 0.681724723083555,
+            "brier": 0.24455646387052205
+          },
+          "gradient": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6477575519110923,
+            "brier": 0.22791782301568245
+          },
+          "spline_logistic": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6378195703515211,
+            "brier": 0.22341203961356965
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.45454545454545453,
+            "log_loss": 0.7497646397450307,
+            "brier": 0.2771280753279336
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Adesanya vs. Imavov",
+        "event_date": "2025-02-01",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.5621909566693365,
+            "brier": 0.1881339187194085
+          },
+          "catboost": {
+            "accuracy": 0.8181818181818182,
+            "log_loss": 0.6308762164540853,
+            "brier": 0.21919155567082083
+          },
+          "gradient": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.5636408985633785,
+            "brier": 0.18818592272088122
+          },
+          "spline_logistic": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.5484273253842856,
+            "brier": 0.1839681964806668
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6102151059257781,
+            "brier": 0.2132269023888653
+          }
+        }
+      },
+      {
+        "event_name": "UFC 311: Makhachev vs. Moicano",
+        "event_date": "2025-01-18",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6903626467575185,
+            "brier": 0.24829907392802128
+          },
+          "catboost": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.7031229898073766,
+            "brier": 0.2549284003026531
+          },
+          "gradient": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.6954899946643529,
+            "brier": 0.2513699327674796
+          },
+          "spline_logistic": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6990482780006609,
+            "brier": 0.24838313090211403
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6347419286486851,
+            "brier": 0.22409995917487194
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Dern vs. Ribas 2",
+        "event_date": "2025-01-11",
+        "fight_count": 14,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.42857142857142855,
+            "log_loss": 0.7456299979838059,
+            "brier": 0.27533200605968866
+          },
+          "catboost": {
+            "accuracy": 0.35714285714285715,
+            "log_loss": 0.7083422051845077,
+            "brier": 0.257567884283047
+          },
+          "gradient": {
+            "accuracy": 0.35714285714285715,
+            "log_loss": 0.7489642009994129,
+            "brier": 0.2758113511159781
+          },
+          "spline_logistic": {
+            "accuracy": 0.35714285714285715,
+            "log_loss": 0.7408716169683147,
+            "brier": 0.2733910010436846
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.2857142857142857,
+            "log_loss": 0.7844078307982129,
+            "brier": 0.29387588010328025
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Covington vs. Buckley",
+        "event_date": "2024-12-14",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6432370172680444,
+            "brier": 0.22510344461146609
+          },
+          "catboost": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6479326213505199,
+            "brier": 0.22778637826024195
+          },
+          "gradient": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.6436620539111184,
+            "brier": 0.22556667451237192
+          },
+          "spline_logistic": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6524244426415945,
+            "brier": 0.22889600116712192
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6824316010977868,
+            "brier": 0.24162692740895803
+          }
+        }
+      },
+      {
+        "event_name": "UFC 310: Pantoja vs. Asakura",
+        "event_date": "2024-12-07",
+        "fight_count": 14,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.8571428571428571,
+            "log_loss": 0.5644184870507181,
+            "brier": 0.18933664526081959
+          },
+          "catboost": {
+            "accuracy": 0.8571428571428571,
+            "log_loss": 0.5878139209899617,
+            "brier": 0.19822054801727124
+          },
+          "gradient": {
+            "accuracy": 0.7857142857142857,
+            "log_loss": 0.5680416611591149,
+            "brier": 0.19081664748243557
+          },
+          "spline_logistic": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.5718977465156858,
+            "brier": 0.19515573954966994
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.633971483753504,
+            "brier": 0.22210525827413188
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Yan vs. Figueiredo",
+        "event_date": "2024-11-23",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.38461538461538464,
+            "log_loss": 0.7283767853375923,
+            "brier": 0.26756377784749896
+          },
+          "catboost": {
+            "accuracy": 0.38461538461538464,
+            "log_loss": 0.7036676111424781,
+            "brier": 0.25541072822685773
+          },
+          "gradient": {
+            "accuracy": 0.38461538461538464,
+            "log_loss": 0.7224440716600699,
+            "brier": 0.2646012597152441
+          },
+          "spline_logistic": {
+            "accuracy": 0.38461538461538464,
+            "log_loss": 0.7370946577547632,
+            "brier": 0.27166055601176153
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.7126726675216525,
+            "brier": 0.2598723512838244
+          }
+        }
+      },
+      {
+        "event_name": "UFC 309: Jones vs. Miocic",
+        "event_date": "2024-11-16",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6809223694106389,
+            "brier": 0.24372901569977298
+          },
+          "catboost": {
+            "accuracy": 0.5,
+            "log_loss": 0.6768912668261033,
+            "brier": 0.24239575027790392
+          },
+          "gradient": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6665400576443208,
+            "brier": 0.2385252439412617
+          },
+          "spline_logistic": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.7043138990706833,
+            "brier": 0.25129224802738925
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6712435150963835,
+            "brier": 0.2416868971654235
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Magny vs. Prates",
+        "event_date": "2024-11-09",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.6383162196754185,
+            "brier": 0.22382149799075324
+          },
+          "catboost": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.64064810324689,
+            "brier": 0.22416234544324426
+          },
+          "gradient": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6270520991805415,
+            "brier": 0.21869733546889505
+          },
+          "spline_logistic": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6559176681107156,
+            "brier": 0.23306103704100425
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.7227982835719827,
+            "brier": 0.2639410262757749
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Moreno vs. Albazi",
+        "event_date": "2024-11-02",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.723218542922303,
+            "brier": 0.2646130994627768
+          },
+          "catboost": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.7130598570589748,
+            "brier": 0.25977921161507045
+          },
+          "gradient": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.7283653378996588,
+            "brier": 0.2671670846105121
+          },
+          "spline_logistic": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.7065005558416051,
+            "brier": 0.25647459963206837
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.3076923076923077,
+            "log_loss": 0.8197001909592186,
+            "brier": 0.3089669247358494
+          }
+        }
+      },
+      {
+        "event_name": "UFC 308: Topuria vs. Holloway",
+        "event_date": "2024-10-26",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.8461538461538461,
+            "log_loss": 0.5293797006017484,
+            "brier": 0.17053441431524885
+          },
+          "catboost": {
+            "accuracy": 0.8461538461538461,
+            "log_loss": 0.5736592162333118,
+            "brier": 0.19102843520411278
+          },
+          "gradient": {
+            "accuracy": 0.8461538461538461,
+            "log_loss": 0.5434274177438891,
+            "brier": 0.1772074132403638
+          },
+          "spline_logistic": {
+            "accuracy": 0.8461538461538461,
+            "log_loss": 0.5315033169494874,
+            "brier": 0.1727283681936996
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.5765893387439336,
+            "brier": 0.19647466969006813
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Hernandez vs. Pereira",
+        "event_date": "2024-10-19",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6710569211162057,
+            "brier": 0.2392343503216914
+          },
+          "catboost": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.6772630461756711,
+            "brier": 0.2419604279085557
+          },
+          "gradient": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.67233896271998,
+            "brier": 0.24029666095543775
+          },
+          "spline_logistic": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6693802856910968,
+            "brier": 0.23823710708989224
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.6891303557994429,
+            "brier": 0.24665850160741679
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Royval vs. Taira",
+        "event_date": "2024-10-12",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.7048373397636555,
+            "brier": 0.2556365735192908
+          },
+          "catboost": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.719736210633661,
+            "brier": 0.26283560341226564
+          },
+          "gradient": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.7104295019781341,
+            "brier": 0.2582441964861002
+          },
+          "spline_logistic": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6933267143118783,
+            "brier": 0.25017286415605605
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6775804690121269,
+            "brier": 0.24447072983098658
+          }
+        }
+      },
+      {
+        "event_name": "UFC 307: Pereira vs. Rountree Jr.",
+        "event_date": "2024-10-05",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6208651015468181,
+            "brier": 0.2166189644657848
+          },
+          "catboost": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6625283126944844,
+            "brier": 0.2349088387852379
+          },
+          "gradient": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6337082602570434,
+            "brier": 0.22267017651016832
+          },
+          "spline_logistic": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.5819366935231841,
+            "brier": 0.19950715392629334
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.3333333333333333,
+            "log_loss": 0.7806654497144011,
+            "brier": 0.2923981877632987
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Moicano vs. Saint Denis",
+        "event_date": "2024-09-28",
+        "fight_count": 14,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5714285714285714,
+            "log_loss": 0.6557553754199548,
+            "brier": 0.23142779148130824
+          },
+          "catboost": {
+            "accuracy": 0.5,
+            "log_loss": 0.6655947200352015,
+            "brier": 0.23631996027706778
+          },
+          "gradient": {
+            "accuracy": 0.5714285714285714,
+            "log_loss": 0.6589197552542966,
+            "brier": 0.2326841478260631
+          },
+          "spline_logistic": {
+            "accuracy": 0.5714285714285714,
+            "log_loss": 0.6591253426000842,
+            "brier": 0.2323564306338903
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.6791769812350884,
+            "brier": 0.24458219583319876
+          }
+        }
+      },
+      {
+        "event_name": "UFC 306: Riyadh Season Noche UFC",
+        "event_date": "2024-09-14",
+        "fight_count": 10,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7,
+            "log_loss": 0.5915838230303533,
+            "brier": 0.20111752299420932
+          },
+          "catboost": {
+            "accuracy": 0.6,
+            "log_loss": 0.6471175870315458,
+            "brier": 0.22750594521071835
+          },
+          "gradient": {
+            "accuracy": 0.6,
+            "log_loss": 0.6163637224132467,
+            "brier": 0.21299480749890615
+          },
+          "spline_logistic": {
+            "accuracy": 0.7,
+            "log_loss": 0.5632530310730292,
+            "brier": 0.18894271414879119
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6,
+            "log_loss": 0.6578905218540338,
+            "brier": 0.23267704359776237
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Burns vs. Brady",
+        "event_date": "2024-09-07",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.9166666666666666,
+            "log_loss": 0.5300076968725893,
+            "brier": 0.17225170885898122
+          },
+          "catboost": {
+            "accuracy": 0.9166666666666666,
+            "log_loss": 0.5921063061749394,
+            "brier": 0.2001288295166925
+          },
+          "gradient": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.5645928016108316,
+            "brier": 0.18822348664977476
+          },
+          "spline_logistic": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.4991857337200501,
+            "brier": 0.16243160430778816
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.75,
+            "log_loss": 0.5565130925521312,
+            "brier": 0.18716114902797354
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Cannonier vs. Borralho",
+        "event_date": "2024-08-24",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6009582619142282,
+            "brier": 0.2054263990066375
+          },
+          "catboost": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6147346966910666,
+            "brier": 0.21125471130072307
+          },
+          "gradient": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.612488428061583,
+            "brier": 0.2107749758511929
+          },
+          "spline_logistic": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6028064746702878,
+            "brier": 0.20696333566097416
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.6293118241614667,
+            "brier": 0.21881942882122185
+          }
+        }
+      },
+      {
+        "event_name": "UFC 305: Du Plessis vs. Adesanya",
+        "event_date": "2024-08-17",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6995005354281325,
+            "brier": 0.25219777223538004
+          },
+          "catboost": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6871607273120303,
+            "brier": 0.24677912139310385
+          },
+          "gradient": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.703854800557079,
+            "brier": 0.25411005494702016
+          },
+          "spline_logistic": {
+            "accuracy": 0.5,
+            "log_loss": 0.6881549773083059,
+            "brier": 0.24724672174812132
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5,
+            "log_loss": 0.7745756211837659,
+            "brier": 0.28615739062711715
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Tybura vs. Spivac 2",
+        "event_date": "2024-08-10",
+        "fight_count": 10,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7,
+            "log_loss": 0.6238868773458824,
+            "brier": 0.2166033898092313
+          },
+          "catboost": {
+            "accuracy": 0.7,
+            "log_loss": 0.6304589542495254,
+            "brier": 0.21942254513779305
+          },
+          "gradient": {
+            "accuracy": 0.7,
+            "log_loss": 0.61592600809496,
+            "brier": 0.21191823564979492
+          },
+          "spline_logistic": {
+            "accuracy": 0.7,
+            "log_loss": 0.6462534035607779,
+            "brier": 0.22677866690851917
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5,
+            "log_loss": 0.676324896735453,
+            "brier": 0.24403598384060127
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+        "event_date": "2024-08-03",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6174158180970408,
+            "brier": 0.21228440460443523
+          },
+          "catboost": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.642543892043217,
+            "brier": 0.2248271265489382
+          },
+          "gradient": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.6208340369730936,
+            "brier": 0.21439176541068639
+          },
+          "spline_logistic": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6308531844122063,
+            "brier": 0.21787811639736743
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.8461538461538461,
+            "log_loss": 0.5973979686136592,
+            "brier": 0.2029415946055474
+          }
+        }
+      },
+      {
+        "event_name": "UFC 304: Edwards vs. Muhammad 2",
+        "event_date": "2024-07-27",
+        "fight_count": 14,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.5772119537862043,
+            "brier": 0.1955668098315457
+          },
+          "catboost": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.6019459761707425,
+            "brier": 0.20566413155645824
+          },
+          "gradient": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.5799389007953828,
+            "brier": 0.19620126955958783
+          },
+          "spline_logistic": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.5711532374193807,
+            "brier": 0.19376682096508716
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5714285714285714,
+            "log_loss": 0.6638600729416553,
+            "brier": 0.2390317284706648
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Lemos vs. Jandiroba",
+        "event_date": "2024-07-20",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.2727272727272727,
+            "log_loss": 0.7916523058173197,
+            "brier": 0.29706904619653796
+          },
+          "catboost": {
+            "accuracy": 0.2727272727272727,
+            "log_loss": 0.7422397762700139,
+            "brier": 0.2740939572873998
+          },
+          "gradient": {
+            "accuracy": 0.36363636363636365,
+            "log_loss": 0.7675812157991694,
+            "brier": 0.2856510622528069
+          },
+          "spline_logistic": {
+            "accuracy": 0.2727272727272727,
+            "log_loss": 0.8041042145111429,
+            "brier": 0.30233629747838614
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.36363636363636365,
+            "log_loss": 0.9201209572887596,
+            "brier": 0.3477789499958163
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Namajunas vs. Cortez",
+        "event_date": "2024-07-13",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6557090676709296,
+            "brier": 0.2299367956708567
+          },
+          "catboost": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6611618982780737,
+            "brier": 0.2337412348609245
+          },
+          "gradient": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6628577649070901,
+            "brier": 0.2336543393217743
+          },
+          "spline_logistic": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.668664060614914,
+            "brier": 0.23625858539917138
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.6092315516609237,
+            "brier": 0.2130637297022828
+          }
+        }
+      },
+      {
+        "event_name": "UFC 303: Pereira vs. Prochazka 2",
+        "event_date": "2024-06-29",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.5519201598761851,
+            "brier": 0.18316460586238908
+          },
+          "catboost": {
+            "accuracy": 0.7692307692307693,
+            "log_loss": 0.5708969672347646,
+            "brier": 0.19044992776300934
+          },
+          "gradient": {
+            "accuracy": 0.8461538461538461,
+            "log_loss": 0.5556803902779933,
+            "brier": 0.18426943782109848
+          },
+          "spline_logistic": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.5575436310705432,
+            "brier": 0.18660914697576989
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6492716407218289,
+            "brier": 0.22892029804723688
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Whittaker vs. Aliskerov",
+        "event_date": "2024-06-22",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.45454545454545453,
+            "log_loss": 0.6617802732631669,
+            "brier": 0.2360252983321014
+          },
+          "catboost": {
+            "accuracy": 0.45454545454545453,
+            "log_loss": 0.6570845101394848,
+            "brier": 0.2326425859746573
+          },
+          "gradient": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6489524998658263,
+            "brier": 0.23006289216028097
+          },
+          "spline_logistic": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6682788101922379,
+            "brier": 0.23879205584902907
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.45454545454545453,
+            "log_loss": 0.8000769013640007,
+            "brier": 0.28940976156073933
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Perez vs. Taira",
+        "event_date": "2024-06-15",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6329975656533277,
+            "brier": 0.21973919285215826
+          },
+          "catboost": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6651762500835425,
+            "brier": 0.23574132102429746
+          },
+          "gradient": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6304428340644549,
+            "brier": 0.2192078617488063
+          },
+          "spline_logistic": {
+            "accuracy": 0.8181818181818182,
+            "log_loss": 0.6338901424694364,
+            "brier": 0.2199840764660269
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6711439393395742,
+            "brier": 0.23838054972352055
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Cannonier vs. Imavov",
+        "event_date": "2024-06-08",
+        "fight_count": 14,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.6414106458246688,
+            "brier": 0.22475115362859202
+          },
+          "catboost": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.6673082310935496,
+            "brier": 0.23694144919921103
+          },
+          "gradient": {
+            "accuracy": 0.7142857142857143,
+            "log_loss": 0.6455427540052309,
+            "brier": 0.22708342091369801
+          },
+          "spline_logistic": {
+            "accuracy": 0.6428571428571429,
+            "log_loss": 0.6282628199063075,
+            "brier": 0.21843302124652383
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5,
+            "log_loss": 0.757998330702577,
+            "brier": 0.2807515700319835
+          }
+        }
+      },
+      {
+        "event_name": "UFC 302: Makhachev vs. Poirier",
+        "event_date": "2024-06-01",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.5407093890031722,
+            "brier": 0.17629030638523968
+          },
+          "catboost": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.592285620926707,
+            "brier": 0.20039347918218017
+          },
+          "gradient": {
+            "accuracy": 0.75,
+            "log_loss": 0.5544094653706201,
+            "brier": 0.18303826459752234
+          },
+          "spline_logistic": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.5330045554294017,
+            "brier": 0.17272442113423045
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.75,
+            "log_loss": 0.58893943471204,
+            "brier": 0.20013042100162504
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Barboza vs. Murphy",
+        "event_date": "2024-05-18",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.75,
+            "log_loss": 0.6523987666162296,
+            "brier": 0.2284476134613644
+          },
+          "catboost": {
+            "accuracy": 0.75,
+            "log_loss": 0.685046937208767,
+            "brier": 0.24562115037904286
+          },
+          "gradient": {
+            "accuracy": 0.75,
+            "log_loss": 0.6448756878572337,
+            "brier": 0.22533417713664683
+          },
+          "spline_logistic": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.677814581539865,
+            "brier": 0.23931126701439331
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6444933685362709,
+            "brier": 0.2317834534012835
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Lewis vs. Nascimento",
+        "event_date": "2024-05-11",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5,
+            "log_loss": 0.672297410566161,
+            "brier": 0.23956636739039794
+          },
+          "catboost": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6774788890271606,
+            "brier": 0.2423563622986407
+          },
+          "gradient": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6749844181788306,
+            "brier": 0.24088144993667981
+          },
+          "spline_logistic": {
+            "accuracy": 0.5,
+            "log_loss": 0.6745150377989538,
+            "brier": 0.2401022660278318
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.6745268067327995,
+            "brier": 0.24092493768838305
+          }
+        }
+      },
+      {
+        "event_name": "UFC 301: Pantoja vs. Erceg",
+        "event_date": "2024-05-04",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.619819887133506,
+            "brier": 0.21585160743232323
+          },
+          "catboost": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6704457808462597,
+            "brier": 0.2391161720734054
+          },
+          "gradient": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6186341279530084,
+            "brier": 0.2149076574922496
+          },
+          "spline_logistic": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.611790778075359,
+            "brier": 0.21282670916469812
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6360302272550614,
+            "brier": 0.22563694602922227
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Nicolau vs. Perez",
+        "event_date": "2024-04-27",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.7076261561507862,
+            "brier": 0.2548701877598219
+          },
+          "catboost": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.707296156671264,
+            "brier": 0.25679951957616387
+          },
+          "gradient": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.7230001834831079,
+            "brier": 0.26270634817692884
+          },
+          "spline_logistic": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6911412325499214,
+            "brier": 0.24669161021371605
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.754370348987092,
+            "brier": 0.275807443414932
+          }
+        }
+      },
+      {
+        "event_name": "UFC 300: Pereira vs. Hill",
+        "event_date": "2024-04-13",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.9230769230769231,
+            "log_loss": 0.5388347005915907,
+            "brier": 0.1753872232617599
+          },
+          "catboost": {
+            "accuracy": 0.9230769230769231,
+            "log_loss": 0.5783654933609778,
+            "brier": 0.19343043248145475
+          },
+          "gradient": {
+            "accuracy": 1.0,
+            "log_loss": 0.5337629526919779,
+            "brier": 0.17302970948702837
+          },
+          "spline_logistic": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.568730216453024,
+            "brier": 0.1903967572698725
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.8461538461538461,
+            "log_loss": 0.5544373596069405,
+            "brier": 0.18282592342682394
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Allen vs. Curtis 2",
+        "event_date": "2024-04-06",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5,
+            "log_loss": 0.6430733428249277,
+            "brier": 0.22679045454755828
+          },
+          "catboost": {
+            "accuracy": 0.5,
+            "log_loss": 0.6610440896710399,
+            "brier": 0.23478042838885926
+          },
+          "gradient": {
+            "accuracy": 0.5,
+            "log_loss": 0.667434044186337,
+            "brier": 0.23851537213547594
+          },
+          "spline_logistic": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6134157268912471,
+            "brier": 0.21247105883410214
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6685666877624602,
+            "brier": 0.2382651854320619
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Blanchfield vs. Fiorot",
+        "event_date": "2024-03-30",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6603223342296699,
+            "brier": 0.2343329424400924
+          },
+          "catboost": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6835465112895059,
+            "brier": 0.24519976613937194
+          },
+          "gradient": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6747457827695679,
+            "brier": 0.24086062659086027
+          },
+          "spline_logistic": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6427241490378222,
+            "brier": 0.22649048855984408
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.7272714891990909,
+            "brier": 0.26243470134194635
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Ribas vs. Namajunas",
+        "event_date": "2024-03-23",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6662837506734018,
+            "brier": 0.23718141257647368
+          },
+          "catboost": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6923607943881487,
+            "brier": 0.24919433218682857
+          },
+          "gradient": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6712946515421311,
+            "brier": 0.23870610462708725
+          },
+          "spline_logistic": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6437887036215743,
+            "brier": 0.2268913864552339
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.7678856368827998,
+            "brier": 0.2796092403468028
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Tuivasa vs. Tybura",
+        "event_date": "2024-03-16",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.3333333333333333,
+            "log_loss": 0.7683068648163016,
+            "brier": 0.2849484361221859
+          },
+          "catboost": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.743126695075187,
+            "brier": 0.27457386619332186
+          },
+          "gradient": {
+            "accuracy": 0.5,
+            "log_loss": 0.7369233291613672,
+            "brier": 0.2694111273303283
+          },
+          "spline_logistic": {
+            "accuracy": 0.25,
+            "log_loss": 0.8139680008697373,
+            "brier": 0.3028747958817764
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.7525194953018056,
+            "brier": 0.2762450716363312
+          }
+        }
+      },
+      {
+        "event_name": "UFC 299: O'Malley vs. Vera 2",
+        "event_date": "2024-03-09",
+        "fight_count": 14,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5714285714285714,
+            "log_loss": 0.6812852472852329,
+            "brier": 0.24228181336802163
+          },
+          "catboost": {
+            "accuracy": 0.5714285714285714,
+            "log_loss": 0.6685214507149639,
+            "brier": 0.2375198203352624
+          },
+          "gradient": {
+            "accuracy": 0.5714285714285714,
+            "log_loss": 0.6681996641757166,
+            "brier": 0.23735978704932464
+          },
+          "spline_logistic": {
+            "accuracy": 0.5714285714285714,
+            "log_loss": 0.7281462455771619,
+            "brier": 0.26000830126706687
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.7857142857142857,
+            "log_loss": 0.6215291660578917,
+            "brier": 0.21105383406584016
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Rozenstruik vs. Gaziev",
+        "event_date": "2024-03-02",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.5613568427860112,
+            "brier": 0.18602665944426997
+          },
+          "catboost": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.6123761775119845,
+            "brier": 0.21027605088878557
+          },
+          "gradient": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.563094324779676,
+            "brier": 0.18749647924410864
+          },
+          "spline_logistic": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.57863906917777,
+            "brier": 0.19191408716846314
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.9090909090909091,
+            "log_loss": 0.48503792190412925,
+            "brier": 0.15433788614657545
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Moreno vs. Royval 2",
+        "event_date": "2024-02-24",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.7502059146725522,
+            "brier": 0.27859944243693885
+          },
+          "catboost": {
+            "accuracy": 0.5,
+            "log_loss": 0.6910079125272142,
+            "brier": 0.24902473449580684
+          },
+          "gradient": {
+            "accuracy": 0.3333333333333333,
+            "log_loss": 0.7408602488016319,
+            "brier": 0.27382196537078723
+          },
+          "spline_logistic": {
+            "accuracy": 0.5,
+            "log_loss": 0.8261480098576482,
+            "brier": 0.3023206399221657
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6177329518115374,
+            "brier": 0.21888500653786203
+          }
+        }
+      },
+      {
+        "event_name": "UFC 298: Volkanovski vs. Topuria",
+        "event_date": "2024-02-17",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.75,
+            "log_loss": 0.5822747488677454,
+            "brier": 0.19641106958099408
+          },
+          "catboost": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.5737535972889246,
+            "brier": 0.19127493206011956
+          },
+          "gradient": {
+            "accuracy": 0.8333333333333334,
+            "log_loss": 0.5782780920096312,
+            "brier": 0.1942644960901576
+          },
+          "spline_logistic": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6316316751750322,
+            "brier": 0.21815174198140616
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.75,
+            "log_loss": 0.5622995444752908,
+            "brier": 0.1863360738687362
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Hermansson vs. Pyfer",
+        "event_date": "2024-02-10",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.6959778250404258,
+            "brier": 0.2520777572196783
+          },
+          "catboost": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.7129227656333513,
+            "brier": 0.2598861994410522
+          },
+          "gradient": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.701342111877847,
+            "brier": 0.2545483295888541
+          },
+          "spline_logistic": {
+            "accuracy": 0.46153846153846156,
+            "log_loss": 0.6729332007925731,
+            "brier": 0.24116410980025907
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.7259967661304452,
+            "brier": 0.2663801756575499
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Dolidze vs. Imavov",
+        "event_date": "2024-02-03",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6082134393224208,
+            "brier": 0.2091987957349327
+          },
+          "catboost": {
+            "accuracy": 0.75,
+            "log_loss": 0.6377025247568899,
+            "brier": 0.2226221226867978
+          },
+          "gradient": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6156102888636468,
+            "brier": 0.21271752779147757
+          },
+          "spline_logistic": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.610421060261909,
+            "brier": 0.21032372979151792
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6291271382604363,
+            "brier": 0.21634245071615962
+          }
+        }
+      },
+      {
+        "event_name": "UFC 297: Strickland vs. Du Plessis",
+        "event_date": "2024-01-20",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6556472057111216,
+            "brier": 0.23183984074836209
+          },
+          "catboost": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.6789438251104959,
+            "brier": 0.24316205240633335
+          },
+          "gradient": {
+            "accuracy": 0.5,
+            "log_loss": 0.6703283394936698,
+            "brier": 0.23912377644206925
+          },
+          "spline_logistic": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6511241501630949,
+            "brier": 0.22819651771884367
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5833333333333334,
+            "log_loss": 0.5748946261814393,
+            "brier": 0.19522873792348974
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Ankalaev vs. Walker 2",
+        "event_date": "2024-01-13",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6869475002764754,
+            "brier": 0.2472738544460322
+          },
+          "catboost": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6644783950660842,
+            "brier": 0.23584697552660175
+          },
+          "gradient": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.6858590115545069,
+            "brier": 0.24651954905457857
+          },
+          "spline_logistic": {
+            "accuracy": 0.45454545454545453,
+            "log_loss": 0.7024353594157732,
+            "brier": 0.2548851424944333
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6647127583794176,
+            "brier": 0.23643495214778856
+          }
+        }
+      },
+      {
+        "event_name": "UFC 296: Edwards vs. Covington",
+        "event_date": "2023-12-16",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.740076308450267,
+            "brier": 0.27290215985531247
+          },
+          "catboost": {
+            "accuracy": 0.5,
+            "log_loss": 0.7014187675130913,
+            "brier": 0.2542785700620961
+          },
+          "gradient": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.719564197013506,
+            "brier": 0.2633048743898176
+          },
+          "spline_logistic": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.7729934681132359,
+            "brier": 0.28703185509692747
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.6666666666666666,
+            "log_loss": 0.6614226556600639,
+            "brier": 0.2327227300032677
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Song vs. Gutierrez",
+        "event_date": "2023-12-09",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.6236770594849804,
+            "brier": 0.21837448183809796
+          },
+          "catboost": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.631409380921512,
+            "brier": 0.220016622680105
+          },
+          "gradient": {
+            "accuracy": 0.6363636363636364,
+            "log_loss": 0.6369788413867193,
+            "brier": 0.22346564968659186
+          },
+          "spline_logistic": {
+            "accuracy": 0.45454545454545453,
+            "log_loss": 0.6202781457314998,
+            "brier": 0.2202646077532587
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.9090909090909091,
+            "log_loss": 0.5449326918509159,
+            "brier": 0.18119104165279407
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Dariush vs. Tsarukyan",
+        "event_date": "2023-12-02",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.771452612960508,
+            "brier": 0.28704397702473444
+          },
+          "catboost": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.7422589159516417,
+            "brier": 0.2738869341268545
+          },
+          "gradient": {
+            "accuracy": 0.5,
+            "log_loss": 0.7653747057131391,
+            "brier": 0.2842817117638931
+          },
+          "spline_logistic": {
+            "accuracy": 0.5,
+            "log_loss": 0.763265579922797,
+            "brier": 0.2830906045903859
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.3333333333333333,
+            "log_loss": 0.8544031946423029,
+            "brier": 0.32615256181003344
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Allen vs. Craig",
+        "event_date": "2023-11-18",
+        "fight_count": 13,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6408606756816695,
+            "brier": 0.22493117597229545
+          },
+          "catboost": {
+            "accuracy": 0.6153846153846154,
+            "log_loss": 0.6342267168496772,
+            "brier": 0.22130157200013206
+          },
+          "gradient": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.639268486767286,
+            "brier": 0.2235895942237992
+          },
+          "spline_logistic": {
+            "accuracy": 0.6923076923076923,
+            "log_loss": 0.6494852045897983,
+            "brier": 0.2296860659996906
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5384615384615384,
+            "log_loss": 0.7248993264290411,
+            "brier": 0.26435829159175883
+          }
+        }
+      },
+      {
+        "event_name": "UFC 295: Prochazka vs. Pereira",
+        "event_date": "2023-11-11",
+        "fight_count": 12,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.4166666666666667,
+            "log_loss": 0.7020838794995231,
+            "brier": 0.25493398136250567
+          },
+          "catboost": {
+            "accuracy": 0.5,
+            "log_loss": 0.6806831584601959,
+            "brier": 0.24400179725825188
+          },
+          "gradient": {
+            "accuracy": 0.5,
+            "log_loss": 0.6854144205976729,
+            "brier": 0.24663050446202386
+          },
+          "spline_logistic": {
+            "accuracy": 0.3333333333333333,
+            "log_loss": 0.7203060439232356,
+            "brier": 0.26397210779140806
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.5,
+            "log_loss": 0.7414002267284777,
+            "brier": 0.27346337196008036
+          }
+        }
+      },
+      {
+        "event_name": "UFC Fight Night: Almeida vs. Lewis",
+        "event_date": "2023-11-04",
+        "fight_count": 9,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.8888888888888888,
+            "log_loss": 0.6232201905897992,
+            "brier": 0.21138864074812103
+          },
+          "catboost": {
+            "accuracy": 0.7777777777777778,
+            "log_loss": 0.6138334606107251,
+            "brier": 0.21104552186198527
+          },
+          "gradient": {
+            "accuracy": 0.7777777777777778,
+            "log_loss": 0.6555021442388704,
+            "brier": 0.22749300354286828
+          },
+          "spline_logistic": {
+            "accuracy": 0.8888888888888888,
+            "log_loss": 0.6723117485567008,
+            "brier": 0.22165071530607292
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.8888888888888888,
+            "log_loss": 0.49547211185861617,
+            "brier": 0.15853210178180396
+          }
+        }
+      },
+      {
+        "event_name": "UFC 294: Makhachev vs. Volkanovski 2",
+        "event_date": "2023-10-21",
+        "fight_count": 11,
+        "models": {
+          "ensemble": {
+            "accuracy": 0.5454545454545454,
+            "log_loss": 0.709758961222947,
+            "brier": 0.2562470805037733
+          },
+          "catboost": {
+            "accuracy": 0.7272727272727273,
+            "log_loss": 0.6569394042487166,
+            "brier": 0.23204231694746047
+          },
+          "gradient": {
+            "accuracy": 0.45454545454545453,
+            "log_loss": 0.7050049848270222,
+            "brier": 0.2552072281719921
+          },
+          "spline_logistic": {
+            "accuracy": 0.45454545454545453,
+            "log_loss": 0.7547911481013979,
+            "brier": 0.2686018867907951
+          },
+          "dynamic_glicko": {
+            "accuracy": 0.45454545454545453,
+            "log_loss": 0.7815224182920986,
+            "brier": 0.2873005840553405
+          }
+        }
+      }
+    ],
     "forward_results": {
       "generated_at": "2026-08-15T15:23:17.967651+00:00",
       "recorded_predictions": 11,
@@ -63,6 +3853,13 @@
       "red_probability": 0.4847,
       "blue_probability": 0.5153,
       "independent_red_probability": 0.572,
+      "model_probabilities": {
+        "ensemble": 0.572,
+        "catboost": 0.5076,
+        "gradient": 0.5214,
+        "spline_logistic": 0.6212,
+        "dynamic_glicko": 0.6607
+      },
       "predicted_winner": "Jalin Turner",
       "confidence": 0.572,
       "market": {
@@ -93,6 +3890,13 @@
       "red_probability": 0.3858,
       "blue_probability": 0.6142,
       "independent_red_probability": 0.6035,
+      "model_probabilities": {
+        "ensemble": 0.6035,
+        "catboost": 0.5148,
+        "gradient": 0.5954,
+        "spline_logistic": 0.5884,
+        "dynamic_glicko": 0.8508
+      },
       "predicted_winner": "Neil Magny",
       "confidence": 0.6035,
       "market": {
@@ -123,6 +3927,13 @@
       "red_probability": 0.4576,
       "blue_probability": 0.5424,
       "independent_red_probability": 0.665,
+      "model_probabilities": {
+        "ensemble": 0.665,
+        "catboost": 0.5286,
+        "gradient": 0.6915,
+        "spline_logistic": 0.6281,
+        "dynamic_glicko": 0.8732
+      },
       "predicted_winner": "Vicente Luque",
       "confidence": 0.665,
       "market": {
@@ -153,6 +3964,13 @@
       "red_probability": 0.6323,
       "blue_probability": 0.3677,
       "independent_red_probability": 0.4351,
+      "model_probabilities": {
+        "ensemble": 0.4351,
+        "catboost": 0.4663,
+        "gradient": 0.461,
+        "spline_logistic": 0.4024,
+        "dynamic_glicko": 0.5346
+      },
       "predicted_winner": "Gillian Robertson",
       "confidence": 0.5649,
       "market": {
@@ -183,6 +4001,13 @@
       "red_probability": 0.2988,
       "blue_probability": 0.7012,
       "independent_red_probability": 0.4311,
+      "model_probabilities": {
+        "ensemble": 0.4311,
+        "catboost": 0.4771,
+        "gradient": 0.4406,
+        "spline_logistic": 0.4447,
+        "dynamic_glicko": 0.2602
+      },
       "predicted_winner": "Lucas Fernando",
       "confidence": 0.5689,
       "market": {
@@ -213,6 +4038,13 @@
       "red_probability": 0.0848,
       "blue_probability": 0.9152,
       "independent_red_probability": 0.2357,
+      "model_probabilities": {
+        "ensemble": 0.2357,
+        "catboost": 0.413,
+        "gradient": 0.2212,
+        "spline_logistic": 0.1834,
+        "dynamic_glicko": 0.3383
+      },
       "predicted_winner": "Myktybek Orolbai",
       "confidence": 0.7643,
       "market": {
@@ -243,6 +4075,13 @@
       "red_probability": 0.7548,
       "blue_probability": 0.2452,
       "independent_red_probability": 0.5768,
+      "model_probabilities": {
+        "ensemble": 0.5768,
+        "catboost": 0.5386,
+        "gradient": 0.5863,
+        "spline_logistic": 0.5556,
+        "dynamic_glicko": 0.5937
+      },
       "predicted_winner": "Donte Johnson",
       "confidence": 0.5768,
       "market": {
@@ -273,6 +4112,13 @@
       "red_probability": 0.1288,
       "blue_probability": 0.8712,
       "independent_red_probability": 0.2924,
+      "model_probabilities": {
+        "ensemble": 0.2924,
+        "catboost": 0.4505,
+        "gradient": 0.303,
+        "spline_logistic": 0.2236,
+        "dynamic_glicko": 0.5224
+      },
       "predicted_winner": "Esteban Ribovics",
       "confidence": 0.7076,
       "market": {
@@ -303,6 +4149,13 @@
       "red_probability": 0.8634,
       "blue_probability": 0.1366,
       "independent_red_probability": 0.6658,
+      "model_probabilities": {
+        "ensemble": 0.6658,
+        "catboost": 0.5792,
+        "gradient": 0.6469,
+        "spline_logistic": 0.6845,
+        "dynamic_glicko": 0.644
+      },
       "predicted_winner": "Mansur Abdul-Malik",
       "confidence": 0.6658,
       "market": {
@@ -333,6 +4186,13 @@
       "red_probability": 0.7547,
       "blue_probability": 0.2453,
       "independent_red_probability": 0.5511,
+      "model_probabilities": {
+        "ensemble": 0.5511,
+        "catboost": 0.5232,
+        "gradient": 0.566,
+        "spline_logistic": 0.5065,
+        "dynamic_glicko": 0.7382
+      },
       "predicted_winner": "Islam Makhachev",
       "confidence": 0.5511,
       "market": {
@@ -363,6 +4223,13 @@
       "red_probability": 0.268,
       "blue_probability": 0.732,
       "independent_red_probability": 0.2314,
+      "model_probabilities": {
+        "ensemble": 0.2314,
+        "catboost": 0.3901,
+        "gradient": 0.223,
+        "spline_logistic": 0.2022,
+        "dynamic_glicko": 0.1434
+      },
       "predicted_winner": "Joel Alvarez",
       "confidence": 0.7686,
       "market": {
@@ -393,6 +4260,13 @@
       "red_probability": 0.6211,
       "blue_probability": 0.3789,
       "independent_red_probability": 0.6211,
+      "model_probabilities": {
+        "ensemble": 0.6211,
+        "catboost": 0.5402,
+        "gradient": 0.6043,
+        "spline_logistic": 0.6379,
+        "dynamic_glicko": 0.6269
+      },
       "predicted_winner": "Charles Johnson",
       "confidence": 0.6211,
       "market": null,

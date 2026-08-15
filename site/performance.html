@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Out-of-sample model performance across previous UFC events.">
+  <title>Better | Model Performance</title>
+  <link rel="stylesheet" href="assets/styles.css?v=4">
+  <script defer src="assets/app.js?v=4"></script>
+</head>
+<body data-page="performance">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell nav-shell">
+      <a class="brand" href="index.html" aria-label="Better predictions home">
+        <span class="brand-mark">B</span>
+        <span>BETTER</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Next event</a>
+        <a class="active" href="performance.html">Performance</a>
+        <a href="rankings.html">Elo rankings</a>
+      </nav>
+      <span class="data-status" id="generated-status">Loading data</span>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="ranking-intro performance-intro">
+      <div class="shell intro-layout">
+        <div>
+          <p class="eyebrow dark">Held-out evaluation</p>
+          <h1>Previous Event Performance</h1>
+          <p class="intro-copy">Results are from the final chronological test period. Every prediction was generated using only information available before that event.</p>
+        </div>
+        <div class="ranking-stat performance-period">
+          <strong id="performance-events">--</strong>
+          <span>test events</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="metric-band" aria-label="Selected model performance">
+      <div class="shell metric-grid performance-metrics">
+        <div class="metric"><span class="metric-label">Model</span><strong id="performance-model-name">--</strong></div>
+        <div class="metric"><span class="metric-label">Pick accuracy</span><strong id="performance-accuracy">--</strong></div>
+        <div class="metric"><span class="metric-label">Log loss</span><strong id="performance-log-loss">--</strong></div>
+        <div class="metric"><span class="metric-label">Brier score</span><strong id="performance-brier">--</strong></div>
+      </div>
+    </section>
+
+    <section class="shell content-section" aria-labelledby="performance-heading">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Event by event</p>
+          <h2 id="performance-heading">Holdout results</h2>
+        </div>
+        <label class="select-field model-selector">
+          <span>Evaluation model</span>
+          <select id="performance-model"></select>
+        </label>
+      </div>
+
+      <div class="performance-table-wrap">
+        <table class="performance-table">
+          <thead>
+            <tr>
+              <th scope="col">Event</th>
+              <th scope="col">Date</th>
+              <th scope="col">Fights</th>
+              <th scope="col">Accuracy</th>
+              <th scope="col">Log loss</th>
+              <th scope="col">Brier</th>
+            </tr>
+          </thead>
+          <tbody id="performance-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-layout">
+      <span>Better Fight Intelligence</span>
+      <span>Lower Log Loss and Brier scores are better.</span>
+    </div>
+  </footer>
+</body>
+</html>

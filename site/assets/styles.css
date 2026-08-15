@@ -227,6 +227,7 @@ h2 {
 }
 
 .model-note { color: var(--muted); font-size: 12px; }
+.model-selector { width: min(240px, 100%); }
 
 .fight-table-head,
 .fight-row {
@@ -308,6 +309,7 @@ h2 {
 .call-signal { color: #fff; background: var(--teal); border-color: var(--teal); }
 .call-paper { color: #fff; background: var(--blue); border-color: var(--blue); }
 .call-experimental { color: #6b4a06; background: #fff3cd; border-color: #d7b765; }
+.call-compare { color: #315c73; background: #e8f1f5; border-color: #a8c3d1; }
 .call-lean { color: #fff; background: var(--amber); border-color: var(--amber); }
 .call-pass { color: #fff; background: #747b76; border-color: #747b76; }
 
@@ -387,6 +389,16 @@ input[type="search"], select {
 .positive { color: var(--teal); }
 .negative { color: var(--red-dark); }
 .neutral { color: var(--muted); }
+
+.performance-intro .intro-copy { max-width: 720px; }
+.performance-period { background: var(--teal); }
+.performance-table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
+.performance-table { width: 100%; min-width: 760px; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.performance-table th { height: 42px; padding: 0 15px; background: #eef0ee; color: var(--muted); font-size: 11px; text-align: left; text-transform: uppercase; }
+.performance-table td { height: 58px; padding: 9px 15px; border-top: 1px solid #e4e7e4; }
+.performance-table tbody tr:hover { background: #f7f8f7; }
+.event-name-cell { width: 44%; font-weight: 730; }
+.accuracy-score { color: var(--teal); font-weight: 800; }
 
 .form { display: flex; gap: 4px; }
 .form-mark { width: 23px; height: 23px; display: grid; place-items: center; border-radius: 3px; color: #fff; font-size: 9px; font-weight: 850; }

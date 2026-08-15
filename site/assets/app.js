@@ -67,12 +67,22 @@ function renderBestBet(data) {
     <div class="best-value"><span>Conservative EV</span><strong>${percent(bet.conservative_expected_value, true)}</strong></div>`;
 }
 
-function predictionRow(fight, model) {
-  const marketEvaluation = model.betting_enabled
-    ? `Edge ${percentagePoints(fight.edge)} · EV ${percent(fight.expected_value, true)}`
-    : fight.paper_candidate
-      ? `Paper EV ${percent(fight.expected_value, true)} · forward gate`
-      : `Model gap ${percentagePoints(fight.model_market_gap)} · experimental`;
+function predictionRow(fight, model, modelKey) {
+  const selectedRed = fight.model_probabilities?.[modelKey] ?? fight.independent_red_probability;
+  const selectedBlue = 1 - selectedRed;
+  const selectedWinner = selectedRed >= 0.5 ? fight.fighter_red : fight.fighter_blue;
+  const selectedPickProbability = Math.max(selectedRed, selectedBlue);
+  const selectedFairProbability = fight.market
+    ? (selectedRed >= 0.5 ? fight.market.red_fair_probability : fight.market.blue_fair_probability)
+    : null;
+  const comparisonGap = selectedFairProbability === null ? null : selectedPickProbability - selectedFairProbability;
+  const marketEvaluation = modelKey !== "ensemble"
+    ? `Model gap ${percentagePoints(comparisonGap)} · comparison`
+    : model.betting_enabled
+      ? `Edge ${percentagePoints(fight.edge)} · EV ${percent(fight.expected_value, true)}`
+      : fight.paper_candidate
+        ? `Paper EV ${percent(fight.expected_value, true)} · forward gate`
+        : `Model gap ${percentagePoints(fight.model_market_gap)} · experimental`;
   const market = fight.market
     ? `<div class="market-lines">
          <span>${escapeHtml(fight.fighter_red)} ${escapeHtml(fight.market.red_american)}</span>
@@ -82,10 +92,8 @@ function predictionRow(fight, model) {
          <span class="market-source">${escapeHtml(observedAt(fight.market))}</span>
        </div>`
     : `<span class="market-meta">Awaiting matched odds</span>`;
-  const independentRed = fight.independent_red_probability;
-  const independentBlue = 1 - independentRed;
-  const pickProbability = fight.predicted_winner === fight.fighter_red ? independentRed : independentBlue;
-  const callClass = `call-${fight.call.toLowerCase()}`;
+  const displayedCall = modelKey === "ensemble" ? fight.call : "Compare";
+  const callClass = `call-${displayedCall.toLowerCase()}`;
 
   return `
     <article class="fight-row ${fight.call === "Signal" ? "value-row" : ""}">
@@ -97,16 +105,16 @@ function predictionRow(fight, model) {
       </div>
       <div>
         <span class="mobile-label">Model probability</span>
-        <div class="probability-labels"><span>${percent(independentRed)}</span><span>${percent(independentBlue)}</span></div>
-        <div class="probability-track" aria-label="${escapeHtml(fight.fighter_red)} ${percent(independentRed)}, ${escapeHtml(fight.fighter_blue)} ${percent(independentBlue)}">
-          <span class="probability-red" style="width:${independentRed * 100}%"></span>
-          <span class="probability-blue" style="width:${independentBlue * 100}%"></span>
+        <div class="probability-labels"><span>${percent(selectedRed)}</span><span>${percent(selectedBlue)}</span></div>
+        <div class="probability-track" aria-label="${escapeHtml(fight.fighter_red)} ${percent(selectedRed)}, ${escapeHtml(fight.fighter_blue)} ${percent(selectedBlue)}">
+          <span class="probability-red" style="width:${selectedRed * 100}%"></span>
+          <span class="probability-blue" style="width:${selectedBlue * 100}%"></span>
         </div>
       </div>
       <div>
         <span class="mobile-label">Model pick</span>
-        <span class="pick-name">${escapeHtml(fight.predicted_winner)}</span>
-        <span class="pick-meta">${percent(pickProbability)} · Elo ${fight.red_elo}/${fight.blue_elo}</span>
+        <span class="pick-name">${escapeHtml(selectedWinner)}</span>
+        <span class="pick-meta">${percent(selectedPickProbability)} · Elo ${fight.red_elo}/${fight.blue_elo}</span>
       </div>
       <div>
         <span class="mobile-label">Market</span>
@@ -114,7 +122,7 @@ function predictionRow(fight, model) {
       </div>
       <div>
         <span class="mobile-label">Call</span>
-        <span class="call-badge ${callClass}">${escapeHtml(fight.call)}</span>
+        <span class="call-badge ${callClass}">${escapeHtml(displayedCall)}</span>
       </div>
     </article>`;
 }
@@ -130,12 +138,62 @@ function renderPredictions(data) {
   setText("event-name", event.name);
   setText("event-date", event.date_display);
   setText("event-location", event.location);
-  setText("model-name", data.model.name);
   setText("fight-count", event.fight_count);
   setText("priced-count", data.summary.priced_fights);
   setText("value-count", data.summary.validated_signals);
   renderBestBet(data);
-  list.innerHTML = data.predictions.map((fight) => predictionRow(fight, data.model)).join("");
+  const selector = document.getElementById("prediction-model");
+  const models = data.model.prediction_models || [{ key: "ensemble", label: data.model.name }];
+  selector.innerHTML = models.map((model) => `<option value="${escapeHtml(model.key)}">${escapeHtml(model.label)}</option>`).join("");
+  const refresh = () => {
+    const selected = models.find((model) => model.key === selector.value) || models[0];
+    setText("model-name", selected.label);
+    list.innerHTML = data.predictions.map((fight) => predictionRow(fight, data.model, selected.key)).join("");
+  };
+  selector.addEventListener("input", refresh);
+  refresh();
+}
+
+function renderPerformance(data) {
+  const body = document.getElementById("performance-body");
+  const selector = document.getElementById("performance-model");
+  if (!body || !selector) return;
+
+  const events = data.model.historical_performance || [];
+  const models = data.model.performance_models || [];
+  setText("performance-events", events.length);
+  if (!events.length || !models.length) {
+    body.innerHTML = '<tr><td colspan="6"><div class="error-state">Historical test results are not available yet.</div></td></tr>';
+    return;
+  }
+
+  selector.innerHTML = models.map((model) => `<option value="${escapeHtml(model.key)}">${escapeHtml(model.label)}</option>`).join("");
+  const refresh = () => {
+    const selected = models.find((model) => model.key === selector.value) || models[0];
+    const available = events.filter((event) => event.models[selected.key]);
+    const fights = available.reduce((total, event) => total + event.fight_count, 0);
+    const weighted = (metric) => fights
+      ? available.reduce((total, event) => total + event.models[selected.key][metric] * event.fight_count, 0) / fights
+      : null;
+
+    setText("performance-model-name", selected.label);
+    setText("performance-accuracy", percent(weighted("accuracy")));
+    setText("performance-log-loss", weighted("log_loss")?.toFixed(3) ?? "--");
+    setText("performance-brier", weighted("brier")?.toFixed(3) ?? "--");
+    body.innerHTML = available.map((event) => {
+      const metrics = event.models[selected.key];
+      return `<tr>
+        <td class="event-name-cell">${escapeHtml(event.event_name)}</td>
+        <td>${formatDate(event.event_date)}</td>
+        <td>${event.fight_count}</td>
+        <td class="accuracy-score">${percent(metrics.accuracy)}</td>
+        <td>${metrics.log_loss.toFixed(3)}</td>
+        <td>${metrics.brier.toFixed(3)}</td>
+      </tr>`;
+    }).join("");
+  };
+  selector.addEventListener("input", refresh);
+  refresh();
 }
 
 function formMarkup(form) {
@@ -201,9 +259,10 @@ async function init() {
     const data = await response.json();
     renderGeneratedStatus(data);
     if (document.body.dataset.page === "predictions") renderPredictions(data);
+    if (document.body.dataset.page === "performance") renderPerformance(data);
     if (document.body.dataset.page === "rankings") renderRankings(data);
   } catch (error) {
-    const target = document.getElementById("fight-list") || document.getElementById("ranking-body");
+    const target = document.getElementById("fight-list") || document.getElementById("performance-body") || document.getElementById("ranking-body");
     if (target) target.innerHTML = `<div class="error-state">${escapeHtml(error.message)}</div>`;
   }
 }

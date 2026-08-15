@@ -11,7 +11,7 @@ from model_pipeline import (
     build_history,
     current_features,
     residual_probability,
-    symmetric_probability,
+    symmetric_component_probabilities,
 )
 
 
@@ -245,6 +245,7 @@ def predict_event(
         model_metadata = None
         artifact = None
         features = None
+        model_probabilities = None
         if model_context and event_date:
             artifact, feature_states, profiles, division_states = model_context
             features = current_features(
@@ -256,7 +257,8 @@ def predict_event(
                 profiles,
                 division_states,
             )
-            raw_probability = symmetric_probability(artifact, features)
+            model_probabilities = symmetric_component_probabilities(artifact, features)
+            raw_probability = model_probabilities["ensemble"]
             model_metadata = artifact["metadata"]
 
         red_probability = raw_probability
@@ -335,6 +337,10 @@ def predict_event(
                 "red_probability": round(red_probability, 4),
                 "blue_probability": round(blue_probability, 4),
                 "independent_red_probability": round(raw_probability, 4),
+                "model_probabilities": {
+                    name: round(probability, 4)
+                    for name, probability in (model_probabilities or {"ensemble": raw_probability}).items()
+                },
                 "predicted_winner": predicted_winner,
                 "confidence": round(max(raw_probability, 1.0 - raw_probability), 4),
                 "market": market,
@@ -455,6 +461,21 @@ def build_site_data(data_dir=DATA_DIR):
             "test_metrics": metadata["calibrated_test"],
             "market_metrics": metadata["market_test"],
             "residual_metrics": metadata.get("market_residual_test"),
+            "prediction_models": [
+                {"key": "ensemble", "label": "Calibrated ensemble"},
+                {"key": "spline_logistic", "label": "Spline logistic"},
+                {"key": "gradient", "label": "Gradient boosting"},
+                {"key": "catboost", "label": "CatBoost"},
+                {"key": "dynamic_glicko", "label": "Dynamic Glicko"},
+            ],
+            "performance_models": [
+                {"key": "ensemble", "label": "Calibrated ensemble"},
+                {"key": "spline_logistic", "label": "Spline logistic"},
+                {"key": "gradient", "label": "Gradient boosting"},
+                {"key": "catboost", "label": "CatBoost"},
+                {"key": "dynamic_glicko", "label": "Dynamic Glicko"},
+            ],
+            "historical_performance": metadata.get("historical_performance", []),
             "forward_results": forward_results,
         }
     else:

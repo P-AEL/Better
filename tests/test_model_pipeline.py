@@ -64,6 +64,28 @@ class ModelPipelineTests(unittest.TestCase):
         self.assertLess(development["event_date"].max(), calibration["event_date"].min())
         self.assertLess(calibration["event_date"].max(), test["event_date"].min())
 
+    def test_fight_probabilities_are_symmetrized(self):
+        frame = pd.DataFrame({"fight_id": ["a", "a", "b"], "target": [1, 0, 1]})
+        probability = train_model.symmetrize_fight_probabilities(
+            frame, [0.7, 0.4, 0.8]
+        )
+        self.assertAlmostEqual(probability[0], 0.65)
+        self.assertAlmostEqual(probability[1], 0.35)
+        self.assertAlmostEqual(probability[2], 0.8)
+
+    def test_event_performance_counts_each_fight_once(self):
+        frame = pd.DataFrame({
+            "event_name": ["Event A", "Event A", "Event A", "Event A"],
+            "event_date": ["2025-01-01"] * 4,
+            "fight_id": ["a", "a", "b", "b"],
+            "target": [1, 0, 1, 0],
+        })
+        result = train_model.event_performance(
+            frame, {"ensemble": [0.7, 0.3, 0.4, 0.6]}
+        )
+        self.assertEqual(result[0]["fight_count"], 2)
+        self.assertAlmostEqual(result[0]["models"]["ensemble"]["accuracy"], 0.5)
+
 
 if __name__ == "__main__":
     unittest.main()

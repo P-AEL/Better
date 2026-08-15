@@ -1,5 +1,6 @@
 import argparse
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -239,6 +240,47 @@ def expected_calibration_error(y_true, probability, bins=10):
     return float(error)
 
 
+def event_performance(test, probabilities):
+    evaluation = test[["event_name", "event_date", "fight_id", "target"]].copy()
+    for name, probability in probabilities.items():
+        evaluation[name] = np.asarray(probability, dtype=float)
+
+    rows = []
+    for (event_date, event_name), event in evaluation.groupby(
+        ["event_date", "event_name"], sort=False
+    ):
+        first_orientation = event.groupby("fight_id", sort=False).head(1)
+        event_models = {}
+        for name in probabilities:
+            values = first_orientation[name].to_numpy()
+            target = first_orientation["target"].to_numpy()
+            event_models[name] = {
+                "accuracy": float(accuracy_score(target, values >= 0.5)),
+                "log_loss": float(log_loss(target, values, labels=[0, 1])),
+                "brier": float(brier_score_loss(target, values)),
+            }
+        rows.append({
+            "event_name": event_name,
+            "event_date": str(event_date),
+            "fight_count": int(len(first_orientation)),
+            "models": event_models,
+        })
+    return sorted(rows, key=lambda row: row["event_date"], reverse=True)
+
+
+def symmetrize_fight_probabilities(frame, probability):
+    source = pd.Series(np.asarray(probability, dtype=float), index=frame.index)
+    output = source.copy()
+    for _, fight in frame.groupby("fight_id", sort=False):
+        if len(fight) != 2:
+            continue
+        first, second = fight.index
+        value = (source.loc[first] + 1.0 - source.loc[second]) / 2.0
+        output.loc[first] = value
+        output.loc[second] = 1.0 - value
+    return output.to_numpy()
+
+
 def train(data_dir=DATA_DIR, model_path=MODEL_PATH, metrics_path=METRICS_PATH):
     frame, _, _, _ = build_history(data_dir)
     development, calibration, test = temporal_partitions(frame)
@@ -297,6 +339,28 @@ def train(data_dir=DATA_DIR, model_path=MODEL_PATH, metrics_path=METRICS_PATH):
     base_test_metrics["dynamic_glicko"] = metrics(
         test["target"], sigmoid(test["glicko_logit"].to_numpy())
     )
+    performance_probabilities = {
+        "ensemble": test_probability,
+        **test_base,
+        "dynamic_glicko": sigmoid(test["glicko_logit"].to_numpy()),
+    }
+    performance_probabilities = {
+        name: symmetrize_fight_probabilities(test, probability)
+        for name, probability in performance_probabilities.items()
+    }
+    market_series = test["market_probability"].copy()
+    residual_series = pd.Series(np.nan, index=test.index, dtype=float)
+    residual_series.loc[market_test.index] = residual_probability
+    performance_probabilities["market"] = market_series.to_numpy()
+    performance_probabilities["market_residual"] = residual_series.to_numpy()
+    historical_performance = event_performance(
+        test,
+        {
+            name: probability
+            for name, probability in performance_probabilities.items()
+            if not np.isnan(np.asarray(probability, dtype=float)).any()
+        },
+    )
     calibration_error = expected_calibration_error(calibration["target"], calibration_probability)
     uncertainty_margin = max(0.03, min(0.15, calibration_error * 1.5))
     report = {
@@ -325,6 +389,7 @@ def train(data_dir=DATA_DIR, model_path=MODEL_PATH, metrics_path=METRICS_PATH):
         "market_residual_test": residual_metrics,
         "market_residual_l2": float(residual_l2),
         "market_residual_calibration_log_loss": residual_leaderboard,
+        "historical_performance": historical_performance,
         "calibration_error": calibration_error,
         "uncertainty_margin": uncertainty_margin,
         "backtest_gate_passed": backtest_gate_passed,
@@ -354,7 +419,11 @@ def train(data_dir=DATA_DIR, model_path=MODEL_PATH, metrics_path=METRICS_PATH):
     }
     model_path, metrics_path = Path(model_path), Path(metrics_path)
     model_path.parent.mkdir(parents=True, exist_ok=True)
-    joblib.dump(artifact, model_path)
+    temporary_model_path = model_path.with_name(
+        f".{model_path.name}.{os.getpid()}.tmp"
+    )
+    joblib.dump(artifact, temporary_model_path)
+    temporary_model_path.replace(model_path)
     metrics_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
     return report
 
