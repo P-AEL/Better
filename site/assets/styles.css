@@ -288,6 +288,7 @@ h2 {
 
 .pick-name { display: block; font-weight: 750; }
 .pick-meta, .market-meta { color: var(--muted); font-size: 12px; }
+.market-source { color: #7b827d; font-size: 10px; }
 .market-lines { display: grid; gap: 3px; }
 
 .call-badge {
@@ -304,7 +305,9 @@ h2 {
   text-transform: uppercase;
 }
 
-.call-value { color: #fff; background: var(--teal); border-color: var(--teal); }
+.call-signal { color: #fff; background: var(--teal); border-color: var(--teal); }
+.call-paper { color: #fff; background: var(--blue); border-color: var(--blue); }
+.call-experimental { color: #6b4a06; background: #fff3cd; border-color: #d7b765; }
 .call-lean { color: #fff; background: var(--amber); border-color: var(--amber); }
 .call-pass { color: #fff; background: #747b76; border-color: #747b76; }
 
@@ -455,10 +458,12 @@ input[type="search"], select {
   .metric:nth-child(2) { border-right: 1px solid var(--line); }
   .best-bet-layout { grid-template-columns: 1fr; gap: 14px; }
   .best-bet-detail { grid-template-columns: 1fr 1fr; }
+  .best-bet-detail .best-value:last-child { grid-column: 1 / -1; }
   .section-heading { align-items: flex-start; flex-direction: column; gap: 8px; }
   .content-section { padding-top: 30px; padding-bottom: 44px; }
-  .fight-row { grid-template-columns: 1fr; }
-  .matchup { grid-column: auto; }
+  .fight-row { grid-template-columns: 1fr 1fr; }
+  .matchup,
+  .fight-row > div:nth-child(2) { grid-column: 1 / -1; }
   .intro-layout { min-height: auto; grid-template-columns: 1fr; gap: 24px; padding-top: 38px; padding-bottom: 30px; }
   .ranking-stat { min-width: 0; padding: 18px; }
   .ranking-controls { grid-template-columns: 1fr; }

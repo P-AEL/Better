@@ -15,6 +15,19 @@ const percent = (value, signed = false) => {
   return `${prefix}${number.toFixed(1)}%`;
 };
 
+const percentagePoints = (value) => {
+  if (value === null || value === undefined) return "--";
+  const number = value * 100;
+  return `${number > 0 ? "+" : ""}${number.toFixed(1)} pp`;
+};
+
+const observedAt = (market) => {
+  if (!market.observed_at) return market.source || "Odds source unavailable";
+  const timestamp = new Date(market.observed_at);
+  if (Number.isNaN(timestamp.getTime())) return market.source || "Odds source unavailable";
+  return `${market.source} · ${timestamp.toLocaleString("en", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" })}`;
+};
+
 const formatDate = (value) => {
   if (!value) return "--";
   return new Intl.DateTimeFormat("en", { year: "numeric", month: "short", day: "numeric" })
@@ -35,11 +48,14 @@ function renderBestBet(data) {
   const detail = document.getElementById("best-bet-detail");
   if (!detail) return;
   if (!data.best_bet) {
-    setText("best-bet-title", "No priced edge available");
+    setText("best-bet-title", "No validated betting signal");
+    const status = data.model.backtest_gate_passed
+      ? `${data.summary.paper_candidates} paper candidates · forward gate pending`
+      : "Experimental only";
     detail.innerHTML = `
-      <div class="best-value"><span>Status</span><strong>Awaiting matched odds</strong></div>
+      <div class="best-value"><span>Status</span><strong>${data.model.betting_enabled ? "No fight passed the risk gate" : status}</strong></div>
       <div class="best-value"><span>Model board</span><strong>${data.predictions.length} probabilities ready</strong></div>
-      <div class="best-value"><span>Action</span><strong>No value bet published</strong></div>`;
+      <div class="best-value"><span>Validation</span><strong>${escapeHtml(data.model.gate_reason)}</strong></div>`;
     return;
   }
 
@@ -47,25 +63,32 @@ function renderBestBet(data) {
   setText("best-bet-title", bet.recommendation);
   detail.innerHTML = `
     <div class="best-value"><span>Price</span><strong>${escapeHtml(bet.recommended_odds)}</strong></div>
-    <div class="best-value"><span>Model edge</span><strong>${percent(bet.edge, true)}</strong></div>
-    <div class="best-value"><span>Expected value</span><strong>${percent(bet.expected_value, true)}</strong></div>`;
+    <div class="best-value"><span>Model edge</span><strong>${percentagePoints(bet.edge)}</strong></div>
+    <div class="best-value"><span>Conservative EV</span><strong>${percent(bet.conservative_expected_value, true)}</strong></div>`;
 }
 
-function predictionRow(fight) {
+function predictionRow(fight, model) {
+  const marketEvaluation = model.betting_enabled
+    ? `Edge ${percentagePoints(fight.edge)} · EV ${percent(fight.expected_value, true)}`
+    : fight.paper_candidate
+      ? `Paper EV ${percent(fight.expected_value, true)} · forward gate`
+      : `Model gap ${percentagePoints(fight.model_market_gap)} · experimental`;
   const market = fight.market
     ? `<div class="market-lines">
          <span>${escapeHtml(fight.fighter_red)} ${escapeHtml(fight.market.red_american)}</span>
          <span>${escapeHtml(fight.fighter_blue)} ${escapeHtml(fight.market.blue_american)}</span>
-         <span class="market-meta">Edge ${percent(fight.edge, true)} · EV ${percent(fight.expected_value, true)}</span>
+         <span class="market-meta">Fair ${percent(fight.market.red_fair_probability)} / ${percent(fight.market.blue_fair_probability)}</span>
+         <span class="market-meta">${marketEvaluation}</span>
+         <span class="market-source">${escapeHtml(observedAt(fight.market))}</span>
        </div>`
     : `<span class="market-meta">Awaiting matched odds</span>`;
-  const pickProbability = fight.predicted_winner === fight.fighter_red
-    ? fight.red_probability
-    : fight.blue_probability;
+  const independentRed = fight.independent_red_probability;
+  const independentBlue = 1 - independentRed;
+  const pickProbability = fight.predicted_winner === fight.fighter_red ? independentRed : independentBlue;
   const callClass = `call-${fight.call.toLowerCase()}`;
 
   return `
-    <article class="fight-row ${fight.call === "Value" ? "value-row" : ""}">
+    <article class="fight-row ${fight.call === "Signal" ? "value-row" : ""}">
       <div class="matchup">
         <strong>${escapeHtml(fight.fighter_red)}</strong>
         <span class="versus">vs</span>
@@ -74,10 +97,10 @@ function predictionRow(fight) {
       </div>
       <div>
         <span class="mobile-label">Model probability</span>
-        <div class="probability-labels"><span>${percent(fight.red_probability)}</span><span>${percent(fight.blue_probability)}</span></div>
-        <div class="probability-track" aria-label="${escapeHtml(fight.fighter_red)} ${percent(fight.red_probability)}, ${escapeHtml(fight.fighter_blue)} ${percent(fight.blue_probability)}">
-          <span class="probability-red" style="width:${fight.red_probability * 100}%"></span>
-          <span class="probability-blue" style="width:${fight.blue_probability * 100}%"></span>
+        <div class="probability-labels"><span>${percent(independentRed)}</span><span>${percent(independentBlue)}</span></div>
+        <div class="probability-track" aria-label="${escapeHtml(fight.fighter_red)} ${percent(independentRed)}, ${escapeHtml(fight.fighter_blue)} ${percent(independentBlue)}">
+          <span class="probability-red" style="width:${independentRed * 100}%"></span>
+          <span class="probability-blue" style="width:${independentBlue * 100}%"></span>
         </div>
       </div>
       <div>
@@ -110,9 +133,9 @@ function renderPredictions(data) {
   setText("model-name", data.model.name);
   setText("fight-count", event.fight_count);
   setText("priced-count", data.summary.priced_fights);
-  setText("value-count", data.summary.positive_value_fights);
+  setText("value-count", data.summary.validated_signals);
   renderBestBet(data);
-  list.innerHTML = data.predictions.map(predictionRow).join("");
+  list.innerHTML = data.predictions.map((fight) => predictionRow(fight, data.model)).join("");
 }
 
 function formMarkup(form) {
@@ -133,7 +156,7 @@ function renderRankings(data) {
   const divisions = [...new Set(data.rankings.map((row) => row.division).filter((value) => value && value !== "Unknown"))].sort();
   division.insertAdjacentHTML("beforeend", divisions.map((value) => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`).join(""));
   setText("ranking-total", data.rankings.length.toLocaleString());
-  setText("ranking-model", `${data.model.name} · K ${data.model.k_factor}`);
+  setText("ranking-model", data.model.version === "fallback" ? `${data.model.name} · K ${data.model.k_factor}` : `Elo ranking · prediction model v${data.model.version}`);
 
   let visible = PAGE_SIZE;
   const generated = new Date(data.generated_at);

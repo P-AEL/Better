@@ -59,11 +59,22 @@ class SiteGeneratorTests(unittest.TestCase):
                 prediction["predicted_winner"],
                 {prediction["fighter_red"], prediction["fighter_blue"]},
             )
+            self.assertGreaterEqual(prediction["independent_red_probability"], 0)
+            self.assertLessEqual(prediction["independent_red_probability"], 1)
             if prediction["recommendation"]:
                 self.assertIn(
                     prediction["recommendation"],
                     {prediction["fighter_red"], prediction["fighter_blue"]},
                 )
+            if prediction["market"]:
+                self.assertIsNotNone(prediction["model_market_gap"])
+
+    def test_best_bet_requires_a_validated_signal(self):
+        best_bet = self.payload["best_bet"]
+        if best_bet:
+            self.assertTrue(self.payload["model"]["betting_enabled"])
+            self.assertEqual(best_bet["call"], "Signal")
+            self.assertGreater(best_bet["conservative_expected_value"], 0)
 
     def test_rankings_are_sorted_and_uniquely_ranked(self):
         rankings = self.payload["rankings"]

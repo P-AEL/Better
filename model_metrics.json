@@ -1,0 +1,82 @@
+{
+  "version": "3.0.0",
+  "trained_at": "2026-08-15T15:19:16.675144+00:00",
+  "selected_model": "temporal_oof_ensemble",
+  "feature_set": "full",
+  "feature_count": 38,
+  "sample_count": 17328,
+  "event_count": 783,
+  "splits": {
+    "development": 11714,
+    "calibration": 2760,
+    "test": 2854,
+    "ensemble_oof": 7584,
+    "residual_oof": 3012
+  },
+  "feature_ablation_log_loss": {
+    "core": 0.6624911217055882,
+    "full": 0.6608138865538842
+  },
+  "base_test": {
+    "catboost": {
+      "accuracy": 0.6135248773651016,
+      "auc": 0.6552352296706476,
+      "log_loss": 0.6617602593760531,
+      "brier": 0.23446056245664418
+    },
+    "gradient": {
+      "accuracy": 0.6198318149964962,
+      "auc": 0.6617940912298552,
+      "log_loss": 0.6519876511112922,
+      "brier": 0.2301312274434774
+    },
+    "spline_logistic": {
+      "accuracy": 0.6089698668535389,
+      "auc": 0.6698293841515786,
+      "log_loss": 0.6476021919940519,
+      "brier": 0.22801861253971364
+    },
+    "dynamic_glicko": {
+      "accuracy": 0.5770847932725999,
+      "auc": 0.6123502145282025,
+      "log_loss": 0.6813664948501957,
+      "brier": 0.24356531400671097
+    }
+  },
+  "calibrated_test": {
+    "accuracy": 0.6187806587245971,
+    "auc": 0.6694640207942822,
+    "log_loss": 0.6480104804825673,
+    "brier": 0.2282611583683673
+  },
+  "ensemble_weights": {
+    "catboost": 0.6906252953685736,
+    "gradient": 1.6613465686870181,
+    "spline_logistic": 1.5178975489189543,
+    "glicko": 0.1890090375040438
+  },
+  "market_test": {
+    "accuracy": 0.6997455470737913,
+    "auc": 0.7641219755388511,
+    "log_loss": 0.581395899813463,
+    "brier": 0.19827231056261319
+  },
+  "market_residual_test": {
+    "accuracy": 0.7035623409669212,
+    "auc": 0.7640321400591781,
+    "log_loss": 0.5803851461743847,
+    "brier": 0.19780695730051318
+  },
+  "market_residual_l2": 200.0,
+  "market_residual_calibration_log_loss": {
+    "1.0": 0.5995330717403334,
+    "10.0": 0.5994976603011357,
+    "50.0": 0.5993939254471842,
+    "200.0": 0.599357707826213
+  },
+  "calibration_error": 0.02252115563881044,
+  "uncertainty_margin": 0.03378173345821566,
+  "backtest_gate_passed": true,
+  "betting_enabled": false,
+  "gate_reason": "Backtest passed; forward evidence is still required."
+}

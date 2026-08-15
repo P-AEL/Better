@@ -30,6 +30,7 @@ ODDS_COLUMNS = [
     "red_open_decimal", "blue_open_decimal",
     "red_bfo_url", "blue_bfo_url",
     "bfo_event_date", "bfo_event_url", "match_status",
+    "odds_source", "scraped_at_utc",
 ]
 
 scraper = cloudscraper.create_scraper(
@@ -261,6 +262,8 @@ def empty_odds_row(row):
         "red_bfo_url": None, "blue_bfo_url": None,
         "bfo_event_date": None, "bfo_event_url": None,
         "match_status": "no_match",
+        "odds_source": "BestFightOdds",
+        "scraped_at_utc": datetime.now(timezone.utc).isoformat(),
     }
 
 
@@ -361,6 +364,12 @@ def write_event_odds(path, current, event_name):
         handle.writelines(kept)
 
 
+def append_odds_snapshot(path, current):
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    current.to_csv(path, mode="a", header=not path.exists(), index=False)
+
+
 def main(data_dir=DATA_DIR):
     data_dir = Path(data_dir)
     out_csv = data_dir / "ufc_fight_odds.csv"
@@ -368,6 +377,7 @@ def main(data_dir=DATA_DIR):
     log(f"[Next event] {event_name}: {len(event_fights)} fights")
     current = build_event_odds(event_fights)
     write_event_odds(out_csv, current, event_name)
+    append_odds_snapshot(data_dir / "ufc_fight_odds_history.csv", current)
     out = pd.read_csv(out_csv)
     log(f"[DONE] Updated {out_csv}: {len(out)} total rows")
     log(current["match_status"].value_counts(dropna=False).to_string())

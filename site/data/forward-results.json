@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-08-15T15:23:17.967651+00:00",
+  "recorded_predictions": 11,
+  "settled_predictions": 0,
+  "priced_settled_predictions": 0,
+  "minimum_required": 100,
+  "forward_gate_passed": false,
+  "metrics": null,
+  "paper": {
+    "settled": 0,
+    "net_units": 0.0,
+    "roi": null
+  }
+}

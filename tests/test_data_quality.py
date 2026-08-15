@@ -25,6 +25,7 @@ ODDS_COLUMNS = {
     "blue_open", "red_close_low", "red_close_high", "blue_close_low",
     "blue_close_high", "red_open_decimal", "blue_open_decimal", "red_bfo_url",
     "blue_bfo_url", "bfo_event_date", "bfo_event_url", "match_status",
+    "odds_source", "scraped_at_utc",
 }
 
 
@@ -195,6 +196,10 @@ class DataQualityTests(unittest.TestCase):
         self.assertTrue(required.apply(nonblank).all().all())
         self.assertFalse(self.odds["fighter_red"].eq(self.odds["fighter_blue"]).any())
         self.assertTrue(self.odds["match_status"].isin({"matched", "partial", "no_match"}).all())
+        supplied_sources = self.odds["odds_source"].dropna()
+        self.assertTrue(supplied_sources.eq("BestFightOdds").all())
+        supplied_times = self.odds["scraped_at_utc"].dropna()
+        self.assertTrue(pd.to_datetime(supplied_times, utc=True, errors="coerce").notna().all())
 
         matched = self.odds[self.odds["match_status"].eq("matched")]
         odds_columns = [

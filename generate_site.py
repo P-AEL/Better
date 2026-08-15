@@ -4,12 +4,22 @@ from collections import defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+import joblib
 import pandas as pd
+
+from model_pipeline import (
+    build_history,
+    current_features,
+    residual_probability,
+    symmetric_probability,
+)
 
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data" / "scraped_data"
 SITE_DATA_PATH = ROOT / "site" / "data" / "site-data.json"
+MODEL_PATH = ROOT / "betting_model.joblib"
+FORWARD_RESULTS_PATH = ROOT / "site" / "data" / "forward-results.json"
 BASE_ELO = 1500.0
 K_FACTOR = 32.0
 
@@ -190,6 +200,8 @@ def market_for_fight(event_name, red_name, blue_name, odds_lookup):
     red_implied = american_to_implied(red_price)
     blue_implied = american_to_implied(blue_price)
     total = red_implied + blue_implied
+    source = getattr(row, "odds_source", None)
+    observed_at = getattr(row, "scraped_at_utc", None)
     return {
         "red_american": display_american(red_price),
         "blue_american": display_american(blue_price),
@@ -197,15 +209,57 @@ def market_for_fight(event_name, red_name, blue_name, odds_lookup):
         "blue_decimal": american_to_decimal(blue_price),
         "red_fair_probability": red_implied / total,
         "blue_fair_probability": blue_implied / total,
+        "source": source if pd.notna(source) else "BestFightOdds",
+        "observed_at": observed_at if pd.notna(observed_at) else None,
     }
 
 
-def predict_event(event_name, event_fights, states, odds_lookup):
+def load_model_context(data_dir):
+    if not MODEL_PATH.exists():
+        return None
+    artifact = joblib.load(MODEL_PATH)
+    _, feature_states, profiles, division_states = build_history(data_dir)
+    return artifact, feature_states, profiles, division_states
+
+
+def load_forward_results():
+    if not FORWARD_RESULTS_PATH.exists():
+        return {"forward_gate_passed": False, "priced_settled_predictions": 0}
+    return json.loads(FORWARD_RESULTS_PATH.read_text(encoding="utf-8"))
+
+
+def predict_event(
+    event_name,
+    event_fights,
+    states,
+    odds_lookup,
+    event_date=None,
+    model_context=None,
+    forward_results=None,
+):
     predictions = []
     for row in event_fights.itertuples(index=False):
         red_state = states[row.fighter_red]
         blue_state = states[row.fighter_blue]
-        red_probability = elo_probability(red_state["elo"], blue_state["elo"])
+        raw_probability = elo_probability(red_state["elo"], blue_state["elo"])
+        model_metadata = None
+        artifact = None
+        features = None
+        if model_context and event_date:
+            artifact, feature_states, profiles, division_states = model_context
+            features = current_features(
+                row.fighter_red,
+                row.fighter_blue,
+                row.weight_class,
+                event_date,
+                feature_states,
+                profiles,
+                division_states,
+            )
+            raw_probability = symmetric_probability(artifact, features)
+            model_metadata = artifact["metadata"]
+
+        red_probability = raw_probability
         blue_probability = 1.0 - red_probability
         market = market_for_fight(
             event_name, row.fighter_red, row.fighter_blue, odds_lookup
@@ -214,8 +268,24 @@ def predict_event(event_name, event_fights, states, odds_lookup):
         recommendation = None
         best_ev = None
         edge = None
+        conservative_ev = None
+        model_market_gap = None
+        paper_candidate = False
         call = "Unpriced"
         if market:
+            model_market_gap = (
+                raw_probability - market["red_fair_probability"]
+                if raw_probability >= 0.5
+                else (1.0 - raw_probability) - market["blue_fair_probability"]
+            )
+            if model_metadata and artifact is not None:
+                red_probability = residual_probability(
+                    artifact,
+                    raw_probability,
+                    market["red_fair_probability"],
+                    features,
+                )
+                blue_probability = 1.0 - red_probability
             red_ev = red_probability * market["red_decimal"] - 1.0
             blue_ev = blue_probability * market["blue_decimal"] - 1.0
             if red_ev >= blue_ev:
@@ -223,18 +293,38 @@ def predict_event(event_name, event_fights, states, odds_lookup):
                 best_ev = red_ev
                 edge = red_probability - market["red_fair_probability"]
                 recommended_odds = market["red_american"]
+                recommended_probability = red_probability
+                recommended_decimal = market["red_decimal"]
             else:
                 recommendation = row.fighter_blue
                 best_ev = blue_ev
                 edge = blue_probability - market["blue_fair_probability"]
                 recommended_odds = market["blue_american"]
-            call = "Value" if best_ev >= 0.05 else "Lean" if best_ev > 0 else "Pass"
+                recommended_probability = blue_probability
+                recommended_decimal = market["blue_decimal"]
+
+            uncertainty = model_metadata["uncertainty_margin"] if model_metadata else 0.15
+            conservative_probability = max(0.0, recommended_probability - uncertainty)
+            conservative_ev = conservative_probability * recommended_decimal - 1.0
+            backtest_validated = bool(
+                model_metadata and model_metadata.get("backtest_gate_passed", False)
+            )
+            forward_validated = bool(
+                forward_results and forward_results.get("forward_gate_passed", False)
+            )
+            validated = backtest_validated and forward_validated
+            qualifies = edge >= 0.03 and best_ev >= 0.05 and conservative_ev > 0
+            paper_candidate = bool(backtest_validated and qualifies)
+            call = (
+                "Signal" if validated and qualifies
+                else "Paper" if paper_candidate
+                else "Experimental" if best_ev > 0
+                else "Pass"
+            )
         else:
             recommended_odds = None
 
-        predicted_winner = (
-            row.fighter_red if red_probability >= blue_probability else row.fighter_blue
-        )
+        predicted_winner = row.fighter_red if raw_probability >= 0.5 else row.fighter_blue
         predictions.append(
             {
                 "fighter_red": row.fighter_red,
@@ -244,13 +334,21 @@ def predict_event(event_name, event_fights, states, odds_lookup):
                 "blue_elo": round(blue_state["elo"]),
                 "red_probability": round(red_probability, 4),
                 "blue_probability": round(blue_probability, 4),
+                "independent_red_probability": round(raw_probability, 4),
                 "predicted_winner": predicted_winner,
-                "confidence": round(max(red_probability, blue_probability), 4),
+                "confidence": round(max(raw_probability, 1.0 - raw_probability), 4),
                 "market": market,
                 "recommendation": recommendation,
                 "recommended_odds": recommended_odds,
                 "expected_value": round(best_ev, 4) if best_ev is not None else None,
+                "conservative_expected_value": (
+                    round(conservative_ev, 4) if conservative_ev is not None else None
+                ),
                 "edge": round(edge, 4) if edge is not None else None,
+                "model_market_gap": (
+                    round(model_market_gap, 4) if model_market_gap is not None else None
+                ),
+                "paper_candidate": paper_candidate,
                 "call": call,
             }
         )
@@ -299,6 +397,8 @@ def build_site_data(data_dir=DATA_DIR):
     rankings = build_rankings(all_states)
     predictions = []
     event_payload = None
+    model_context = load_model_context(data_dir)
+    forward_results = load_forward_results()
 
     if event_name:
         event_row = events[events["event_name"].eq(event_name)].iloc[0]
@@ -309,6 +409,9 @@ def build_site_data(data_dir=DATA_DIR):
             next_fights,
             prediction_states,
             build_odds_lookup(data_dir),
+            event_date=event_date,
+            model_context=model_context,
+            forward_results=forward_results,
         )
         event_payload = {
             "name": event_name,
@@ -319,17 +422,55 @@ def build_site_data(data_dir=DATA_DIR):
         }
 
     priced = [item for item in predictions if item["market"]]
-    positive = [
-        item for item in priced if item["expected_value"] is not None and item["expected_value"] > 0
+    signals = [item for item in priced if item["call"] == "Signal"]
+    paper_candidates = [item for item in priced if item["paper_candidate"]]
+    watches = [
+        item for item in priced
+        if item["expected_value"] is not None and item["expected_value"] > 0
     ]
-    best_bet = max(positive, key=lambda item: item["expected_value"]) if positive else None
+    best_bet = max(signals, key=lambda item: item["conservative_expected_value"]) if signals else None
+
+    if model_context:
+        metadata = model_context[0]["metadata"]
+        backtest_gate = bool(metadata.get("backtest_gate_passed", False))
+        forward_gate = bool(forward_results.get("forward_gate_passed", False))
+        betting_enabled = backtest_gate and forward_gate
+        model_payload = {
+            "name": "Calibrated temporal ensemble",
+            "version": model_context[0]["version"],
+            "selected_model": metadata["selected_model"],
+            "feature_set": metadata.get("feature_set"),
+            "calibration_error": metadata["calibration_error"],
+            "uncertainty_margin": metadata["uncertainty_margin"],
+            "backtest_gate_passed": backtest_gate,
+            "forward_gate_passed": forward_gate,
+            "betting_enabled": betting_enabled,
+            "gate_reason": (
+                "Backtest and forward gates passed."
+                if betting_enabled
+                else metadata["gate_reason"]
+                if not backtest_gate
+                else "Backtest passed; collecting at least 100 forward-priced outcomes."
+            ),
+            "test_metrics": metadata["calibrated_test"],
+            "market_metrics": metadata["market_test"],
+            "residual_metrics": metadata.get("market_residual_test"),
+            "forward_results": forward_results,
+        }
+    else:
+        model_payload = {
+            "name": "Elo 32 fallback",
+            "version": "fallback",
+            "betting_enabled": False,
+            "gate_reason": "No trained artifact is available; betting signals are disabled.",
+            "base_rating": BASE_ELO,
+            "k_factor": K_FACTOR,
+        }
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "model": {
-            "name": "Elo 32",
-            "base_rating": BASE_ELO,
-            "k_factor": K_FACTOR,
+            **model_payload,
             "decisive_fights": int(fights["result"].eq("win").sum()),
             "draws": int(fights["result"].eq("draw").sum()),
         },
@@ -340,7 +481,9 @@ def build_site_data(data_dir=DATA_DIR):
         "summary": {
             "ranked_fighters": len(rankings),
             "priced_fights": len(priced),
-            "positive_value_fights": len(positive),
+            "experimental_edges": len(watches),
+            "paper_candidates": len(paper_candidates),
+            "validated_signals": len(signals),
         },
     }
 

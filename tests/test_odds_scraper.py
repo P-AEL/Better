@@ -85,6 +85,8 @@ class OddsScraperTests(unittest.TestCase):
         self.assertEqual(result["blue_open"], "+150")
         self.assertEqual(result["red_close_high"], "-160")
         self.assertEqual(result["blue_close_high"], "+140")
+        self.assertEqual(result["odds_source"], "BestFightOdds")
+        self.assertIsNotNone(result["scraped_at_utc"])
 
     @staticmethod
     def _row(event_name, red, blue):

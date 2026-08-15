@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Next-event MMA predictions, market edge, and fighter Elo ratings.">
   <title>Better | Next Event Predictions</title>
-  <link rel="stylesheet" href="assets/styles.css">
-  <script defer src="assets/app.js"></script>
+  <link rel="stylesheet" href="assets/styles.css?v=3">
+  <script defer src="assets/app.js?v=3"></script>
 </head>
 <body data-page="predictions">
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -42,14 +42,14 @@
         <div class="metric"><span class="metric-label">Model</span><strong id="model-name">--</strong></div>
         <div class="metric"><span class="metric-label">Fights</span><strong id="fight-count">--</strong></div>
         <div class="metric"><span class="metric-label">Priced markets</span><strong id="priced-count">--</strong></div>
-        <div class="metric"><span class="metric-label">Positive EV</span><strong id="value-count">--</strong></div>
+        <div class="metric"><span class="metric-label">Validated signals</span><strong id="value-count">--</strong></div>
       </div>
     </section>
 
     <section class="best-bet-band" aria-labelledby="best-bet-title">
       <div class="shell best-bet-layout">
         <div>
-          <p class="section-kicker">Highest model value</p>
+          <p class="section-kicker">Validated betting board</p>
           <h2 id="best-bet-title">Evaluating markets</h2>
         </div>
         <div class="best-bet-detail" id="best-bet-detail">--</div>
@@ -62,7 +62,7 @@
           <p class="section-kicker">Model board</p>
           <h2 id="fight-card-heading">Fight card predictions</h2>
         </div>
-        <span class="model-note">Elo probability · market-adjusted value</span>
+        <span class="model-note">Dynamic ratings · temporal ensemble · calibrated market residual</span>
       </div>
 
       <div class="fight-table-head" aria-hidden="true">
