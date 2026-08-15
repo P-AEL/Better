@@ -35,6 +35,9 @@ jobs:
         # Passe den Pfad zu deinem Skript an:
         run: python scraper.py
 
+      - name: Validate scraped data
+        run: python -m unittest discover -s tests -v
+
       - name: Commit & push changes (if any)
         run: |
           git config user.name  "github-actions[bot]"

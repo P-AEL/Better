@@ -183,6 +183,20 @@ def scrape_fights_for_event(event_name, event_url):
             continue
         fighter_red, fighter_blue = fighters[0].get_text(strip=True), fighters[1].get_text(strip=True)
 
+        result_tokens = [text.lower() for text in cols[0].stripped_strings]
+        if "win" in result_tokens:
+            result = "win"
+            winner = fighter_red
+        elif result_tokens and all(text == "draw" for text in result_tokens):
+            result = "draw"
+            winner = None
+        elif result_tokens and all(text == "nc" for text in result_tokens):
+            result = "nc"
+            winner = None
+        else:
+            result = "scheduled"
+            winner = None
+
         # KD, STR, TD, SUB (je zwei Werte pro Zelle)
         def parse_two(cell):
             parts = cell.get_text(separator="|", strip=True).split("|")
@@ -198,13 +212,11 @@ def scrape_fights_for_event(event_name, event_url):
         rnd          = cols[8].get_text(strip=True)
         time_text    = cols[9].get_text(strip=True)
 
-        # Gewinner: immer der erstgenannte Fighter
-        winner = fighter_red
-
         fights.append({
             "event_name":   event_name,
             "fighter_red":  fighter_red,
             "fighter_blue": fighter_blue,
+            "result":       result,
             "winner":       winner,
             "kd_red":       kd_red,
             "kd_blue":      kd_blue,

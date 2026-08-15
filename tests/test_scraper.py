@@ -27,7 +27,7 @@ FIGHTS_HTML = """
 <html><head><title>Stats | UFC</title></head><body>
   <table class="b-fight-details__table"><tbody>
     <tr onclick="location.href='http://ufcstats.com/fight-details/fight-1'">
-      <td><p>W</p><p>L</p></td>
+      <td><i>win</i></td>
       <td><p><a>Red Fighter</a></p><p><a>Blue Fighter</a></p></td>
       <td><p>1</p><p>0</p></td>
       <td><p>25</p><p>18</p></td>
@@ -41,6 +41,10 @@ FIGHTS_HTML = """
   </tbody></table>
 </body></html>
 """
+
+DRAW_HTML = FIGHTS_HTML.replace("<i>win</i>", "<i>draw</i><i>draw</i>")
+NO_CONTEST_HTML = FIGHTS_HTML.replace("<i>win</i>", "<i>nc</i><i>nc</i>")
+SCHEDULED_HTML = FIGHTS_HTML.replace("<i>win</i>", "<i>next</i>")
 
 CHALLENGE_HTML = """
 <html><head><title>Loading...</title></head><body>
@@ -87,12 +91,47 @@ class ScraperTests(unittest.TestCase):
         self.assertEqual(len(fights), 1)
         self.assertEqual(fights[0]["fighter_red"], "Red Fighter")
         self.assertEqual(fights[0]["fighter_blue"], "Blue Fighter")
+        self.assertEqual(fights[0]["result"], "win")
+        self.assertEqual(fights[0]["winner"], "Red Fighter")
         self.assertEqual(fights[0]["str_red"], "25")
         self.assertEqual(fights[0]["str_blue"], "18")
         self.assertEqual(
             fights[0]["fight_link"],
             "http://ufcstats.com/fight-details/fight-1",
         )
+
+    @patch("scraper.get_soup")
+    def test_draw_has_no_winner(self, get_soup):
+        get_soup.return_value = BeautifulSoup(DRAW_HTML, "html.parser")
+
+        fights = scraper.scrape_fights_for_event(
+            "UFC Draw", "http://ufcstats.com/event-details/event-2"
+        )
+
+        self.assertEqual(fights[0]["result"], "draw")
+        self.assertIsNone(fights[0]["winner"])
+
+    @patch("scraper.get_soup")
+    def test_no_contest_has_no_winner(self, get_soup):
+        get_soup.return_value = BeautifulSoup(NO_CONTEST_HTML, "html.parser")
+
+        fights = scraper.scrape_fights_for_event(
+            "UFC NC", "http://ufcstats.com/event-details/event-3"
+        )
+
+        self.assertEqual(fights[0]["result"], "nc")
+        self.assertIsNone(fights[0]["winner"])
+
+    @patch("scraper.get_soup")
+    def test_scheduled_fight_has_no_winner(self, get_soup):
+        get_soup.return_value = BeautifulSoup(SCHEDULED_HTML, "html.parser")
+
+        fights = scraper.scrape_fights_for_event(
+            "UFC Future", "http://ufcstats.com/event-details/event-4"
+        )
+
+        self.assertEqual(fights[0]["result"], "scheduled")
+        self.assertIsNone(fights[0]["winner"])
 
     @patch("scraper.time.sleep")
     @patch("scraper.session.post")

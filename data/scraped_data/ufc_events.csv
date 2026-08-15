@@ -1,4 +1,14 @@
 event_name,event_date,location,link
+UFC 330: Makhachev vs. Machado Garry,"August 15, 2026","Philadelphia, Pennsylvania, USA",http://ufcstats.com/event-details/b96619b3acd7d9da
+UFC Fight Night: Gamrot vs. Salkilld,"August 08, 2026","Las Vegas, Nevada, USA",http://ufcstats.com/event-details/495add4fbede0a44
+UFC Fight Night: Medic vs. Rodriguez,"August 01, 2026","Belgrade, Vojvodina, Serbia",http://ufcstats.com/event-details/1a50e734bb54861a
+UFC Fight Night: Ankalaev vs. Guskov,"July 25, 2026","Abu Dhabi, Abu Dhabi, United Arab Emirates",http://ufcstats.com/event-details/681d07e328798ec0
+UFC Fight Night: Du Plessis vs. Usman,"July 18, 2026","Oklahoma City, Oklahoma, USA",http://ufcstats.com/event-details/f354c50b8d63d9b3
+UFC 329: McGregor vs. Holloway 2,"July 11, 2026","Las Vegas, Nevada, USA",http://ufcstats.com/event-details/fccb0fee256b7b4d
+UFC Fight Night: Fiziev vs. Torres,"June 27, 2026","Baku, Azerbaijan",http://ufcstats.com/event-details/31e1ea6fe6b682f8
+UFC Fight Night: Kape vs. Horiguchi,"June 20, 2026","Las Vegas, Nevada, USA",http://ufcstats.com/event-details/c8661e204c66f325
+UFC Freedom 250,"June 14, 2026","Washington, DC, USA",http://ufcstats.com/event-details/48544433372ecfa6
+UFC Fight Night: Muhammad vs. Bonfim,"June 06, 2026","Las Vegas, Nevada, USA",http://ufcstats.com/event-details/ba17afef01ed78b6
 UFC Fight Night: Song vs. Figueiredo,"May 30, 2026","Macau, China",http://ufcstats.com/event-details/1e75e6c9de99fa76
 UFC Fight Night: Allen vs. Costa,"May 16, 2026","Las Vegas, Nevada, USA",http://ufcstats.com/event-details/73abb7a5c57fb443
 UFC 328: Chimaev vs. Strickland,"May 09, 2026","Newark, New Jersey, USA",http://ufcstats.com/event-details/9eedac48b497de5a
@@ -27,10 +37,9 @@ UFC Fight Night: De Ridder vs. Allen,"October 18, 2025","Vancouver, British Colu
 UFC Fight Night: Oliveira vs. Gamrot,"October 11, 2025","Rio de Janeiro, Rio de Janeiro, Brazil",http://ufcstats.com/event-details/9336e86cfd4ceaa1
 UFC 320: Ankalaev vs. Pereira 2,"October 04, 2025","Las Vegas, Nevada, USA",http://ufcstats.com/event-details/8944a0f9b2f0ce6d
 UFC Fight Night: Ulberg vs. Reyes,"September 27, 2025","Perth, Western Australia, Australia",http://ufcstats.com/event-details/ed220e87bef0cc64
-UFC Fight Night: Lopes vs. Silva,"September 13, 2025","San Antonio, Texas, USA",http://ufcstats.com/event-details/5efaaf313b652dd7
+Noche UFC: Lopes vs. Silva,"September 13, 2025","San Antonio, Texas, USA",http://ufcstats.com/event-details/5efaaf313b652dd7
 UFC Fight Night: Imavov vs. Borralho,"September 06, 2025","Paris, Ile-de-France, France",http://ufcstats.com/event-details/6e380a4d73ab4f0e
 UFC Fight Night: Walker vs. Zhang,"August 23, 2025","Shanghai, Hebei, China",http://ufcstats.com/event-details/754968e325d6f60d
-UFC - Road to UFC 4.6,"August 22, 2025","Shanghai, Hebei, China",http://ufcstats.com/event-details/8fbcd82bf7f352bf
 UFC 319: Du Plessis vs. Chimaev,"August 16, 2025","Chicago, Illinois, USA",http://ufcstats.com/event-details/421ccfc6ddb17958
 UFC Fight Night: Dolidze vs. Hernandez,"August 09, 2025","Las Vegas, Nevada, USA",http://ufcstats.com/event-details/6cd3dfc54f01287f
 UFC Fight Night: Taira vs. Park,"August 02, 2025","Las Vegas, Nevada, USA",http://ufcstats.com/event-details/f2c934689243fe4e
@@ -111,7 +120,7 @@ UFC 294: Makhachev vs. Volkanovski 2,"October 21, 2023","Abu Dhabi, Abu Dhabi, U
 UFC Fight Night: Yusuff vs. Barboza,"October 14, 2023","Las Vegas, Nevada, USA",http://ufcstats.com/event-details/f3a078277b3b8ff4
 UFC Fight Night: Dawson vs. Green,"October 07, 2023","Las Vegas, Nevada, USA",http://ufcstats.com/event-details/c8a49ff2acb6f3c5
 UFC Fight Night: Fiziev vs. Gamrot,"September 23, 2023","Las Vegas, Nevada, USA",http://ufcstats.com/event-details/c945adc22c2bfe8f
-UFC Fight Night: Grasso vs. Shevchenko 2,"September 16, 2023","Las Vegas, Nevada, USA",http://ufcstats.com/event-details/8fa2b06572365321
+Noche UFC: Grasso vs. Shevchenko 2,"September 16, 2023","Las Vegas, Nevada, USA",http://ufcstats.com/event-details/8fa2b06572365321
 UFC 293: Adesanya vs. Strickland,"September 09, 2023","Sydney, New South Wales, Australia",http://ufcstats.com/event-details/ece280745f8727b8
 UFC Fight Night: Gane vs. Spivac,"September 02, 2023","Paris, Ile-de-France, France",http://ufcstats.com/event-details/ef61d9f5176b3200
 UFC Fight Night: Holloway vs. The Korean Zombie,"August 26, 2023","Kallang, Singapore",http://ufcstats.com/event-details/89a407032911e27e
@@ -774,4 +783,3 @@ UFC 5: The Return of the Beast,"April 07, 1995","Charlotte, North Carolina, USA"
 UFC 4: Revenge of the Warriors,"December 16, 1994","Tulsa, Oklahoma, USA",http://ufcstats.com/event-details/b60391da771deefe
 UFC 3: The American Dream,"September 09, 1994","Charlotte, North Carolina, USA",http://ufcstats.com/event-details/1a49e0670dfaca31
 UFC 2: No Way Out,"March 11, 1994","Denver, Colorado, USA",http://ufcstats.com/event-details/a6a9ab5a824e8f66
-UFC 1: The Beginning,"November 12, 1993","Denver, Colorado, USA",http://ufcstats.com/event-details/6420efac0578988b
