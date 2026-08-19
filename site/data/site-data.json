@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T07:48:54.705480+00:00",
+  "generated_at": "2026-08-19T07:35:25.757744+00:00",
   "model": {
     "name": "Calibrated temporal ensemble",
     "version": "3.0.0",
@@ -3820,8 +3820,8 @@
       }
     ],
     "forward_results": {
-      "generated_at": "2026-08-17T07:48:47.702526+00:00",
-      "recorded_predictions": 22,
+      "generated_at": "2026-08-19T07:35:18.066374+00:00",
+      "recorded_predictions": 33,
       "settled_predictions": 0,
       "priced_settled_predictions": 0,
       "minimum_required": 100,
@@ -3870,7 +3870,7 @@
         "red_fair_probability": 0.4162470627727425,
         "blue_fair_probability": 0.5837529372272574,
         "source": "BestFightOdds",
-        "observed_at": "2026-08-17T07:46:31.310582+00:00"
+        "observed_at": "2026-08-19T07:33:06.331786+00:00"
       },
       "recommendation": "Ramiz Brahimaj",
       "recommended_odds": "-148",
@@ -3907,7 +3907,7 @@
         "red_fair_probability": 0.6641947670351196,
         "blue_fair_probability": 0.33580523296488035,
         "source": "BestFightOdds",
-        "observed_at": "2026-08-17T07:46:24.376233+00:00"
+        "observed_at": "2026-08-19T07:33:00.402093+00:00"
       },
       "recommendation": "Gillian Robertson",
       "recommended_odds": "+203",
@@ -3944,7 +3944,7 @@
         "red_fair_probability": 0.7452229299363058,
         "blue_fair_probability": 0.2547770700636943,
         "source": "BestFightOdds",
-        "observed_at": "2026-08-17T07:46:29.130424+00:00"
+        "observed_at": "2026-08-19T07:33:04.477789+00:00"
       },
       "recommendation": "Donte Johnson",
       "recommended_odds": "-300",
@@ -3981,7 +3981,7 @@
         "red_fair_probability": 0.49439461883408076,
         "blue_fair_probability": 0.5056053811659194,
         "source": "BestFightOdds",
-        "observed_at": "2026-08-17T07:46:29.893960+00:00"
+        "observed_at": "2026-08-19T07:33:05.108386+00:00"
       },
       "recommendation": "Tresean Gore",
       "recommended_odds": "-110",
@@ -4018,7 +4018,7 @@
         "red_fair_probability": 0.5187068652379223,
         "blue_fair_probability": 0.48129313476207775,
         "source": "BestFightOdds",
-        "observed_at": "2026-08-17T07:46:25.044092+00:00"
+        "observed_at": "2026-08-19T07:33:00.960857+00:00"
       },
       "recommendation": "Kaue Fernandes",
       "recommended_odds": "+104",
@@ -4055,7 +4055,7 @@
         "red_fair_probability": 0.09482758620689655,
         "blue_fair_probability": 0.9051724137931034,
         "source": "BestFightOdds",
-        "observed_at": "2026-08-17T07:46:31.986745+00:00"
+        "observed_at": "2026-08-19T07:33:06.909552+00:00"
       },
       "recommendation": "Myktybek Orolbai",
       "recommended_odds": "-1000",
@@ -4092,7 +4092,7 @@
         "red_fair_probability": 0.2803738317757009,
         "blue_fair_probability": 0.719626168224299,
         "source": "BestFightOdds",
-        "observed_at": "2026-08-17T07:46:30.556316+00:00"
+        "observed_at": "2026-08-19T07:33:05.697264+00:00"
       },
       "recommendation": "Rafael Tobias",
       "recommended_odds": "+250",
@@ -4129,7 +4129,7 @@
         "red_fair_probability": 0.1486438481490963,
         "blue_fair_probability": 0.8513561518509037,
         "source": "BestFightOdds",
-        "observed_at": "2026-08-17T07:46:26.452703+00:00"
+        "observed_at": "2026-08-19T07:33:02.190684+00:00"
       },
       "recommendation": "Esteban Ribovics",
       "recommended_odds": "-649",
@@ -4166,7 +4166,7 @@
         "red_fair_probability": 0.8492199295420231,
         "blue_fair_probability": 0.15078007045797684,
         "source": "BestFightOdds",
-        "observed_at": "2026-08-17T07:46:25.707553+00:00"
+        "observed_at": "2026-08-19T07:33:01.545549+00:00"
       },
       "recommendation": "Mansur Abdul-Malik",
       "recommended_odds": "-649",
@@ -4203,7 +4203,7 @@
         "red_fair_probability": 0.24532577903682715,
         "blue_fair_probability": 0.7546742209631727,
         "source": "BestFightOdds",
-        "observed_at": "2026-08-17T07:46:27.128105+00:00"
+        "observed_at": "2026-08-19T07:33:02.775019+00:00"
       },
       "recommendation": "Joel Alvarez",
       "recommended_odds": "-333",
@@ -4240,7 +4240,7 @@
         "red_fair_probability": 0.7446555819477435,
         "blue_fair_probability": 0.25534441805225655,
         "source": "BestFightOdds",
-        "observed_at": "2026-08-17T07:46:23.692754+00:00"
+        "observed_at": "2026-08-19T07:32:59.839592+00:00"
       },
       "recommendation": "Islam Makhachev",
       "recommended_odds": "-330",
