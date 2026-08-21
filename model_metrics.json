@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "trained_at": "2026-08-19T07:34:35.302188+00:00",
+  "trained_at": "2026-08-21T07:38:55.580594+00:00",
   "selected_model": "temporal_oof_ensemble",
   "feature_set": "full",
   "feature_count": 38,
