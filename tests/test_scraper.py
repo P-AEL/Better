@@ -1,8 +1,11 @@
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
 from unittest.mock import Mock, patch
 import hashlib
 
 from bs4 import BeautifulSoup
+import pandas as pd
 import requests
 
 import scraper
@@ -57,6 +60,18 @@ var nonce="test-nonce", target=new Array(1+1).join('0');
 
 
 class ScraperTests(unittest.TestCase):
+    @staticmethod
+    def fight(event_name, red, blue, result):
+        row = {column: None for column in scraper.FIGHT_COLUMNS}
+        row.update({
+            "event_name": event_name,
+            "fighter_red": red,
+            "fighter_blue": blue,
+            "result": result,
+            "winner": red if result == "win" else None,
+        })
+        return row
+
     def test_normalizes_ufcstats_urls(self):
         expected = "http://ufcstats.com/event-details/abc"
         self.assertEqual(scraper.normalize_ufcstats_url("/event-details/abc"), expected)
@@ -79,6 +94,15 @@ class ScraperTests(unittest.TestCase):
             events.iloc[0].link,
             "http://ufcstats.com/event-details/event-1",
         )
+
+    @patch("scraper.get_soup")
+    def test_scrapes_upcoming_event_list(self, get_soup):
+        get_soup.return_value = BeautifulSoup(EVENTS_HTML, "html.parser")
+
+        events = scraper.scrape_upcoming_events_list()
+
+        self.assertEqual(events.iloc[0].event_name, "UFC Test")
+        self.assertIn("/upcoming?page=all", get_soup.call_args.args[0])
 
     @patch("scraper.get_soup")
     def test_scrapes_fight(self, get_soup):
@@ -209,6 +233,80 @@ class ScraperTests(unittest.TestCase):
 
         self.assertEqual(soup.title.get_text(strip=True), "Stats | UFC")
         self.assertEqual(session_get.call_count, 2)
+
+    @patch("scraper.time.sleep")
+    @patch("scraper.scrape_fights_for_event")
+    @patch("scraper.scrape_upcoming_events_list")
+    @patch("scraper.scrape_events_list")
+    def test_incremental_refresh_replaces_stale_card_and_adds_upcoming(
+        self,
+        completed_fetch,
+        upcoming_fetch,
+        fights_fetch,
+        _sleep,
+    ):
+        completed_fetch.return_value = pd.DataFrame([
+            {
+                "event_name": "UFC Result",
+                "event_date": "August 01, 2026",
+                "location": "Las Vegas",
+                "link": "http://ufcstats.com/event-details/result",
+            },
+            {
+                "event_name": "UFC Archive",
+                "event_date": "July 25, 2026",
+                "location": "Las Vegas",
+                "link": "http://ufcstats.com/event-details/archive",
+            },
+        ])
+        upcoming_fetch.return_value = pd.DataFrame([{
+            "event_name": "UFC Next",
+            "event_date": "August 29, 2026",
+            "location": "Paris",
+            "link": "http://ufcstats.com/event-details/next",
+        }])
+        fights_by_event = {
+            "UFC Result": [self.fight("UFC Result", "Winner", "Loser", "win")],
+            "UFC Archive": [self.fight("UFC Archive", "Old A", "Old B", "win")],
+            "UFC Next": [self.fight("UFC Next", "Next A", "Next B", "scheduled")],
+        }
+        fights_fetch.side_effect = lambda event_name, _link: fights_by_event[event_name]
+
+        with TemporaryDirectory() as temporary_dir:
+            data_dir = Path(temporary_dir)
+            pd.DataFrame([
+                {
+                    "event_name": "UFC Result",
+                    "event_date": "August 01, 2026",
+                    "location": "Las Vegas",
+                    "link": "http://ufcstats.com/event-details/result",
+                },
+                {
+                    "event_name": "UFC Archive",
+                    "event_date": "July 25, 2026",
+                    "location": "Las Vegas",
+                    "link": "http://ufcstats.com/event-details/archive",
+                },
+            ]).to_csv(data_dir / "ufc_events.csv", index=False)
+            pd.DataFrame([
+                self.fight("UFC Result", "Winner", "Loser", "scheduled"),
+                self.fight("UFC Archive", "Old A", "Old B", "win"),
+            ]).to_csv(data_dir / "ufc_fights.csv", index=False)
+
+            scraper.refresh_data(data_dir)
+            events = pd.read_csv(data_dir / "ufc_events.csv")
+            fights = pd.read_csv(data_dir / "ufc_fights.csv")
+
+        self.assertEqual(set(events["event_name"]), {"UFC Result", "UFC Archive", "UFC Next"})
+        self.assertEqual(
+            fights.loc[fights["event_name"].eq("UFC Result"), "result"].iloc[0],
+            "win",
+        )
+        self.assertEqual(
+            fights.loc[fights["event_name"].eq("UFC Next"), "result"].iloc[0],
+            "scheduled",
+        )
+        self.assertEqual(fights_fetch.call_count, 3)
 
 
 if __name__ == "__main__":

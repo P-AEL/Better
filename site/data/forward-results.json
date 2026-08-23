@@ -1,11 +1,18 @@
 {
-  "generated_at": "2026-08-23T07:30:27.023139+00:00",
-  "recorded_predictions": 55,
-  "settled_predictions": 0,
-  "priced_settled_predictions": 0,
+  "generated_at": "2026-08-23T15:00:37.935686+00:00",
+  "recorded_predictions": 66,
+  "settled_predictions": 55,
+  "priced_settled_predictions": 55,
   "minimum_required": 100,
   "forward_gate_passed": false,
-  "metrics": null,
+  "metrics": {
+    "independent_log_loss": 0.8227521703244823,
+    "residual_log_loss": 0.8886980457972687,
+    "market_log_loss": 0.8464361573536009,
+    "independent_brier": 0.30653434272727276,
+    "residual_brier": 0.3067581423636364,
+    "market_brier": 0.2963420537487272
+  },
   "paper": {
     "settled": 0,
     "net_units": 0.0,

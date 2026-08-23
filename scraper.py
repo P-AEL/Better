@@ -1,3 +1,4 @@
+import argparse
 import re
 import hashlib
 import requests
@@ -21,6 +22,13 @@ HEADERS = {
 TIMEOUT = 30
 MAX_RETRIES = 3
 MAX_CHALLENGE_ATTEMPTS = 5_000_000
+EVENT_TABLE_SELECTOR = "table.b-statistics__table-events"
+FIGHT_COLUMNS = [
+    "event_name", "fighter_red", "fighter_blue", "result", "winner",
+    "kd_red", "kd_blue", "str_red", "str_blue", "td_red", "td_blue",
+    "sub_red", "sub_blue", "weight_class", "method", "round", "time",
+    "fight_link",
+]
 
 session = requests.Session()
 session.headers.update(HEADERS)
@@ -127,15 +135,15 @@ def require_table(soup, selector, url):
         f"{page_summary(soup)}"
     )
 
-def scrape_events_list():
-    """
-    Scrapt alle abgeschlossenen UFC-Events.
-    Liefert einen DataFrame mit event_name, event_date, location und link.
-    """
+def scrape_event_list(event_type):
+    """Return the completed or upcoming UFCStats event list."""
+    if event_type not in {"completed", "upcoming"}:
+        raise ValueError(f"Unsupported event type: {event_type}")
+
     events = []
-    url = f"{BASE_URL}/statistics/events/completed?page=all"
-    soup = get_soup(url, required_selector="table.b-statistics__table-events")
-    table = require_table(soup, "table.b-statistics__table-events", url)
+    url = f"{BASE_URL}/statistics/events/{event_type}?page=all"
+    soup = get_soup(url, required_selector=EVENT_TABLE_SELECTOR)
+    table = require_table(soup, EVENT_TABLE_SELECTOR, url)
 
     for row in table.tbody.find_all("tr"):
         cols = row.find_all("td")
@@ -156,6 +164,16 @@ def scrape_events_list():
         raise RuntimeError(f"No completed UFC events parsed from {url}")
 
     return pd.DataFrame(events)
+
+
+def scrape_events_list():
+    """Return all completed UFC events."""
+    return scrape_event_list("completed")
+
+
+def scrape_upcoming_events_list():
+    """Return all upcoming UFC events with currently listed fights."""
+    return scrape_event_list("upcoming")
 
 def scrape_fights_for_event(event_name, event_url):
     """Scrapt alle Fights eines Events."""
@@ -235,8 +253,8 @@ def scrape_fights_for_event(event_name, event_url):
 
     return fights
 
-def main():
-    # 1) Alle Events (mit Pagination) scrapen
+def scrape_full(data_dir):
+    """Rebuild completed-history CSVs from scratch."""
     df_events = scrape_events_list()
     print(f"Gefundene Events: {len(df_events)}")
 
@@ -250,10 +268,86 @@ def main():
     print(f"Gefundene Fights: {len(df_fights)}")
 
     # 3) CSVs speichern
-    out_dir = Path("data/scraped_data")
-    out_dir.mkdir(parents=True, exist_ok=True)
-    df_events.to_csv(out_dir / "ufc_events.csv", index=False)
-    df_fights.to_csv(out_dir / "ufc_fights.csv", index=False)
+    data_dir.mkdir(parents=True, exist_ok=True)
+    df_events.to_csv(data_dir / "ufc_events.csv", index=False)
+    df_fights.to_csv(data_dir / "ufc_fights.csv", index=False)
+
+
+def refresh_data(data_dir):
+    """Incrementally refresh results and confirmed upcoming fight cards."""
+    data_dir = Path(data_dir)
+    events_path = data_dir / "ufc_events.csv"
+    fights_path = data_dir / "ufc_fights.csv"
+    existing_events = pd.read_csv(events_path) if events_path.exists() else pd.DataFrame()
+    existing_fights = (
+        pd.read_csv(fights_path) if fights_path.exists() else pd.DataFrame(columns=FIGHT_COLUMNS)
+    )
+
+    completed = scrape_events_list()
+    upcoming = scrape_upcoming_events_list()
+    all_events = pd.concat([completed, upcoming], ignore_index=True).drop_duplicates(
+        subset="link", keep="first"
+    )
+    all_events = all_events.drop_duplicates(subset="event_name", keep="first")
+
+    known_links = set(existing_events.get("link", pd.Series(dtype=str)).dropna())
+    refresh_names = set(completed.loc[~completed["link"].isin(known_links), "event_name"])
+    refresh_names.update(completed.head(2)["event_name"])
+    refresh_names.update(upcoming["event_name"])
+
+    if not existing_events.empty and not existing_fights.empty:
+        event_dates = existing_events.set_index("event_name")["event_date"]
+        scheduled = existing_fights[existing_fights["result"].eq("scheduled")]
+        scheduled_dates = pd.to_datetime(
+            scheduled["event_name"].map(event_dates), errors="coerce"
+        )
+        stale_scheduled = scheduled.loc[
+            scheduled_dates.dt.date <= pd.Timestamp.now().date(), "event_name"
+        ]
+        refresh_names.update(stale_scheduled)
+
+    refresh_events = all_events[all_events["event_name"].isin(refresh_names)]
+    refreshed_fights = []
+    for event in tqdm(
+        refresh_events.itertuples(index=False),
+        total=len(refresh_events),
+        desc="Refreshing events",
+    ):
+        refreshed_fights.extend(scrape_fights_for_event(event.event_name, event.link))
+        time.sleep(1)
+
+    valid_events = set(all_events["event_name"])
+    retained_fights = existing_fights[
+        existing_fights["event_name"].isin(valid_events)
+        & ~existing_fights["event_name"].isin(refresh_names)
+    ]
+    fights = pd.concat(
+        [retained_fights, pd.DataFrame(refreshed_fights, columns=FIGHT_COLUMNS)],
+        ignore_index=True,
+    ).drop_duplicates(subset=["event_name", "fighter_red", "fighter_blue"], keep="last")
+
+    data_dir.mkdir(parents=True, exist_ok=True)
+    all_events.to_csv(events_path, index=False)
+    fights.to_csv(fights_path, index=False)
+    print(
+        f"Refreshed {len(refresh_events)} events: "
+        f"{len(completed)} completed, {len(upcoming)} upcoming, {len(fights)} fights total"
+    )
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Refresh UFCStats fight data.")
+    parser.add_argument(
+        "--refresh",
+        action="store_true",
+        help="Incrementally refresh recent results and upcoming cards.",
+    )
+    parser.add_argument("--data-dir", type=Path, default=Path("data/scraped_data"))
+    args = parser.parse_args()
+    if args.refresh:
+        refresh_data(args.data_dir)
+    else:
+        scrape_full(args.data_dir)
 
 if __name__ == "__main__":
     main()

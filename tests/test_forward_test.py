@@ -60,6 +60,28 @@ class ForwardTestTests(unittest.TestCase):
         summary = forward_test.summarize(pd.DataFrame(rows))
         self.assertTrue(summary["forward_gate_passed"])
 
+    def test_settlement_handles_an_empty_timestamp_column(self):
+        journal = pd.DataFrame([{
+            **{column: None for column in forward_test.JOURNAL_COLUMNS},
+            "event_name": "Test Event",
+            "fighter_red": "Red Fighter",
+            "fighter_blue": "Blue Fighter",
+            "outcome_red": None,
+        }])
+        journal["settled_at"] = float("nan")
+        fights = pd.DataFrame([{
+            "event_name": "Test Event",
+            "fighter_red": "Red Fighter",
+            "fighter_blue": "Blue Fighter",
+            "result": "win",
+            "winner": "Red Fighter",
+        }])
+
+        settled = forward_test.settle_predictions(journal, fights)
+
+        self.assertEqual(settled.iloc[0]["outcome_red"], 1.0)
+        self.assertIsInstance(settled.iloc[0]["settled_at"], str)
+
 
 if __name__ == "__main__":
     unittest.main()

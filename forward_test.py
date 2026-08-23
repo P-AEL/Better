@@ -32,6 +32,17 @@ JOURNAL_COLUMNS = [
     "outcome_red",
     "settled_at",
 ]
+TEXT_JOURNAL_COLUMNS = (
+    "recorded_at",
+    "snapshot_id",
+    "model_version",
+    "event_name",
+    "event_date",
+    "fighter_red",
+    "fighter_blue",
+    "recommendation",
+    "settled_at",
+)
 
 
 def binary_log_loss(target, probability):
@@ -47,6 +58,8 @@ def load_journal(path=JOURNAL_PATH):
     for column in JOURNAL_COLUMNS:
         if column not in frame:
             frame[column] = np.nan
+    for column in TEXT_JOURNAL_COLUMNS:
+        frame[column] = frame[column].astype(object)
     return frame[JOURNAL_COLUMNS]
 
 
@@ -105,6 +118,8 @@ def record_current_predictions(journal, site_data):
 
 
 def settle_predictions(journal, fights):
+    journal = journal.copy()
+    journal["settled_at"] = journal["settled_at"].astype(object)
     completed = fights[fights["result"].eq("win")]
     winners = {
         (row.event_name, frozenset((row.fighter_red, row.fighter_blue))): row.winner
