@@ -86,6 +86,23 @@ class ModelPipelineTests(unittest.TestCase):
         self.assertEqual(result[0]["fight_count"], 2)
         self.assertAlmostEqual(result[0]["models"]["ensemble"]["accuracy"], 0.5)
 
+    def test_historical_fight_predictions_keep_actual_winner_and_models(self):
+        frame = pd.DataFrame({
+            "event_name": ["Event A", "Event A"],
+            "event_date": ["2025-01-01", "2025-01-01"],
+            "fight_id": ["fight", "fight"],
+            "fighter_red": ["Winner", "Loser"],
+            "fighter_blue": ["Loser", "Winner"],
+            "target": [1, 0],
+        })
+        fights = train_model.historical_fight_predictions(
+            frame, {"ensemble": [0.6, 0.4], "dynamic_glicko": [0.55, 0.45]}
+        )
+
+        self.assertEqual(len(fights), 1)
+        self.assertEqual(fights[0]["actual_winner"], "Winner")
+        self.assertEqual(fights[0]["model_probabilities"]["ensemble"], 0.6)
+
 
 if __name__ == "__main__":
     unittest.main()

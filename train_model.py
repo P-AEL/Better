@@ -268,6 +268,30 @@ def event_performance(test, probabilities):
     return sorted(rows, key=lambda row: row["event_date"], reverse=True)
 
 
+def historical_fight_predictions(test, probabilities):
+    evaluation = test[
+        ["event_name", "event_date", "fight_id", "fighter_red", "fighter_blue", "target"]
+    ].copy()
+    for name, probability in probabilities.items():
+        evaluation[name] = np.asarray(probability, dtype=float)
+
+    fights = []
+    for row in evaluation.groupby("fight_id", sort=False).head(1).itertuples(index=False):
+        actual_winner = row.fighter_red if row.target else row.fighter_blue
+        fights.append({
+            "event_name": row.event_name,
+            "event_date": str(row.event_date),
+            "fighter_red": row.fighter_red,
+            "fighter_blue": row.fighter_blue,
+            "actual_winner": actual_winner,
+            "model_probabilities": {
+                name: round(float(getattr(row, name)), 4)
+                for name in probabilities
+            },
+        })
+    return sorted(fights, key=lambda fight: (fight["event_date"], fight["event_name"]), reverse=True)
+
+
 def symmetrize_fight_probabilities(frame, probability):
     source = pd.Series(np.asarray(probability, dtype=float), index=frame.index)
     output = source.copy()
@@ -348,6 +372,7 @@ def train(data_dir=DATA_DIR, model_path=MODEL_PATH, metrics_path=METRICS_PATH):
         name: symmetrize_fight_probabilities(test, probability)
         for name, probability in performance_probabilities.items()
     }
+    historical_fights = historical_fight_predictions(test, performance_probabilities)
     market_series = test["market_probability"].copy()
     residual_series = pd.Series(np.nan, index=test.index, dtype=float)
     residual_series.loc[market_test.index] = residual_probability
@@ -390,6 +415,7 @@ def train(data_dir=DATA_DIR, model_path=MODEL_PATH, metrics_path=METRICS_PATH):
         "market_residual_l2": float(residual_l2),
         "market_residual_calibration_log_loss": residual_leaderboard,
         "historical_performance": historical_performance,
+        "historical_fights": historical_fights,
         "calibration_error": calibration_error,
         "uncertainty_margin": uncertainty_margin,
         "backtest_gate_passed": backtest_gate_passed,

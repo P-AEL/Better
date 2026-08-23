@@ -476,6 +476,7 @@ def build_site_data(data_dir=DATA_DIR):
                 {"key": "dynamic_glicko", "label": "Dynamic Glicko"},
             ],
             "historical_performance": metadata.get("historical_performance", []),
+            "historical_fights": metadata.get("historical_fights", []),
             "forward_results": forward_results,
         }
     else:

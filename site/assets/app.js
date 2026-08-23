@@ -157,9 +157,14 @@ function renderPredictions(data) {
 function renderPerformance(data) {
   const body = document.getElementById("performance-body");
   const selector = document.getElementById("performance-model");
+  const dialog = document.getElementById("event-detail-dialog");
+  const dialogTitle = document.getElementById("event-detail-title");
+  const dialogSummary = document.getElementById("event-detail-summary");
+  const incorrectList = document.getElementById("incorrect-fight-list");
   if (!body || !selector) return;
 
   const events = data.model.historical_performance || [];
+  const historicalFights = data.model.historical_fights || [];
   const models = data.model.performance_models || [];
   setText("performance-events", events.length);
   if (!events.length || !models.length) {
@@ -168,6 +173,44 @@ function renderPerformance(data) {
   }
 
   selector.innerHTML = models.map((model) => `<option value="${escapeHtml(model.key)}">${escapeHtml(model.label)}</option>`).join("");
+  const showIncorrectPicks = (event, selected) => {
+    if (!dialog || !dialogTitle || !dialogSummary || !incorrectList) return;
+    const incorrect = historicalFights.filter((fight) => {
+      if (fight.event_name !== event.event_name || fight.event_date !== event.event_date) return false;
+      const probability = fight.model_probabilities?.[selected.key];
+      if (probability === undefined) return false;
+      const predictedWinner = probability >= 0.5 ? fight.fighter_red : fight.fighter_blue;
+      return predictedWinner !== fight.actual_winner;
+    });
+
+    dialogTitle.textContent = event.event_name;
+    dialogSummary.textContent = incorrect.length
+      ? `${selected.label} missed ${incorrect.length} of ${event.fight_count} fights.`
+      : `${selected.label} made no incorrect picks on this event.`;
+    incorrectList.innerHTML = incorrect.length
+      ? incorrect.map((fight) => {
+        const probability = fight.model_probabilities[selected.key];
+        const predictedWinner = probability >= 0.5 ? fight.fighter_red : fight.fighter_blue;
+        return `<article class="incorrect-fight">
+          <div>
+            <strong>${escapeHtml(fight.fighter_red)} <span>vs</span> ${escapeHtml(fight.fighter_blue)}</strong>
+            <span class="incorrect-actual">Actual winner: ${escapeHtml(fight.actual_winner)}</span>
+          </div>
+          <div class="incorrect-pick">
+            <span>Picked ${escapeHtml(predictedWinner)}</span>
+            <strong>${percent(Math.max(probability, 1 - probability))}</strong>
+          </div>
+        </article>`;
+      }).join("")
+      : '<p class="no-incorrect-picks">No incorrect picks for this event.</p>';
+    dialog.showModal();
+  };
+
+  const closeDialog = () => dialog?.close();
+  document.getElementById("event-detail-close")?.addEventListener("click", closeDialog);
+  dialog?.addEventListener("click", (event) => {
+    if (event.target === dialog) closeDialog();
+  });
   const refresh = () => {
     const selected = models.find((model) => model.key === selector.value) || models[0];
     const available = events.filter((event) => event.models[selected.key]);
@@ -180,10 +223,10 @@ function renderPerformance(data) {
     setText("performance-accuracy", percent(weighted("accuracy")));
     setText("performance-log-loss", weighted("log_loss")?.toFixed(3) ?? "--");
     setText("performance-brier", weighted("brier")?.toFixed(3) ?? "--");
-    body.innerHTML = available.map((event) => {
+    body.innerHTML = available.map((event, index) => {
       const metrics = event.models[selected.key];
       return `<tr>
-        <td class="event-name-cell">${escapeHtml(event.event_name)}</td>
+        <td class="event-name-cell"><button class="event-detail-trigger" type="button" data-event-index="${index}">${escapeHtml(event.event_name)}</button></td>
         <td>${formatDate(event.event_date)}</td>
         <td>${event.fight_count}</td>
         <td class="accuracy-score">${percent(metrics.accuracy)}</td>
@@ -191,6 +234,11 @@ function renderPerformance(data) {
         <td>${metrics.brier.toFixed(3)}</td>
       </tr>`;
     }).join("");
+    body.querySelectorAll(".event-detail-trigger").forEach((button) => {
+      button.addEventListener("click", () => {
+        showIncorrectPicks(available[Number(button.dataset.eventIndex)], selected);
+      });
+    });
   };
   selector.addEventListener("input", refresh);
   refresh();

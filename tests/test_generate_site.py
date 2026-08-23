@@ -104,6 +104,9 @@ class SiteGeneratorTests(unittest.TestCase):
         history = self.payload["model"]["historical_performance"]
         self.assertGreater(len(history), 0)
         self.assertIn("ensemble", history[0]["models"])
+        historical_fights = self.payload["model"]["historical_fights"]
+        if historical_fights:
+            self.assertIn("actual_winner", historical_fights[0])
 
 
 if __name__ == "__main__":

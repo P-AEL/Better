@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Out-of-sample model performance across previous UFC events.">
   <title>Better | Model Performance</title>
-  <link rel="stylesheet" href="assets/styles.css?v=4">
-  <script defer src="assets/app.js?v=4"></script>
+  <link rel="stylesheet" href="assets/styles.css?v=5">
+  <script defer src="assets/app.js?v=5"></script>
 </head>
 <body data-page="performance">
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -78,6 +78,18 @@
       </div>
     </section>
   </main>
+
+  <dialog class="event-detail-dialog" id="event-detail-dialog" aria-labelledby="event-detail-title">
+    <div class="event-detail-header">
+      <div>
+        <p class="section-kicker">Incorrect picks</p>
+        <h2 id="event-detail-title">Event detail</h2>
+      </div>
+      <button class="dialog-close" id="event-detail-close" type="button" aria-label="Close incorrect picks" title="Close">&times;</button>
+    </div>
+    <p class="event-detail-summary" id="event-detail-summary"></p>
+    <div class="incorrect-fight-list" id="incorrect-fight-list"></div>
+  </dialog>
 
   <footer class="site-footer">
     <div class="shell footer-layout">
