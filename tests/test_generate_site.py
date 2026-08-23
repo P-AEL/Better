@@ -89,6 +89,11 @@ class SiteGeneratorTests(unittest.TestCase):
         )
 
     def test_payload_exposes_model_filters_and_holdout_history(self):
+        if self.payload["model"]["version"] == "fallback":
+            self.assertFalse(self.payload["model"]["betting_enabled"])
+            self.assertNotIn("prediction_models", self.payload["model"])
+            return
+
         model_keys = {
             model["key"] for model in self.payload["model"]["prediction_models"]
         }

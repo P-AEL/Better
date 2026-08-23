@@ -60,6 +60,9 @@ jobs:
       - name: Train and validate probability model
         run: python train_model.py
 
+      - name: Verify trained model artifact
+        run: test -s betting_model.joblib
+
       - name: Validate source data and generator
         run: python -m unittest discover -s tests -v
 
