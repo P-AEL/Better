@@ -8,11 +8,11 @@ import method_model
 
 class MethodModelTests(unittest.TestCase):
     def test_method_mapping_keeps_requested_classes_distinct(self):
-        self.assertEqual(method_model.classify_method(pd.Series({"result": "win", "method": "KO/TKO Punches"})), "ko_tko")
-        self.assertEqual(method_model.classify_method(pd.Series({"result": "win", "method": "SUB Armbar"})), "submission")
+        self.assertEqual(method_model.classify_method(pd.Series({"result": "win", "method": "KO/TKO Punches"})), "not_decision")
+        self.assertEqual(method_model.classify_method(pd.Series({"result": "win", "method": "SUB Armbar"})), "not_decision")
         self.assertEqual(method_model.classify_method(pd.Series({"result": "draw", "method": "U-DEC"})), "decision")
-        self.assertEqual(method_model.classify_method(pd.Series({"result": "nc", "method": "Overturned"})), "nc")
-        self.assertIsNone(method_model.classify_method(pd.Series({"result": "win", "method": "DQ"})))
+        self.assertEqual(method_model.classify_method(pd.Series({"result": "nc", "method": "Overturned"})), "not_decision")
+        self.assertEqual(method_model.classify_method(pd.Series({"result": "win", "method": "DQ"})), "not_decision")
 
     def test_method_features_are_fighter_order_invariant(self):
         values = {name: 2.0 for name in method_model.FULL_NUMERIC_FEATURES}
@@ -36,11 +36,11 @@ class MethodModelTests(unittest.TestCase):
         frame = pd.DataFrame([{
             "event_name": "Test Event", "event_date": "2026-01-01",
             "fighter_red": "Red", "fighter_blue": "Blue", "weight_class": "Lightweight",
-            "target": "submission",
+            "target": "not_decision",
         }])
-        rows = method_model.historical_predictions(frame, [[0.2, 0.5, 0.29, 0.01]])
-        self.assertEqual(rows[0]["actual_method"], "submission")
-        self.assertEqual(rows[0]["predicted_method"], "submission")
+        rows = method_model.historical_predictions(frame, [[0.2, 0.8]])
+        self.assertEqual(rows[0]["actual_method"], "not_decision")
+        self.assertEqual(rows[0]["predicted_method"], "not_decision")
         self.assertAlmostEqual(sum(rows[0]["probabilities"].values()), 1.0)
 
 

@@ -478,6 +478,7 @@ input[type="search"], select {
 .method-ko_tko { background: var(--red); }
 .method-submission { background: var(--teal); }
 .method-decision { background: var(--blue); }
+.method-not_decision { background: var(--red); }
 .method-nc { background: #737a75; }
 .method-warning { margin: 24px 0 0; padding: 11px 13px; border-left: 3px solid var(--amber); color: #654b13; background: #fff7df; font-size: 13px; }
 .method-limitations { margin-top: 20px; padding: 20px 22px; border: 1px solid var(--line); border-radius: 6px; color: var(--muted); background: #f8f9f8; font-size: 13px; }
@@ -498,6 +499,7 @@ input[type="search"], select {
 .actual-ko_tko { color: #8e2018; background: #fde8e6; }
 .actual-submission { color: #0b605b; background: #e3f3f1; }
 .actual-decision { color: #315c73; background: #e8f1f5; }
+.actual-not_decision { color: #8e2018; background: #fde8e6; }
 .actual-nc { color: #4a514d; background: #e8ebe8; }
 .method-correct { color: #0b605b; background: #e3f3f1; }
 .method-miss { color: #7a312a; background: #f9e6e3; }

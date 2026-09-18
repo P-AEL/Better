@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Estimated UFC fight-ending-method probabilities for the next event.">
-  <title>Better | Fight Method Prediction</title>
+  <meta name="description" content="Estimated UFC decision-versus-not-decision probabilities for the next event.">
+  <title>Better | Decision Prediction</title>
   <link rel="stylesheet" href="assets/styles.css?v=6">
   <script defer src="assets/app.js?v=6"></script>
 </head>
@@ -14,7 +14,7 @@
     <div class="shell nav-shell">
       <a class="brand" href="index.html" aria-label="Better predictions home"><span class="brand-mark">B</span><span>BETTER</span></a>
       <nav class="primary-nav" aria-label="Primary navigation">
-        <a href="index.html">Next event</a><a class="active" href="method.html">Fight method</a><a href="performance.html">Performance</a><a href="rankings.html">Elo rankings</a>
+        <a href="index.html">Next event</a><a class="active" href="method.html">Decision model</a><a href="performance.html">Performance</a><a href="rankings.html">Elo rankings</a>
       </nav>
       <span class="data-status" id="generated-status">Loading data</span>
     </div>
@@ -25,8 +25,8 @@
       <div class="shell intro-layout">
         <div>
           <p class="eyebrow dark">Next-event estimate</p>
-          <h1>Fight Method Prediction</h1>
-          <p class="intro-copy">Estimate the chance a scheduled fight ends by KO/TKO, submission, decision, or official no contest. This prediction is about the ending method, regardless of who wins.</p>
+          <h1>Decision Prediction</h1>
+          <p class="intro-copy">Estimate whether a scheduled fight ends by decision or before the judges’ scorecards. This prediction is independent of who wins.</p>
         </div>
         <div class="ranking-stat method-stat"><strong id="method-version">--</strong><span>model version</span></div>
       </div>
@@ -48,7 +48,7 @@
         <div class="section-heading">
           <div>
             <p class="section-kicker">Untouched historical test period</p>
-            <h2 id="method-performance-title">Method Model Performance</h2>
+            <h2 id="method-performance-title">Decision Model Performance</h2>
           </div>
         </div>
         <p class="method-performance-copy">These forecasts were made from information available before each event. They show how the deployed model performed on later fights that were not used for training or model selection.</p>
@@ -64,6 +64,6 @@
     </section>
   </main>
 
-  <footer class="site-footer"><div class="shell footer-layout"><span>Better Fight Intelligence</span><span>Method probabilities are estimates, not guarantees.</span></div></footer>
+  <footer class="site-footer"><div class="shell footer-layout"><span>Better Fight Intelligence</span><span>Decision probabilities are estimates, not guarantees.</span></div></footer>
 </body>
 </html>

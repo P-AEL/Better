@@ -1,8 +1,7 @@
-"""Chronological UFC fight-method model.
+"""Chronological UFC decision-versus-not-decision model.
 
-The target is the way a bout ends, independent of the winning corner.  All
-features are constructed before the event and made order-invariant, so swapping
-the fighters leaves a prediction unchanged.
+The target is whether a bout reaches an official decision, independent of the
+winner. Features are constructed before the event and made order-invariant.
 """
 
 import json
@@ -38,8 +37,8 @@ ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data" / "scraped_data"
 MODEL_PATH = ROOT / "fight_method_model.joblib"
 REPORT_PATH = ROOT / "fight_method_metrics.json"
-MODEL_VERSION = "1.0.0"
-CLASSES = ("ko_tko", "submission", "decision", "nc")
+MODEL_VERSION = "2.0.0"
+CLASSES = ("decision", "not_decision")
 
 # Pair features are absolute differences plus pair-level features. This makes
 # the response independent of the order supplied by the client.
@@ -49,19 +48,13 @@ METHOD_FEATURES = METHOD_NUMERIC_FEATURES + METHOD_CATEGORICAL_FEATURES
 
 
 def classify_method(row):
-    """Map UFCStats values to the four published labels, or None if excluded."""
-    if row.result == "nc":
-        return "nc"
+    """Map every completed bout to the requested binary pre-fight target."""
     text = str(row.method or "").strip().casefold()
-    if text.startswith("ko/tko"):
-        return "ko_tko"
-    if text.startswith("sub"):
-        return "submission"
     if "dec" in text:
         return "decision"
-    # DQs, overturned results, and empty/other methods are not one of the four
-    # requested methods. They still update the historical fighter state.
-    return None
+    # KO/TKO, submissions, no contests, DQs, overturned and other non-decision
+    # outcomes all belong to the requested "not decision" class.
+    return "not_decision"
 
 
 def method_features(pair_frame, scheduled_rounds=3):
@@ -155,7 +148,7 @@ def fit_candidate(name, model, frame):
 
 
 def frequency_probability(train, count):
-    # Dirichlet smoothing prevents an unjustified zero probability for NC.
+    # Dirichlet smoothing prevents unjustified zero probabilities.
     counts = train.target.value_counts()
     values = np.array([counts.get(label, 0) + 2.0 for label in CLASSES], dtype=float)
     return np.tile(values / values.sum(), (count, 1))
@@ -242,8 +235,8 @@ def train(data_dir=DATA_DIR, model_path=MODEL_PATH, report_path=REPORT_PATH):
     selected_name = min(leaderboard, key=leaderboard.get)
     model = fit_candidate(selected_name, candidates[selected_name], development)
 
-    # The calibration period is reserved for a conservative blend with the
-    # smoothed class-frequency baseline. This avoids overfitting rare NC cases.
+    # The calibration period selects a conservative blend with the smoothed
+    # historical decision-rate baseline.
     raw_calibration = aligned_probabilities(model, calibration)
     baseline_calibration = frequency_probability(development, len(calibration))
     blend_scores = {}
@@ -256,8 +249,8 @@ def train(data_dir=DATA_DIR, model_path=MODEL_PATH, report_path=REPORT_PATH):
         "version": MODEL_VERSION,
         "trained_at": datetime.now(timezone.utc).isoformat(),
         "data_cutoff": str(frame.event_date.max()),
-        "target_definition": {"ko_tko": "Methods beginning KO/TKO", "submission": "Methods beginning SUB", "decision": "Methods containing DEC, including draw decisions", "nc": "Official result NC"},
-        "excluded_methods": "DQ, Overturned, Other, and blank methods are excluded from targets but update historical state.",
+        "target_definition": {"decision": "Methods containing DEC, including draw decisions", "not_decision": "All other completed fight outcomes, including KO/TKO, submission, NC, DQ, overturned and other methods"},
+        "excluded_methods": "Only scheduled fights and rows without a valid event date are excluded.",
         "scheduled_rounds": "Source data has no reliable scheduled-round field; all training rows use the standard 3-round context. Predictions for title/main-event 5-round fights should be treated as limited-data estimates.",
         "feature_schema": METHOD_FEATURES,
         "split_rows": {"development": len(development), "calibration": len(calibration), "test": len(test)},
@@ -268,7 +261,7 @@ def train(data_dir=DATA_DIR, model_path=MODEL_PATH, report_path=REPORT_PATH):
         "segment_test": segment_evaluations(test, test_probability),
         "calibration_blend": {"selected_baseline_weight": blend, "validation_log_loss": blend_scores},
         "dependencies": {"python": sys.version.split()[0], "scikit_learn": sklearn.__version__, "joblib": joblib.__version__, "platform": platform.platform()},
-        "limitations": "NC is extremely rare. Its probability is smoothed toward its historical rate and should not be read as a reliable event-level NC forecast.",
+        "limitations": "This model estimates only whether a fight reaches a decision. It does not distinguish among knockout, submission, no contest, or other non-decision endings.",
     }
     artifact = {"version": MODEL_VERSION, "classes": CLASSES, "model": model, "baseline_weight": blend, "baseline_counts": development.target.value_counts().to_dict(), "feature_schema": METHOD_FEATURES, "metadata": report}
     joblib.dump(artifact, model_path)

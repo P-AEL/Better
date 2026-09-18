@@ -301,7 +301,7 @@ function renderRankings(data) {
 }
 
 function methodLabel(value) {
-  return ({ ko_tko: "KO / TKO", submission: "Submission", decision: "Decision", nc: "No contest" })[value] || value;
+  return ({ decision: "Decision", not_decision: "Not a decision" })[value] || value;
 }
 
 function renderMethod(data) {
@@ -326,7 +326,7 @@ function renderMethod(data) {
       return `<div class="method-bar-row"><div class="method-bar-label"><span>${methodLabel(key)}</span><strong>${percent(value)}</strong></div><div class="method-bar-track"><span class="method-bar method-${escapeHtml(key)}" style="width:${value * 100}%"></span></div></div>`;
     }).join("");
     const warning = fight.warning ? `<p class="method-warning">${escapeHtml(fight.warning)}</p>` : "";
-    content.innerHTML = `<section class="method-result"><p class="section-kicker">Estimated ending method</p><h2>${escapeHtml(fight.fighter_red)} <span>vs</span> ${escapeHtml(fight.fighter_blue)}</h2><p class="method-pick">Most likely: <strong>${methodLabel(fight.most_likely_method)}</strong></p><div class="method-bars">${bars}</div>${warning}</section>`;
+    content.innerHTML = `<section class="method-result"><p class="section-kicker">Estimated fight outcome type</p><h2>${escapeHtml(fight.fighter_red)} <span>vs</span> ${escapeHtml(fight.fighter_blue)}</h2><p class="method-pick">Most likely: <strong>${methodLabel(fight.most_likely_method)}</strong></p><div class="method-bars">${bars}</div>${warning}</section>`;
   };
   selector.addEventListener("input", refresh);
   refresh();
@@ -347,7 +347,7 @@ function renderMethodPerformance(data) {
   }
   metrics.innerHTML = [
     ["Held-out fights", test.sample_count.toLocaleString()],
-    ["Top-method accuracy", percent(test.accuracy)],
+    ["Classification accuracy", percent(test.accuracy)],
     ["Log loss", test.log_loss.toFixed(3)],
     ["Brier score", test.brier.toFixed(3)],
     ["Baseline log loss", baseline.log_loss.toFixed(3)],
@@ -357,7 +357,7 @@ function renderMethodPerformance(data) {
     const shown = history.slice(0, visible);
     body.innerHTML = shown.map((fight) => {
       const p = fight.probabilities;
-      const forecast = `KO/TKO ${percent(p.ko_tko)} · SUB ${percent(p.submission)} · DEC ${percent(p.decision)} · NC ${percent(p.nc)}`;
+      const forecast = `Decision ${percent(p.decision)} · Not a decision ${percent(p.not_decision)}`;
       const correct = fight.actual_method === fight.predicted_method;
       return `<tr>
         <td><strong>${escapeHtml(fight.event_name)}</strong><br><span class="market-meta">${formatDate(fight.event_date)}</span></td>
