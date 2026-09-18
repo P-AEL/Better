@@ -588,12 +588,14 @@ def build_method_site_data(data_dir=DATA_DIR):
             "data_cutoff": metadata["data_cutoff"],
             "classes": list(artifact["classes"]),
             "test": metadata["test"],
+            "baseline_test": metadata["baseline_test"],
             "limitations": metadata["limitations"],
             "scheduled_rounds_note": metadata["scheduled_rounds"],
         },
         "predictions": build_method_predictions(
             event_name, next_fights, event_row["event_date_dt"].date(), context
         ),
+        "historical_predictions": metadata.get("historical_test_predictions", []),
     }
 
 

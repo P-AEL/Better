@@ -483,6 +483,24 @@ input[type="search"], select {
 .method-limitations { margin-top: 20px; padding: 20px 22px; border: 1px solid var(--line); border-radius: 6px; color: var(--muted); background: #f8f9f8; font-size: 13px; }
 .method-limitations strong { color: var(--ink); }
 .method-limitations p { margin: 8px 0 0; }
+.method-performance { margin-top: 44px; }
+.method-performance-copy { max-width: 720px; margin: -6px 0 20px; color: var(--muted); }
+.method-metric-grid { display: grid; grid-template-columns: repeat(5, 1fr); margin-bottom: 20px; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: #fff; }
+.method-metric { min-height: 82px; display: grid; align-content: center; gap: 5px; padding: 12px 14px; border-right: 1px solid var(--line); }
+.method-metric:last-child { border-right: 0; }
+.method-metric span { color: var(--muted); font-size: 10px; font-weight: 750; text-transform: uppercase; }
+.method-metric strong { font-size: 20px; font-variant-numeric: tabular-nums; }
+.method-history-wrap { max-height: 660px; overflow: auto; }
+.method-history-table { min-width: 960px; }
+.method-history-table td { height: 66px; }
+.method-forecast { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.method-outcome { display: inline-flex; padding: 5px 7px; border-radius: 3px; font-size: 11px; font-weight: 800; white-space: nowrap; }
+.actual-ko_tko { color: #8e2018; background: #fde8e6; }
+.actual-submission { color: #0b605b; background: #e3f3f1; }
+.actual-decision { color: #315c73; background: #e8f1f5; }
+.actual-nc { color: #4a514d; background: #e8ebe8; }
+.method-correct { color: #0b605b; background: #e3f3f1; }
+.method-miss { color: #7a312a; background: #f9e6e3; }
 
 @media (max-width: 900px) {
   .nav-shell { grid-template-columns: auto 1fr; }
@@ -522,6 +540,8 @@ input[type="search"], select {
   .ranking-stat { min-width: 0; padding: 18px; }
   .ranking-controls { grid-template-columns: 1fr; }
   .method-controls { grid-template-columns: 1fr; }
+  .method-metric-grid { grid-template-columns: 1fr 1fr; }
+  .method-metric:nth-child(2n) { border-right: 0; }
   .result-count { text-align: left; }
   .event-detail-header { padding: 20px 18px 14px; }
   .event-detail-summary { margin: 14px 18px; }

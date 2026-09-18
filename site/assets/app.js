@@ -330,6 +330,47 @@ function renderMethod(data) {
   };
   selector.addEventListener("input", refresh);
   refresh();
+  renderMethodPerformance(data);
+}
+
+function renderMethodPerformance(data) {
+  const metrics = document.getElementById("method-performance-metrics");
+  const body = document.getElementById("method-history-body");
+  const more = document.getElementById("method-history-more");
+  if (!metrics || !body || !more) return;
+  const test = data.model.test;
+  const baseline = data.model.baseline_test;
+  const history = data.historical_predictions || [];
+  if (!test || !baseline || !history.length) {
+    metrics.innerHTML = '<div class="error-state">Historical method-model results are not available yet.</div>';
+    return;
+  }
+  metrics.innerHTML = [
+    ["Held-out fights", test.sample_count.toLocaleString()],
+    ["Top-method accuracy", percent(test.accuracy)],
+    ["Log loss", test.log_loss.toFixed(3)],
+    ["Brier score", test.brier.toFixed(3)],
+    ["Baseline log loss", baseline.log_loss.toFixed(3)],
+  ].map(([label, value]) => `<div class="method-metric"><span>${label}</span><strong>${value}</strong></div>`).join("");
+  let visible = 40;
+  const renderRows = () => {
+    const shown = history.slice(0, visible);
+    body.innerHTML = shown.map((fight) => {
+      const p = fight.probabilities;
+      const forecast = `KO/TKO ${percent(p.ko_tko)} · SUB ${percent(p.submission)} · DEC ${percent(p.decision)} · NC ${percent(p.nc)}`;
+      const correct = fight.actual_method === fight.predicted_method;
+      return `<tr>
+        <td><strong>${escapeHtml(fight.event_name)}</strong><br><span class="market-meta">${formatDate(fight.event_date)}</span></td>
+        <td><strong>${escapeHtml(fight.fighter_red)}</strong> vs ${escapeHtml(fight.fighter_blue)}<br><span class="market-meta">${escapeHtml(fight.weight_class)}</span></td>
+        <td><span class="method-outcome actual-${escapeHtml(fight.actual_method)}">${methodLabel(fight.actual_method)}</span></td>
+        <td class="method-forecast">${forecast}</td>
+        <td><span class="method-outcome ${correct ? "method-correct" : "method-miss"}">${methodLabel(fight.predicted_method)}</span></td>
+      </tr>`;
+    }).join("");
+    more.hidden = shown.length >= history.length;
+  };
+  more.addEventListener("click", () => { visible += 40; renderRows(); });
+  renderRows();
 }
 
 async function init() {

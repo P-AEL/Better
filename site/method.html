@@ -43,6 +43,24 @@
         <p id="method-limitations-copy">Loading model notes…</p>
         <p id="method-cutoff">--</p>
       </aside>
+
+      <section class="method-performance" aria-labelledby="method-performance-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Untouched historical test period</p>
+            <h2 id="method-performance-title">Method Model Performance</h2>
+          </div>
+        </div>
+        <p class="method-performance-copy">These forecasts were made from information available before each event. They show how the deployed model performed on later fights that were not used for training or model selection.</p>
+        <div class="method-metric-grid" id="method-performance-metrics"></div>
+        <div class="ranking-table-wrap method-history-wrap">
+          <table class="ranking-table method-history-table">
+            <thead><tr><th>Event</th><th>Matchup</th><th>Actual</th><th>Model forecast</th><th>Top estimate</th></tr></thead>
+            <tbody id="method-history-body"></tbody>
+          </table>
+        </div>
+        <button class="show-more" id="method-history-more" type="button" hidden>Show more predictions</button>
+      </section>
     </section>
   </main>
 

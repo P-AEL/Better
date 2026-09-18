@@ -32,6 +32,17 @@ class MethodModelTests(unittest.TestCase):
         self.assertTrue(all(value >= 0 for value in result.values()))
         self.assertAlmostEqual(sum(result.values()), 1.0)
 
+    def test_historical_predictions_keep_outcome_and_probabilities(self):
+        frame = pd.DataFrame([{
+            "event_name": "Test Event", "event_date": "2026-01-01",
+            "fighter_red": "Red", "fighter_blue": "Blue", "weight_class": "Lightweight",
+            "target": "submission",
+        }])
+        rows = method_model.historical_predictions(frame, [[0.2, 0.5, 0.29, 0.01]])
+        self.assertEqual(rows[0]["actual_method"], "submission")
+        self.assertEqual(rows[0]["predicted_method"], "submission")
+        self.assertAlmostEqual(sum(rows[0]["probabilities"].values()), 1.0)
+
 
 if __name__ == "__main__":
     unittest.main()

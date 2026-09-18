@@ -186,6 +186,7 @@ def evaluate(frame, probability):
     precision, recall, _, support = precision_recall_fscore_support(encoded, predicted, labels=range(len(CLASSES)), zero_division=0)
     return {
         "sample_count": int(len(frame)),
+        "accuracy": float(np.mean(encoded == predicted)),
         "class_counts": {label: int((frame.target == label).sum()) for label in CLASSES},
         "log_loss": float(log_loss(encoded, probability, labels=range(len(CLASSES)))),
         "brier": multiclass_brier(frame.target.to_numpy(), probability),
@@ -193,6 +194,26 @@ def evaluate(frame, probability):
         "per_class": {label: {"precision": float(precision[i]), "recall": float(recall[i]), "support": int(support[i])} for i, label in enumerate(CLASSES)},
         "confusion_matrix": confusion_matrix(encoded, predicted, labels=range(len(CLASSES))).tolist(),
     }
+
+
+def historical_predictions(frame, probability):
+    """Return the untouched-test forecasts alongside their eventual outcomes."""
+    probability = np.asarray(probability, dtype=float)
+    rows = []
+    for index, row in enumerate(frame.itertuples(index=False)):
+        values = {label: round(float(probability[index, class_index]), 6) for class_index, label in enumerate(CLASSES)}
+        values[CLASSES[-1]] = round(1.0 - sum(values[label] for label in CLASSES[:-1]), 6)
+        rows.append({
+            "event_name": row.event_name,
+            "event_date": row.event_date,
+            "fighter_red": row.fighter_red,
+            "fighter_blue": row.fighter_blue,
+            "weight_class": row.weight_class,
+            "actual_method": row.target,
+            "predicted_method": CLASSES[int(np.argmax(probability[index]))],
+            "probabilities": values,
+        })
+    return sorted(rows, key=lambda item: (item["event_date"], item["event_name"]), reverse=True)
 
 
 def segment_evaluations(frame, probability):
@@ -243,6 +264,7 @@ def train(data_dir=DATA_DIR, model_path=MODEL_PATH, report_path=REPORT_PATH):
         "model_selection": {"selected": selected_name, "validation_log_loss": leaderboard},
         "baseline_test": evaluate(test, baseline_test),
         "test": evaluate(test, test_probability),
+        "historical_test_predictions": historical_predictions(test, test_probability),
         "segment_test": segment_evaluations(test, test_probability),
         "calibration_blend": {"selected_baseline_weight": blend, "validation_log_loss": blend_scores},
         "dependencies": {"python": sys.version.split()[0], "scikit_learn": sklearn.__version__, "joblib": joblib.__version__, "platform": platform.platform()},
