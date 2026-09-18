@@ -460,6 +460,30 @@ input[type="search"], select {
 .error-state { padding: 26px; background: #fff; border: 1px solid #e0aaa5; color: var(--red-dark); border-radius: 6px; }
 .mobile-label { display: none; }
 
+.method-intro { background: #f2f5f2; }
+.method-stat { background: var(--red-dark); }
+.method-section { max-width: 860px; }
+.method-controls { display: grid; grid-template-columns: minmax(260px, 1fr) 1fr; gap: 18px; align-items: end; padding: 18px; border: 1px solid var(--line); border-radius: 6px; background: #e9ece9; }
+.method-context { min-height: 40px; display: flex; align-items: center; color: var(--muted); font-size: 13px; }
+.method-result { margin-top: 22px; padding: 30px; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
+.method-result h2 { margin: 5px 0 6px; font-size: 28px; }
+.method-result h2 span { color: var(--muted); font-size: 17px; font-weight: 500; }
+.method-pick { margin: 0 0 26px; color: var(--muted); }
+.method-pick strong { color: var(--ink); }
+.method-bars { display: grid; gap: 18px; }
+.method-bar-label { display: flex; justify-content: space-between; gap: 16px; margin-bottom: 7px; color: var(--ink); font-size: 14px; }
+.method-bar-label strong { font-variant-numeric: tabular-nums; }
+.method-bar-track { height: 14px; overflow: hidden; background: #e6eae6; border-radius: 3px; }
+.method-bar { display: block; height: 100%; min-width: 2px; border-radius: 3px; }
+.method-ko_tko { background: var(--red); }
+.method-submission { background: var(--teal); }
+.method-decision { background: var(--blue); }
+.method-nc { background: #737a75; }
+.method-warning { margin: 24px 0 0; padding: 11px 13px; border-left: 3px solid var(--amber); color: #654b13; background: #fff7df; font-size: 13px; }
+.method-limitations { margin-top: 20px; padding: 20px 22px; border: 1px solid var(--line); border-radius: 6px; color: var(--muted); background: #f8f9f8; font-size: 13px; }
+.method-limitations strong { color: var(--ink); }
+.method-limitations p { margin: 8px 0 0; }
+
 @media (max-width: 900px) {
   .nav-shell { grid-template-columns: auto 1fr; }
   .data-status { display: none; }
@@ -497,6 +521,7 @@ input[type="search"], select {
   .intro-layout { min-height: auto; grid-template-columns: 1fr; gap: 24px; padding-top: 38px; padding-bottom: 30px; }
   .ranking-stat { min-width: 0; padding: 18px; }
   .ranking-controls { grid-template-columns: 1fr; }
+  .method-controls { grid-template-columns: 1fr; }
   .result-count { text-align: left; }
   .event-detail-header { padding: 20px 18px 14px; }
   .event-detail-summary { margin: 14px 18px; }

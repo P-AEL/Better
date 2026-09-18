@@ -7,6 +7,8 @@ from pathlib import Path
 import joblib
 import pandas as pd
 
+from method_model import METHOD_FEATURES, MODEL_PATH as METHOD_MODEL_PATH, build_method_history, predict_method
+
 from model_pipeline import (
     build_history,
     current_features,
@@ -20,6 +22,7 @@ DATA_DIR = ROOT / "data" / "scraped_data"
 SITE_DATA_PATH = ROOT / "site" / "data" / "site-data.json"
 MODEL_PATH = ROOT / "betting_model.joblib"
 FORWARD_RESULTS_PATH = ROOT / "site" / "data" / "forward-results.json"
+METHOD_DATA_PATH = ROOT / "site" / "data" / "method-predictions.json"
 BASE_ELO = 1500.0
 K_FACTOR = 32.0
 
@@ -228,6 +231,46 @@ def load_forward_results():
     return json.loads(FORWARD_RESULTS_PATH.read_text(encoding="utf-8"))
 
 
+def load_method_context(data_dir):
+    if not METHOD_MODEL_PATH.exists():
+        return None
+    artifact = joblib.load(METHOD_MODEL_PATH)
+    _, states, profiles, division_states = build_method_history(data_dir)
+    return artifact, states, profiles, division_states
+
+
+def build_method_predictions(event_name, event_fights, event_date, method_context):
+    if not method_context:
+        return []
+    artifact, states, profiles, division_states = method_context
+    predictions = []
+    for row in event_fights.itertuples(index=False):
+        features = current_features(
+            row.fighter_red, row.fighter_blue, row.weight_class, event_date,
+            states, profiles, division_states,
+        )
+        probability = predict_method(artifact, features)
+        rounded = {name: round(value, 6) for name, value in probability.items()}
+        # Preserve an exact 100% total in the published JSON after display rounding.
+        last_label = list(rounded)[-1]
+        rounded[last_label] = round(1.0 - sum(value for name, value in rounded.items() if name != last_label), 6)
+        experience = float(features.iloc[0].get("experience_total", 0) or 0)
+        predictions.append({
+            "fighter_red": row.fighter_red,
+            "fighter_blue": row.fighter_blue,
+            "weight_class": row.weight_class,
+            "scheduled_rounds": 3,
+            "probabilities": rounded,
+            "most_likely_method": max(probability, key=probability.get),
+            "limited_data": experience < 1.38629436112,
+            "warning": (
+                "One or both fighters have limited UFC history."
+                if experience < 1.38629436112 else None
+            ),
+        })
+    return predictions
+
+
 def predict_event(
     event_name,
     event_fights,
@@ -404,6 +447,7 @@ def build_site_data(data_dir=DATA_DIR):
     predictions = []
     event_payload = None
     model_context = load_model_context(data_dir)
+    method_context = load_method_context(data_dir)
     forward_results = load_forward_results()
 
     if event_name:
@@ -426,6 +470,12 @@ def build_site_data(data_dir=DATA_DIR):
             "location": event_row["location"],
             "fight_count": len(predictions),
         }
+
+        method_predictions = build_method_predictions(
+            event_name, next_fights, event_date, method_context
+        )
+    else:
+        method_predictions = []
 
     priced = [item for item in predictions if item["market"]]
     signals = [item for item in priced if item["call"] == "Signal"]
@@ -507,6 +557,43 @@ def build_site_data(data_dir=DATA_DIR):
             "paper_candidates": len(paper_candidates),
             "validated_signals": len(signals),
         },
+        "fight_method": {
+            "available": bool(method_context),
+            "endpoint": "data/method-predictions.json",
+            "prediction_count": len(method_predictions),
+        },
+    }
+
+
+def build_method_site_data(data_dir=DATA_DIR):
+    fights, events = prepare_fights(data_dir)
+    event_name, next_fights = choose_next_event(fights)
+    context = load_method_context(data_dir)
+    if not event_name or not context:
+        return {"available": False, "predictions": [], "error": "Fight-method model artifact is unavailable."}
+    event_row = events[events["event_name"].eq(event_name)].iloc[0]
+    artifact = context[0]
+    metadata = artifact["metadata"]
+    return {
+        "available": True,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "event": {
+            "name": event_name,
+            "date": event_row["event_date_dt"].date().isoformat(),
+            "date_display": event_row["event_date"],
+            "location": event_row["location"],
+        },
+        "model": {
+            "version": artifact["version"],
+            "data_cutoff": metadata["data_cutoff"],
+            "classes": list(artifact["classes"]),
+            "test": metadata["test"],
+            "limitations": metadata["limitations"],
+            "scheduled_rounds_note": metadata["scheduled_rounds"],
+        },
+        "predictions": build_method_predictions(
+            event_name, next_fights, event_row["event_date_dt"].date(), context
+        ),
     }
 
 
@@ -515,6 +602,10 @@ def main():
     SITE_DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     SITE_DATA_PATH.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    method_payload = build_method_site_data()
+    METHOD_DATA_PATH.write_text(
+        json.dumps(method_payload, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     print(
         f"Generated {SITE_DATA_PATH}: "

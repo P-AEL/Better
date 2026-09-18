@@ -1,3 +1,4 @@
 __pycache__/
 *.py[cod]
 betting_model.joblib
+fight_method_model.joblib

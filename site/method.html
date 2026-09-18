@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Estimated UFC fight-ending-method probabilities for the next event.">
+  <title>Better | Fight Method Prediction</title>
+  <link rel="stylesheet" href="assets/styles.css?v=6">
+  <script defer src="assets/app.js?v=6"></script>
+</head>
+<body data-page="method">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell nav-shell">
+      <a class="brand" href="index.html" aria-label="Better predictions home"><span class="brand-mark">B</span><span>BETTER</span></a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Next event</a><a class="active" href="method.html">Fight method</a><a href="performance.html">Performance</a><a href="rankings.html">Elo rankings</a>
+      </nav>
+      <span class="data-status" id="generated-status">Loading data</span>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="ranking-intro method-intro">
+      <div class="shell intro-layout">
+        <div>
+          <p class="eyebrow dark">Next-event estimate</p>
+          <h1>Fight Method Prediction</h1>
+          <p class="intro-copy">Estimate the chance a scheduled fight ends by KO/TKO, submission, decision, or official no contest. This prediction is about the ending method, regardless of who wins.</p>
+        </div>
+        <div class="ranking-stat method-stat"><strong id="method-version">--</strong><span>model version</span></div>
+      </div>
+    </section>
+
+    <section class="shell content-section method-section" aria-labelledby="method-heading">
+      <div class="method-controls">
+        <label class="select-field"><span>Scheduled matchup</span><select id="method-matchup" aria-describedby="method-context"></select></label>
+        <div class="method-context" id="method-context">Loading scheduled fight context…</div>
+      </div>
+      <div id="method-content" aria-live="polite"></div>
+      <aside class="method-limitations" aria-label="Method model limitations">
+        <strong>How to read this</strong>
+        <p id="method-limitations-copy">Loading model notes…</p>
+        <p id="method-cutoff">--</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-layout"><span>Better Fight Intelligence</span><span>Method probabilities are estimates, not guarantees.</span></div></footer>
+</body>
+</html>

@@ -300,17 +300,51 @@ function renderRankings(data) {
   refresh();
 }
 
+function methodLabel(value) {
+  return ({ ko_tko: "KO / TKO", submission: "Submission", decision: "Decision", nc: "No contest" })[value] || value;
+}
+
+function renderMethod(data) {
+  const content = document.getElementById("method-content");
+  const selector = document.getElementById("method-matchup");
+  if (!content || !selector) return;
+  if (!data.available || !data.predictions?.length) {
+    content.innerHTML = `<div class="error-state">${escapeHtml(data.error || "No scheduled fight methods are available in the current data.")}</div>`;
+    return;
+  }
+  const classes = data.model.classes || ["ko_tko", "submission", "decision", "nc"];
+  setText("method-version", `v${data.model.version}`);
+  setText("method-limitations-copy", `${data.model.limitations} ${data.model.scheduled_rounds_note}`);
+  setText("method-cutoff", `Training data through ${formatDate(data.model.data_cutoff)} · held-out test log loss ${data.model.test.log_loss.toFixed(3)}.`);
+  selector.innerHTML = data.predictions.map((fight, index) => `<option value="${index}">${escapeHtml(fight.fighter_red)} vs ${escapeHtml(fight.fighter_blue)}</option>`).join("");
+  const refresh = () => {
+    const fight = data.predictions[Number(selector.value)] || data.predictions[0];
+    const probability = fight.probabilities;
+    document.getElementById("method-context").textContent = `${fight.weight_class} · scheduled ${fight.scheduled_rounds} rounds`;
+    const bars = classes.map((key) => {
+      const value = probability[key] || 0;
+      return `<div class="method-bar-row"><div class="method-bar-label"><span>${methodLabel(key)}</span><strong>${percent(value)}</strong></div><div class="method-bar-track"><span class="method-bar method-${escapeHtml(key)}" style="width:${value * 100}%"></span></div></div>`;
+    }).join("");
+    const warning = fight.warning ? `<p class="method-warning">${escapeHtml(fight.warning)}</p>` : "";
+    content.innerHTML = `<section class="method-result"><p class="section-kicker">Estimated ending method</p><h2>${escapeHtml(fight.fighter_red)} <span>vs</span> ${escapeHtml(fight.fighter_blue)}</h2><p class="method-pick">Most likely: <strong>${methodLabel(fight.most_likely_method)}</strong></p><div class="method-bars">${bars}</div>${warning}</section>`;
+  };
+  selector.addEventListener("input", refresh);
+  refresh();
+}
+
 async function init() {
   try {
-    const response = await fetch(DATA_URL, { cache: "no-store" });
+    const url = document.body.dataset.page === "method" ? "data/method-predictions.json" : DATA_URL;
+    const response = await fetch(url, { cache: "no-store" });
     if (!response.ok) throw new Error(`Data request failed: ${response.status}`);
     const data = await response.json();
     renderGeneratedStatus(data);
     if (document.body.dataset.page === "predictions") renderPredictions(data);
     if (document.body.dataset.page === "performance") renderPerformance(data);
     if (document.body.dataset.page === "rankings") renderRankings(data);
+    if (document.body.dataset.page === "method") renderMethod(data);
   } catch (error) {
-    const target = document.getElementById("fight-list") || document.getElementById("performance-body") || document.getElementById("ranking-body");
+    const target = document.getElementById("fight-list") || document.getElementById("performance-body") || document.getElementById("ranking-body") || document.getElementById("method-content");
     if (target) target.innerHTML = `<div class="error-state">${escapeHtml(error.message)}</div>`;
   }
 }

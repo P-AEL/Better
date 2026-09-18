@@ -1,0 +1,284 @@
+{
+  "available": true,
+  "generated_at": "2026-09-18T16:04:23.087399+00:00",
+  "event": {
+    "name": "UFC 331: Van vs. Pantoja 2",
+    "date": "2026-09-19",
+    "date_display": "September 19, 2026",
+    "location": "Los Angeles, California, USA"
+  },
+  "model": {
+    "version": "1.0.0",
+    "data_cutoff": "2026-08-22",
+    "classes": [
+      "ko_tko",
+      "submission",
+      "decision",
+      "nc"
+    ],
+    "test": {
+      "sample_count": 1447,
+      "class_counts": {
+        "ko_tko": 469,
+        "submission": 254,
+        "decision": 714,
+        "nc": 10
+      },
+      "log_loss": 1.0320465589639578,
+      "brier": 0.6033198490713504,
+      "calibration_ece": {
+        "ko_tko": 0.021485032817879286,
+        "submission": 0.011744515792592362,
+        "decision": 0.02158200275326751,
+        "nc": 0.003996806554125745
+      },
+      "per_class": {
+        "ko_tko": {
+          "precision": 0.5291005291005291,
+          "recall": 0.21321961620469082,
+          "support": 469
+        },
+        "submission": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 254
+        },
+        "decision": {
+          "precision": 0.519872813990461,
+          "recall": 0.9159663865546218,
+          "support": 714
+        },
+        "nc": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 10
+        }
+      },
+      "confusion_matrix": [
+        [
+          100,
+          0,
+          369,
+          0
+        ],
+        [
+          27,
+          0,
+          227,
+          0
+        ],
+        [
+          60,
+          0,
+          654,
+          0
+        ],
+        [
+          2,
+          0,
+          8,
+          0
+        ]
+      ]
+    },
+    "limitations": "NC is extremely rare. Its probability is smoothed toward its historical rate and should not be read as a reliable event-level NC forecast.",
+    "scheduled_rounds_note": "Source data has no reliable scheduled-round field; all training rows use the standard 3-round context. Predictions for title/main-event 5-round fights should be treated as limited-data estimates."
+  },
+  "predictions": [
+    {
+      "fighter_red": "Joshua Van",
+      "fighter_blue": "Alexandre Pantoja",
+      "weight_class": "Flyweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "ko_tko": 0.317498,
+        "submission": 0.18831,
+        "decision": 0.479824,
+        "nc": 0.014368
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Arman Tsarukyan",
+      "fighter_blue": "Mauricio Ruffy",
+      "weight_class": "Lightweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "ko_tko": 0.308654,
+        "submission": 0.197012,
+        "decision": 0.47982,
+        "nc": 0.014514
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Patricio Pitbull",
+      "fighter_blue": "Dooho Choi",
+      "weight_class": "Featherweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "ko_tko": 0.37618,
+        "submission": 0.154384,
+        "decision": 0.455861,
+        "nc": 0.013575
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Renato Moicano",
+      "fighter_blue": "Brian Ortega",
+      "weight_class": "Lightweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "ko_tko": 0.313554,
+        "submission": 0.174309,
+        "decision": 0.497534,
+        "nc": 0.014603
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Alonzo Menifield",
+      "fighter_blue": "Iwo Baraniewski",
+      "weight_class": "Light Heavyweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "ko_tko": 0.463252,
+        "submission": 0.149714,
+        "decision": 0.376891,
+        "nc": 0.010143
+      },
+      "most_likely_method": "ko_tko",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Gable Steveson",
+      "fighter_blue": "Sean Sharaf",
+      "weight_class": "Heavyweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "ko_tko": 0.487809,
+        "submission": 0.180172,
+        "decision": 0.325673,
+        "nc": 0.006346
+      },
+      "most_likely_method": "ko_tko",
+      "limited_data": true,
+      "warning": "One or both fighters have limited UFC history."
+    },
+    {
+      "fighter_red": "Marlon Vera",
+      "fighter_blue": "Charles Jourdain",
+      "weight_class": "Bantamweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "ko_tko": 0.332994,
+        "submission": 0.195274,
+        "decision": 0.451279,
+        "nc": 0.020453
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Tai Tuivasa",
+      "fighter_blue": "Robelis Despaigne",
+      "weight_class": "Heavyweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "ko_tko": 0.489502,
+        "submission": 0.149083,
+        "decision": 0.331165,
+        "nc": 0.03025
+      },
+      "most_likely_method": "ko_tko",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Edmen Shahbazyan",
+      "fighter_blue": "Brunno Ferreira",
+      "weight_class": "Middleweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "ko_tko": 0.366818,
+        "submission": 0.167056,
+        "decision": 0.45433,
+        "nc": 0.011796
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Giga Chikadze",
+      "fighter_blue": "Joanderson Brito",
+      "weight_class": "Featherweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "ko_tko": 0.286748,
+        "submission": 0.203712,
+        "decision": 0.500691,
+        "nc": 0.008849
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Casey O'Neill",
+      "fighter_blue": "Eduarda Moura",
+      "weight_class": "Women's Flyweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "ko_tko": 0.305521,
+        "submission": 0.146057,
+        "decision": 0.542689,
+        "nc": 0.005733
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Ryan Gandra",
+      "fighter_blue": "Ozzy Diaz",
+      "weight_class": "Middleweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "ko_tko": 0.574896,
+        "submission": 0.113072,
+        "decision": 0.306607,
+        "nc": 0.005425
+      },
+      "most_likely_method": "ko_tko",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Michael Aswell Jr.",
+      "fighter_blue": "JooSang Yoo",
+      "weight_class": "Featherweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "ko_tko": 0.411053,
+        "submission": 0.156219,
+        "decision": 0.42221,
+        "nc": 0.010518
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    }
+  ]
+}

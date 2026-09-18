@@ -64,8 +64,14 @@ jobs:
       - name: Train and validate probability model
         run: python train_model.py
 
+      - name: Train fight-method model
+        run: python -B method_model.py
+
       - name: Verify trained model artifact
         run: test -s betting_model.joblib
+
+      - name: Verify fight-method artifact
+        run: test -s fight_method_model.joblib
 
       - name: Validate source data and generator
         run: python -m unittest discover -s tests -v
@@ -87,7 +93,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/forward_predictions.csv data/scraped_data/ufc_events.csv data/scraped_data/ufc_fights.csv data/scraped_data/ufc_fight_odds.csv data/scraped_data/ufc_fight_odds_history.csv model_metrics.json site/data/forward-results.json site/data/site-data.json
+          git add data/forward_predictions.csv data/scraped_data/ufc_events.csv data/scraped_data/ufc_fights.csv data/scraped_data/ufc_fight_odds.csv data/scraped_data/ufc_fight_odds_history.csv model_metrics.json fight_method_metrics.json site/data/forward-results.json site/data/site-data.json site/data/method-predictions.json
           if git diff --cached --quiet; then
             echo "No odds changes to commit."
           else
