@@ -146,6 +146,7 @@ function renderPredictions(data) {
   const models = data.model.prediction_models || [{ key: "ensemble", label: data.model.name }];
   selector.innerHTML = models.map((model) => `<option value="${escapeHtml(model.key)}">${escapeHtml(model.label)}</option>`).join("");
   const refresh = () => {
+    setText("performance-heading", "Winner model holdout results");
     const selected = models.find((model) => model.key === selector.value) || models[0];
     setText("model-name", selected.label);
     list.innerHTML = data.predictions.map((fight) => predictionRow(fight, data.model, selected.key)).join("");
@@ -157,11 +158,13 @@ function renderPredictions(data) {
 function renderPerformance(data) {
   const body = document.getElementById("performance-body");
   const selector = document.getElementById("performance-model");
+  const targetSelector = document.getElementById("performance-target");
+  const winnerSelector = document.getElementById("winner-model-selector");
   const dialog = document.getElementById("event-detail-dialog");
   const dialogTitle = document.getElementById("event-detail-title");
   const dialogSummary = document.getElementById("event-detail-summary");
   const incorrectList = document.getElementById("incorrect-fight-list");
-  if (!body || !selector) return;
+  if (!body || !selector || !targetSelector) return;
 
   const events = data.model.historical_performance || [];
   const historicalFights = data.model.historical_fights || [];
@@ -241,7 +244,51 @@ function renderPerformance(data) {
     });
   };
   selector.addEventListener("input", refresh);
+  targetSelector.addEventListener("input", () => {
+    const isDecision = targetSelector.value === "decision";
+    winnerSelector.hidden = isDecision;
+    if (isDecision) renderDecisionPerformanceMain(data, dialog, dialogTitle, dialogSummary, incorrectList);
+    else refresh();
+  });
   refresh();
+}
+
+function renderDecisionPerformanceMain(data, dialog, dialogTitle, dialogSummary, detailList) {
+  const model = data.decision_model;
+  const body = document.getElementById("performance-body");
+  if (!model || !body) return;
+  const history = model.historical_predictions || [];
+  const grouped = new Map();
+  history.forEach((fight) => {
+    const key = `${fight.event_date}|${fight.event_name}`;
+    if (!grouped.has(key)) grouped.set(key, []);
+    grouped.get(key).push(fight);
+  });
+  const events = [...grouped.entries()].reverse();
+  setText("performance-events", model.test_event_count || events.length);
+  setText("performance-model-name", "Decision vs. not-decision");
+  setText("performance-accuracy", percent(model.test.accuracy));
+  setText("performance-log-loss", model.test.log_loss.toFixed(3));
+  setText("performance-brier", model.test.brier.toFixed(3));
+  setText("performance-heading", "Decision model holdout results");
+  body.innerHTML = events.map(([key, fights], index) => {
+    const [eventDate, eventName] = key.split("|");
+    const accuracy = fights.filter((fight) => fight.actual_method === fight.predicted_method).length / fights.length;
+    const logLoss = fights.reduce((sum, fight) => sum - Math.log(Math.max(1e-6, fight.probabilities[fight.actual_method])), 0) / fights.length;
+    const brier = fights.reduce((sum, fight) => {
+      const y = fight.actual_method === "decision" ? 1 : 0;
+      return sum + (fight.probabilities.decision - y) ** 2;
+    }, 0) / fights.length;
+    return `<tr><td class="event-name-cell"><button class="event-detail-trigger" type="button" data-decision-event="${index}">${escapeHtml(eventName)}</button></td><td>${formatDate(eventDate)}</td><td>${fights.length}</td><td class="accuracy-score">${percent(accuracy)}</td><td>${logLoss.toFixed(3)}</td><td>${brier.toFixed(3)}</td></tr>`;
+  }).join("");
+  body.querySelectorAll("[data-decision-event]").forEach((button) => button.addEventListener("click", () => {
+    const [, fights] = events[Number(button.dataset.decisionEvent)];
+    dialogTitle.textContent = fights[0].event_name;
+    const misses = fights.filter((fight) => fight.actual_method !== fight.predicted_method);
+    dialogSummary.textContent = `${misses.length} incorrect decision calls from ${fights.length} fights.`;
+    detailList.innerHTML = fights.map((fight) => `<article class="incorrect-fight"><div><strong>${escapeHtml(fight.fighter_red)} <span>vs</span> ${escapeHtml(fight.fighter_blue)}</strong><span class="incorrect-actual">Actual: ${escapeHtml(methodLabel(fight.actual_method))}</span></div><div class="incorrect-pick"><span>Decision ${percent(fight.probabilities.decision)}</span><strong>${escapeHtml(methodLabel(fight.predicted_method))}</strong></div></article>`).join("");
+    dialog.showModal();
+  }));
 }
 
 function formMarkup(form) {
@@ -412,7 +459,6 @@ async function init() {
     renderGeneratedStatus(data);
     if (document.body.dataset.page === "predictions") renderPredictions(data);
     if (document.body.dataset.page === "performance") renderPerformance(data);
-    if (document.body.dataset.page === "performance") renderDecisionPerformance(data);
     if (document.body.dataset.page === "rankings") renderRankings(data);
     if (document.body.dataset.page === "method") renderMethod(data);
   } catch (error) {

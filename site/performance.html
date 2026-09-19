@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Out-of-sample model performance across previous UFC events.">
   <title>Better | Model Performance</title>
-  <link rel="stylesheet" href="assets/styles.css?v=6">
-  <script defer src="assets/app.js?v=6"></script>
+  <link rel="stylesheet" href="assets/styles.css?v=7">
+  <script defer src="assets/app.js?v=7"></script>
 </head>
 <body data-page="performance">
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -41,22 +41,6 @@
       </div>
     </section>
 
-    <section class="shell content-section" aria-labelledby="decision-performance-heading">
-      <div class="section-heading">
-        <div>
-          <p class="section-kicker">Same 100-card test set</p>
-          <h2 id="decision-performance-heading">Decision model performance</h2>
-        </div>
-      </div>
-      <div class="metric-grid method-metric-grid" id="decision-performance-metrics"></div>
-      <div class="performance-table-wrap">
-        <table class="performance-table">
-          <thead><tr><th>Event</th><th>Date</th><th>Fights</th><th>Accuracy</th><th>Decision rate</th><th>Log loss</th></tr></thead>
-          <tbody id="decision-performance-body"></tbody>
-        </table>
-      </div>
-    </section>
-
     <section class="metric-band" aria-label="Selected model performance">
       <div class="shell metric-grid performance-metrics">
         <div class="metric"><span class="metric-label">Model</span><strong id="performance-model-name">--</strong></div>
@@ -73,6 +57,13 @@
           <h2 id="performance-heading">Holdout results</h2>
         </div>
         <label class="select-field model-selector">
+          <span>Prediction type</span>
+          <select id="performance-target">
+            <option value="winner">Winner model</option>
+            <option value="decision">Decision model</option>
+          </select>
+        </label>
+        <label class="select-field model-selector" id="winner-model-selector">
           <span>Evaluation model</span>
           <select id="performance-model"></select>
         </label>
