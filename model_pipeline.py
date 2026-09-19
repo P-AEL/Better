@@ -43,8 +43,13 @@ ABLATION_ONLY_FEATURES = [
 DIFFERENCE_FEATURES = CORE_DIFFERENCE_FEATURES + ABLATION_ONLY_FEATURES
 SYMMETRIC_NUMERIC_FEATURES = [
     "experience_total",
+    "experience_min",
     "age_mean",
     "glicko_uncertainty_mean",
+    "finish_rate_mean",
+    "finish_rate_min",
+    "avg_duration_mean",
+    *[f"{stat}_for_raw_mean" for stat in STAT_NAMES],
 ]
 CATEGORICAL_FEATURES = ["weight_class", "stance_pair"]
 SYMMETRIC_FEATURES = SYMMETRIC_NUMERIC_FEATURES + CATEGORICAL_FEATURES
@@ -260,8 +265,11 @@ def pair_features(red_name, blue_name, weight_class, event_date, states, profile
         "glicko_uncertainty_mean": (red_rd + blue_rd) / (2 * GLICKO_INITIAL_RD),
         "experience_diff": math.log1p(red.fights) - math.log1p(blue.fights),
         "experience_total": math.log1p(red.fights + blue.fights),
+        "experience_min": math.log1p(min(red.fights, blue.fights)),
         "win_rate_diff": smoothed_rate(red.wins, red.fights) - smoothed_rate(blue.wins, blue.fights),
         "finish_rate_diff": smoothed_rate(red.finishes, red.fights) - smoothed_rate(blue.finishes, blue.fights),
+        "finish_rate_mean": (smoothed_rate(red.finishes, red.fights) + smoothed_rate(blue.finishes, blue.fights)) / 2,
+        "finish_rate_min": min(smoothed_rate(red.finishes, red.fights), smoothed_rate(blue.finishes, blue.fights)),
         "recent3_win_rate_diff": red.recent_win_rate(3) - blue.recent_win_rate(3),
         "recent5_win_rate_diff": red.recent_win_rate(5) - blue.recent_win_rate(5),
         "age_diff": red_age - blue_age,
@@ -273,6 +281,10 @@ def pair_features(red_name, blue_name, weight_class, event_date, states, profile
         "avg_duration_diff": (
             red.duration_total / red.fights if red.fights else np.nan
         ) - (blue.duration_total / blue.fights if blue.fights else np.nan),
+        "avg_duration_mean": np.nanmean([
+            red.duration_total / red.fights if red.fights else np.nan,
+            blue.duration_total / blue.fights if blue.fights else np.nan,
+        ]),
         "opponent_quality_diff": (
             red.opponent_rating_total / red.fights if red.fights else BASE_ELO
         ) - (blue.opponent_rating_total / blue.fights if blue.fights else BASE_ELO),
@@ -285,6 +297,8 @@ def pair_features(red_name, blue_name, weight_class, event_date, states, profile
         for kind in ("for", "against"):
             key = f"{stat}_{kind}"
             values[f"{key}_raw_diff"] = red.rate(key) - blue.rate(key)
+            if kind == "for":
+                values[f"{stat}_for_raw_mean"] = np.nanmean([red.rate(key), blue.rate(key)])
             values[f"{key}_division_z_diff"] = (
                 division_state[key].z_score(red.rate(key))
                 - division_state[key].z_score(blue.rate(key))
@@ -354,7 +368,7 @@ def update_states(row, states, division_states, event_date):
         return
 
     red_elo, blue_elo = red.elo, blue.elo
-    red_score = 0.5 if row.result == "draw" else 1.0
+    red_score = 0.5 if row.result == "draw" else float(row.winner == row.fighter_red)
     change = ELO_K * (red_score - elo_probability(red_elo, blue_elo))
     red.elo += change
     blue.elo -= change
@@ -374,9 +388,10 @@ def update_states(row, states, division_states, event_date):
     red.results.append(red_score)
     blue.results.append(1.0 - red_score)
     if row.result == "win":
-        red.wins += 1
-        if "decision" not in normalize_text(row.method):
-            red.finishes += 1
+        winner = red if red_score == 1.0 else blue
+        winner.wins += 1
+        if "dec" not in normalize_text(row.method):
+            winner.finishes += 1
 
     division_state = division_states[normalize_text(row.weight_class)]
     for stat in STAT_NAMES:
@@ -433,7 +448,7 @@ def build_history(data_dir):
                 "fight_id": row.fight_link,
                 "fighter_red": row.fighter_red,
                 "fighter_blue": row.fighter_blue,
-                "target": 1,
+                "target": int(row.winner == row.fighter_red),
                 "market_probability": market[0] if market else np.nan,
             }
             records.append({**common, **features})
@@ -441,7 +456,7 @@ def build_history(data_dir):
                 **common,
                 "fighter_red": row.fighter_blue,
                 "fighter_blue": row.fighter_red,
-                "target": 0,
+                "target": int(row.winner == row.fighter_blue),
                 "market_probability": market[1] if market else np.nan,
                 **mirror_features(features),
             })

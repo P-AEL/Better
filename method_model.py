@@ -31,6 +31,7 @@ from model_pipeline import (
     load_source_data,
     update_states,
 )
+from evaluation_split import load_or_build_manifest, partition_frame
 
 
 ROOT = Path(__file__).resolve().parent
@@ -106,15 +107,18 @@ def build_method_history(data_dir=DATA_DIR):
     return pd.DataFrame(records), states, profiles, division_states
 
 
-def temporal_partitions(frame):
-    dates = np.array(sorted(frame.event_date.unique()))
-    calibration_start = dates[int(len(dates) * 0.70)]
-    test_start = dates[int(len(dates) * 0.85)]
-    return (
-        frame[frame.event_date < calibration_start].copy(),
-        frame[(frame.event_date >= calibration_start) & (frame.event_date < test_start)].copy(),
-        frame[frame.event_date >= test_start].copy(),
-    )
+def temporal_partitions(frame, data_dir=None):
+    if data_dir is None:
+        dates = np.array(sorted(frame.event_date.unique()))
+        calibration_start = dates[int(len(dates) * 0.70)]
+        test_start = dates[int(len(dates) * 0.85)]
+        return (
+            frame[frame.event_date < calibration_start].copy(),
+            frame[(frame.event_date >= calibration_start) & (frame.event_date < test_start)].copy(),
+            frame[frame.event_date >= test_start].copy(),
+        )
+    development, calibration, test, _ = partition_frame(frame, data_dir)
+    return development, calibration, test
 
 
 def make_logistic():
@@ -222,7 +226,7 @@ def segment_evaluations(frame, probability):
 
 def train(data_dir=DATA_DIR, model_path=MODEL_PATH, report_path=REPORT_PATH):
     frame, states, profiles, division_states = build_method_history(data_dir)
-    development, calibration, test = temporal_partitions(frame)
+    development, calibration, test = temporal_partitions(frame, data_dir)
     # Select the estimator on the last chronological quarter of development.
     dates = np.array(sorted(development.event_date.unique()))
     boundary = dates[int(len(dates) * .75)]
@@ -254,6 +258,8 @@ def train(data_dir=DATA_DIR, model_path=MODEL_PATH, report_path=REPORT_PATH):
         "scheduled_rounds": "Source data has no reliable scheduled-round field; all training rows use the standard 3-round context. Predictions for title/main-event 5-round fights should be treated as limited-data estimates.",
         "feature_schema": METHOD_FEATURES,
         "split_rows": {"development": len(development), "calibration": len(calibration), "test": len(test)},
+        "test_manifest": load_or_build_manifest(data_dir),
+        "test_event_count": int(test["event_name"].nunique()),
         "model_selection": {"selected": selected_name, "validation_log_loss": leaderboard},
         "baseline_test": evaluate(test, baseline_test),
         "test": evaluate(test, test_probability),

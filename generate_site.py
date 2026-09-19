@@ -509,6 +509,8 @@ def build_site_data(data_dir=DATA_DIR):
                 else "Backtest passed; collecting at least 100 forward-priced outcomes."
             ),
             "test_metrics": metadata["calibrated_test"],
+            "test_event_count": metadata.get("test_event_count"),
+            "test_manifest": metadata.get("test_manifest"),
             "market_metrics": metadata["market_test"],
             "residual_metrics": metadata.get("market_residual_test"),
             "prediction_models": [
@@ -562,6 +564,17 @@ def build_site_data(data_dir=DATA_DIR):
             "endpoint": "data/method-predictions.json",
             "prediction_count": len(method_predictions),
         },
+        "decision_model": (
+            {
+                "name": "Decision vs. not-decision",
+                "version": method_context[0]["version"],
+                "test": method_context[0]["metadata"]["test"],
+                "baseline_test": method_context[0]["metadata"]["baseline_test"],
+                "test_event_count": method_context[0]["metadata"].get("test_event_count"),
+                "historical_predictions": method_context[0]["metadata"].get("historical_test_predictions", []),
+            }
+            if method_context else None
+        ),
     }
 
 

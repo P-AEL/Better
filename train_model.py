@@ -30,6 +30,7 @@ from model_pipeline import (
     clipped_logit,
     sigmoid,
 )
+from evaluation_split import load_or_build_manifest, partition_frame
 
 
 ROOT = Path(__file__).resolve().parent
@@ -55,15 +56,17 @@ def metrics(y_true, probability):
     }
 
 
-def temporal_partitions(frame):
-    dates = np.array(sorted(frame["event_date"].unique()))
-    calibration_start = dates[int(len(dates) * 0.70)]
-    test_start = dates[int(len(dates) * 0.85)]
-    development = frame[frame["event_date"] < calibration_start].copy()
-    calibration = frame[
-        (frame["event_date"] >= calibration_start) & (frame["event_date"] < test_start)
-    ].copy()
-    test = frame[frame["event_date"] >= test_start].copy()
+def temporal_partitions(frame, data_dir=None):
+    if data_dir is None:
+        dates = np.array(sorted(frame["event_date"].unique()))
+        calibration_start = dates[int(len(dates) * 0.70)]
+        test_start = dates[int(len(dates) * 0.85)]
+        return (
+            frame[frame["event_date"] < calibration_start].copy(),
+            frame[(frame["event_date"] >= calibration_start) & (frame["event_date"] < test_start)].copy(),
+            frame[frame["event_date"] >= test_start].copy(),
+        )
+    development, calibration, test, _ = partition_frame(frame, data_dir)
     return development, calibration, test
 
 
@@ -307,7 +310,7 @@ def symmetrize_fight_probabilities(frame, probability):
 
 def train(data_dir=DATA_DIR, model_path=MODEL_PATH, metrics_path=METRICS_PATH):
     frame, _, _, _ = build_history(data_dir)
-    development, calibration, test = temporal_partitions(frame)
+    development, calibration, test = temporal_partitions(frame, data_dir)
 
     ablation = {
         "core": walk_forward_ablation_score(development, NUMERIC_FEATURES),
@@ -396,6 +399,8 @@ def train(data_dir=DATA_DIR, model_path=MODEL_PATH, metrics_path=METRICS_PATH):
         "feature_count": len(feature_columns),
         "sample_count": int(len(frame)),
         "event_count": int(frame["event_name"].nunique()),
+        "test_manifest": load_or_build_manifest(data_dir),
+        "test_event_count": int(test["event_name"].nunique()),
         "splits": {
             "development": int(len(development)),
             "calibration": int(len(calibration)),

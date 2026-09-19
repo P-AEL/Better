@@ -333,6 +333,36 @@ function renderMethod(data) {
   renderMethodPerformance(data);
 }
 
+function renderDecisionPerformance(data) {
+  const model = data.decision_model;
+  const metrics = document.getElementById("decision-performance-metrics");
+  const body = document.getElementById("decision-performance-body");
+  if (!metrics || !body || !model) return;
+  const test = model.test;
+  const baseline = model.baseline_test;
+  const history = model.historical_predictions || [];
+  metrics.innerHTML = [
+    ["Test cards", model.test_event_count || "--"],
+    ["Fights", test.sample_count.toLocaleString()],
+    ["Accuracy", percent(test.accuracy)],
+    ["Log loss", test.log_loss.toFixed(3)],
+    ["Baseline log loss", baseline.log_loss.toFixed(3)],
+  ].map(([label, value]) => `<div class="metric"><span class="metric-label">${label}</span><strong>${value}</strong></div>`).join("");
+  const events = new Map();
+  history.forEach((fight) => {
+    const key = `${fight.event_date}|${fight.event_name}`;
+    if (!events.has(key)) events.set(key, []);
+    events.get(key).push(fight);
+  });
+  body.innerHTML = [...events.entries()].reverse().map(([key, fights]) => {
+    const [eventDate, eventName] = key.split("|");
+    const accuracy = fights.filter((fight) => fight.actual_method === fight.predicted_method).length / fights.length;
+    const rate = fights.filter((fight) => fight.actual_method === "decision").length / fights.length;
+    const loss = fights.reduce((total, fight) => total - Math.log(Math.max(1e-6, fight.probabilities[fight.actual_method])), 0) / fights.length;
+    return `<tr><td class="event-name-cell">${escapeHtml(eventName)}</td><td>${formatDate(eventDate)}</td><td>${fights.length}</td><td class="accuracy-score">${percent(accuracy)}</td><td>${percent(rate)}</td><td>${loss.toFixed(3)}</td></tr>`;
+  }).join("");
+}
+
 function renderMethodPerformance(data) {
   const metrics = document.getElementById("method-performance-metrics");
   const body = document.getElementById("method-history-body");
@@ -382,6 +412,7 @@ async function init() {
     renderGeneratedStatus(data);
     if (document.body.dataset.page === "predictions") renderPredictions(data);
     if (document.body.dataset.page === "performance") renderPerformance(data);
+    if (document.body.dataset.page === "performance") renderDecisionPerformance(data);
     if (document.body.dataset.page === "rankings") renderRankings(data);
     if (document.body.dataset.page === "method") renderMethod(data);
   } catch (error) {

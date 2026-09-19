@@ -1,0 +1,407 @@
+{
+  "purpose": "Fixed historical test set shared by winner and decision models.",
+  "created_at": "2026-09-19T08:46:26.155126+00:00",
+  "test_event_count": 100,
+  "events": [
+    {
+      "event_name": "UFC Fight Night: Lewis vs. Nascimento",
+      "event_date": "2024-05-11"
+    },
+    {
+      "event_name": "UFC Fight Night: Barboza vs. Murphy",
+      "event_date": "2024-05-18"
+    },
+    {
+      "event_name": "UFC 302: Makhachev vs. Poirier",
+      "event_date": "2024-06-01"
+    },
+    {
+      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
+      "event_date": "2024-06-08"
+    },
+    {
+      "event_name": "UFC Fight Night: Perez vs. Taira",
+      "event_date": "2024-06-15"
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "event_date": "2024-06-22"
+    },
+    {
+      "event_name": "UFC 303: Pereira vs. Prochazka 2",
+      "event_date": "2024-06-29"
+    },
+    {
+      "event_name": "UFC Fight Night: Namajunas vs. Cortez",
+      "event_date": "2024-07-13"
+    },
+    {
+      "event_name": "UFC Fight Night: Lemos vs. Jandiroba",
+      "event_date": "2024-07-20"
+    },
+    {
+      "event_name": "UFC 304: Edwards vs. Muhammad 2",
+      "event_date": "2024-07-27"
+    },
+    {
+      "event_name": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "event_date": "2024-08-03"
+    },
+    {
+      "event_name": "UFC Fight Night: Tybura vs. Spivac 2",
+      "event_date": "2024-08-10"
+    },
+    {
+      "event_name": "UFC 305: Du Plessis vs. Adesanya",
+      "event_date": "2024-08-17"
+    },
+    {
+      "event_name": "UFC Fight Night: Cannonier vs. Borralho",
+      "event_date": "2024-08-24"
+    },
+    {
+      "event_name": "UFC Fight Night: Burns vs. Brady",
+      "event_date": "2024-09-07"
+    },
+    {
+      "event_name": "UFC 306: Riyadh Season Noche UFC",
+      "event_date": "2024-09-14"
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Saint Denis",
+      "event_date": "2024-09-28"
+    },
+    {
+      "event_name": "UFC 307: Pereira vs. Rountree Jr.",
+      "event_date": "2024-10-05"
+    },
+    {
+      "event_name": "UFC Fight Night: Royval vs. Taira",
+      "event_date": "2024-10-12"
+    },
+    {
+      "event_name": "UFC Fight Night: Hernandez vs. Pereira",
+      "event_date": "2024-10-19"
+    },
+    {
+      "event_name": "UFC 308: Topuria vs. Holloway",
+      "event_date": "2024-10-26"
+    },
+    {
+      "event_name": "UFC Fight Night: Moreno vs. Albazi",
+      "event_date": "2024-11-02"
+    },
+    {
+      "event_name": "UFC Fight Night: Magny vs. Prates",
+      "event_date": "2024-11-09"
+    },
+    {
+      "event_name": "UFC 309: Jones vs. Miocic",
+      "event_date": "2024-11-16"
+    },
+    {
+      "event_name": "UFC Fight Night: Yan vs. Figueiredo",
+      "event_date": "2024-11-23"
+    },
+    {
+      "event_name": "UFC 310: Pantoja vs. Asakura",
+      "event_date": "2024-12-07"
+    },
+    {
+      "event_name": "UFC Fight Night: Covington vs. Buckley",
+      "event_date": "2024-12-14"
+    },
+    {
+      "event_name": "UFC Fight Night: Dern vs. Ribas 2",
+      "event_date": "2025-01-11"
+    },
+    {
+      "event_name": "UFC 311: Makhachev vs. Moicano",
+      "event_date": "2025-01-18"
+    },
+    {
+      "event_name": "UFC Fight Night: Adesanya vs. Imavov",
+      "event_date": "2025-02-01"
+    },
+    {
+      "event_name": "UFC 312: Du Plessis vs. Strickland 2",
+      "event_date": "2025-02-08"
+    },
+    {
+      "event_name": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "event_date": "2025-02-15"
+    },
+    {
+      "event_name": "UFC Fight Night: Cejudo vs. Song",
+      "event_date": "2025-02-22"
+    },
+    {
+      "event_name": "UFC Fight Night: Kape vs. Almabayev",
+      "event_date": "2025-03-01"
+    },
+    {
+      "event_name": "UFC 313: Pereira vs. Ankalaev",
+      "event_date": "2025-03-08"
+    },
+    {
+      "event_name": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "event_date": "2025-03-15"
+    },
+    {
+      "event_name": "UFC Fight Night: Edwards vs. Brady",
+      "event_date": "2025-03-22"
+    },
+    {
+      "event_name": "UFC Fight Night: Moreno vs. Erceg",
+      "event_date": "2025-03-29"
+    },
+    {
+      "event_name": "UFC Fight Night: Emmett vs. Murphy",
+      "event_date": "2025-04-05"
+    },
+    {
+      "event_name": "UFC 314: Volkanovski vs. Lopes",
+      "event_date": "2025-04-12"
+    },
+    {
+      "event_name": "UFC Fight Night: Machado Garry vs. Prates",
+      "event_date": "2025-04-26"
+    },
+    {
+      "event_name": "UFC Fight Night: Sandhagen vs. Figueiredo",
+      "event_date": "2025-05-03"
+    },
+    {
+      "event_name": "UFC 315: Muhammad vs. Della Maddalena",
+      "event_date": "2025-05-10"
+    },
+    {
+      "event_name": "UFC Fight Night: Burns vs. Morales",
+      "event_date": "2025-05-17"
+    },
+    {
+      "event_name": "UFC Fight Night: Blanchfield vs. Barber",
+      "event_date": "2025-05-31"
+    },
+    {
+      "event_name": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "event_date": "2025-06-07"
+    },
+    {
+      "event_name": "UFC Fight Night: Usman vs. Buckley",
+      "event_date": "2025-06-14"
+    },
+    {
+      "event_name": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "event_date": "2025-06-21"
+    },
+    {
+      "event_name": "UFC 317: Topuria vs. Oliveira",
+      "event_date": "2025-06-28"
+    },
+    {
+      "event_name": "UFC Fight Night: Lewis vs. Teixeira",
+      "event_date": "2025-07-12"
+    },
+    {
+      "event_name": "UFC 318: Holloway vs. Poirier 3",
+      "event_date": "2025-07-19"
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. De Ridder",
+      "event_date": "2025-07-26"
+    },
+    {
+      "event_name": "UFC Fight Night: Taira vs. Park",
+      "event_date": "2025-08-02"
+    },
+    {
+      "event_name": "UFC Fight Night: Dolidze vs. Hernandez",
+      "event_date": "2025-08-09"
+    },
+    {
+      "event_name": "UFC 319: Du Plessis vs. Chimaev",
+      "event_date": "2025-08-16"
+    },
+    {
+      "event_name": "UFC Fight Night: Walker vs. Zhang",
+      "event_date": "2025-08-23"
+    },
+    {
+      "event_name": "UFC Fight Night: Imavov vs. Borralho",
+      "event_date": "2025-09-06"
+    },
+    {
+      "event_name": "Noche UFC: Lopes vs. Silva",
+      "event_date": "2025-09-13"
+    },
+    {
+      "event_name": "UFC Fight Night: Ulberg vs. Reyes",
+      "event_date": "2025-09-27"
+    },
+    {
+      "event_name": "UFC 320: Ankalaev vs. Pereira 2",
+      "event_date": "2025-10-04"
+    },
+    {
+      "event_name": "UFC Fight Night: Oliveira vs. Gamrot",
+      "event_date": "2025-10-11"
+    },
+    {
+      "event_name": "UFC Fight Night: De Ridder vs. Allen",
+      "event_date": "2025-10-18"
+    },
+    {
+      "event_name": "UFC 321: Aspinall vs. Gane",
+      "event_date": "2025-10-25"
+    },
+    {
+      "event_name": "UFC Fight Night: Garcia vs. Onama",
+      "event_date": "2025-11-01"
+    },
+    {
+      "event_name": "UFC Fight Night: Bonfim vs. Brown",
+      "event_date": "2025-11-08"
+    },
+    {
+      "event_name": "UFC 322: Della Maddalena vs. Makhachev",
+      "event_date": "2025-11-15"
+    },
+    {
+      "event_name": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "event_date": "2025-11-22"
+    },
+    {
+      "event_name": "UFC 323: Dvalishvili vs. Yan 2",
+      "event_date": "2025-12-06"
+    },
+    {
+      "event_name": "UFC Fight Night: Royval vs. Kape",
+      "event_date": "2025-12-13"
+    },
+    {
+      "event_name": "UFC 324: Gaethje vs. Pimblett",
+      "event_date": "2026-01-24"
+    },
+    {
+      "event_name": "UFC 325: Volkanovski vs. Lopes 2",
+      "event_date": "2026-01-31"
+    },
+    {
+      "event_name": "UFC Fight Night: Bautista vs. Oliveira",
+      "event_date": "2026-02-07"
+    },
+    {
+      "event_name": "UFC Fight Night: Strickland vs. Hernandez",
+      "event_date": "2026-02-21"
+    },
+    {
+      "event_name": "UFC Fight Night: Moreno vs. Kavanagh",
+      "event_date": "2026-02-28"
+    },
+    {
+      "event_name": "UFC 326: Holloway vs. Oliveira 2",
+      "event_date": "2026-03-07"
+    },
+    {
+      "event_name": "UFC Fight Night: Emmett vs. Vallejos",
+      "event_date": "2026-03-14"
+    },
+    {
+      "event_name": "UFC Fight Night: Evloev vs. Murphy",
+      "event_date": "2026-03-21"
+    },
+    {
+      "event_name": "UFC Fight Night: Adesanya vs. Pyfer",
+      "event_date": "2026-03-28"
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Duncan",
+      "event_date": "2026-04-04"
+    },
+    {
+      "event_name": "UFC 327: Prochazka vs. Ulberg",
+      "event_date": "2026-04-11"
+    },
+    {
+      "event_name": "UFC Fight Night: Burns vs. Malott",
+      "event_date": "2026-04-18"
+    },
+    {
+      "event_name": "UFC Fight Night: Sterling vs. Zalal",
+      "event_date": "2026-04-25"
+    },
+    {
+      "event_name": "UFC Fight Night: Della Maddalena vs. Prates",
+      "event_date": "2026-05-02"
+    },
+    {
+      "event_name": "UFC 328: Chimaev vs. Strickland",
+      "event_date": "2026-05-09"
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Costa",
+      "event_date": "2026-05-16"
+    },
+    {
+      "event_name": "UFC Fight Night: Song vs. Figueiredo",
+      "event_date": "2026-05-30"
+    },
+    {
+      "event_name": "UFC Fight Night: Muhammad vs. Bonfim",
+      "event_date": "2026-06-06"
+    },
+    {
+      "event_name": "UFC Freedom 250",
+      "event_date": "2026-06-14"
+    },
+    {
+      "event_name": "UFC Fight Night: Kape vs. Horiguchi",
+      "event_date": "2026-06-20"
+    },
+    {
+      "event_name": "UFC Fight Night: Fiziev vs. Torres",
+      "event_date": "2026-06-27"
+    },
+    {
+      "event_name": "UFC 329: McGregor vs. Holloway 2",
+      "event_date": "2026-07-11"
+    },
+    {
+      "event_name": "UFC Fight Night: Du Plessis vs. Usman",
+      "event_date": "2026-07-18"
+    },
+    {
+      "event_name": "UFC Fight Night: Ankalaev vs. Guskov",
+      "event_date": "2026-07-25"
+    },
+    {
+      "event_name": "UFC Fight Night: Medic vs. Rodriguez",
+      "event_date": "2026-08-01"
+    },
+    {
+      "event_name": "UFC Fight Night: Gamrot vs. Salkilld",
+      "event_date": "2026-08-08"
+    },
+    {
+      "event_name": "UFC 330: Makhachev vs. Machado Garry",
+      "event_date": "2026-08-15"
+    },
+    {
+      "event_name": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "event_date": "2026-08-22"
+    },
+    {
+      "event_name": "UFC Fight Night: Nurmagomedov vs. Song",
+      "event_date": "2026-08-29"
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05"
+    },
+    {
+      "event_name": "Noche UFC: Silva vs. Delgado",
+      "event_date": "2026-09-12"
+    }
+  ]
+}
