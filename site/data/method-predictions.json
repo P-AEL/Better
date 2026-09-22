@@ -1,6 +1,6 @@
 {
   "available": true,
-  "generated_at": "2026-09-20T12:01:30.053632+00:00",
+  "generated_at": "2026-09-22T12:21:34.920972+00:00",
   "event": {
     "name": "UFC Fight Night: Rosas Jr. vs. Barcelos",
     "date": "2026-09-26",
@@ -131,7 +131,7 @@
     },
     {
       "fighter_red": "Melissa Amaya",
-      "fighter_blue": "Valesca Machado",
+      "fighter_blue": "Tina Black",
       "weight_class": "Women's Strawweight",
       "scheduled_rounds": 3,
       "probabilities": {
@@ -217,6 +217,19 @@
         "not_decision": 0.403413
       },
       "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Mickey Gall",
+      "fighter_blue": "Sedriques Dumas",
+      "weight_class": "Middleweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.412272,
+        "not_decision": 0.587728
+      },
+      "most_likely_method": "not_decision",
       "limited_data": false,
       "warning": null
     },

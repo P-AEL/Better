@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "trained_at": "2026-09-20T11:59:56.536685+00:00",
+  "trained_at": "2026-09-22T12:19:44.884101+00:00",
   "data_cutoff": "2026-09-19",
   "target_definition": {
     "decision": "Methods containing DEC, including draw decisions",
@@ -63,7 +63,7 @@
   },
   "test_manifest": {
     "purpose": "Fixed historical test set shared by winner and decision models.",
-    "created_at": "2026-09-20T11:59:56.571646+00:00",
+    "created_at": "2026-09-22T12:19:44.922451+00:00",
     "test_event_count": 100,
     "events": [
       {
@@ -472,7 +472,7 @@
   "model_selection": {
     "selected": "gradient_boosting",
     "validation_log_loss": {
-      "multinomial_logistic": 0.675410047504002,
+      "multinomial_logistic": 0.675410047503898,
       "gradient_boosting": 0.6720715650202197
     }
   },
