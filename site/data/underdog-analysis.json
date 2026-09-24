@@ -1,6 +1,6 @@
 {
   "available": true,
-  "generated_at": "2026-09-24T07:07:12.104701+00:00",
+  "generated_at": "2026-09-24T12:33:43.250585+00:00",
   "title": "Underdog price-cutoff paper analysis",
   "definition": "One flat unit on the market underdog when its opening American price meets the cutoff. A win returns decimal odds minus one unit; a loss costs one unit.",
   "limitations": "Historical paper analysis only. Opening prices are archived market records and their exact availability at a specific bookmaker or stake size cannot be verified from this dataset. A positive past ROI is not evidence of a future edge.",
