@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Historical paper analysis of UFC market-underdog price cutoffs.">
+  <title>Better | Underdog Analysis</title>
+  <link rel="stylesheet" href="assets/styles.css?v=8">
+  <script defer src="assets/app.js?v=8"></script>
+</head>
+<body data-page="underdogs">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header"><div class="shell nav-shell">
+    <a class="brand" href="index.html" aria-label="Better predictions home"><span class="brand-mark">B</span><span>BETTER</span></a>
+    <nav class="primary-nav" aria-label="Primary navigation">
+      <a href="index.html">Next event</a><a href="method.html">Decision model</a><a href="performance.html">Performance</a><a class="active" href="underdogs.html">Underdogs</a><a href="rankings.html">Elo rankings</a>
+    </nav>
+    <span class="data-status" id="generated-status">Loading data</span>
+  </div></header>
+
+  <main id="main-content">
+    <section class="ranking-intro performance-intro"><div class="shell intro-layout">
+      <div><p class="eyebrow dark">Historical paper analysis</p><h1>Underdog Price Cutoffs</h1><p class="intro-copy">Tests whether a flat one-unit bet on market underdogs would have been profitable once the opening American price passed a minimum threshold.</p></div>
+      <div class="ranking-stat performance-period"><strong id="underdog-title">--</strong><span>chosen before the test set</span></div>
+    </div></section>
+
+    <section class="shell content-section" aria-labelledby="underdog-heading">
+      <div class="section-heading"><div><p class="section-kicker">Untouched 100-card test</p><h2 id="underdog-heading">Historical result</h2></div></div>
+      <p class="method-performance-copy" id="underdog-copy">Loading cutoff selection…</p>
+      <div class="method-metric-grid" id="underdog-metrics"></div>
+      <aside class="method-limitations"><strong id="underdog-outcome">Loading result…</strong><p id="underdog-limitations">Loading data caveat…</p></aside>
+    </section>
+
+    <section class="shell content-section" aria-labelledby="comparison-heading">
+      <div class="section-heading"><div><p class="section-kicker">All fixed rules</p><h2 id="comparison-heading">Cutoff comparison</h2></div></div>
+      <div class="ranking-table-wrap"><table class="ranking-table method-history-table"><thead><tr><th>Minimum underdog price</th><th>Calibration bets</th><th>Calibration ROI</th><th>Test bets</th><th>Test ROI</th><th>Test P/L</th></tr></thead><tbody id="underdog-comparison-body"></tbody></table></div>
+    </section>
+
+    <section class="shell content-section" aria-labelledby="underdog-bets-heading">
+      <div class="section-heading"><div><p class="section-kicker">Selected rule</p><h2 id="underdog-bets-heading">Every held-out paper bet</h2></div></div>
+      <div class="ranking-table-wrap method-history-wrap"><table class="ranking-table method-history-table"><thead><tr><th>Event</th><th>Underdog</th><th>Opening price</th><th>Outcome</th><th>Paper P/L</th></tr></thead><tbody id="underdog-bets-body"></tbody></table></div>
+      <button class="show-more" id="underdog-bets-more" type="button" hidden>Show more paper bets</button>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-layout"><span>Better Fight Intelligence</span><span>Historical paper analysis; not a betting recommendation.</span></div></footer>
+</body>
+</html>

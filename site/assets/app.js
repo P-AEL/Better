@@ -450,9 +450,68 @@ function renderMethodPerformance(data) {
   renderRows();
 }
 
+function signedUnits(value) {
+  if (value === null || value === undefined) return "--";
+  return `${value > 0 ? "+" : ""}${value.toFixed(2)}u`;
+}
+
+function renderUnderdog(data) {
+  const metrics = document.getElementById("underdog-metrics");
+  const comparisonBody = document.getElementById("underdog-comparison-body");
+  const betsBody = document.getElementById("underdog-bets-body");
+  const more = document.getElementById("underdog-bets-more");
+  if (!metrics || !comparisonBody || !betsBody || !more) return;
+  if (!data.available) {
+    metrics.innerHTML = '<div class="error-state">Historical underdog analysis is unavailable.</div>';
+    return;
+  }
+  const selected = data.selection;
+  const test = selected.test;
+  const calibration = selected.calibration;
+  setText("underdog-title", `Selected cutoff: +${selected.cutoff}`);
+  setText("underdog-copy", selected.selection_note);
+  setText("underdog-limitations", data.limitations);
+  metrics.innerHTML = [
+    ["Test cards", data.test_event_count],
+    ["Selected test bets", test.sample_count.toLocaleString()],
+    ["Test ROI", percent(test.roi, true)],
+    ["Test P/L", signedUnits(test.net_units)],
+    ["Test win rate", percent(test.win_rate)],
+  ].map(([label, value]) => `<div class="method-metric"><span>${label}</span><strong>${value}</strong></div>`).join("");
+  const outcome = calibration.roi > 0 && test.roi > 0
+    ? `The +${selected.cutoff} cutoff was profitable in both the calibration and held-out test periods.`
+    : `No selected cutoff showed a positive result in both the calibration and held-out test periods.`;
+  document.getElementById("underdog-outcome").textContent = outcome;
+  comparisonBody.innerHTML = data.cutoff_comparison.map((row) => `<tr class="${row.cutoff === selected.cutoff ? "selected-cutoff" : ""}">
+    <td><strong>+${row.cutoff}</strong>${row.cutoff === selected.cutoff ? " <span class=\"method-outcome method-correct\">Selected</span>" : ""}</td>
+    <td>${row.calibration.sample_count}</td><td class="${row.calibration.roi > 0 ? "positive" : "negative"}">${percent(row.calibration.roi, true)}</td>
+    <td>${row.test.sample_count}</td><td class="${row.test.roi > 0 ? "positive" : "negative"}">${percent(row.test.roi, true)}</td>
+    <td class="${row.test.net_units > 0 ? "positive" : "negative"}">${signedUnits(row.test.net_units)}</td>
+  </tr>`).join("");
+  let visible = 40;
+  const renderBets = () => {
+    const shown = data.test_bets.slice(0, visible);
+    betsBody.innerHTML = shown.map((bet) => `<tr>
+      <td><strong>${escapeHtml(bet.event_name)}</strong><br><span class="market-meta">${formatDate(bet.event_date)}</span></td>
+      <td><strong>${escapeHtml(bet.fighter)}</strong> vs ${escapeHtml(bet.opponent)}</td>
+      <td>+${bet.underdog_american}</td>
+      <td><span class="method-outcome ${bet.won ? "method-correct" : "method-miss"}">${bet.won ? "Won" : "Lost"}</span></td>
+      <td class="${bet.profit_units > 0 ? "positive" : "negative"}">${signedUnits(bet.profit_units)}</td>
+    </tr>`).join("");
+    more.hidden = shown.length >= data.test_bets.length;
+  };
+  more.addEventListener("click", () => { visible += 40; renderBets(); });
+  renderBets();
+}
+
 async function init() {
   try {
-    const url = document.body.dataset.page === "method" ? "data/method-predictions.json" : DATA_URL;
+    const page = document.body.dataset.page;
+    const url = page === "method"
+      ? "data/method-predictions.json"
+      : page === "underdogs"
+        ? "data/underdog-analysis.json"
+        : DATA_URL;
     const response = await fetch(url, { cache: "no-store" });
     if (!response.ok) throw new Error(`Data request failed: ${response.status}`);
     const data = await response.json();
@@ -461,8 +520,9 @@ async function init() {
     if (document.body.dataset.page === "performance") renderPerformance(data);
     if (document.body.dataset.page === "rankings") renderRankings(data);
     if (document.body.dataset.page === "method") renderMethod(data);
+    if (document.body.dataset.page === "underdogs") renderUnderdog(data);
   } catch (error) {
-    const target = document.getElementById("fight-list") || document.getElementById("performance-body") || document.getElementById("ranking-body") || document.getElementById("method-content");
+    const target = document.getElementById("fight-list") || document.getElementById("performance-body") || document.getElementById("ranking-body") || document.getElementById("method-content") || document.getElementById("underdog-metrics");
     if (target) target.innerHTML = `<div class="error-state">${escapeHtml(error.message)}</div>`;
   }
 }

@@ -1,0 +1,2601 @@
+{
+  "available": true,
+  "generated_at": "2026-09-24T07:03:40.292426+00:00",
+  "title": "Underdog price-cutoff paper analysis",
+  "definition": "One flat unit on the market underdog when its opening American price meets the cutoff. A win returns decimal odds minus one unit; a loss costs one unit.",
+  "limitations": "Historical paper analysis only. Opening prices are archived market records and their exact availability at a specific bookmaker or stake size cannot be verified from this dataset. A positive past ROI is not evidence of a future edge.",
+  "price_source": "BestFightOdds archived opening prices",
+  "test_event_count": 100,
+  "coverage": {
+    "all_priced_underdogs": 5302,
+    "development": 4363,
+    "calibration": 645,
+    "test": 294
+  },
+  "selection": {
+    "cutoff": 125,
+    "minimum_calibration_bets": 40,
+    "calibration": {
+      "cutoff": 125,
+      "sample_count": 542,
+      "wins": 170,
+      "losses": 372,
+      "win_rate": 0.31365313653136534,
+      "net_units": -78.45,
+      "roi": -0.14474169741697418
+    },
+    "test": {
+      "cutoff": 125,
+      "sample_count": 237,
+      "wins": 60,
+      "losses": 177,
+      "win_rate": 0.25316455696202533,
+      "net_units": -51.92,
+      "roi": -0.2190717299578059
+    },
+    "selection_note": "The cutoff was selected using calibration cards before the fixed 100-card test period; the test results were not used to choose it."
+  },
+  "cutoff_comparison": [
+    {
+      "cutoff": 100,
+      "calibration": {
+        "cutoff": 100,
+        "sample_count": 645,
+        "wins": 209,
+        "losses": 436,
+        "win_rate": 0.324031007751938,
+        "net_units": -98.77000000000001,
+        "roi": -0.15313178294573646
+      },
+      "test": {
+        "cutoff": 100,
+        "sample_count": 294,
+        "wins": 94,
+        "losses": 200,
+        "win_rate": 0.3197278911564626,
+        "net_units": -37.63,
+        "roi": -0.12799319727891156
+      }
+    },
+    {
+      "cutoff": 125,
+      "calibration": {
+        "cutoff": 125,
+        "sample_count": 542,
+        "wins": 170,
+        "losses": 372,
+        "win_rate": 0.31365313653136534,
+        "net_units": -78.45,
+        "roi": -0.14474169741697418
+      },
+      "test": {
+        "cutoff": 125,
+        "sample_count": 237,
+        "wins": 60,
+        "losses": 177,
+        "win_rate": 0.25316455696202533,
+        "net_units": -51.92,
+        "roi": -0.2190717299578059
+      }
+    },
+    {
+      "cutoff": 150,
+      "calibration": {
+        "cutoff": 150,
+        "sample_count": 388,
+        "wins": 108,
+        "losses": 280,
+        "win_rate": 0.27835051546391754,
+        "net_units": -69.57,
+        "roi": -0.1793041237113402
+      },
+      "test": {
+        "cutoff": 150,
+        "sample_count": 198,
+        "wins": 47,
+        "losses": 151,
+        "win_rate": 0.23737373737373738,
+        "net_units": -43.82,
+        "roi": -0.22131313131313132
+      }
+    },
+    {
+      "cutoff": 175,
+      "calibration": {
+        "cutoff": 175,
+        "sample_count": 263,
+        "wins": 62,
+        "losses": 201,
+        "win_rate": 0.23574144486692014,
+        "net_units": -63.540000000000006,
+        "roi": -0.24159695817490498
+      },
+      "test": {
+        "cutoff": 175,
+        "sample_count": 160,
+        "wins": 37,
+        "losses": 123,
+        "win_rate": 0.23125,
+        "net_units": -31.750000000000004,
+        "roi": -0.19843750000000002
+      }
+    },
+    {
+      "cutoff": 200,
+      "calibration": {
+        "cutoff": 200,
+        "sample_count": 199,
+        "wins": 32,
+        "losses": 167,
+        "win_rate": 0.16080402010050251,
+        "net_units": -85.05,
+        "roi": -0.4273869346733668
+      },
+      "test": {
+        "cutoff": 200,
+        "sample_count": 125,
+        "wins": 27,
+        "losses": 98,
+        "win_rate": 0.216,
+        "net_units": -25.060000000000002,
+        "roi": -0.20048000000000002
+      }
+    },
+    {
+      "cutoff": 250,
+      "calibration": {
+        "cutoff": 250,
+        "sample_count": 114,
+        "wins": 18,
+        "losses": 96,
+        "win_rate": 0.15789473684210525,
+        "net_units": -43.599999999999994,
+        "roi": -0.38245614035087716
+      },
+      "test": {
+        "cutoff": 250,
+        "sample_count": 71,
+        "wins": 12,
+        "losses": 59,
+        "win_rate": 0.16901408450704225,
+        "net_units": -19.810000000000002,
+        "roi": -0.2790140845070423
+      }
+    },
+    {
+      "cutoff": 300,
+      "calibration": {
+        "cutoff": 300,
+        "sample_count": 53,
+        "wins": 6,
+        "losses": 47,
+        "win_rate": 0.11320754716981132,
+        "net_units": -26.3,
+        "roi": -0.4962264150943396
+      },
+      "test": {
+        "cutoff": 300,
+        "sample_count": 45,
+        "wins": 6,
+        "losses": 39,
+        "win_rate": 0.13333333333333333,
+        "net_units": -15.190000000000001,
+        "roi": -0.3375555555555556
+      }
+    },
+    {
+      "cutoff": 400,
+      "calibration": {
+        "cutoff": 400,
+        "sample_count": 26,
+        "wins": 1,
+        "losses": 25,
+        "win_rate": 0.038461538461538464,
+        "net_units": -19.75,
+        "roi": -0.7596153846153846
+      },
+      "test": {
+        "cutoff": 400,
+        "sample_count": 13,
+        "wins": 2,
+        "losses": 11,
+        "win_rate": 0.15384615384615385,
+        "net_units": -0.9900000000000002,
+        "roi": -0.07615384615384617
+      }
+    },
+    {
+      "cutoff": 500,
+      "calibration": {
+        "cutoff": 500,
+        "sample_count": 19,
+        "wins": 1,
+        "losses": 18,
+        "win_rate": 0.05263157894736842,
+        "net_units": -12.75,
+        "roi": -0.6710526315789473
+      },
+      "test": {
+        "cutoff": 500,
+        "sample_count": 6,
+        "wins": 1,
+        "losses": 5,
+        "win_rate": 0.16666666666666666,
+        "net_units": 0.25,
+        "roi": 0.041666666666666664
+      }
+    }
+  ],
+  "test_bets": [
+    {
+      "event_name": "Noche UFC: Silva vs. Delgado",
+      "event_date": "2026-09-12",
+      "fighter": "Tim Elliott",
+      "opponent": "Edgar Chairez",
+      "underdog_american": 153,
+      "underdog_decimal": 2.53,
+      "won": true,
+      "profit_units": 1.53
+    },
+    {
+      "event_name": "Noche UFC: Silva vs. Delgado",
+      "event_date": "2026-09-12",
+      "fighter": "Rongzhu",
+      "opponent": "Rafa Garcia",
+      "underdog_american": 130,
+      "underdog_decimal": 2.3,
+      "won": true,
+      "profit_units": 1.3
+    },
+    {
+      "event_name": "Noche UFC: Silva vs. Delgado",
+      "event_date": "2026-09-12",
+      "fighter": "Muslim Salikhov",
+      "opponent": "Ignacio Bahamondes",
+      "underdog_american": 245,
+      "underdog_decimal": 3.45,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "Noche UFC: Silva vs. Delgado",
+      "event_date": "2026-09-12",
+      "fighter": "Joseph Morales",
+      "opponent": "Brandon Moreno",
+      "underdog_american": 149,
+      "underdog_decimal": 2.49,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "Noche UFC: Silva vs. Delgado",
+      "event_date": "2026-09-12",
+      "fighter": "Jose Delgado",
+      "opponent": "Jean Silva",
+      "underdog_american": 295,
+      "underdog_decimal": 3.95,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "Noche UFC: Silva vs. Delgado",
+      "event_date": "2026-09-12",
+      "fighter": "JJ Aldrich",
+      "opponent": "Regina Tarin",
+      "underdog_american": 245,
+      "underdog_decimal": 3.45,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "Noche UFC: Silva vs. Delgado",
+      "event_date": "2026-09-12",
+      "fighter": "Drakkar Klose",
+      "opponent": "Tommy Gantt",
+      "underdog_american": 383,
+      "underdog_decimal": 4.83,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "Noche UFC: Silva vs. Delgado",
+      "event_date": "2026-09-12",
+      "fighter": "Djorden Santos",
+      "opponent": "Yousri Belgaroui",
+      "underdog_american": 446,
+      "underdog_decimal": 5.46,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "Noche UFC: Silva vs. Delgado",
+      "event_date": "2026-09-12",
+      "fighter": "Dan Ige",
+      "opponent": "David Martinez",
+      "underdog_american": 230,
+      "underdog_decimal": 3.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "Noche UFC: Silva vs. Delgado",
+      "event_date": "2026-09-12",
+      "fighter": "Alexa Grasso",
+      "opponent": "Manon Fiorot",
+      "underdog_american": 184,
+      "underdog_decimal": 2.84,
+      "won": true,
+      "profit_units": 1.84
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05",
+      "fighter": "Trevor Peek",
+      "opponent": "Kurtis Campbell",
+      "underdog_american": 285,
+      "underdog_decimal": 3.85,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05",
+      "fighter": "Ryan Spann",
+      "opponent": "Mario Pinto",
+      "underdog_american": 189,
+      "underdog_decimal": 2.89,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05",
+      "fighter": "Punahele Soriano",
+      "opponent": "Daniil Donchenko",
+      "underdog_american": 195,
+      "underdog_decimal": 2.95,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05",
+      "fighter": "Pavel Andrusca",
+      "opponent": "Nathaniel Wood",
+      "underdog_american": 245,
+      "underdog_decimal": 3.45,
+      "won": true,
+      "profit_units": 2.45
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05",
+      "fighter": "Nursulton Ruziboev",
+      "opponent": "Michael Page",
+      "underdog_american": 145,
+      "underdog_decimal": 2.45,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05",
+      "fighter": "Muhammad Naimov",
+      "opponent": "Losene Keita",
+      "underdog_american": 207,
+      "underdog_decimal": 3.07,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05",
+      "fighter": "Morgan Charriere",
+      "opponent": "Felipe Lima",
+      "underdog_american": 161,
+      "underdog_decimal": 2.61,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05",
+      "fighter": "Modestas Bukauskas",
+      "opponent": "Oumar Sy",
+      "underdog_american": 167,
+      "underdog_decimal": 2.67,
+      "won": true,
+      "profit_units": 1.67
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05",
+      "fighter": "Matthieu Duclos",
+      "opponent": "Luis Felipe Dias",
+      "underdog_american": 245,
+      "underdog_decimal": 3.45,
+      "won": true,
+      "profit_units": 2.45
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05",
+      "fighter": "Klaudia Sygula",
+      "opponent": "Nora Cornolle",
+      "underdog_american": 207,
+      "underdog_decimal": 3.07,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05",
+      "fighter": "Fabia Sintes",
+      "opponent": "Michael Aljarouj",
+      "underdog_american": 192,
+      "underdog_decimal": 2.92,
+      "won": true,
+      "profit_units": 1.92
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05",
+      "fighter": "Delphine Benouaich",
+      "opponent": "Sofia Montenegro",
+      "underdog_american": 130,
+      "underdog_decimal": 2.3,
+      "won": true,
+      "profit_units": 1.3
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05",
+      "fighter": "Dan Hooker",
+      "opponent": "Salahdine Parnasse",
+      "underdog_american": 300,
+      "underdog_decimal": 4.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hooker vs. Parnasse",
+      "event_date": "2026-09-05",
+      "fighter": "Axel Sola",
+      "opponent": "Fares Ziam",
+      "underdog_american": 153,
+      "underdog_decimal": 2.53,
+      "won": true,
+      "profit_units": 1.53
+    },
+    {
+      "event_name": "UFC Fight Night: Nurmagomedov vs. Song",
+      "event_date": "2026-08-29",
+      "fighter": "Xiong Jingnan",
+      "opponent": "Julia Polastri",
+      "underdog_american": 126,
+      "underdog_decimal": 2.26,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Nurmagomedov vs. Song",
+      "event_date": "2026-08-29",
+      "fighter": "Song Yadong",
+      "opponent": "Umar Nurmagomedov",
+      "underdog_american": 525,
+      "underdog_decimal": 6.25,
+      "won": true,
+      "profit_units": 5.25
+    },
+    {
+      "event_name": "UFC Fight Night: Nurmagomedov vs. Song",
+      "event_date": "2026-08-29",
+      "fighter": "Nilson Rojas",
+      "opponent": "Bilal Hasan",
+      "underdog_american": 375,
+      "underdog_decimal": 4.75,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Nurmagomedov vs. Song",
+      "event_date": "2026-08-29",
+      "fighter": "Namsrai Batbayar",
+      "opponent": "Andre Lima",
+      "underdog_american": 246,
+      "underdog_decimal": 3.46,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Nurmagomedov vs. Song",
+      "event_date": "2026-08-29",
+      "fighter": "Kevin Borjas",
+      "opponent": "Rei Tsuruya",
+      "underdog_american": 385,
+      "underdog_decimal": 4.85,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Nurmagomedov vs. Song",
+      "event_date": "2026-08-29",
+      "fighter": "Hector Santiago",
+      "opponent": "Lawrence Lui",
+      "underdog_american": 250,
+      "underdog_decimal": 3.5,
+      "won": true,
+      "profit_units": 2.5
+    },
+    {
+      "event_name": "UFC Fight Night: Nurmagomedov vs. Song",
+      "event_date": "2026-08-29",
+      "fighter": "Francesco Nuzzi",
+      "opponent": "Xiao Long",
+      "underdog_american": 250,
+      "underdog_decimal": 3.5,
+      "won": true,
+      "profit_units": 2.5
+    },
+    {
+      "event_name": "UFC Fight Night: Nurmagomedov vs. Song",
+      "event_date": "2026-08-29",
+      "fighter": "Aoriqileng",
+      "opponent": "Kai Asakura",
+      "underdog_american": 250,
+      "underdog_decimal": 3.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 330: Makhachev vs. Machado Garry",
+      "event_date": "2026-08-15",
+      "fighter": "Rafael Tobias",
+      "opponent": "Lucas Fernando",
+      "underdog_american": 177,
+      "underdog_decimal": 2.77,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 330: Makhachev vs. Machado Garry",
+      "event_date": "2026-08-15",
+      "fighter": "Kaue Fernandes",
+      "opponent": "Jalin Turner",
+      "underdog_american": 174,
+      "underdog_decimal": 2.74,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 330: Makhachev vs. Machado Garry",
+      "event_date": "2026-08-15",
+      "fighter": "Jeremiah Wells",
+      "opponent": "Myktybek Orolbai",
+      "underdog_american": 263,
+      "underdog_decimal": 3.63,
+      "won": true,
+      "profit_units": 2.63
+    },
+    {
+      "event_name": "UFC 330: Makhachev vs. Machado Garry",
+      "event_date": "2026-08-15",
+      "fighter": "Ian Machado Garry",
+      "opponent": "Islam Makhachev",
+      "underdog_american": 330,
+      "underdog_decimal": 4.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 330: Makhachev vs. Machado Garry",
+      "event_date": "2026-08-15",
+      "fighter": "Gillian Robertson",
+      "opponent": "Mackenzie Dern",
+      "underdog_american": 181,
+      "underdog_decimal": 2.81,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 330: Makhachev vs. Machado Garry",
+      "event_date": "2026-08-15",
+      "fighter": "Eric McConico",
+      "opponent": "Donte Johnson",
+      "underdog_american": 189,
+      "underdog_decimal": 2.89,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 330: Makhachev vs. Machado Garry",
+      "event_date": "2026-08-15",
+      "fighter": "Edson Barboza",
+      "opponent": "Esteban Ribovics",
+      "underdog_american": 245,
+      "underdog_decimal": 3.45,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 330: Makhachev vs. Machado Garry",
+      "event_date": "2026-08-15",
+      "fighter": "Dustin Stoltzfus",
+      "opponent": "Mansur Abdul-Malik",
+      "underdog_american": 476,
+      "underdog_decimal": 5.76,
+      "won": true,
+      "profit_units": 4.76
+    },
+    {
+      "event_name": "UFC 330: Makhachev vs. Machado Garry",
+      "event_date": "2026-08-15",
+      "fighter": "Chidi Njokuani",
+      "opponent": "Joel Alvarez",
+      "underdog_american": 245,
+      "underdog_decimal": 3.45,
+      "won": true,
+      "profit_units": 2.45
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. De Ridder",
+      "event_date": "2025-07-26",
+      "fighter": "Tabatha Ricci",
+      "opponent": "Amanda Ribas",
+      "underdog_american": 148,
+      "underdog_decimal": 2.48,
+      "won": true,
+      "profit_units": 1.48
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. De Ridder",
+      "event_date": "2025-07-26",
+      "fighter": "Reinier de Ridder",
+      "opponent": "Robert Whittaker",
+      "underdog_american": 152,
+      "underdog_decimal": 2.52,
+      "won": true,
+      "profit_units": 1.52
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. De Ridder",
+      "event_date": "2025-07-26",
+      "fighter": "Mohammad Yahya",
+      "opponent": "Steven Nguyen",
+      "underdog_american": 295,
+      "underdog_decimal": 3.95,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. De Ridder",
+      "event_date": "2025-07-26",
+      "fighter": "Martin Buday",
+      "opponent": "Marcus Buchecha",
+      "underdog_american": 230,
+      "underdog_decimal": 3.3,
+      "won": true,
+      "profit_units": 2.3
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. De Ridder",
+      "event_date": "2025-07-26",
+      "fighter": "Marcus McGhee",
+      "opponent": "Petr Yan",
+      "underdog_american": 285,
+      "underdog_decimal": 3.85,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. De Ridder",
+      "event_date": "2025-07-26",
+      "fighter": "Davey Grant",
+      "opponent": "Da'Mon Blackshear",
+      "underdog_american": 275,
+      "underdog_decimal": 3.75,
+      "won": true,
+      "profit_units": 2.75
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. De Ridder",
+      "event_date": "2025-07-26",
+      "fighter": "Bogdan Guskov",
+      "opponent": "Nikita Krylov",
+      "underdog_american": 160,
+      "underdog_decimal": 2.6,
+      "won": true,
+      "profit_units": 1.6
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. De Ridder",
+      "event_date": "2025-07-26",
+      "fighter": "Billy Elekana",
+      "opponent": "Ibo Aslan",
+      "underdog_american": 210,
+      "underdog_decimal": 3.1,
+      "won": true,
+      "profit_units": 2.1
+    },
+    {
+      "event_name": "UFC Fight Night: Lewis vs. Teixeira",
+      "event_date": "2025-07-12",
+      "fighter": "Valter Walker",
+      "opponent": "Kennedy Nzechukwu",
+      "underdog_american": 180,
+      "underdog_decimal": 2.8,
+      "won": true,
+      "profit_units": 1.8
+    },
+    {
+      "event_name": "UFC Fight Night: Lewis vs. Teixeira",
+      "event_date": "2025-07-12",
+      "fighter": "Mitch Ramirez",
+      "opponent": "Mike Davis",
+      "underdog_american": 600,
+      "underdog_decimal": 7.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Lewis vs. Teixeira",
+      "event_date": "2025-07-12",
+      "fighter": "Melissa Martinez",
+      "opponent": "Fatima Kline",
+      "underdog_american": 450,
+      "underdog_decimal": 5.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Lewis vs. Teixeira",
+      "event_date": "2025-07-12",
+      "fighter": "Max Griffin",
+      "opponent": "Chris Curtis",
+      "underdog_american": 200,
+      "underdog_decimal": 3.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Lewis vs. Teixeira",
+      "event_date": "2025-07-12",
+      "fighter": "Lauren Murphy",
+      "opponent": "Eduarda Moura",
+      "underdog_american": 240,
+      "underdog_decimal": 3.4,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 317: Topuria vs. Oliveira",
+      "event_date": "2025-06-28",
+      "fighter": "Niko Price",
+      "opponent": "Jacobe Smith",
+      "underdog_american": 950,
+      "underdog_decimal": 10.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 317: Topuria vs. Oliveira",
+      "event_date": "2025-06-28",
+      "fighter": "Alvin Hines",
+      "opponent": "Jhonata Diniz",
+      "underdog_american": 190,
+      "underdog_decimal": 2.9,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "event_date": "2025-06-21",
+      "fighter": "Tofiq Musayev",
+      "opponent": "Myktybek Orolbai",
+      "underdog_american": 125,
+      "underdog_decimal": 2.25,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "event_date": "2025-06-21",
+      "fighter": "Seokhyeon Ko",
+      "opponent": "Oban Elliott",
+      "underdog_american": 250,
+      "underdog_decimal": 3.5,
+      "won": true,
+      "profit_units": 2.5
+    },
+    {
+      "event_name": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "event_date": "2025-06-21",
+      "fighter": "Rizvan Kuniev",
+      "opponent": "Curtis Blaydes",
+      "underdog_american": 175,
+      "underdog_decimal": 2.75,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "event_date": "2025-06-21",
+      "fighter": "Nikolas Motta",
+      "opponent": "Nazim Sadykhov",
+      "underdog_american": 300,
+      "underdog_decimal": 4.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "event_date": "2025-06-21",
+      "fighter": "Klaudia Sygula",
+      "opponent": "Irina Alekseeva",
+      "underdog_american": 140,
+      "underdog_decimal": 2.4,
+      "won": true,
+      "profit_units": 1.4
+    },
+    {
+      "event_name": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "event_date": "2025-06-21",
+      "fighter": "Daria Zhelezniakova",
+      "opponent": "Melissa Mullins",
+      "underdog_american": 175,
+      "underdog_decimal": 2.75,
+      "won": true,
+      "profit_units": 1.75
+    },
+    {
+      "event_name": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "event_date": "2025-06-21",
+      "fighter": "Bogdan Grad",
+      "opponent": "Muhammad Naimov",
+      "underdog_american": 180,
+      "underdog_decimal": 2.8,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "event_date": "2025-06-21",
+      "fighter": "Azat Maksum",
+      "opponent": "Tagir Ulanbekov",
+      "underdog_american": 230,
+      "underdog_decimal": 3.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Usman vs. Buckley",
+      "event_date": "2025-06-14",
+      "fighter": "Vanessa Demopoulos",
+      "opponent": "Jamey-Lyn Horth",
+      "underdog_american": 310,
+      "underdog_decimal": 4.1,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "event_date": "2025-06-07",
+      "fighter": "Yanal Ashmouz",
+      "opponent": "Quillan Salkilld",
+      "underdog_american": 230,
+      "underdog_decimal": 3.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "event_date": "2025-06-07",
+      "fighter": "Mark Choinski",
+      "opponent": "MarQuel Mederos",
+      "underdog_american": 175,
+      "underdog_decimal": 2.75,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "event_date": "2025-06-07",
+      "fighter": "Ariane da Silva",
+      "opponent": "Wang Cong",
+      "underdog_american": 280,
+      "underdog_decimal": 3.8,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Blanchfield vs. Barber",
+      "event_date": "2025-05-31",
+      "fighter": "Kurt Holobaugh",
+      "opponent": "Jordan Leavitt",
+      "underdog_american": 132,
+      "underdog_decimal": 2.32,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Blanchfield vs. Barber",
+      "event_date": "2025-05-31",
+      "fighter": "Alice Ardelean",
+      "opponent": "Rayanne dos Santos",
+      "underdog_american": 240,
+      "underdog_decimal": 3.4,
+      "won": true,
+      "profit_units": 2.4
+    },
+    {
+      "event_name": "UFC Fight Night: Burns vs. Morales",
+      "event_date": "2025-05-17",
+      "fighter": "Luana Pinheiro",
+      "opponent": "Tecia Pennington",
+      "underdog_american": 310,
+      "underdog_decimal": 4.1,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Burns vs. Morales",
+      "event_date": "2025-05-17",
+      "fighter": "Julian Erosa",
+      "opponent": "Melquizael Costa",
+      "underdog_american": 170,
+      "underdog_decimal": 2.7,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Burns vs. Morales",
+      "event_date": "2025-05-17",
+      "fighter": "Gabe Green",
+      "opponent": "Matheus Camilo",
+      "underdog_american": 143,
+      "underdog_decimal": 2.43,
+      "won": true,
+      "profit_units": 1.43
+    },
+    {
+      "event_name": "UFC Fight Night: Burns vs. Morales",
+      "event_date": "2025-05-17",
+      "fighter": "Elise Reed",
+      "opponent": "Denise Gomes",
+      "underdog_american": 350,
+      "underdog_decimal": 4.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Burns vs. Morales",
+      "event_date": "2025-05-17",
+      "fighter": "Dustin Stoltzfus",
+      "opponent": "Nursulton Ruziboev",
+      "underdog_american": 225,
+      "underdog_decimal": 3.25,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 315: Muhammad vs. Della Maddalena",
+      "event_date": "2025-05-10",
+      "fighter": "Brad Katona",
+      "opponent": "Bekzat Almakhan",
+      "underdog_american": 140,
+      "underdog_decimal": 2.4,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Sandhagen vs. Figueiredo",
+      "event_date": "2025-05-03",
+      "fighter": "Juliana Miller",
+      "opponent": "Ivana Petrovic",
+      "underdog_american": 250,
+      "underdog_decimal": 3.5,
+      "won": true,
+      "profit_units": 2.5
+    },
+    {
+      "event_name": "UFC Fight Night: Sandhagen vs. Figueiredo",
+      "event_date": "2025-05-03",
+      "fighter": "Don'Tale Mayes",
+      "opponent": "Thomas Petersen",
+      "underdog_american": 240,
+      "underdog_decimal": 3.4,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Machado Garry vs. Prates",
+      "event_date": "2025-04-26",
+      "fighter": "Polyana Viana",
+      "opponent": "Jaqueline Amorim",
+      "underdog_american": 240,
+      "underdog_decimal": 3.4,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Machado Garry vs. Prates",
+      "event_date": "2025-04-26",
+      "fighter": "Chelsea Chandler",
+      "opponent": "Joselyne Edwards",
+      "underdog_american": 150,
+      "underdog_decimal": 2.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 314: Volkanovski vs. Lopes",
+      "event_date": "2025-04-12",
+      "fighter": "Tresean Gore",
+      "opponent": "Marco Tulio",
+      "underdog_american": 225,
+      "underdog_decimal": 3.25,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 314: Volkanovski vs. Lopes",
+      "event_date": "2025-04-12",
+      "fighter": "Sedriques Dumas",
+      "opponent": "Michal Oleksiejczuk",
+      "underdog_american": 130,
+      "underdog_decimal": 2.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 314: Volkanovski vs. Lopes",
+      "event_date": "2025-04-12",
+      "fighter": "Hailey Cowan",
+      "opponent": "Nora Cornolle",
+      "underdog_american": 130,
+      "underdog_decimal": 2.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Emmett vs. Murphy",
+      "event_date": "2025-04-05",
+      "fighter": "Uran Satybaldiev",
+      "opponent": "Martin Buday",
+      "underdog_american": 126,
+      "underdog_decimal": 2.26,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Emmett vs. Murphy",
+      "event_date": "2025-04-05",
+      "fighter": "Istela Nunes",
+      "opponent": "Loma Lookboonmee",
+      "underdog_american": 350,
+      "underdog_decimal": 4.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moreno vs. Erceg",
+      "event_date": "2025-03-29",
+      "fighter": "Vinc Pichel",
+      "opponent": "Rafa Garcia",
+      "underdog_american": 275,
+      "underdog_decimal": 3.75,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moreno vs. Erceg",
+      "event_date": "2025-03-29",
+      "fighter": "Saimon Oliveira",
+      "opponent": "David Martinez",
+      "underdog_american": 275,
+      "underdog_decimal": 3.75,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moreno vs. Erceg",
+      "event_date": "2025-03-29",
+      "fighter": "Melquizael Costa",
+      "opponent": "Christian Rodriguez",
+      "underdog_american": 130,
+      "underdog_decimal": 2.3,
+      "won": true,
+      "profit_units": 1.3
+    },
+    {
+      "event_name": "UFC Fight Night: Moreno vs. Erceg",
+      "event_date": "2025-03-29",
+      "fighter": "Julia Polastri",
+      "opponent": "Loopy Godinez",
+      "underdog_american": 140,
+      "underdog_decimal": 2.4,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moreno vs. Erceg",
+      "event_date": "2025-03-29",
+      "fighter": "Jose Daniel Medina",
+      "opponent": "Ateba Gautier",
+      "underdog_american": 350,
+      "underdog_decimal": 4.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moreno vs. Erceg",
+      "event_date": "2025-03-29",
+      "fighter": "Gabriel Miranda",
+      "opponent": "Jamall Emmers",
+      "underdog_american": 180,
+      "underdog_decimal": 2.8,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moreno vs. Erceg",
+      "event_date": "2025-03-29",
+      "fighter": "Austin Hubbard",
+      "opponent": "MarQuel Mederos",
+      "underdog_american": 160,
+      "underdog_decimal": 2.6,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Edwards vs. Brady",
+      "event_date": "2025-03-22",
+      "fighter": "Nathaniel Wood",
+      "opponent": "Morgan Charriere",
+      "underdog_american": 140,
+      "underdog_decimal": 2.4,
+      "won": true,
+      "profit_units": 1.4
+    },
+    {
+      "event_name": "UFC Fight Night: Edwards vs. Brady",
+      "event_date": "2025-03-22",
+      "fighter": "Molly McCann",
+      "opponent": "Alexia Thainara",
+      "underdog_american": 150,
+      "underdog_decimal": 2.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Edwards vs. Brady",
+      "event_date": "2025-03-22",
+      "fighter": "Jan Blachowicz",
+      "opponent": "Carlos Ulberg",
+      "underdog_american": 164,
+      "underdog_decimal": 2.64,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Edwards vs. Brady",
+      "event_date": "2025-03-22",
+      "fighter": "Felipe dos Santos",
+      "opponent": "Lone'er Kavanagh",
+      "underdog_american": 280,
+      "underdog_decimal": 3.8,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Edwards vs. Brady",
+      "event_date": "2025-03-22",
+      "fighter": "Chris Duncan",
+      "opponent": "Jordan Vucenic",
+      "underdog_american": 200,
+      "underdog_decimal": 3.0,
+      "won": true,
+      "profit_units": 2.0
+    },
+    {
+      "event_name": "UFC Fight Night: Edwards vs. Brady",
+      "event_date": "2025-03-22",
+      "fighter": "Caolan Loughran",
+      "opponent": "Nathan Fletcher",
+      "underdog_american": 143,
+      "underdog_decimal": 2.43,
+      "won": true,
+      "profit_units": 1.43
+    },
+    {
+      "event_name": "UFC Fight Night: Edwards vs. Brady",
+      "event_date": "2025-03-22",
+      "fighter": "Andrey Pulyaev",
+      "opponent": "Christian Leroy Duncan",
+      "underdog_american": 350,
+      "underdog_decimal": 4.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "event_date": "2025-03-15",
+      "fighter": "Yuneisy Duben",
+      "opponent": "Carli Judice",
+      "underdog_american": 400,
+      "underdog_decimal": 5.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "event_date": "2025-03-15",
+      "fighter": "Sam Hughes",
+      "opponent": "Stephanie Luciano",
+      "underdog_american": 215,
+      "underdog_decimal": 3.15,
+      "won": true,
+      "profit_units": 2.15
+    },
+    {
+      "event_name": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "event_date": "2025-03-15",
+      "fighter": "Priscila Cachoeira",
+      "opponent": "Josiane Nunes",
+      "underdog_american": 185,
+      "underdog_decimal": 2.85,
+      "won": true,
+      "profit_units": 1.85
+    },
+    {
+      "event_name": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "event_date": "2025-03-15",
+      "fighter": "Daniel Barez",
+      "opponent": "Andre Lima",
+      "underdog_american": 250,
+      "underdog_decimal": 3.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "event_date": "2025-03-15",
+      "fighter": "Carlos Vera",
+      "opponent": "Josias Musasa",
+      "underdog_american": 380,
+      "underdog_decimal": 4.8,
+      "won": true,
+      "profit_units": 3.8
+    },
+    {
+      "event_name": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "event_date": "2025-03-15",
+      "fighter": "Brendson Ribeiro",
+      "opponent": "Diyar Nurgozhay",
+      "underdog_american": 150,
+      "underdog_decimal": 2.5,
+      "won": true,
+      "profit_units": 1.5
+    },
+    {
+      "event_name": "UFC 313: Pereira vs. Ankalaev",
+      "event_date": "2025-03-08",
+      "fighter": "Ozzy Diaz",
+      "opponent": "Djorden Santos",
+      "underdog_american": 145,
+      "underdog_decimal": 2.45,
+      "won": true,
+      "profit_units": 1.45
+    },
+    {
+      "event_name": "UFC Fight Night: Kape vs. Almabayev",
+      "event_date": "2025-03-01",
+      "fighter": "Ricardo Ramos",
+      "opponent": "Chepe Mariscal",
+      "underdog_american": 310,
+      "underdog_decimal": 4.1,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Kape vs. Almabayev",
+      "event_date": "2025-03-01",
+      "fighter": "Lucas Almeida",
+      "opponent": "Danny Silva",
+      "underdog_american": 150,
+      "underdog_decimal": 2.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Kape vs. Almabayev",
+      "event_date": "2025-03-01",
+      "fighter": "Austen Lane",
+      "opponent": "Mario Pinto",
+      "underdog_american": 265,
+      "underdog_decimal": 3.65,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Kape vs. Almabayev",
+      "event_date": "2025-03-01",
+      "fighter": "Andrea Lee",
+      "opponent": "JJ Aldrich",
+      "underdog_american": 150,
+      "underdog_decimal": 2.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Cejudo vs. Song",
+      "event_date": "2025-02-22",
+      "fighter": "Eric McConico",
+      "opponent": "Nursulton Ruziboev",
+      "underdog_american": 225,
+      "underdog_decimal": 3.25,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "event_date": "2025-02-15",
+      "fighter": "Vince Morales",
+      "opponent": "Elijah Smith",
+      "underdog_american": 190,
+      "underdog_decimal": 2.9,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "event_date": "2025-02-15",
+      "fighter": "Khaos Williams",
+      "opponent": "Gabriel Bonfim",
+      "underdog_american": 164,
+      "underdog_decimal": 2.64,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "event_date": "2025-02-15",
+      "fighter": "Julia Avila",
+      "opponent": "Jacqueline Cavalcanti",
+      "underdog_american": 300,
+      "underdog_decimal": 4.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "event_date": "2025-02-15",
+      "fighter": "Jesus Aguilar",
+      "opponent": "Rafael Estevam",
+      "underdog_american": 250,
+      "underdog_decimal": 3.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "event_date": "2025-02-15",
+      "fighter": "Don'Tale Mayes",
+      "opponent": "Valter Walker",
+      "underdog_american": 150,
+      "underdog_decimal": 2.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "event_date": "2025-02-15",
+      "fighter": "Connor Matthews",
+      "opponent": "Jose Delgado",
+      "underdog_american": 142,
+      "underdog_decimal": 2.42,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 312: Du Plessis vs. Strickland 2",
+      "event_date": "2025-02-08",
+      "fighter": "Anshul Jubli",
+      "opponent": "Quillan Salkilld",
+      "underdog_american": 320,
+      "underdog_decimal": 4.2,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Adesanya vs. Imavov",
+      "event_date": "2025-02-01",
+      "fighter": "Vinicius Oliveira",
+      "opponent": "Said Nurmagomedov",
+      "underdog_american": 225,
+      "underdog_decimal": 3.25,
+      "won": true,
+      "profit_units": 2.25
+    },
+    {
+      "event_name": "UFC Fight Night: Adesanya vs. Imavov",
+      "event_date": "2025-02-01",
+      "fighter": "Thomas Petersen",
+      "opponent": "Shamil Gaziev",
+      "underdog_american": 295,
+      "underdog_decimal": 3.95,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Adesanya vs. Imavov",
+      "event_date": "2025-02-01",
+      "fighter": "Nassourdine Imavov",
+      "opponent": "Israel Adesanya",
+      "underdog_american": 164,
+      "underdog_decimal": 2.64,
+      "won": true,
+      "profit_units": 1.64
+    },
+    {
+      "event_name": "UFC Fight Night: Adesanya vs. Imavov",
+      "event_date": "2025-02-01",
+      "fighter": "Kaan Ofli",
+      "opponent": "Muhammad Naimov",
+      "underdog_american": 164,
+      "underdog_decimal": 2.64,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Adesanya vs. Imavov",
+      "event_date": "2025-02-01",
+      "fighter": "Jairzinho Rozenstruik",
+      "opponent": "Sergei Pavlovich",
+      "underdog_american": 160,
+      "underdog_decimal": 2.6,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Adesanya vs. Imavov",
+      "event_date": "2025-02-01",
+      "fighter": "Fares Ziam",
+      "opponent": "Mike Davis",
+      "underdog_american": 200,
+      "underdog_decimal": 3.0,
+      "won": true,
+      "profit_units": 2.0
+    },
+    {
+      "event_name": "UFC Fight Night: Adesanya vs. Imavov",
+      "event_date": "2025-02-01",
+      "fighter": "Damir Hadzovic",
+      "opponent": "Terrance McKinney",
+      "underdog_american": 350,
+      "underdog_decimal": 4.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 311: Makhachev vs. Moicano",
+      "event_date": "2025-01-18",
+      "fighter": "Ricky Turcios",
+      "opponent": "Benardo Sopaj",
+      "underdog_american": 240,
+      "underdog_decimal": 3.4,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 311: Makhachev vs. Moicano",
+      "event_date": "2025-01-18",
+      "fighter": "Clayton Carpenter",
+      "opponent": "Tagir Ulanbekov",
+      "underdog_american": 190,
+      "underdog_decimal": 2.9,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Dern vs. Ribas 2",
+      "event_date": "2025-01-11",
+      "fighter": "Trey Ogden",
+      "opponent": "Thiago Moises",
+      "underdog_american": 140,
+      "underdog_decimal": 2.4,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Dern vs. Ribas 2",
+      "event_date": "2025-01-11",
+      "fighter": "Preston Parsons",
+      "opponent": "Jacobe Smith",
+      "underdog_american": 280,
+      "underdog_decimal": 3.8,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Dern vs. Ribas 2",
+      "event_date": "2025-01-11",
+      "fighter": "Nicolle Caliari",
+      "opponent": "Ernesta Kareckaite",
+      "underdog_american": 160,
+      "underdog_decimal": 2.6,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Dern vs. Ribas 2",
+      "event_date": "2025-01-11",
+      "fighter": "Joe Solecki",
+      "opponent": "Nurullo Aliev",
+      "underdog_american": 330,
+      "underdog_decimal": 4.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Dern vs. Ribas 2",
+      "event_date": "2025-01-11",
+      "fighter": "Felipe Bunes",
+      "opponent": "Jose Johnson",
+      "underdog_american": 175,
+      "underdog_decimal": 2.75,
+      "won": true,
+      "profit_units": 1.75
+    },
+    {
+      "event_name": "UFC Fight Night: Yan vs. Figueiredo",
+      "event_date": "2024-11-23",
+      "fighter": "Volkan Oezdemir",
+      "opponent": "Carlos Ulberg",
+      "underdog_american": 205,
+      "underdog_decimal": 3.05,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Yan vs. Figueiredo",
+      "event_date": "2024-11-23",
+      "fighter": "Shi Ming",
+      "opponent": "Feng Xiaocan",
+      "underdog_american": 240,
+      "underdog_decimal": 3.4,
+      "won": true,
+      "profit_units": 2.4
+    },
+    {
+      "event_name": "UFC Fight Night: Yan vs. Figueiredo",
+      "event_date": "2024-11-23",
+      "fighter": "Ozzy Diaz",
+      "opponent": "Zhang Mingyang",
+      "underdog_american": 225,
+      "underdog_decimal": 3.25,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Yan vs. Figueiredo",
+      "event_date": "2024-11-23",
+      "fighter": "Jose Ochoa",
+      "opponent": "Lone'er Kavanagh",
+      "underdog_american": 275,
+      "underdog_decimal": 3.75,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Yan vs. Figueiredo",
+      "event_date": "2024-11-23",
+      "fighter": "Gabriella Fernandes",
+      "opponent": "Wang Cong",
+      "underdog_american": 350,
+      "underdog_decimal": 4.5,
+      "won": true,
+      "profit_units": 3.5
+    },
+    {
+      "event_name": "UFC Fight Night: Yan vs. Figueiredo",
+      "event_date": "2024-11-23",
+      "fighter": "Deiveson Figueiredo",
+      "opponent": "Petr Yan",
+      "underdog_american": 196,
+      "underdog_decimal": 2.96,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Magny vs. Prates",
+      "event_date": "2024-11-09",
+      "fighter": "Matthew Semelsberger",
+      "opponent": "Charles Radtke",
+      "underdog_american": 155,
+      "underdog_decimal": 2.55,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Magny vs. Prates",
+      "event_date": "2024-11-09",
+      "fighter": "Klaudia Sygula",
+      "opponent": "Melissa Mullins",
+      "underdog_american": 195,
+      "underdog_decimal": 2.95,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Magny vs. Prates",
+      "event_date": "2024-11-09",
+      "fighter": "Karolina Kowalkiewicz",
+      "opponent": "Denise Gomes",
+      "underdog_american": 320,
+      "underdog_decimal": 4.2,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Magny vs. Prates",
+      "event_date": "2024-11-09",
+      "fighter": "Cody Stamann",
+      "opponent": "Da'Mon Blackshear",
+      "underdog_american": 190,
+      "underdog_decimal": 2.9,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Magny vs. Prates",
+      "event_date": "2024-11-09",
+      "fighter": "Antonio Trocoli",
+      "opponent": "Tresean Gore",
+      "underdog_american": 150,
+      "underdog_decimal": 2.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moreno vs. Albazi",
+      "event_date": "2024-11-02",
+      "fighter": "Jack Shore",
+      "opponent": "Youssef Zalal",
+      "underdog_american": 200,
+      "underdog_decimal": 3.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moreno vs. Albazi",
+      "event_date": "2024-11-02",
+      "fighter": "Garrett Armfield",
+      "opponent": "Serhiy Sidey",
+      "underdog_american": 140,
+      "underdog_decimal": 2.4,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 308: Topuria vs. Holloway",
+      "event_date": "2024-10-26",
+      "fighter": "Victor Hugo",
+      "opponent": "Farid Basharat",
+      "underdog_american": 225,
+      "underdog_decimal": 3.25,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 308: Topuria vs. Holloway",
+      "event_date": "2024-10-26",
+      "fighter": "Robert Whittaker",
+      "opponent": "Khamzat Chimaev",
+      "underdog_american": 155,
+      "underdog_decimal": 2.55,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 308: Topuria vs. Holloway",
+      "event_date": "2024-10-26",
+      "fighter": "Rafael Dos Anjos",
+      "opponent": "Geoff Neal",
+      "underdog_american": 142,
+      "underdog_decimal": 2.42,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 308: Topuria vs. Holloway",
+      "event_date": "2024-10-26",
+      "fighter": "Max Holloway",
+      "opponent": "Ilia Topuria",
+      "underdog_american": 146,
+      "underdog_decimal": 2.46,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 308: Topuria vs. Holloway",
+      "event_date": "2024-10-26",
+      "fighter": "Dan Ige",
+      "opponent": "Lerone Murphy",
+      "underdog_american": 142,
+      "underdog_decimal": 2.42,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 308: Topuria vs. Holloway",
+      "event_date": "2024-10-26",
+      "fighter": "Chris Barnett",
+      "opponent": "Kennedy Nzechukwu",
+      "underdog_american": 475,
+      "underdog_decimal": 5.75,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 308: Topuria vs. Holloway",
+      "event_date": "2024-10-26",
+      "fighter": "Armen Petrosyan",
+      "opponent": "Shara Magomedov",
+      "underdog_american": 205,
+      "underdog_decimal": 3.05,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hernandez vs. Pereira",
+      "event_date": "2024-10-19",
+      "fighter": "Tamires Vidal",
+      "opponent": "Joselyne Edwards",
+      "underdog_american": 170,
+      "underdog_decimal": 2.7,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hernandez vs. Pereira",
+      "event_date": "2024-10-19",
+      "fighter": "Rob Font",
+      "opponent": "Kyler Phillips",
+      "underdog_american": 185,
+      "underdog_decimal": 2.85,
+      "won": true,
+      "profit_units": 1.85
+    },
+    {
+      "event_name": "UFC Fight Night: Hernandez vs. Pereira",
+      "event_date": "2024-10-19",
+      "fighter": "Michel Pereira",
+      "opponent": "Anthony Hernandez",
+      "underdog_american": 142,
+      "underdog_decimal": 2.42,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hernandez vs. Pereira",
+      "event_date": "2024-10-19",
+      "fighter": "Matheus Nicolau",
+      "opponent": "Asu Almabayev",
+      "underdog_american": 180,
+      "underdog_decimal": 2.8,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hernandez vs. Pereira",
+      "event_date": "2024-10-19",
+      "fighter": "Jessica Penne",
+      "opponent": "Elise Reed",
+      "underdog_american": 130,
+      "underdog_decimal": 2.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hernandez vs. Pereira",
+      "event_date": "2024-10-19",
+      "fighter": "Cameron Smotherman",
+      "opponent": "Jake Hadley",
+      "underdog_american": 350,
+      "underdog_decimal": 4.5,
+      "won": true,
+      "profit_units": 3.5
+    },
+    {
+      "event_name": "UFC Fight Night: Hernandez vs. Pereira",
+      "event_date": "2024-10-19",
+      "fighter": "Brad Katona",
+      "opponent": "Jean Matsumoto",
+      "underdog_american": 185,
+      "underdog_decimal": 2.85,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hernandez vs. Pereira",
+      "event_date": "2024-10-19",
+      "fighter": "Austen Lane",
+      "opponent": "Robelis Despaigne",
+      "underdog_american": 300,
+      "underdog_decimal": 4.0,
+      "won": true,
+      "profit_units": 3.0
+    },
+    {
+      "event_name": "UFC Fight Night: Hernandez vs. Pereira",
+      "event_date": "2024-10-19",
+      "fighter": "Alice Ardelean",
+      "opponent": "Melissa Martinez",
+      "underdog_american": 130,
+      "underdog_decimal": 2.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Royval vs. Taira",
+      "event_date": "2024-10-12",
+      "fighter": "Sean Sharaf",
+      "opponent": "Junior Tafa",
+      "underdog_american": 210,
+      "underdog_decimal": 3.1,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Royval vs. Taira",
+      "event_date": "2024-10-12",
+      "fighter": "Rafa Garcia",
+      "opponent": "Grant Dawson",
+      "underdog_american": 240,
+      "underdog_decimal": 3.4,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Royval vs. Taira",
+      "event_date": "2024-10-12",
+      "fighter": "Pat Sabatini",
+      "opponent": "Jonathan Pearce",
+      "underdog_american": 130,
+      "underdog_decimal": 2.3,
+      "won": true,
+      "profit_units": 1.3
+    },
+    {
+      "event_name": "UFC Fight Night: Royval vs. Taira",
+      "event_date": "2024-10-12",
+      "fighter": "Niko Price",
+      "opponent": "Themba Gorimbo",
+      "underdog_american": 200,
+      "underdog_decimal": 3.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Royval vs. Taira",
+      "event_date": "2024-10-12",
+      "fighter": "CJ Vergara",
+      "opponent": "Ramazan Temirov",
+      "underdog_american": 200,
+      "underdog_decimal": 3.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Royval vs. Taira",
+      "event_date": "2024-10-12",
+      "fighter": "Alex Morono",
+      "opponent": "Daniel Rodriguez",
+      "underdog_american": 150,
+      "underdog_decimal": 2.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 307: Pereira vs. Rountree Jr.",
+      "event_date": "2024-10-05",
+      "fighter": "Court McGee",
+      "opponent": "Tim Means",
+      "underdog_american": 190,
+      "underdog_decimal": 2.9,
+      "won": true,
+      "profit_units": 1.9
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Saint Denis",
+      "event_date": "2024-09-28",
+      "fighter": "William Gomis",
+      "opponent": "Joanderson Brito",
+      "underdog_american": 200,
+      "underdog_decimal": 3.0,
+      "won": true,
+      "profit_units": 2.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Saint Denis",
+      "event_date": "2024-09-28",
+      "fighter": "Vince Morales",
+      "opponent": "Taylor Lapilus",
+      "underdog_american": 265,
+      "underdog_decimal": 3.65,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Saint Denis",
+      "event_date": "2024-09-28",
+      "fighter": "Roosevelt Roberts",
+      "opponent": "Ludovit Klein",
+      "underdog_american": 400,
+      "underdog_decimal": 5.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Saint Denis",
+      "event_date": "2024-09-28",
+      "fighter": "Nora Cornolle",
+      "opponent": "Jacqueline Cavalcanti",
+      "underdog_american": 163,
+      "underdog_decimal": 2.63,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Saint Denis",
+      "event_date": "2024-09-28",
+      "fighter": "Gabriel Miranda",
+      "opponent": "Morgan Charriere",
+      "underdog_american": 350,
+      "underdog_decimal": 4.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Saint Denis",
+      "event_date": "2024-09-28",
+      "fighter": "Da Woon Jung",
+      "opponent": "Oumar Sy",
+      "underdog_american": 275,
+      "underdog_decimal": 3.75,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Saint Denis",
+      "event_date": "2024-09-28",
+      "fighter": "Chris Duncan",
+      "opponent": "Bolaji Oki",
+      "underdog_american": 170,
+      "underdog_decimal": 2.7,
+      "won": true,
+      "profit_units": 1.7
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Saint Denis",
+      "event_date": "2024-09-28",
+      "fighter": "Brendan Allen",
+      "opponent": "Nassourdine Imavov",
+      "underdog_american": 140,
+      "underdog_decimal": 2.4,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 306: Riyadh Season Noche UFC",
+      "event_date": "2024-09-14",
+      "fighter": "Aoriqileng",
+      "opponent": "Raul Rosas Jr.",
+      "underdog_american": 350,
+      "underdog_decimal": 4.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Burns vs. Brady",
+      "event_date": "2024-09-07",
+      "fighter": "Yizha",
+      "opponent": "Gabriel Santos",
+      "underdog_american": 240,
+      "underdog_decimal": 3.4,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Burns vs. Brady",
+      "event_date": "2024-09-07",
+      "fighter": "Vanessa Demopoulos",
+      "opponent": "Jaqueline Amorim",
+      "underdog_american": 380,
+      "underdog_decimal": 4.8,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Burns vs. Brady",
+      "event_date": "2024-09-07",
+      "fighter": "Matt Schnell",
+      "opponent": "Cody Durden",
+      "underdog_american": 240,
+      "underdog_decimal": 3.4,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Burns vs. Brady",
+      "event_date": "2024-09-07",
+      "fighter": "Dylan Budka",
+      "opponent": "Andre Petroski",
+      "underdog_american": 205,
+      "underdog_decimal": 3.05,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Burns vs. Brady",
+      "event_date": "2024-09-07",
+      "fighter": "Brendon Marotte",
+      "opponent": "Isaac Dulgarian",
+      "underdog_american": 600,
+      "underdog_decimal": 7.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Cannonier vs. Borralho",
+      "event_date": "2024-08-24",
+      "fighter": "Victoria Leonardo",
+      "opponent": "Wang Cong",
+      "underdog_american": 430,
+      "underdog_decimal": 5.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 305: Du Plessis vs. Adesanya",
+      "event_date": "2024-08-17",
+      "fighter": "Jesus Aguilar",
+      "opponent": "Stewart Nicoll",
+      "underdog_american": 136,
+      "underdog_decimal": 2.36,
+      "won": true,
+      "profit_units": 1.36
+    },
+    {
+      "event_name": "UFC 305: Du Plessis vs. Adesanya",
+      "event_date": "2024-08-17",
+      "fighter": "Alex Reyes",
+      "opponent": "Tom Nolan",
+      "underdog_american": 700,
+      "underdog_decimal": 8.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Tybura vs. Spivac 2",
+      "event_date": "2024-08-10",
+      "fighter": "Toshiomi Kazama",
+      "opponent": "Charalampos Grigoriou",
+      "underdog_american": 180,
+      "underdog_decimal": 2.8,
+      "won": true,
+      "profit_units": 1.8
+    },
+    {
+      "event_name": "UFC Fight Night: Tybura vs. Spivac 2",
+      "event_date": "2024-08-10",
+      "fighter": "Talita Alencar",
+      "opponent": "Stephanie Luciano",
+      "underdog_american": 130,
+      "underdog_decimal": 2.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Tybura vs. Spivac 2",
+      "event_date": "2024-08-10",
+      "fighter": "Pannie Kianzad",
+      "opponent": "Karol Rosa",
+      "underdog_american": 130,
+      "underdog_decimal": 2.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Tybura vs. Spivac 2",
+      "event_date": "2024-08-10",
+      "fighter": "Jhonata Diniz",
+      "opponent": "Karl Williams",
+      "underdog_american": 200,
+      "underdog_decimal": 3.0,
+      "won": true,
+      "profit_units": 2.0
+    },
+    {
+      "event_name": "UFC Fight Night: Tybura vs. Spivac 2",
+      "event_date": "2024-08-10",
+      "fighter": "Jarno Errens",
+      "opponent": "Youssef Zalal",
+      "underdog_american": 210,
+      "underdog_decimal": 3.1,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "event_date": "2024-08-03",
+      "fighter": "Tony Ferguson",
+      "opponent": "Michael Chiesa",
+      "underdog_american": 350,
+      "underdog_decimal": 4.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "event_date": "2024-08-03",
+      "fighter": "Mohammad Yahya",
+      "opponent": "Kaue Fernandes",
+      "underdog_american": 260,
+      "underdog_decimal": 3.6,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "event_date": "2024-08-03",
+      "fighter": "Jordan Vucenic",
+      "opponent": "Guram Kutateladze",
+      "underdog_american": 188,
+      "underdog_decimal": 2.88,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "event_date": "2024-08-03",
+      "fighter": "Don'Tale Mayes",
+      "opponent": "Shamil Gaziev",
+      "underdog_american": 220,
+      "underdog_decimal": 3.2,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "event_date": "2024-08-03",
+      "fighter": "Denis Tiuliulin",
+      "opponent": "Sedriques Dumas",
+      "underdog_american": 220,
+      "underdog_decimal": 3.2,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "event_date": "2024-08-03",
+      "fighter": "Cory Sandhagen",
+      "opponent": "Umar Nurmagomedov",
+      "underdog_american": 225,
+      "underdog_decimal": 3.25,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "event_date": "2024-08-03",
+      "fighter": "Alonzo Menifield",
+      "opponent": "Azamat Murzakanov",
+      "underdog_american": 165,
+      "underdog_decimal": 2.65,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 304: Edwards vs. Muhammad 2",
+      "event_date": "2024-07-27",
+      "fighter": "Lukasz Brzeski",
+      "opponent": "Mick Parkin",
+      "underdog_american": 150,
+      "underdog_decimal": 2.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 304: Edwards vs. Muhammad 2",
+      "event_date": "2024-07-27",
+      "fighter": "Kiefer Crosbie",
+      "opponent": "Sam Patterson",
+      "underdog_american": 200,
+      "underdog_decimal": 3.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 304: Edwards vs. Muhammad 2",
+      "event_date": "2024-07-27",
+      "fighter": "Alice Ardelean",
+      "opponent": "Shauna Bannon",
+      "underdog_american": 180,
+      "underdog_decimal": 2.8,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Lemos vs. Jandiroba",
+      "event_date": "2024-07-20",
+      "fighter": "Dione Barbosa",
+      "opponent": "Miranda Maverick",
+      "underdog_american": 130,
+      "underdog_decimal": 2.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Lemos vs. Jandiroba",
+      "event_date": "2024-07-20",
+      "fighter": "Brian Kelleher",
+      "opponent": "Cody Gibson",
+      "underdog_american": 175,
+      "underdog_decimal": 2.75,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Namajunas vs. Cortez",
+      "event_date": "2024-07-13",
+      "fighter": "Darrius Flowers",
+      "opponent": "Evan Elder",
+      "underdog_american": 330,
+      "underdog_decimal": 4.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 303: Pereira vs. Prochazka 2",
+      "event_date": "2024-06-29",
+      "fighter": "Vinicius Oliveira",
+      "opponent": "Ricky Simon",
+      "underdog_american": 145,
+      "underdog_decimal": 2.45,
+      "won": true,
+      "profit_units": 1.45
+    },
+    {
+      "event_name": "UFC 303: Pereira vs. Prochazka 2",
+      "event_date": "2024-06-29",
+      "fighter": "Michelle Waterson-Gomez",
+      "opponent": "Gillian Robertson",
+      "underdog_american": 225,
+      "underdog_decimal": 3.25,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 303: Pereira vs. Prochazka 2",
+      "event_date": "2024-06-29",
+      "fighter": "Carlos Hernandez",
+      "opponent": "Rei Tsuruya",
+      "underdog_american": 285,
+      "underdog_decimal": 3.85,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 303: Pereira vs. Prochazka 2",
+      "event_date": "2024-06-29",
+      "fighter": "Andrei Arlovski",
+      "opponent": "Martin Buday",
+      "underdog_american": 225,
+      "underdog_decimal": 3.25,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "event_date": "2024-06-22",
+      "fighter": "Nicolas Dalby",
+      "opponent": "Rinat Fakhretdinov",
+      "underdog_american": 175,
+      "underdog_decimal": 2.75,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "event_date": "2024-06-22",
+      "fighter": "Jared Gordon",
+      "opponent": "Nasrat Haqparast",
+      "underdog_american": 163,
+      "underdog_decimal": 2.63,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "event_date": "2024-06-22",
+      "fighter": "Daniel Rodriguez",
+      "opponent": "Kelvin Gastelum",
+      "underdog_american": 180,
+      "underdog_decimal": 2.8,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "event_date": "2024-06-22",
+      "fighter": "Brendson Ribeiro",
+      "opponent": "Magomed Gadzhiyasulov",
+      "underdog_american": 350,
+      "underdog_decimal": 4.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "event_date": "2024-06-22",
+      "fighter": "Antonio Trocoli",
+      "opponent": "Shara Magomedov",
+      "underdog_american": 500,
+      "underdog_decimal": 6.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "event_date": "2024-06-22",
+      "fighter": "Alexander Volkov",
+      "opponent": "Sergei Pavlovich",
+      "underdog_american": 185,
+      "underdog_decimal": 2.85,
+      "won": true,
+      "profit_units": 1.85
+    },
+    {
+      "event_name": "UFC Fight Night: Perez vs. Taira",
+      "event_date": "2024-06-15",
+      "fighter": "Westin Wilson",
+      "opponent": "Jeka Saragih",
+      "underdog_american": 240,
+      "underdog_decimal": 3.4,
+      "won": true,
+      "profit_units": 2.4
+    },
+    {
+      "event_name": "UFC Fight Night: Perez vs. Taira",
+      "event_date": "2024-06-15",
+      "fighter": "Shayilan Nuerdanbieke",
+      "opponent": "Melquizael Costa",
+      "underdog_american": 154,
+      "underdog_decimal": 2.54,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Perez vs. Taira",
+      "event_date": "2024-06-15",
+      "fighter": "Julia Polastri",
+      "opponent": "Josefine Knutsson",
+      "underdog_american": 190,
+      "underdog_decimal": 2.9,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Perez vs. Taira",
+      "event_date": "2024-06-15",
+      "fighter": "Jimmy Flick",
+      "opponent": "Nate Maness",
+      "underdog_american": 275,
+      "underdog_decimal": 3.75,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Perez vs. Taira",
+      "event_date": "2024-06-15",
+      "fighter": "Carli Judice",
+      "opponent": "Gabriella Fernandes",
+      "underdog_american": 195,
+      "underdog_decimal": 2.95,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Perez vs. Taira",
+      "event_date": "2024-06-15",
+      "fighter": "Brady Hiestand",
+      "opponent": "Garrett Armfield",
+      "underdog_american": 160,
+      "underdog_decimal": 2.6,
+      "won": true,
+      "profit_units": 1.6
+    },
+    {
+      "event_name": "UFC Fight Night: Perez vs. Taira",
+      "event_date": "2024-06-15",
+      "fighter": "Alex Perez",
+      "opponent": "Tatsuro Taira",
+      "underdog_american": 142,
+      "underdog_decimal": 2.42,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
+      "event_date": "2024-06-08",
+      "fighter": "Rayanne dos Santos",
+      "opponent": "Puja Tomar",
+      "underdog_american": 144,
+      "underdog_decimal": 2.44,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
+      "event_date": "2024-06-08",
+      "fighter": "Jesse Butler",
+      "opponent": "Brad Katona",
+      "underdog_american": 350,
+      "underdog_decimal": 4.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
+      "event_date": "2024-06-08",
+      "fighter": "Cody Stamann",
+      "opponent": "Taylor Lapilus",
+      "underdog_american": 150,
+      "underdog_decimal": 2.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
+      "event_date": "2024-06-08",
+      "fighter": "Charles Radtke",
+      "opponent": "Carlos Prates",
+      "underdog_american": 140,
+      "underdog_decimal": 2.4,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 302: Makhachev vs. Poirier",
+      "event_date": "2024-06-01",
+      "fighter": "Mitch Raposo",
+      "opponent": "Andre Lima",
+      "underdog_american": 225,
+      "underdog_decimal": 3.25,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 302: Makhachev vs. Poirier",
+      "event_date": "2024-06-01",
+      "fighter": "Mickey Gall",
+      "opponent": "Bassil Hafez",
+      "underdog_american": 200,
+      "underdog_decimal": 3.0,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 302: Makhachev vs. Poirier",
+      "event_date": "2024-06-01",
+      "fighter": "Joselyne Edwards",
+      "opponent": "Ailin Perez",
+      "underdog_american": 175,
+      "underdog_decimal": 2.75,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Barboza vs. Murphy",
+      "event_date": "2024-05-18",
+      "fighter": "Warlley Alves",
+      "opponent": "Abus Magomedov",
+      "underdog_american": 154,
+      "underdog_decimal": 2.54,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Barboza vs. Murphy",
+      "event_date": "2024-05-18",
+      "fighter": "Vinicius Salvador",
+      "opponent": "Adrian Yanez",
+      "underdog_american": 205,
+      "underdog_decimal": 3.05,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Barboza vs. Murphy",
+      "event_date": "2024-05-18",
+      "fighter": "Victor Martinez",
+      "opponent": "Tom Nolan",
+      "underdog_american": 330,
+      "underdog_decimal": 4.3,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Barboza vs. Murphy",
+      "event_date": "2024-05-18",
+      "fighter": "Vanessa Demopoulos",
+      "opponent": "Emily Ducote",
+      "underdog_american": 240,
+      "underdog_decimal": 3.4,
+      "won": true,
+      "profit_units": 2.4
+    },
+    {
+      "event_name": "UFC Fight Night: Barboza vs. Murphy",
+      "event_date": "2024-05-18",
+      "fighter": "Tuco Tokkos",
+      "opponent": "Oumar Sy",
+      "underdog_american": 360,
+      "underdog_decimal": 4.6,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Barboza vs. Murphy",
+      "event_date": "2024-05-18",
+      "fighter": "Tamires Vidal",
+      "opponent": "Melissa Gatto",
+      "underdog_american": 310,
+      "underdog_decimal": 4.1,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Lewis vs. Nascimento",
+      "event_date": "2024-05-11",
+      "fighter": "Terrance McKinney",
+      "opponent": "Esteban Ribovics",
+      "underdog_american": 164,
+      "underdog_decimal": 2.64,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Lewis vs. Nascimento",
+      "event_date": "2024-05-11",
+      "fighter": "Chase Hooper",
+      "opponent": "Viacheslav Borshchev",
+      "underdog_american": 164,
+      "underdog_decimal": 2.64,
+      "won": true,
+      "profit_units": 1.64
+    },
+    {
+      "event_name": "UFC Fight Night: Lewis vs. Nascimento",
+      "event_date": "2024-05-11",
+      "fighter": "Charles Johnson",
+      "opponent": "Jake Hadley",
+      "underdog_american": 130,
+      "underdog_decimal": 2.3,
+      "won": true,
+      "profit_units": 1.3
+    },
+    {
+      "event_name": "UFC Fight Night: Lewis vs. Nascimento",
+      "event_date": "2024-05-11",
+      "fighter": "Alex Caceres",
+      "opponent": "Sean Woodson",
+      "underdog_american": 150,
+      "underdog_decimal": 2.5,
+      "won": false,
+      "profit_units": -1.0
+    }
+  ]
+}

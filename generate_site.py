@@ -8,6 +8,7 @@ import joblib
 import pandas as pd
 
 from method_model import METHOD_FEATURES, MODEL_PATH as METHOD_MODEL_PATH, build_method_history, predict_method
+from underdog_analysis import build_analysis as build_underdog_analysis
 
 from model_pipeline import (
     build_history,
@@ -23,6 +24,7 @@ SITE_DATA_PATH = ROOT / "site" / "data" / "site-data.json"
 MODEL_PATH = ROOT / "betting_model.joblib"
 FORWARD_RESULTS_PATH = ROOT / "site" / "data" / "forward-results.json"
 METHOD_DATA_PATH = ROOT / "site" / "data" / "method-predictions.json"
+UNDERDOG_DATA_PATH = ROOT / "site" / "data" / "underdog-analysis.json"
 BASE_ELO = 1500.0
 K_FACTOR = 32.0
 
@@ -621,6 +623,10 @@ def main():
     method_payload = build_method_site_data()
     METHOD_DATA_PATH.write_text(
         json.dumps(method_payload, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    underdog_payload = build_underdog_analysis()
+    UNDERDOG_DATA_PATH.write_text(
+        json.dumps(underdog_payload, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     print(
         f"Generated {SITE_DATA_PATH}: "
