@@ -1,4 +1,6 @@
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
 
 import joblib
 import pandas as pd
@@ -7,6 +9,24 @@ import method_model
 
 
 class MethodModelTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        # Model artifacts are intentionally ignored by Git. Build an isolated
+        # artifact here so this test remains valid in a clean CI checkout and
+        # does not depend on a previous workflow step leaving a file behind.
+        cls.temporary_dir = TemporaryDirectory()
+        model_path = Path(cls.temporary_dir.name) / "fight_method_model.joblib"
+        report_path = Path(cls.temporary_dir.name) / "fight_method_metrics.json"
+        method_model.train(
+            model_path=model_path,
+            report_path=report_path,
+        )
+        cls.artifact = joblib.load(model_path)
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.temporary_dir.cleanup()
+
     def test_method_mapping_keeps_requested_classes_distinct(self):
         self.assertEqual(method_model.classify_method(pd.Series({"result": "win", "method": "KO/TKO Punches"})), "not_decision")
         self.assertEqual(method_model.classify_method(pd.Series({"result": "win", "method": "SUB Armbar"})), "not_decision")
@@ -24,7 +44,7 @@ class MethodModelTests(unittest.TestCase):
         self.assertEqual(forward, reverse)
 
     def test_prediction_probabilities_are_normalized(self):
-        artifact = joblib.load(method_model.MODEL_PATH)
+        artifact = self.artifact
         values = {name: 0.0 for name in method_model.FULL_NUMERIC_FEATURES}
         values.update({"weight_class": "Lightweight", "stance_pair": "Orthodox | Southpaw"})
         result = method_model.predict_method(artifact, pd.DataFrame([values]))
