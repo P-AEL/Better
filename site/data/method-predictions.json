@@ -1,6 +1,6 @@
 {
   "available": true,
-  "generated_at": "2026-09-28T14:55:01.340866+00:00",
+  "generated_at": "2026-09-30T13:20:01.901115+00:00",
   "event": {
     "name": "UFC 332: Silva vs. Wang",
     "date": "2026-10-03",
@@ -219,6 +219,19 @@
       "most_likely_method": "not_decision",
       "limited_data": false,
       "warning": null
+    },
+    {
+      "fighter_red": "Jacobe Smith",
+      "fighter_blue": "Bruce Whitehead",
+      "weight_class": "Welterweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.275158,
+        "not_decision": 0.724842
+      },
+      "most_likely_method": "not_decision",
+      "limited_data": true,
+      "warning": "One or both fighters have limited UFC history."
     },
     {
       "fighter_red": "Rafael Dos Anjos",
