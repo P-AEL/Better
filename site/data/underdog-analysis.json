@@ -1,37 +1,37 @@
 {
   "available": true,
-  "generated_at": "2026-10-02T13:30:37.891567+00:00",
+  "generated_at": "2026-10-04T13:05:46.167008+00:00",
   "title": "Underdog price-cutoff paper analysis",
   "definition": "One flat unit on the market underdog when its opening American price meets the cutoff. A win returns decimal odds minus one unit; a loss costs one unit.",
   "limitations": "Historical paper analysis only. Opening prices are archived market records and their exact availability at a specific bookmaker or stake size cannot be verified from this dataset. A positive past ROI is not evidence of a future edge.",
   "price_source": "BestFightOdds archived opening prices",
   "test_event_count": 100,
   "coverage": {
-    "all_priced_underdogs": 5318,
+    "all_priced_underdogs": 5331,
     "development": 4379,
-    "calibration": 643,
-    "test": 296
+    "calibration": 646,
+    "test": 306
   },
   "selection": {
     "cutoff": 125,
     "minimum_calibration_bets": 40,
     "calibration": {
       "cutoff": 125,
-      "sample_count": 537,
+      "sample_count": 540,
       "wins": 170,
-      "losses": 367,
-      "win_rate": 0.3165735567970205,
-      "net_units": -72.31,
-      "roi": -0.13465549348230912
+      "losses": 370,
+      "win_rate": 0.3148148148148148,
+      "net_units": -75.31,
+      "roi": -0.13946296296296296
     },
     "test": {
       "cutoff": 125,
-      "sample_count": 243,
-      "wins": 65,
-      "losses": 178,
-      "win_rate": 0.2674897119341564,
-      "net_units": -30.54,
-      "roi": -0.12567901234567902
+      "sample_count": 253,
+      "wins": 68,
+      "losses": 185,
+      "win_rate": 0.26877470355731226,
+      "net_units": -32.849999999999994,
+      "roi": -0.12984189723320155
     },
     "selection_note": "The cutoff was selected using calibration cards before the fixed 100-card test period; the test results were not used to choose it."
   },
@@ -40,105 +40,105 @@
       "cutoff": 100,
       "calibration": {
         "cutoff": 100,
-        "sample_count": 643,
+        "sample_count": 646,
         "wins": 210,
-        "losses": 433,
-        "win_rate": 0.3265940902021773,
-        "net_units": -93.63,
-        "roi": -0.14561430793157076
+        "losses": 436,
+        "win_rate": 0.32507739938080493,
+        "net_units": -96.63,
+        "roi": -0.14958204334365324
       },
       "test": {
         "cutoff": 100,
-        "sample_count": 296,
-        "wins": 98,
-        "losses": 198,
-        "win_rate": 0.3310810810810811,
-        "net_units": -14.249999999999996,
-        "roi": -0.04814189189189188
+        "sample_count": 306,
+        "wins": 101,
+        "losses": 205,
+        "win_rate": 0.3300653594771242,
+        "net_units": -16.559999999999995,
+        "roi": -0.05411764705882351
       }
     },
     {
       "cutoff": 125,
       "calibration": {
         "cutoff": 125,
-        "sample_count": 537,
+        "sample_count": 540,
         "wins": 170,
-        "losses": 367,
-        "win_rate": 0.3165735567970205,
-        "net_units": -72.31,
-        "roi": -0.13465549348230912
+        "losses": 370,
+        "win_rate": 0.3148148148148148,
+        "net_units": -75.31,
+        "roi": -0.13946296296296296
       },
       "test": {
         "cutoff": 125,
-        "sample_count": 243,
-        "wins": 65,
-        "losses": 178,
-        "win_rate": 0.2674897119341564,
-        "net_units": -30.54,
-        "roi": -0.12567901234567902
+        "sample_count": 253,
+        "wins": 68,
+        "losses": 185,
+        "win_rate": 0.26877470355731226,
+        "net_units": -32.849999999999994,
+        "roi": -0.12984189723320155
       }
     },
     {
       "cutoff": 150,
       "calibration": {
         "cutoff": 150,
-        "sample_count": 390,
+        "sample_count": 393,
         "wins": 109,
-        "losses": 281,
-        "win_rate": 0.2794871794871795,
-        "net_units": -68.08,
-        "roi": -0.17456410256410257
+        "losses": 284,
+        "win_rate": 0.27735368956743,
+        "net_units": -71.08,
+        "roi": -0.1808651399491094
       },
       "test": {
         "cutoff": 150,
-        "sample_count": 204,
-        "wins": 52,
-        "losses": 152,
-        "win_rate": 0.2549019607843137,
-        "net_units": -22.58,
-        "roi": -0.11068627450980391
+        "sample_count": 213,
+        "wins": 54,
+        "losses": 159,
+        "win_rate": 0.2535211267605634,
+        "net_units": -26.38,
+        "roi": -0.12384976525821596
       }
     },
     {
       "cutoff": 175,
       "calibration": {
         "cutoff": 175,
-        "sample_count": 264,
+        "sample_count": 267,
         "wins": 63,
-        "losses": 201,
-        "win_rate": 0.23863636363636365,
-        "net_units": -61.14,
-        "roi": -0.2315909090909091
+        "losses": 204,
+        "win_rate": 0.23595505617977527,
+        "net_units": -64.14,
+        "roi": -0.24022471910112358
       },
       "test": {
         "cutoff": 175,
-        "sample_count": 166,
+        "sample_count": 172,
         "wins": 41,
-        "losses": 125,
-        "win_rate": 0.2469879518072289,
-        "net_units": -13.159999999999997,
-        "roi": -0.07927710843373492
+        "losses": 131,
+        "win_rate": 0.23837209302325582,
+        "net_units": -19.16,
+        "roi": -0.11139534883720931
       }
     },
     {
       "cutoff": 200,
       "calibration": {
         "cutoff": 200,
-        "sample_count": 201,
+        "sample_count": 203,
         "wins": 33,
-        "losses": 168,
-        "win_rate": 0.16417910447761194,
-        "net_units": -83.65,
-        "roi": -0.41616915422885575
+        "losses": 170,
+        "win_rate": 0.1625615763546798,
+        "net_units": -85.65,
+        "roi": -0.4219211822660099
       },
       "test": {
         "cutoff": 200,
-        "sample_count": 131,
+        "sample_count": 138,
         "wins": 31,
-        "losses": 100,
-        "win_rate": 0.2366412213740458,
-        "net_units": -6.470000000000002,
-        "roi": -0.04938931297709925
+        "losses": 107,
+        "win_rate": 0.2246376811594203,
+        "net_units": -13.470000000000002,
+        "roi": -0.09760869565217394
       }
     },
     {
@@ -154,12 +154,12 @@
       },
       "test": {
         "cutoff": 250,
-        "sample_count": 76,
+        "sample_count": 81,
         "wins": 15,
-        "losses": 61,
-        "win_rate": 0.19736842105263158,
-        "net_units": -2.9800000000000013,
-        "roi": -0.039210526315789494
+        "losses": 66,
+        "win_rate": 0.18518518518518517,
+        "net_units": -7.98,
+        "roi": -0.09851851851851852
       }
     },
     {
@@ -175,12 +175,12 @@
       },
       "test": {
         "cutoff": 300,
-        "sample_count": 49,
+        "sample_count": 52,
         "wins": 9,
-        "losses": 40,
-        "win_rate": 0.1836734693877551,
-        "net_units": 2.6399999999999997,
-        "roi": 0.05387755102040816
+        "losses": 43,
+        "win_rate": 0.17307692307692307,
+        "net_units": -0.3600000000000003,
+        "roi": -0.006923076923076929
       }
     },
     {
@@ -196,12 +196,12 @@
       },
       "test": {
         "cutoff": 400,
-        "sample_count": 15,
+        "sample_count": 17,
         "wins": 4,
-        "losses": 11,
-        "win_rate": 0.26666666666666666,
-        "net_units": 13.969999999999999,
-        "roi": 0.9313333333333332
+        "losses": 13,
+        "win_rate": 0.23529411764705882,
+        "net_units": 11.97,
+        "roi": 0.7041176470588235
       }
     },
     {
@@ -217,16 +217,146 @@
       },
       "test": {
         "cutoff": 500,
-        "sample_count": 8,
+        "sample_count": 9,
         "wins": 3,
-        "losses": 5,
-        "win_rate": 0.375,
-        "net_units": 15.21,
-        "roi": 1.90125
+        "losses": 6,
+        "win_rate": 0.3333333333333333,
+        "net_units": 14.21,
+        "roi": 1.578888888888889
       }
     }
   ],
   "test_bets": [
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter": "Wang Cong",
+      "opponent": "Natalia Silva",
+      "underdog_american": 207,
+      "underdog_decimal": 3.07,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter": "Roman Kopylov",
+      "opponent": "Ateba Gautier",
+      "underdog_american": 163,
+      "underdog_decimal": 2.63,
+      "won": true,
+      "profit_units": 1.63
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter": "Rafael Dos Anjos",
+      "opponent": "Alexander Hernandez",
+      "underdog_american": 207,
+      "underdog_decimal": 3.07,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter": "Lucas Armand",
+      "opponent": "Anthony Wint",
+      "underdog_american": 280,
+      "underdog_decimal": 3.8,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter": "King Green",
+      "opponent": "Esteban Ribovics",
+      "underdog_american": 350,
+      "underdog_decimal": 4.5,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter": "Khaos Williams",
+      "opponent": "Roberto Soldic",
+      "underdog_american": 174,
+      "underdog_decimal": 2.74,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter": "Johnny Walker",
+      "opponent": "Mick Parkin",
+      "underdog_american": 157,
+      "underdog_decimal": 2.57,
+      "won": true,
+      "profit_units": 1.57
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter": "Ismail Naurdiev",
+      "opponent": "Marvin Vettori",
+      "underdog_american": 149,
+      "underdog_decimal": 2.49,
+      "won": true,
+      "profit_units": 1.49
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter": "Deiveson Figueiredo",
+      "opponent": "Payton Talbott",
+      "underdog_american": 207,
+      "underdog_decimal": 3.07,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter": "Court McGee",
+      "opponent": "Eric Nolan",
+      "underdog_american": 280,
+      "underdog_decimal": 3.8,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter": "Bruce Whitehead",
+      "opponent": "Jacobe Smith",
+      "underdog_american": 637,
+      "underdog_decimal": 7.37,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter": "Anthony Romero",
+      "opponent": "Marcus McGhee",
+      "underdog_american": 208,
+      "underdog_decimal": 3.08,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter": "Andrey Pulyaev",
+      "opponent": "Damian Pinas",
+      "underdog_american": 446,
+      "underdog_decimal": 5.46,
+      "won": false,
+      "profit_units": -1.0
+    },
     {
       "event_name": "UFC Fight Night: Rosas Jr. vs. Barcelos",
       "event_date": "2026-09-26",
@@ -2624,36 +2754,6 @@
       "opponent": "Carlos Prates",
       "underdog_american": 140,
       "underdog_decimal": 2.4,
-      "won": false,
-      "profit_units": -1.0
-    },
-    {
-      "event_name": "UFC 302: Makhachev vs. Poirier",
-      "event_date": "2024-06-01",
-      "fighter": "Mitch Raposo",
-      "opponent": "Andre Lima",
-      "underdog_american": 225,
-      "underdog_decimal": 3.25,
-      "won": false,
-      "profit_units": -1.0
-    },
-    {
-      "event_name": "UFC 302: Makhachev vs. Poirier",
-      "event_date": "2024-06-01",
-      "fighter": "Mickey Gall",
-      "opponent": "Bassil Hafez",
-      "underdog_american": 200,
-      "underdog_decimal": 3.0,
-      "won": false,
-      "profit_units": -1.0
-    },
-    {
-      "event_name": "UFC 302: Makhachev vs. Poirier",
-      "event_date": "2024-06-01",
-      "fighter": "Joselyne Edwards",
-      "opponent": "Ailin Perez",
-      "underdog_american": 175,
-      "underdog_decimal": 2.75,
       "won": false,
       "profit_units": -1.0
     }
