@@ -1,6 +1,6 @@
 {
   "available": true,
-  "generated_at": "2026-10-04T13:05:43.423895+00:00",
+  "generated_at": "2026-10-06T13:54:05.615525+00:00",
   "event": {
     "name": "UFC Fight Night: Allen vs. Duncan",
     "date": "2026-10-10",
@@ -143,19 +143,6 @@
       "warning": null
     },
     {
-      "fighter_red": "Julius Walker",
-      "fighter_blue": "Gerald Meerschaert",
-      "weight_class": "Light Heavyweight",
-      "scheduled_rounds": 3,
-      "probabilities": {
-        "decision": 0.449022,
-        "not_decision": 0.550978
-      },
-      "most_likely_method": "not_decision",
-      "limited_data": false,
-      "warning": null
-    },
-    {
       "fighter_red": "Malcolm Wellmaker",
       "fighter_blue": "Otari Tanzilovi",
       "weight_class": "Bantamweight",
@@ -165,6 +152,19 @@
         "not_decision": 0.465083
       },
       "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Julius Walker",
+      "fighter_blue": "Gerald Meerschaert",
+      "weight_class": "Light Heavyweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.449022,
+        "not_decision": 0.550978
+      },
+      "most_likely_method": "not_decision",
       "limited_data": false,
       "warning": null
     },
