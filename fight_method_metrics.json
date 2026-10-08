@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "trained_at": "2026-10-06T13:52:37.561775+00:00",
+  "trained_at": "2026-10-08T14:21:55.842243+00:00",
   "data_cutoff": "2026-10-03",
   "target_definition": {
     "decision": "Methods containing DEC, including draw decisions",
@@ -63,7 +63,7 @@
   },
   "test_manifest": {
     "purpose": "Fixed historical test set shared by winner and decision models.",
-    "created_at": "2026-10-06T13:52:37.590174+00:00",
+    "created_at": "2026-10-08T14:21:55.879523+00:00",
     "test_event_count": 100,
     "events": [
       {
@@ -472,7 +472,7 @@
   "model_selection": {
     "selected": "gradient_boosting",
     "validation_log_loss": {
-      "multinomial_logistic": 0.6747732605998029,
+      "multinomial_logistic": 0.674773260599796,
       "gradient_boosting": 0.6731591185246398
     }
   },
@@ -17209,7 +17209,7 @@
     }
   },
   "dependencies": {
-    "python": "3.11.16",
+    "python": "3.11.17",
     "scikit_learn": "1.9.1",
     "joblib": "1.6.0",
     "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39"
