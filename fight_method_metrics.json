@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
-  "trained_at": "2026-10-10T13:14:52.376136+00:00",
-  "data_cutoff": "2026-10-03",
+  "trained_at": "2026-10-12T16:26:35.546065+00:00",
+  "data_cutoff": "2026-10-10",
   "target_definition": {
     "decision": "Methods containing DEC, including draw decisions",
     "not_decision": "All other completed fight outcomes, including KO/TKO, submission, NC, DQ, overturned and other methods"
@@ -58,18 +58,14 @@
   ],
   "split_rows": {
     "development": 6425,
-    "calibration": 1256,
-    "test": 1241
+    "calibration": 1270,
+    "test": 1239
   },
   "test_manifest": {
     "purpose": "Fixed historical test set shared by winner and decision models.",
-    "created_at": "2026-10-10T13:14:52.408030+00:00",
+    "created_at": "2026-10-12T16:26:35.585520+00:00",
     "test_event_count": 100,
     "events": [
-      {
-        "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-        "event_date": "2024-06-08"
-      },
       {
         "event_name": "UFC Fight Night: Perez vs. Taira",
         "event_date": "2024-06-15"
@@ -465,6 +461,10 @@
       {
         "event_name": "UFC 332: Silva vs. Wang",
         "event_date": "2026-10-03"
+      },
+      {
+        "event_name": "UFC Fight Night: Allen vs. Duncan",
+        "event_date": "2026-10-10"
       }
     ]
   },
@@ -472,83 +472,278 @@
   "model_selection": {
     "selected": "gradient_boosting",
     "validation_log_loss": {
-      "multinomial_logistic": 0.6747732605998029,
+      "multinomial_logistic": 0.6747732605998014,
       "gradient_boosting": 0.6731591185246398
     }
   },
   "baseline_test": {
-    "sample_count": 1241,
-    "accuracy": 0.5124899274778405,
+    "sample_count": 1239,
+    "accuracy": 0.5157384987893463,
     "class_counts": {
-      "decision": 605,
-      "not_decision": 636
+      "decision": 600,
+      "not_decision": 639
     },
-    "log_loss": 0.6948625396915875,
-    "brier": 0.5017057388384659,
+    "log_loss": 0.6942860001791197,
+    "brier": 0.5011307078612542,
     "calibration_ece": {
-      "decision": 0.031762677904022873,
-      "not_decision": 0.031762677904022985
+      "decision": 0.028514106592517074,
+      "not_decision": 0.028514106592517185
     },
     "per_class": {
       "decision": {
         "precision": 0.0,
         "recall": 0.0,
-        "support": 605
+        "support": 600
       },
       "not_decision": {
-        "precision": 0.5124899274778405,
+        "precision": 0.5157384987893463,
         "recall": 1.0,
-        "support": 636
+        "support": 639
       }
     },
     "confusion_matrix": [
       [
         0,
-        605
+        600
       ],
       [
         0,
-        636
+        639
       ]
     ]
   },
   "test": {
-    "sample_count": 1241,
-    "accuracy": 0.6204673650282031,
+    "sample_count": 1239,
+    "accuracy": 0.6182405165456013,
     "class_counts": {
-      "decision": 605,
-      "not_decision": 636
+      "decision": 600,
+      "not_decision": 639
     },
-    "log_loss": 0.6659813903188974,
-    "brier": 0.47329574018705656,
+    "log_loss": 0.6668961525902022,
+    "brier": 0.4741895866055994,
     "calibration_ece": {
-      "decision": 0.04604637131299176,
-      "not_decision": 0.04604637131299174
+      "decision": 0.047129102297199084,
+      "not_decision": 0.04712910229719903
     },
     "per_class": {
       "decision": {
-        "precision": 0.6227106227106227,
-        "recall": 0.5619834710743802,
-        "support": 605
+        "precision": 0.6165137614678899,
+        "recall": 0.56,
+        "support": 600
       },
       "not_decision": {
-        "precision": 0.6187050359712231,
-        "recall": 0.6761006289308176,
-        "support": 636
+        "precision": 0.6195965417867435,
+        "recall": 0.672926447574335,
+        "support": 639
       }
     },
     "confusion_matrix": [
       [
-        340,
-        265
+        336,
+        264
       ],
       [
-        206,
+        209,
         430
       ]
     ]
   },
   "historical_test_predictions": [
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Allen Frye Jr.",
+      "fighter_blue": "RJ Harris",
+      "weight_class": "Heavyweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.407683,
+        "not_decision": 0.592317
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Brendson Ribeiro",
+      "fighter_blue": "Felipe Franco",
+      "weight_class": "Light Heavyweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.432377,
+        "not_decision": 0.567623
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Niko Price",
+      "fighter_blue": "Leon Shahbazyan",
+      "weight_class": "Welterweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.407076,
+        "not_decision": 0.592924
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Francisco Prado",
+      "fighter_blue": "Ismael Bonfim",
+      "weight_class": "Lightweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.440334,
+        "not_decision": 0.559666
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Julius Walker",
+      "fighter_blue": "Gerald Meerschaert",
+      "weight_class": "Light Heavyweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.449022,
+        "not_decision": 0.550978
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Loopy Godinez",
+      "fighter_blue": "Ketlen Souza",
+      "weight_class": "Women's Strawweight",
+      "actual_method": "decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.69253,
+        "not_decision": 0.30747
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Andre Fili",
+      "fighter_blue": "Kai Kamaka III",
+      "weight_class": "Featherweight",
+      "actual_method": "not_decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.635025,
+        "not_decision": 0.364975
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Jai Herbert",
+      "fighter_blue": "Matheus Camilo",
+      "weight_class": "Lightweight",
+      "actual_method": "decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.346674,
+        "not_decision": 0.653326
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Brendan Allen",
+      "fighter_blue": "Christian Leroy Duncan",
+      "weight_class": "Middleweight",
+      "actual_method": "not_decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.522078,
+        "not_decision": 0.477922
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Alice Pereira",
+      "fighter_blue": "Daria Zhelezniakova",
+      "weight_class": "Women's Bantamweight",
+      "actual_method": "not_decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.64394,
+        "not_decision": 0.35606
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Otari Tanzilovi",
+      "fighter_blue": "Malcolm Wellmaker",
+      "weight_class": "Bantamweight",
+      "actual_method": "not_decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.534917,
+        "not_decision": 0.465083
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Ernesta Kareckaite",
+      "fighter_blue": "Melissa Gatto",
+      "weight_class": "Women's Flyweight",
+      "actual_method": "decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.645827,
+        "not_decision": 0.354173
+      }
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter_red": "Anthony Wint",
+      "fighter_blue": "Lucas Armand",
+      "weight_class": "Heavyweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.286318,
+        "not_decision": 0.713682
+      }
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter_red": "Eric Nolan",
+      "fighter_blue": "Court McGee",
+      "weight_class": "Welterweight",
+      "actual_method": "not_decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.523522,
+        "not_decision": 0.476478
+      }
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter_red": "Ismail Naurdiev",
+      "fighter_blue": "Marvin Vettori",
+      "weight_class": "Middleweight",
+      "actual_method": "decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.585536,
+        "not_decision": 0.414464
+      }
+    },
     {
       "event_name": "UFC 332: Silva vs. Wang",
       "event_date": "2026-10-03",
@@ -591,19 +786,6 @@
     {
       "event_name": "UFC 332: Silva vs. Wang",
       "event_date": "2026-10-03",
-      "fighter_red": "Anthony Wint",
-      "fighter_blue": "Lucas Armand",
-      "weight_class": "Heavyweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.286318,
-        "not_decision": 0.713682
-      }
-    },
-    {
-      "event_name": "UFC 332: Silva vs. Wang",
-      "event_date": "2026-10-03",
       "fighter_red": "Marcus McGhee",
       "fighter_blue": "Anthony Romero",
       "weight_class": "Featherweight",
@@ -612,58 +794,6 @@
       "probabilities": {
         "decision": 0.423285,
         "not_decision": 0.576715
-      }
-    },
-    {
-      "event_name": "UFC 332: Silva vs. Wang",
-      "event_date": "2026-10-03",
-      "fighter_red": "Damian Pinas",
-      "fighter_blue": "Andrey Pulyaev",
-      "weight_class": "Middleweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.359901,
-        "not_decision": 0.640099
-      }
-    },
-    {
-      "event_name": "UFC 332: Silva vs. Wang",
-      "event_date": "2026-10-03",
-      "fighter_red": "Roberto Soldic",
-      "fighter_blue": "Khaos Williams",
-      "weight_class": "Welterweight",
-      "actual_method": "decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.395846,
-        "not_decision": 0.604154
-      }
-    },
-    {
-      "event_name": "UFC 332: Silva vs. Wang",
-      "event_date": "2026-10-03",
-      "fighter_red": "Roman Kopylov",
-      "fighter_blue": "Ateba Gautier",
-      "weight_class": "Middleweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.364343,
-        "not_decision": 0.635657
-      }
-    },
-    {
-      "event_name": "UFC 332: Silva vs. Wang",
-      "event_date": "2026-10-03",
-      "fighter_red": "Esteban Ribovics",
-      "fighter_blue": "King Green",
-      "weight_class": "Lightweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.433304,
-        "not_decision": 0.566696
       }
     },
     {
@@ -682,32 +812,6 @@
     {
       "event_name": "UFC 332: Silva vs. Wang",
       "event_date": "2026-10-03",
-      "fighter_red": "Natalia Silva",
-      "fighter_blue": "Wang Cong",
-      "weight_class": "Women's Flyweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.654626,
-        "not_decision": 0.345374
-      }
-    },
-    {
-      "event_name": "UFC 332: Silva vs. Wang",
-      "event_date": "2026-10-03",
-      "fighter_red": "Ismail Naurdiev",
-      "fighter_blue": "Marvin Vettori",
-      "weight_class": "Middleweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.585536,
-        "not_decision": 0.414464
-      }
-    },
-    {
-      "event_name": "UFC 332: Silva vs. Wang",
-      "event_date": "2026-10-03",
       "fighter_red": "Imanol Rodriguez",
       "fighter_blue": "Alden Coria",
       "weight_class": "Flyweight",
@@ -721,14 +825,79 @@
     {
       "event_name": "UFC 332: Silva vs. Wang",
       "event_date": "2026-10-03",
-      "fighter_red": "Eric Nolan",
-      "fighter_blue": "Court McGee",
+      "fighter_red": "Roman Kopylov",
+      "fighter_blue": "Ateba Gautier",
+      "weight_class": "Middleweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.364343,
+        "not_decision": 0.635657
+      }
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter_red": "Roberto Soldic",
+      "fighter_blue": "Khaos Williams",
       "weight_class": "Welterweight",
+      "actual_method": "decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.395846,
+        "not_decision": 0.604154
+      }
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter_red": "Esteban Ribovics",
+      "fighter_blue": "King Green",
+      "weight_class": "Lightweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.433304,
+        "not_decision": 0.566696
+      }
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter_red": "Natalia Silva",
+      "fighter_blue": "Wang Cong",
+      "weight_class": "Women's Flyweight",
+      "actual_method": "decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.654626,
+        "not_decision": 0.345374
+      }
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter_red": "Damian Pinas",
+      "fighter_blue": "Andrey Pulyaev",
+      "weight_class": "Middleweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.359901,
+        "not_decision": 0.640099
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+      "event_date": "2026-09-26",
+      "fighter_red": "Christian Edwards",
+      "fighter_blue": "Rodolfo Bellato",
+      "weight_class": "Light Heavyweight",
       "actual_method": "not_decision",
       "predicted_method": "decision",
       "probabilities": {
-        "decision": 0.523522,
-        "not_decision": 0.476478
+        "decision": 0.501918,
+        "not_decision": 0.498082
       }
     },
     {
@@ -799,14 +968,14 @@
     {
       "event_name": "UFC Fight Night: Rosas Jr. vs. Barcelos",
       "event_date": "2026-09-26",
-      "fighter_red": "Christian Edwards",
-      "fighter_blue": "Rodolfo Bellato",
-      "weight_class": "Light Heavyweight",
+      "fighter_red": "Ilimbek Akylbek",
+      "fighter_blue": "Mahammadali Osmanli",
+      "weight_class": "Bantamweight",
       "actual_method": "not_decision",
-      "predicted_method": "decision",
+      "predicted_method": "not_decision",
       "probabilities": {
-        "decision": 0.501918,
-        "not_decision": 0.498082
+        "decision": 0.422438,
+        "not_decision": 0.577562
       }
     },
     {
@@ -820,19 +989,6 @@
       "probabilities": {
         "decision": 0.450806,
         "not_decision": 0.549194
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Rosas Jr. vs. Barcelos",
-      "event_date": "2026-09-26",
-      "fighter_red": "Ilimbek Akylbek",
-      "fighter_blue": "Mahammadali Osmanli",
-      "weight_class": "Bantamweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.422438,
-        "not_decision": 0.577562
       }
     },
     {
@@ -916,105 +1072,14 @@
     {
       "event_name": "UFC 331: Van vs. Pantoja 2",
       "event_date": "2026-09-19",
-      "fighter_red": "Casey O'Neill",
-      "fighter_blue": "Eduarda Moura",
-      "weight_class": "Women's Flyweight",
-      "actual_method": "not_decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.601364,
-        "not_decision": 0.398636
-      }
-    },
-    {
-      "event_name": "UFC 331: Van vs. Pantoja 2",
-      "event_date": "2026-09-19",
-      "fighter_red": "Edmen Shahbazyan",
-      "fighter_blue": "Brunno Ferreira",
-      "weight_class": "Middleweight",
-      "actual_method": "decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.421577,
-        "not_decision": 0.578423
-      }
-    },
-    {
-      "event_name": "UFC 331: Van vs. Pantoja 2",
-      "event_date": "2026-09-19",
-      "fighter_red": "Ryan Gandra",
-      "fighter_blue": "Ozzy Diaz",
-      "weight_class": "Middleweight",
+      "fighter_red": "Arman Tsarukyan",
+      "fighter_blue": "Mauricio Ruffy",
+      "weight_class": "Lightweight",
       "actual_method": "not_decision",
       "predicted_method": "not_decision",
       "probabilities": {
-        "decision": 0.3101,
-        "not_decision": 0.6899
-      }
-    },
-    {
-      "event_name": "UFC 331: Van vs. Pantoja 2",
-      "event_date": "2026-09-19",
-      "fighter_red": "Michael Aswell Jr.",
-      "fighter_blue": "JooSang Yoo",
-      "weight_class": "Featherweight",
-      "actual_method": "decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.423954,
-        "not_decision": 0.576046
-      }
-    },
-    {
-      "event_name": "UFC 331: Van vs. Pantoja 2",
-      "event_date": "2026-09-19",
-      "fighter_red": "Robelis Despaigne",
-      "fighter_blue": "Tai Tuivasa",
-      "weight_class": "Heavyweight",
-      "actual_method": "decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.306899,
-        "not_decision": 0.693101
-      }
-    },
-    {
-      "event_name": "UFC 331: Van vs. Pantoja 2",
-      "event_date": "2026-09-19",
-      "fighter_red": "Marlon Vera",
-      "fighter_blue": "Charles Jourdain",
-      "weight_class": "Bantamweight",
-      "actual_method": "not_decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.506129,
-        "not_decision": 0.493871
-      }
-    },
-    {
-      "event_name": "UFC 331: Van vs. Pantoja 2",
-      "event_date": "2026-09-19",
-      "fighter_red": "Alonzo Menifield",
-      "fighter_blue": "Iwo Baraniewski",
-      "weight_class": "Light Heavyweight",
-      "actual_method": "decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.265334,
-        "not_decision": 0.734666
-      }
-    },
-    {
-      "event_name": "UFC 331: Van vs. Pantoja 2",
-      "event_date": "2026-09-19",
-      "fighter_red": "Sean Sharaf",
-      "fighter_blue": "Gable Steveson",
-      "weight_class": "Heavyweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.298716,
-        "not_decision": 0.701284
+        "decision": 0.432186,
+        "not_decision": 0.567814
       }
     },
     {
@@ -1033,14 +1098,105 @@
     {
       "event_name": "UFC 331: Van vs. Pantoja 2",
       "event_date": "2026-09-19",
-      "fighter_red": "Arman Tsarukyan",
-      "fighter_blue": "Mauricio Ruffy",
-      "weight_class": "Lightweight",
+      "fighter_red": "Alonzo Menifield",
+      "fighter_blue": "Iwo Baraniewski",
+      "weight_class": "Light Heavyweight",
+      "actual_method": "decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.265334,
+        "not_decision": 0.734666
+      }
+    },
+    {
+      "event_name": "UFC 331: Van vs. Pantoja 2",
+      "event_date": "2026-09-19",
+      "fighter_red": "Marlon Vera",
+      "fighter_blue": "Charles Jourdain",
+      "weight_class": "Bantamweight",
+      "actual_method": "not_decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.506129,
+        "not_decision": 0.493871
+      }
+    },
+    {
+      "event_name": "UFC 331: Van vs. Pantoja 2",
+      "event_date": "2026-09-19",
+      "fighter_red": "Sean Sharaf",
+      "fighter_blue": "Gable Steveson",
+      "weight_class": "Heavyweight",
       "actual_method": "not_decision",
       "predicted_method": "not_decision",
       "probabilities": {
-        "decision": 0.432186,
-        "not_decision": 0.567814
+        "decision": 0.298716,
+        "not_decision": 0.701284
+      }
+    },
+    {
+      "event_name": "UFC 331: Van vs. Pantoja 2",
+      "event_date": "2026-09-19",
+      "fighter_red": "Michael Aswell Jr.",
+      "fighter_blue": "JooSang Yoo",
+      "weight_class": "Featherweight",
+      "actual_method": "decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.423954,
+        "not_decision": 0.576046
+      }
+    },
+    {
+      "event_name": "UFC 331: Van vs. Pantoja 2",
+      "event_date": "2026-09-19",
+      "fighter_red": "Ryan Gandra",
+      "fighter_blue": "Ozzy Diaz",
+      "weight_class": "Middleweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.3101,
+        "not_decision": 0.6899
+      }
+    },
+    {
+      "event_name": "UFC 331: Van vs. Pantoja 2",
+      "event_date": "2026-09-19",
+      "fighter_red": "Edmen Shahbazyan",
+      "fighter_blue": "Brunno Ferreira",
+      "weight_class": "Middleweight",
+      "actual_method": "decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.421577,
+        "not_decision": 0.578423
+      }
+    },
+    {
+      "event_name": "UFC 331: Van vs. Pantoja 2",
+      "event_date": "2026-09-19",
+      "fighter_red": "Casey O'Neill",
+      "fighter_blue": "Eduarda Moura",
+      "weight_class": "Women's Flyweight",
+      "actual_method": "not_decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.601364,
+        "not_decision": 0.398636
+      }
+    },
+    {
+      "event_name": "UFC 331: Van vs. Pantoja 2",
+      "event_date": "2026-09-19",
+      "fighter_red": "Robelis Despaigne",
+      "fighter_blue": "Tai Tuivasa",
+      "weight_class": "Heavyweight",
+      "actual_method": "decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.306899,
+        "not_decision": 0.693101
       }
     },
     {
@@ -16499,251 +16655,69 @@
         "decision": 0.455394,
         "not_decision": 0.544606
       }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Dominick Reyes",
-      "fighter_blue": "Dustin Jacoby",
-      "weight_class": "Light Heavyweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.435731,
-        "not_decision": 0.564269
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Raul Rosas Jr.",
-      "fighter_blue": "Ricky Turcios",
-      "weight_class": "Bantamweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.406356,
-        "not_decision": 0.593644
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Brunno Ferreira",
-      "fighter_blue": "Dustin Stoltzfus",
-      "weight_class": "Middleweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.370967,
-        "not_decision": 0.629033
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Zach Reese",
-      "fighter_blue": "Julian Marquez",
-      "weight_class": "Middleweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.34331,
-        "not_decision": 0.65669
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Punahele Soriano",
-      "fighter_blue": "Miguel Baeza",
-      "weight_class": "Welterweight",
-      "actual_method": "decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.401224,
-        "not_decision": 0.598776
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Nassourdine Imavov",
-      "fighter_blue": "Jared Cannonier",
-      "weight_class": "Middleweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.456356,
-        "not_decision": 0.543644
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Carlos Prates",
-      "fighter_blue": "Charles Radtke",
-      "weight_class": "Welterweight",
-      "actual_method": "not_decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.531879,
-        "not_decision": 0.468121
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Brad Katona",
-      "fighter_blue": "Jesse Butler",
-      "weight_class": "Bantamweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.599395,
-        "not_decision": 0.400605
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Montana De La Rosa",
-      "fighter_blue": "Andrea Lee",
-      "weight_class": "Women's Flyweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.672107,
-        "not_decision": 0.327893
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Daniel Marcos",
-      "fighter_blue": "John Castaneda",
-      "weight_class": "Bantamweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.594677,
-        "not_decision": 0.405323
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Denise Gomes",
-      "fighter_blue": "Eduarda Moura",
-      "weight_class": "Women's Strawweight",
-      "actual_method": "decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.351334,
-        "not_decision": 0.648666
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Puja Tomar",
-      "fighter_blue": "Rayanne dos Santos",
-      "weight_class": "Women's Strawweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.625058,
-        "not_decision": 0.374942
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Taylor Lapilus",
-      "fighter_blue": "Cody Stamann",
-      "weight_class": "Bantamweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.588702,
-        "not_decision": 0.411298
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Ludovit Klein",
-      "fighter_blue": "Thiago Moises",
-      "weight_class": "Lightweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.515836,
-        "not_decision": 0.484164
-      }
     }
   ],
   "segment_test": {
     "weight_class": {
       "Bantamweight": {
-        "sample_count": 144,
-        "accuracy": 0.5833333333333334,
+        "sample_count": 141,
+        "accuracy": 0.5673758865248227,
         "class_counts": {
-          "decision": 91,
+          "decision": 88,
           "not_decision": 53
         },
-        "log_loss": 0.6862151111788999,
-        "brier": 0.4927863868722786,
+        "log_loss": 0.6914725910510232,
+        "brier": 0.49798148430962547,
         "calibration_ece": {
-          "decision": 0.15359696741071713,
-          "not_decision": 0.15359696741071716
+          "decision": 0.1473203965570888,
+          "not_decision": 0.14732039655708895
         },
         "per_class": {
           "decision": {
-            "precision": 0.6703296703296703,
-            "recall": 0.6703296703296703,
-            "support": 91
+            "precision": 0.651685393258427,
+            "recall": 0.6590909090909091,
+            "support": 88
           },
           "not_decision": {
-            "precision": 0.4339622641509434,
-            "recall": 0.4339622641509434,
+            "precision": 0.4230769230769231,
+            "recall": 0.41509433962264153,
             "support": 53
           }
         },
         "confusion_matrix": [
           [
-            61,
+            58,
             30
           ],
           [
-            30,
-            23
+            31,
+            22
           ]
         ]
       },
       "Featherweight": {
-        "sample_count": 152,
-        "accuracy": 0.6513157894736842,
+        "sample_count": 153,
+        "accuracy": 0.6470588235294118,
         "class_counts": {
           "decision": 66,
-          "not_decision": 86
+          "not_decision": 87
         },
-        "log_loss": 0.675864144066911,
-        "brier": 0.4827235288453407,
+        "log_loss": 0.6780344843722228,
+        "brier": 0.48483980190162396,
         "calibration_ece": {
-          "decision": 0.12288154421544648,
-          "not_decision": 0.12288154421544653
+          "decision": 0.11792790717277861,
+          "not_decision": 0.11792790717277865
         },
         "per_class": {
           "decision": {
-            "precision": 0.6,
+            "precision": 0.5909090909090909,
             "recall": 0.5909090909090909,
             "support": 66
           },
           "not_decision": {
             "precision": 0.6896551724137931,
-            "recall": 0.6976744186046512,
-            "support": 86
+            "recall": 0.6896551724137931,
+            "support": 87
           }
         },
         "confusion_matrix": [
@@ -16752,7 +16726,7 @@
             27
           ],
           [
-            26,
+            27,
             60
           ]
         ]
@@ -16768,7 +16742,7 @@
         "brier": 0.4955911121027529,
         "calibration_ece": {
           "decision": 0.04568762331810224,
-          "not_decision": 0.04568762331810223
+          "not_decision": 0.04568762331810218
         },
         "per_class": {
           "decision": {
@@ -16794,17 +16768,17 @@
         ]
       },
       "Heavyweight": {
-        "sample_count": 90,
-        "accuracy": 0.6333333333333333,
+        "sample_count": 91,
+        "accuracy": 0.6373626373626373,
         "class_counts": {
           "decision": 40,
-          "not_decision": 50
+          "not_decision": 51
         },
-        "log_loss": 0.6811782062180896,
-        "brier": 0.48790263620321905,
+        "log_loss": 0.6794478299345128,
+        "brier": 0.48619394223168544,
         "calibration_ece": {
-          "decision": 0.12340826711128351,
-          "not_decision": 0.12340826711128361
+          "decision": 0.12653216950555407,
+          "not_decision": 0.12653216950555415
         },
         "per_class": {
           "decision": {
@@ -16813,9 +16787,9 @@
             "support": 40
           },
           "not_decision": {
-            "precision": 0.6231884057971014,
-            "recall": 0.86,
-            "support": 50
+            "precision": 0.6285714285714286,
+            "recall": 0.8627450980392157,
+            "support": 51
           }
         },
         "confusion_matrix": [
@@ -16825,22 +16799,22 @@
           ],
           [
             7,
-            43
+            44
           ]
         ]
       },
       "Light Heavyweight": {
-        "sample_count": 91,
-        "accuracy": 0.6813186813186813,
+        "sample_count": 92,
+        "accuracy": 0.6847826086956522,
         "class_counts": {
           "decision": 27,
-          "not_decision": 64
+          "not_decision": 65
         },
-        "log_loss": 0.6390848240474697,
-        "brier": 0.4470448308384284,
+        "log_loss": 0.6385527481471206,
+        "brier": 0.4465054095051671,
         "calibration_ece": {
-          "decision": 0.15152652187893975,
-          "not_decision": 0.15152652187893975
+          "decision": 0.15472371076486635,
+          "not_decision": 0.1547237107648664
         },
         "per_class": {
           "decision": {
@@ -16849,9 +16823,9 @@
             "support": 27
           },
           "not_decision": {
-            "precision": 0.7215189873417721,
-            "recall": 0.890625,
-            "support": 64
+            "precision": 0.725,
+            "recall": 0.8923076923076924,
+            "support": 65
           }
         },
         "confusion_matrix": [
@@ -16861,69 +16835,69 @@
           ],
           [
             7,
-            57
+            58
           ]
         ]
       },
       "Lightweight": {
-        "sample_count": 160,
-        "accuracy": 0.675,
+        "sample_count": 161,
+        "accuracy": 0.6708074534161491,
         "class_counts": {
           "decision": 71,
-          "not_decision": 89
+          "not_decision": 90
         },
-        "log_loss": 0.6499067476251563,
-        "brier": 0.4576481585919083,
+        "log_loss": 0.6519434798927607,
+        "brier": 0.45960456516026543,
         "calibration_ece": {
-          "decision": 0.10878800504899604,
-          "not_decision": 0.10878800504899602
+          "decision": 0.11189799582240365,
+          "not_decision": 0.1118979958224037
         },
         "per_class": {
           "decision": {
-            "precision": 0.6792452830188679,
-            "recall": 0.5070422535211268,
+            "precision": 0.6730769230769231,
+            "recall": 0.49295774647887325,
             "support": 71
           },
           "not_decision": {
-            "precision": 0.6728971962616822,
-            "recall": 0.8089887640449438,
-            "support": 89
+            "precision": 0.6697247706422018,
+            "recall": 0.8111111111111111,
+            "support": 90
           }
         },
         "confusion_matrix": [
           [
-            36,
-            35
+            35,
+            36
           ],
           [
             17,
-            72
+            73
           ]
         ]
       },
       "Middleweight": {
-        "sample_count": 162,
-        "accuracy": 0.6358024691358025,
+        "sample_count": 160,
+        "accuracy": 0.625,
         "class_counts": {
           "decision": 67,
-          "not_decision": 95
+          "not_decision": 93
         },
-        "log_loss": 0.6501345742250147,
-        "brier": 0.4579724774014986,
+        "log_loss": 0.6535408313862634,
+        "brier": 0.4613074608489499,
         "calibration_ece": {
-          "decision": 0.05334684771217518,
-          "not_decision": 0.05334684771217518
+          "decision": 0.0491386938050708,
+          "not_decision": 0.04913869380507085
         },
         "per_class": {
           "decision": {
-            "precision": 0.6,
+            "precision": 0.5853658536585366,
             "recall": 0.3582089552238806,
             "support": 67
           },
           "not_decision": {
-            "precision": 0.6475409836065574,
-            "recall": 0.8315789473684211,
-            "support": 95
+            "precision": 0.6386554621848739,
+            "recall": 0.8172043010752689,
+            "support": 93
           }
         },
         "confusion_matrix": [
@@ -16932,70 +16906,70 @@
             43
           ],
           [
-            16,
-            79
+            17,
+            76
           ]
         ]
       },
       "Welterweight": {
-        "sample_count": 140,
-        "accuracy": 0.5571428571428572,
+        "sample_count": 139,
+        "accuracy": 0.5683453237410072,
         "class_counts": {
-          "decision": 62,
+          "decision": 61,
           "not_decision": 78
         },
-        "log_loss": 0.6840519732245377,
-        "brier": 0.4912119217338587,
+        "log_loss": 0.6807028865745758,
+        "brier": 0.48790096880610845,
         "calibration_ece": {
-          "decision": 0.03189404128507105,
-          "not_decision": 0.03189404128507109
+          "decision": 0.029091288580239492,
+          "not_decision": 0.029091288580239547
         },
         "per_class": {
           "decision": {
-            "precision": 0.5,
-            "recall": 0.3709677419354839,
-            "support": 62
+            "precision": 0.5111111111111111,
+            "recall": 0.3770491803278688,
+            "support": 61
           },
           "not_decision": {
-            "precision": 0.5851063829787234,
-            "recall": 0.7051282051282052,
+            "precision": 0.5957446808510638,
+            "recall": 0.717948717948718,
             "support": 78
           }
         },
         "confusion_matrix": [
           [
             23,
-            39
+            38
           ],
           [
-            23,
-            55
+            22,
+            56
           ]
         ]
       },
       "Women's Bantamweight": {
-        "sample_count": 46,
-        "accuracy": 0.6304347826086957,
+        "sample_count": 47,
+        "accuracy": 0.6170212765957447,
         "class_counts": {
           "decision": 28,
-          "not_decision": 18
+          "not_decision": 19
         },
-        "log_loss": 0.6254890813649847,
-        "brier": 0.43471307384096347,
+        "log_loss": 0.6341521976355141,
+        "brier": 0.4431089022656144,
         "calibration_ece": {
-          "decision": 0.09702483702115866,
-          "not_decision": 0.09702483702115867
+          "decision": 0.08125963133590326,
+          "not_decision": 0.08125963133590325
         },
         "per_class": {
           "decision": {
-            "precision": 0.6341463414634146,
+            "precision": 0.6190476190476191,
             "recall": 0.9285714285714286,
             "support": 28
           },
           "not_decision": {
             "precision": 0.6,
-            "recall": 0.16666666666666666,
-            "support": 18
+            "recall": 0.15789473684210525,
+            "support": 19
           }
         },
         "confusion_matrix": [
@@ -17004,7 +16978,7 @@
             2
           ],
           [
-            15,
+            16,
             3
           ]
         ]
@@ -17016,11 +16990,11 @@
           "decision": 41,
           "not_decision": 17
         },
-        "log_loss": 0.6297303967213715,
-        "brier": 0.43835036416657636,
+        "log_loss": 0.6304181013988027,
+        "brier": 0.4389684722705292,
         "calibration_ece": {
-          "decision": 0.13774028292297064,
-          "not_decision": 0.13774028292297058
+          "decision": 0.13819339757254928,
+          "not_decision": 0.13819339757254923
         },
         "per_class": {
           "decision": {
@@ -17046,26 +17020,26 @@
         ]
       },
       "Women's Strawweight": {
-        "sample_count": 80,
-        "accuracy": 0.625,
+        "sample_count": 79,
+        "accuracy": 0.6329113924050633,
         "class_counts": {
-          "decision": 50,
+          "decision": 49,
           "not_decision": 30
         },
-        "log_loss": 0.6779312306039332,
-        "brier": 0.484065555574752,
+        "log_loss": 0.6719743384445842,
+        "brier": 0.47837495350225934,
         "calibration_ece": {
-          "decision": 0.09326435681681809,
-          "not_decision": 0.09326435681681801
+          "decision": 0.08708802728950903,
+          "not_decision": 0.08708802728950892
         },
         "per_class": {
           "decision": {
             "precision": 0.6428571428571429,
-            "recall": 0.9,
-            "support": 50
+            "recall": 0.9183673469387755,
+            "support": 49
           },
           "not_decision": {
-            "precision": 0.5,
+            "precision": 0.5555555555555556,
             "recall": 0.16666666666666666,
             "support": 30
           }
@@ -17073,7 +17047,7 @@
         "confusion_matrix": [
           [
             45,
-            5
+            4
           ],
           [
             25,
@@ -17084,37 +17058,37 @@
     },
     "scheduled_rounds": {
       "3": {
-        "sample_count": 1241,
-        "accuracy": 0.6204673650282031,
+        "sample_count": 1239,
+        "accuracy": 0.6182405165456013,
         "class_counts": {
-          "decision": 605,
-          "not_decision": 636
+          "decision": 600,
+          "not_decision": 639
         },
-        "log_loss": 0.6659813903188974,
-        "brier": 0.47329574018705656,
+        "log_loss": 0.6668961525902022,
+        "brier": 0.4741895866055994,
         "calibration_ece": {
-          "decision": 0.04604637131299176,
-          "not_decision": 0.04604637131299174
+          "decision": 0.047129102297199084,
+          "not_decision": 0.04712910229719903
         },
         "per_class": {
           "decision": {
-            "precision": 0.6227106227106227,
-            "recall": 0.5619834710743802,
-            "support": 605
+            "precision": 0.6165137614678899,
+            "recall": 0.56,
+            "support": 600
           },
           "not_decision": {
-            "precision": 0.6187050359712231,
-            "recall": 0.6761006289308176,
-            "support": 636
+            "precision": 0.6195965417867435,
+            "recall": 0.672926447574335,
+            "support": 639
           }
         },
         "confusion_matrix": [
           [
-            340,
-            265
+            336,
+            264
           ],
           [
-            206,
+            209,
             430
           ]
         ]
@@ -17122,38 +17096,38 @@
     },
     "limited_history": {
       "False": {
-        "sample_count": 1118,
-        "accuracy": 0.6171735241502684,
+        "sample_count": 1116,
+        "accuracy": 0.6146953405017921,
         "class_counts": {
-          "decision": 554,
-          "not_decision": 564
+          "decision": 550,
+          "not_decision": 566
         },
-        "log_loss": 0.6671693216116595,
-        "brier": 0.4744494125522232,
+        "log_loss": 0.668138822094915,
+        "brier": 0.4753979196966043,
         "calibration_ece": {
-          "decision": 0.04463777222272485,
-          "not_decision": 0.04463777222272483
+          "decision": 0.04513603522487398,
+          "not_decision": 0.045136035224873985
         },
         "per_class": {
           "decision": {
-            "precision": 0.6216216216216216,
-            "recall": 0.5812274368231047,
-            "support": 554
+            "precision": 0.6158301158301158,
+            "recall": 0.58,
+            "support": 550
           },
           "not_decision": {
-            "precision": 0.6133333333333333,
-            "recall": 0.6524822695035462,
-            "support": 564
+            "precision": 0.6137123745819398,
+            "recall": 0.6484098939929329,
+            "support": 566
           }
         },
         "confusion_matrix": [
           [
-            322,
-            232
+            319,
+            231
           ],
           [
-            196,
-            368
+            199,
+            367
           ]
         ]
       },
@@ -17161,35 +17135,35 @@
         "sample_count": 123,
         "accuracy": 0.6504065040650406,
         "class_counts": {
-          "decision": 51,
-          "not_decision": 72
+          "decision": 50,
+          "not_decision": 73
         },
-        "log_loss": 0.6551837709261498,
-        "brier": 0.46280951494920064,
+        "log_loss": 0.6556212000108541,
+        "brier": 0.46322617417014034,
         "calibration_ece": {
-          "decision": 0.06353029660769065,
-          "not_decision": 0.06353029660769073
+          "decision": 0.06521254012414868,
+          "not_decision": 0.06521254012414875
         },
         "per_class": {
           "decision": {
-            "precision": 0.6428571428571429,
-            "recall": 0.35294117647058826,
-            "support": 51
+            "precision": 0.6296296296296297,
+            "recall": 0.34,
+            "support": 50
           },
           "not_decision": {
-            "precision": 0.6526315789473685,
-            "recall": 0.8611111111111112,
-            "support": 72
+            "precision": 0.65625,
+            "recall": 0.863013698630137,
+            "support": 73
           }
         },
         "confusion_matrix": [
           [
-            18,
+            17,
             33
           ],
           [
             10,
-            62
+            63
           ]
         ]
       }
@@ -17198,14 +17172,14 @@
   "calibration_blend": {
     "selected_baseline_weight": 0.1,
     "validation_log_loss": {
-      "0.0": 0.6709920579085724,
-      "0.1": 0.6708100440433916,
-      "0.2": 0.6712014424004585,
-      "0.3": 0.6721450085024621,
-      "0.4": 0.6736256756273027,
-      "0.6": 0.678163640600212,
-      "0.8": 0.6847902207471072,
-      "1.0": 0.693546647335316
+      "0.0": 0.6701009151297641,
+      "0.1": 0.670026450725441,
+      "0.2": 0.6705243531346075,
+      "0.3": 0.6715737718179436,
+      "0.4": 0.6731599931400086,
+      "0.6": 0.6779094523806609,
+      "0.8": 0.6847500371862194,
+      "1.0": 0.6937253326463351
     }
   },
   "dependencies": {

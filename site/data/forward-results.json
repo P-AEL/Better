@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-10T13:16:07.962599+00:00",
-  "recorded_predictions": 337,
-  "settled_predictions": 284,
-  "priced_settled_predictions": 284,
+  "generated_at": "2026-10-12T16:28:19.853676+00:00",
+  "recorded_predictions": 350,
+  "settled_predictions": 324,
+  "priced_settled_predictions": 324,
   "minimum_required": 100,
   "forward_gate_passed": false,
   "metrics": {
-    "independent_log_loss": 0.7042240550118383,
-    "residual_log_loss": 0.6465550702961453,
-    "market_log_loss": 0.6371671221016932,
-    "independent_brier": 0.2537183952816901,
-    "residual_brier": 0.22045882260563382,
-    "market_brier": 0.2175571709467899
+    "independent_log_loss": 0.7092559889166761,
+    "residual_log_loss": 0.6697920927285207,
+    "market_log_loss": 0.6598625450689257,
+    "independent_brier": 0.25602181030864196,
+    "residual_brier": 0.23210348361111113,
+    "market_brier": 0.22877899550496977
   },
   "paper": {
     "settled": 0,

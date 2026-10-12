@@ -1,88 +1,88 @@
 {
   "available": true,
-  "generated_at": "2026-10-10T13:16:39.273301+00:00",
+  "generated_at": "2026-10-12T16:29:03.992488+00:00",
   "event": {
-    "name": "UFC Fight Night: Allen vs. Duncan",
-    "date": "2026-10-10",
-    "date_display": "October 10, 2026",
-    "location": "Las Vegas, Nevada, USA"
+    "name": "UFC Fight Night: Buckley vs. Malott",
+    "date": "2026-10-17",
+    "date_display": "October 17, 2026",
+    "location": "Edmonton, Alberta, Canada"
   },
   "model": {
     "version": "2.0.0",
-    "data_cutoff": "2026-10-03",
+    "data_cutoff": "2026-10-10",
     "classes": [
       "decision",
       "not_decision"
     ],
     "test": {
-      "sample_count": 1241,
-      "accuracy": 0.6204673650282031,
+      "sample_count": 1239,
+      "accuracy": 0.6182405165456013,
       "class_counts": {
-        "decision": 605,
-        "not_decision": 636
+        "decision": 600,
+        "not_decision": 639
       },
-      "log_loss": 0.6659813903188974,
-      "brier": 0.47329574018705656,
+      "log_loss": 0.6668961525902022,
+      "brier": 0.4741895866055994,
       "calibration_ece": {
-        "decision": 0.04604637131299176,
-        "not_decision": 0.04604637131299174
+        "decision": 0.047129102297199084,
+        "not_decision": 0.04712910229719903
       },
       "per_class": {
         "decision": {
-          "precision": 0.6227106227106227,
-          "recall": 0.5619834710743802,
-          "support": 605
+          "precision": 0.6165137614678899,
+          "recall": 0.56,
+          "support": 600
         },
         "not_decision": {
-          "precision": 0.6187050359712231,
-          "recall": 0.6761006289308176,
-          "support": 636
+          "precision": 0.6195965417867435,
+          "recall": 0.672926447574335,
+          "support": 639
         }
       },
       "confusion_matrix": [
         [
-          340,
-          265
+          336,
+          264
         ],
         [
-          206,
+          209,
           430
         ]
       ]
     },
     "baseline_test": {
-      "sample_count": 1241,
-      "accuracy": 0.5124899274778405,
+      "sample_count": 1239,
+      "accuracy": 0.5157384987893463,
       "class_counts": {
-        "decision": 605,
-        "not_decision": 636
+        "decision": 600,
+        "not_decision": 639
       },
-      "log_loss": 0.6948625396915875,
-      "brier": 0.5017057388384659,
+      "log_loss": 0.6942860001791197,
+      "brier": 0.5011307078612542,
       "calibration_ece": {
-        "decision": 0.031762677904022873,
-        "not_decision": 0.031762677904022985
+        "decision": 0.028514106592517074,
+        "not_decision": 0.028514106592517185
       },
       "per_class": {
         "decision": {
           "precision": 0.0,
           "recall": 0.0,
-          "support": 605
+          "support": 600
         },
         "not_decision": {
-          "precision": 0.5124899274778405,
+          "precision": 0.5157384987893463,
           "recall": 1.0,
-          "support": 636
+          "support": 639
         }
       },
       "confusion_matrix": [
         [
           0,
-          605
+          600
         ],
         [
           0,
-          636
+          639
         ]
       ]
     },
@@ -91,156 +91,169 @@
   },
   "predictions": [
     {
-      "fighter_red": "Brendan Allen",
-      "fighter_blue": "Christian Leroy Duncan",
-      "weight_class": "Middleweight",
-      "scheduled_rounds": 3,
-      "probabilities": {
-        "decision": 0.522078,
-        "not_decision": 0.477922
-      },
-      "most_likely_method": "decision",
-      "limited_data": false,
-      "warning": null
-    },
-    {
-      "fighter_red": "Matheus Camilo",
-      "fighter_blue": "Jai Herbert",
-      "weight_class": "Lightweight",
-      "scheduled_rounds": 3,
-      "probabilities": {
-        "decision": 0.346674,
-        "not_decision": 0.653326
-      },
-      "most_likely_method": "not_decision",
-      "limited_data": false,
-      "warning": null
-    },
-    {
-      "fighter_red": "Loopy Godinez",
-      "fighter_blue": "Ketlen Souza",
-      "weight_class": "Women's Strawweight",
-      "scheduled_rounds": 3,
-      "probabilities": {
-        "decision": 0.69253,
-        "not_decision": 0.30747
-      },
-      "most_likely_method": "decision",
-      "limited_data": false,
-      "warning": null
-    },
-    {
-      "fighter_red": "Andre Fili",
-      "fighter_blue": "Kai Kamaka III",
-      "weight_class": "Featherweight",
-      "scheduled_rounds": 3,
-      "probabilities": {
-        "decision": 0.635025,
-        "not_decision": 0.364975
-      },
-      "most_likely_method": "decision",
-      "limited_data": false,
-      "warning": null
-    },
-    {
-      "fighter_red": "Malcolm Wellmaker",
-      "fighter_blue": "Otari Tanzilovi",
-      "weight_class": "Bantamweight",
-      "scheduled_rounds": 3,
-      "probabilities": {
-        "decision": 0.534917,
-        "not_decision": 0.465083
-      },
-      "most_likely_method": "decision",
-      "limited_data": false,
-      "warning": null
-    },
-    {
-      "fighter_red": "Julius Walker",
-      "fighter_blue": "Gerald Meerschaert",
-      "weight_class": "Light Heavyweight",
-      "scheduled_rounds": 3,
-      "probabilities": {
-        "decision": 0.449022,
-        "not_decision": 0.550978
-      },
-      "most_likely_method": "not_decision",
-      "limited_data": false,
-      "warning": null
-    },
-    {
-      "fighter_red": "Francisco Prado",
-      "fighter_blue": "Ismael Bonfim",
-      "weight_class": "Lightweight",
-      "scheduled_rounds": 3,
-      "probabilities": {
-        "decision": 0.440334,
-        "not_decision": 0.559666
-      },
-      "most_likely_method": "not_decision",
-      "limited_data": false,
-      "warning": null
-    },
-    {
-      "fighter_red": "Niko Price",
-      "fighter_blue": "Leon Shahbazyan",
+      "fighter_red": "Joaquin Buckley",
+      "fighter_blue": "Mike Malott",
       "weight_class": "Welterweight",
       "scheduled_rounds": 3,
       "probabilities": {
-        "decision": 0.407076,
-        "not_decision": 0.592924
+        "decision": 0.448234,
+        "not_decision": 0.551766
       },
       "most_likely_method": "not_decision",
       "limited_data": false,
       "warning": null
     },
     {
-      "fighter_red": "Felipe Franco",
-      "fighter_blue": "Brendson Ribeiro",
-      "weight_class": "Light Heavyweight",
+      "fighter_red": "Erin Blanchfield",
+      "fighter_blue": "Jasmine Jasudavicius",
+      "weight_class": "Women's Flyweight",
       "scheduled_rounds": 3,
       "probabilities": {
-        "decision": 0.432377,
-        "not_decision": 0.567623
+        "decision": 0.618742,
+        "not_decision": 0.381258
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Kyle Nelson",
+      "fighter_blue": "Cristian Perez",
+      "weight_class": "Lightweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.406365,
+        "not_decision": 0.593635
       },
       "most_likely_method": "not_decision",
       "limited_data": false,
       "warning": null
     },
     {
-      "fighter_red": "Allen Frye Jr.",
-      "fighter_blue": "RJ Harris",
+      "fighter_red": "Marc-Andre Barriault",
+      "fighter_blue": "Kyle Daukaus",
+      "weight_class": "Middleweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.404146,
+        "not_decision": 0.595854
+      },
+      "most_likely_method": "not_decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Louis Jourdain",
+      "fighter_blue": "Timmy Cuamba",
+      "weight_class": "Bantamweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.522856,
+        "not_decision": 0.477144
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Mandel Nallo",
+      "fighter_blue": "Nate Landwehr",
+      "weight_class": "Lightweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.347625,
+        "not_decision": 0.652375
+      },
+      "most_likely_method": "not_decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Tanner Boser",
+      "fighter_blue": "Jhonata Diniz",
       "weight_class": "Heavyweight",
       "scheduled_rounds": 3,
       "probabilities": {
-        "decision": 0.407683,
-        "not_decision": 0.592317
+        "decision": 0.587605,
+        "not_decision": 0.412395
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Julien Leblanc",
+      "fighter_blue": "Nick Galanti",
+      "weight_class": "Middleweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.298726,
+        "not_decision": 0.701274
       },
       "most_likely_method": "not_decision",
       "limited_data": true,
       "warning": "One or both fighters have limited UFC history."
     },
     {
-      "fighter_red": "Alice Pereira",
-      "fighter_blue": "Daria Zhelezniakova",
-      "weight_class": "Women's Bantamweight",
+      "fighter_red": "Javad Mahjoub",
+      "fighter_blue": "Joel Faglier",
+      "weight_class": "Heavyweight",
       "scheduled_rounds": 3,
       "probabilities": {
-        "decision": 0.64394,
-        "not_decision": 0.35606
+        "decision": 0.355778,
+        "not_decision": 0.644222
+      },
+      "most_likely_method": "not_decision",
+      "limited_data": true,
+      "warning": "One or both fighters have limited UFC history."
+    },
+    {
+      "fighter_red": "Katlyn Cerminara",
+      "fighter_blue": "Mackenzie Stiller",
+      "weight_class": "Women's Flyweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.5835,
+        "not_decision": 0.4165
       },
       "most_likely_method": "decision",
       "limited_data": false,
       "warning": null
     },
     {
-      "fighter_red": "Ernesta Kareckaite",
-      "fighter_blue": "Melissa Gatto",
-      "weight_class": "Women's Flyweight",
+      "fighter_red": "Chad Anheliger",
+      "fighter_blue": "Steven Koslow",
+      "weight_class": "Bantamweight",
       "scheduled_rounds": 3,
       "probabilities": {
-        "decision": 0.645827,
-        "not_decision": 0.354173
+        "decision": 0.353159,
+        "not_decision": 0.646841
+      },
+      "most_likely_method": "not_decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Melissa Croden",
+      "fighter_blue": "Chelsea Chandler",
+      "weight_class": "Women's Bantamweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.577176,
+        "not_decision": 0.422824
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Cody Chovancek",
+      "fighter_blue": "SuYoung You",
+      "weight_class": "Bantamweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.528192,
+        "not_decision": 0.471808
       },
       "most_likely_method": "decision",
       "limited_data": false,
@@ -248,6 +261,201 @@
     }
   ],
   "historical_predictions": [
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Allen Frye Jr.",
+      "fighter_blue": "RJ Harris",
+      "weight_class": "Heavyweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.407683,
+        "not_decision": 0.592317
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Brendson Ribeiro",
+      "fighter_blue": "Felipe Franco",
+      "weight_class": "Light Heavyweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.432377,
+        "not_decision": 0.567623
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Niko Price",
+      "fighter_blue": "Leon Shahbazyan",
+      "weight_class": "Welterweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.407076,
+        "not_decision": 0.592924
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Francisco Prado",
+      "fighter_blue": "Ismael Bonfim",
+      "weight_class": "Lightweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.440334,
+        "not_decision": 0.559666
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Julius Walker",
+      "fighter_blue": "Gerald Meerschaert",
+      "weight_class": "Light Heavyweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.449022,
+        "not_decision": 0.550978
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Loopy Godinez",
+      "fighter_blue": "Ketlen Souza",
+      "weight_class": "Women's Strawweight",
+      "actual_method": "decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.69253,
+        "not_decision": 0.30747
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Andre Fili",
+      "fighter_blue": "Kai Kamaka III",
+      "weight_class": "Featherweight",
+      "actual_method": "not_decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.635025,
+        "not_decision": 0.364975
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Jai Herbert",
+      "fighter_blue": "Matheus Camilo",
+      "weight_class": "Lightweight",
+      "actual_method": "decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.346674,
+        "not_decision": 0.653326
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Brendan Allen",
+      "fighter_blue": "Christian Leroy Duncan",
+      "weight_class": "Middleweight",
+      "actual_method": "not_decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.522078,
+        "not_decision": 0.477922
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Alice Pereira",
+      "fighter_blue": "Daria Zhelezniakova",
+      "weight_class": "Women's Bantamweight",
+      "actual_method": "not_decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.64394,
+        "not_decision": 0.35606
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Otari Tanzilovi",
+      "fighter_blue": "Malcolm Wellmaker",
+      "weight_class": "Bantamweight",
+      "actual_method": "not_decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.534917,
+        "not_decision": 0.465083
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10",
+      "fighter_red": "Ernesta Kareckaite",
+      "fighter_blue": "Melissa Gatto",
+      "weight_class": "Women's Flyweight",
+      "actual_method": "decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.645827,
+        "not_decision": 0.354173
+      }
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter_red": "Anthony Wint",
+      "fighter_blue": "Lucas Armand",
+      "weight_class": "Heavyweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.286318,
+        "not_decision": 0.713682
+      }
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter_red": "Eric Nolan",
+      "fighter_blue": "Court McGee",
+      "weight_class": "Welterweight",
+      "actual_method": "not_decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.523522,
+        "not_decision": 0.476478
+      }
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter_red": "Ismail Naurdiev",
+      "fighter_blue": "Marvin Vettori",
+      "weight_class": "Middleweight",
+      "actual_method": "decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.585536,
+        "not_decision": 0.414464
+      }
+    },
     {
       "event_name": "UFC 332: Silva vs. Wang",
       "event_date": "2026-10-03",
@@ -290,19 +498,6 @@
     {
       "event_name": "UFC 332: Silva vs. Wang",
       "event_date": "2026-10-03",
-      "fighter_red": "Anthony Wint",
-      "fighter_blue": "Lucas Armand",
-      "weight_class": "Heavyweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.286318,
-        "not_decision": 0.713682
-      }
-    },
-    {
-      "event_name": "UFC 332: Silva vs. Wang",
-      "event_date": "2026-10-03",
       "fighter_red": "Marcus McGhee",
       "fighter_blue": "Anthony Romero",
       "weight_class": "Featherweight",
@@ -311,58 +506,6 @@
       "probabilities": {
         "decision": 0.423285,
         "not_decision": 0.576715
-      }
-    },
-    {
-      "event_name": "UFC 332: Silva vs. Wang",
-      "event_date": "2026-10-03",
-      "fighter_red": "Damian Pinas",
-      "fighter_blue": "Andrey Pulyaev",
-      "weight_class": "Middleweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.359901,
-        "not_decision": 0.640099
-      }
-    },
-    {
-      "event_name": "UFC 332: Silva vs. Wang",
-      "event_date": "2026-10-03",
-      "fighter_red": "Roberto Soldic",
-      "fighter_blue": "Khaos Williams",
-      "weight_class": "Welterweight",
-      "actual_method": "decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.395846,
-        "not_decision": 0.604154
-      }
-    },
-    {
-      "event_name": "UFC 332: Silva vs. Wang",
-      "event_date": "2026-10-03",
-      "fighter_red": "Roman Kopylov",
-      "fighter_blue": "Ateba Gautier",
-      "weight_class": "Middleweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.364343,
-        "not_decision": 0.635657
-      }
-    },
-    {
-      "event_name": "UFC 332: Silva vs. Wang",
-      "event_date": "2026-10-03",
-      "fighter_red": "Esteban Ribovics",
-      "fighter_blue": "King Green",
-      "weight_class": "Lightweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.433304,
-        "not_decision": 0.566696
       }
     },
     {
@@ -381,32 +524,6 @@
     {
       "event_name": "UFC 332: Silva vs. Wang",
       "event_date": "2026-10-03",
-      "fighter_red": "Natalia Silva",
-      "fighter_blue": "Wang Cong",
-      "weight_class": "Women's Flyweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.654626,
-        "not_decision": 0.345374
-      }
-    },
-    {
-      "event_name": "UFC 332: Silva vs. Wang",
-      "event_date": "2026-10-03",
-      "fighter_red": "Ismail Naurdiev",
-      "fighter_blue": "Marvin Vettori",
-      "weight_class": "Middleweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.585536,
-        "not_decision": 0.414464
-      }
-    },
-    {
-      "event_name": "UFC 332: Silva vs. Wang",
-      "event_date": "2026-10-03",
       "fighter_red": "Imanol Rodriguez",
       "fighter_blue": "Alden Coria",
       "weight_class": "Flyweight",
@@ -420,14 +537,79 @@
     {
       "event_name": "UFC 332: Silva vs. Wang",
       "event_date": "2026-10-03",
-      "fighter_red": "Eric Nolan",
-      "fighter_blue": "Court McGee",
+      "fighter_red": "Roman Kopylov",
+      "fighter_blue": "Ateba Gautier",
+      "weight_class": "Middleweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.364343,
+        "not_decision": 0.635657
+      }
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter_red": "Roberto Soldic",
+      "fighter_blue": "Khaos Williams",
       "weight_class": "Welterweight",
+      "actual_method": "decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.395846,
+        "not_decision": 0.604154
+      }
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter_red": "Esteban Ribovics",
+      "fighter_blue": "King Green",
+      "weight_class": "Lightweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.433304,
+        "not_decision": 0.566696
+      }
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter_red": "Natalia Silva",
+      "fighter_blue": "Wang Cong",
+      "weight_class": "Women's Flyweight",
+      "actual_method": "decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.654626,
+        "not_decision": 0.345374
+      }
+    },
+    {
+      "event_name": "UFC 332: Silva vs. Wang",
+      "event_date": "2026-10-03",
+      "fighter_red": "Damian Pinas",
+      "fighter_blue": "Andrey Pulyaev",
+      "weight_class": "Middleweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.359901,
+        "not_decision": 0.640099
+      }
+    },
+    {
+      "event_name": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+      "event_date": "2026-09-26",
+      "fighter_red": "Christian Edwards",
+      "fighter_blue": "Rodolfo Bellato",
+      "weight_class": "Light Heavyweight",
       "actual_method": "not_decision",
       "predicted_method": "decision",
       "probabilities": {
-        "decision": 0.523522,
-        "not_decision": 0.476478
+        "decision": 0.501918,
+        "not_decision": 0.498082
       }
     },
     {
@@ -498,14 +680,14 @@
     {
       "event_name": "UFC Fight Night: Rosas Jr. vs. Barcelos",
       "event_date": "2026-09-26",
-      "fighter_red": "Christian Edwards",
-      "fighter_blue": "Rodolfo Bellato",
-      "weight_class": "Light Heavyweight",
+      "fighter_red": "Ilimbek Akylbek",
+      "fighter_blue": "Mahammadali Osmanli",
+      "weight_class": "Bantamweight",
       "actual_method": "not_decision",
-      "predicted_method": "decision",
+      "predicted_method": "not_decision",
       "probabilities": {
-        "decision": 0.501918,
-        "not_decision": 0.498082
+        "decision": 0.422438,
+        "not_decision": 0.577562
       }
     },
     {
@@ -519,19 +701,6 @@
       "probabilities": {
         "decision": 0.450806,
         "not_decision": 0.549194
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Rosas Jr. vs. Barcelos",
-      "event_date": "2026-09-26",
-      "fighter_red": "Ilimbek Akylbek",
-      "fighter_blue": "Mahammadali Osmanli",
-      "weight_class": "Bantamweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.422438,
-        "not_decision": 0.577562
       }
     },
     {
@@ -615,105 +784,14 @@
     {
       "event_name": "UFC 331: Van vs. Pantoja 2",
       "event_date": "2026-09-19",
-      "fighter_red": "Casey O'Neill",
-      "fighter_blue": "Eduarda Moura",
-      "weight_class": "Women's Flyweight",
-      "actual_method": "not_decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.601364,
-        "not_decision": 0.398636
-      }
-    },
-    {
-      "event_name": "UFC 331: Van vs. Pantoja 2",
-      "event_date": "2026-09-19",
-      "fighter_red": "Edmen Shahbazyan",
-      "fighter_blue": "Brunno Ferreira",
-      "weight_class": "Middleweight",
-      "actual_method": "decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.421577,
-        "not_decision": 0.578423
-      }
-    },
-    {
-      "event_name": "UFC 331: Van vs. Pantoja 2",
-      "event_date": "2026-09-19",
-      "fighter_red": "Ryan Gandra",
-      "fighter_blue": "Ozzy Diaz",
-      "weight_class": "Middleweight",
+      "fighter_red": "Arman Tsarukyan",
+      "fighter_blue": "Mauricio Ruffy",
+      "weight_class": "Lightweight",
       "actual_method": "not_decision",
       "predicted_method": "not_decision",
       "probabilities": {
-        "decision": 0.3101,
-        "not_decision": 0.6899
-      }
-    },
-    {
-      "event_name": "UFC 331: Van vs. Pantoja 2",
-      "event_date": "2026-09-19",
-      "fighter_red": "Michael Aswell Jr.",
-      "fighter_blue": "JooSang Yoo",
-      "weight_class": "Featherweight",
-      "actual_method": "decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.423954,
-        "not_decision": 0.576046
-      }
-    },
-    {
-      "event_name": "UFC 331: Van vs. Pantoja 2",
-      "event_date": "2026-09-19",
-      "fighter_red": "Robelis Despaigne",
-      "fighter_blue": "Tai Tuivasa",
-      "weight_class": "Heavyweight",
-      "actual_method": "decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.306899,
-        "not_decision": 0.693101
-      }
-    },
-    {
-      "event_name": "UFC 331: Van vs. Pantoja 2",
-      "event_date": "2026-09-19",
-      "fighter_red": "Marlon Vera",
-      "fighter_blue": "Charles Jourdain",
-      "weight_class": "Bantamweight",
-      "actual_method": "not_decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.506129,
-        "not_decision": 0.493871
-      }
-    },
-    {
-      "event_name": "UFC 331: Van vs. Pantoja 2",
-      "event_date": "2026-09-19",
-      "fighter_red": "Alonzo Menifield",
-      "fighter_blue": "Iwo Baraniewski",
-      "weight_class": "Light Heavyweight",
-      "actual_method": "decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.265334,
-        "not_decision": 0.734666
-      }
-    },
-    {
-      "event_name": "UFC 331: Van vs. Pantoja 2",
-      "event_date": "2026-09-19",
-      "fighter_red": "Sean Sharaf",
-      "fighter_blue": "Gable Steveson",
-      "weight_class": "Heavyweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.298716,
-        "not_decision": 0.701284
+        "decision": 0.432186,
+        "not_decision": 0.567814
       }
     },
     {
@@ -732,14 +810,105 @@
     {
       "event_name": "UFC 331: Van vs. Pantoja 2",
       "event_date": "2026-09-19",
-      "fighter_red": "Arman Tsarukyan",
-      "fighter_blue": "Mauricio Ruffy",
-      "weight_class": "Lightweight",
+      "fighter_red": "Alonzo Menifield",
+      "fighter_blue": "Iwo Baraniewski",
+      "weight_class": "Light Heavyweight",
+      "actual_method": "decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.265334,
+        "not_decision": 0.734666
+      }
+    },
+    {
+      "event_name": "UFC 331: Van vs. Pantoja 2",
+      "event_date": "2026-09-19",
+      "fighter_red": "Marlon Vera",
+      "fighter_blue": "Charles Jourdain",
+      "weight_class": "Bantamweight",
+      "actual_method": "not_decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.506129,
+        "not_decision": 0.493871
+      }
+    },
+    {
+      "event_name": "UFC 331: Van vs. Pantoja 2",
+      "event_date": "2026-09-19",
+      "fighter_red": "Sean Sharaf",
+      "fighter_blue": "Gable Steveson",
+      "weight_class": "Heavyweight",
       "actual_method": "not_decision",
       "predicted_method": "not_decision",
       "probabilities": {
-        "decision": 0.432186,
-        "not_decision": 0.567814
+        "decision": 0.298716,
+        "not_decision": 0.701284
+      }
+    },
+    {
+      "event_name": "UFC 331: Van vs. Pantoja 2",
+      "event_date": "2026-09-19",
+      "fighter_red": "Michael Aswell Jr.",
+      "fighter_blue": "JooSang Yoo",
+      "weight_class": "Featherweight",
+      "actual_method": "decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.423954,
+        "not_decision": 0.576046
+      }
+    },
+    {
+      "event_name": "UFC 331: Van vs. Pantoja 2",
+      "event_date": "2026-09-19",
+      "fighter_red": "Ryan Gandra",
+      "fighter_blue": "Ozzy Diaz",
+      "weight_class": "Middleweight",
+      "actual_method": "not_decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.3101,
+        "not_decision": 0.6899
+      }
+    },
+    {
+      "event_name": "UFC 331: Van vs. Pantoja 2",
+      "event_date": "2026-09-19",
+      "fighter_red": "Edmen Shahbazyan",
+      "fighter_blue": "Brunno Ferreira",
+      "weight_class": "Middleweight",
+      "actual_method": "decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.421577,
+        "not_decision": 0.578423
+      }
+    },
+    {
+      "event_name": "UFC 331: Van vs. Pantoja 2",
+      "event_date": "2026-09-19",
+      "fighter_red": "Casey O'Neill",
+      "fighter_blue": "Eduarda Moura",
+      "weight_class": "Women's Flyweight",
+      "actual_method": "not_decision",
+      "predicted_method": "decision",
+      "probabilities": {
+        "decision": 0.601364,
+        "not_decision": 0.398636
+      }
+    },
+    {
+      "event_name": "UFC 331: Van vs. Pantoja 2",
+      "event_date": "2026-09-19",
+      "fighter_red": "Robelis Despaigne",
+      "fighter_blue": "Tai Tuivasa",
+      "weight_class": "Heavyweight",
+      "actual_method": "decision",
+      "predicted_method": "not_decision",
+      "probabilities": {
+        "decision": 0.306899,
+        "not_decision": 0.693101
       }
     },
     {
@@ -16197,188 +16366,6 @@
       "probabilities": {
         "decision": 0.455394,
         "not_decision": 0.544606
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Dominick Reyes",
-      "fighter_blue": "Dustin Jacoby",
-      "weight_class": "Light Heavyweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.435731,
-        "not_decision": 0.564269
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Raul Rosas Jr.",
-      "fighter_blue": "Ricky Turcios",
-      "weight_class": "Bantamweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.406356,
-        "not_decision": 0.593644
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Brunno Ferreira",
-      "fighter_blue": "Dustin Stoltzfus",
-      "weight_class": "Middleweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.370967,
-        "not_decision": 0.629033
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Zach Reese",
-      "fighter_blue": "Julian Marquez",
-      "weight_class": "Middleweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.34331,
-        "not_decision": 0.65669
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Punahele Soriano",
-      "fighter_blue": "Miguel Baeza",
-      "weight_class": "Welterweight",
-      "actual_method": "decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.401224,
-        "not_decision": 0.598776
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Nassourdine Imavov",
-      "fighter_blue": "Jared Cannonier",
-      "weight_class": "Middleweight",
-      "actual_method": "not_decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.456356,
-        "not_decision": 0.543644
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Carlos Prates",
-      "fighter_blue": "Charles Radtke",
-      "weight_class": "Welterweight",
-      "actual_method": "not_decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.531879,
-        "not_decision": 0.468121
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Brad Katona",
-      "fighter_blue": "Jesse Butler",
-      "weight_class": "Bantamweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.599395,
-        "not_decision": 0.400605
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Montana De La Rosa",
-      "fighter_blue": "Andrea Lee",
-      "weight_class": "Women's Flyweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.672107,
-        "not_decision": 0.327893
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Daniel Marcos",
-      "fighter_blue": "John Castaneda",
-      "weight_class": "Bantamweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.594677,
-        "not_decision": 0.405323
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Denise Gomes",
-      "fighter_blue": "Eduarda Moura",
-      "weight_class": "Women's Strawweight",
-      "actual_method": "decision",
-      "predicted_method": "not_decision",
-      "probabilities": {
-        "decision": 0.351334,
-        "not_decision": 0.648666
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Puja Tomar",
-      "fighter_blue": "Rayanne dos Santos",
-      "weight_class": "Women's Strawweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.625058,
-        "not_decision": 0.374942
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Taylor Lapilus",
-      "fighter_blue": "Cody Stamann",
-      "weight_class": "Bantamweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.588702,
-        "not_decision": 0.411298
-      }
-    },
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08",
-      "fighter_red": "Ludovit Klein",
-      "fighter_blue": "Thiago Moises",
-      "weight_class": "Lightweight",
-      "actual_method": "decision",
-      "predicted_method": "decision",
-      "probabilities": {
-        "decision": 0.515836,
-        "not_decision": 0.484164
       }
     }
   ]

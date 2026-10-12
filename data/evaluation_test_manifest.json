@@ -1,12 +1,8 @@
 {
   "purpose": "Fixed historical test set shared by winner and decision models.",
-  "created_at": "2026-10-10T13:16:40.957704+00:00",
+  "created_at": "2026-10-12T16:29:06.618200+00:00",
   "test_event_count": 100,
   "events": [
-    {
-      "event_name": "UFC Fight Night: Cannonier vs. Imavov",
-      "event_date": "2024-06-08"
-    },
     {
       "event_name": "UFC Fight Night: Perez vs. Taira",
       "event_date": "2024-06-15"
@@ -402,6 +398,10 @@
     {
       "event_name": "UFC 332: Silva vs. Wang",
       "event_date": "2026-10-03"
+    },
+    {
+      "event_name": "UFC Fight Night: Allen vs. Duncan",
+      "event_date": "2026-10-10"
     }
   ]
 }
