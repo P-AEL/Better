@@ -1,6 +1,6 @@
 {
   "available": true,
-  "generated_at": "2026-10-18T12:00:04.779529+00:00",
+  "generated_at": "2026-10-20T12:34:11.442427+00:00",
   "event": {
     "name": "UFC 333: Volkanovski vs. Evloev",
     "date": "2026-10-24",
@@ -228,6 +228,45 @@
       "probabilities": {
         "decision": 0.552452,
         "not_decision": 0.447548
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Bolaji Oki",
+      "fighter_blue": "Daniel Santos",
+      "weight_class": "Featherweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.631117,
+        "not_decision": 0.368883
+      },
+      "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Kody Steele",
+      "fighter_blue": "Noah Gugnon",
+      "weight_class": "Lightweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.327265,
+        "not_decision": 0.672735
+      },
+      "most_likely_method": "not_decision",
+      "limited_data": true,
+      "warning": "One or both fighters have limited UFC history."
+    },
+    {
+      "fighter_red": "Iasmin Lucindo",
+      "fighter_blue": "Nicolle Caliari",
+      "weight_class": "Women's Strawweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.69413,
+        "not_decision": 0.30587
       },
       "most_likely_method": "decision",
       "limited_data": false,
