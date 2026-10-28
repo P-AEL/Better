@@ -1,6 +1,6 @@
 {
   "available": true,
-  "generated_at": "2026-10-26T13:52:44.332513+00:00",
+  "generated_at": "2026-10-28T13:48:35.971240+00:00",
   "event": {
     "name": "UFC Fight Night: Moicano vs. Nolan",
     "date": "2026-10-31",
@@ -169,19 +169,6 @@
       "warning": null
     },
     {
-      "fighter_red": "Azamat Bekoev",
-      "fighter_blue": "Andre Petroski",
-      "weight_class": "Middleweight",
-      "scheduled_rounds": 3,
-      "probabilities": {
-        "decision": 0.422618,
-        "not_decision": 0.577382
-      },
-      "most_likely_method": "not_decision",
-      "limited_data": false,
-      "warning": null
-    },
-    {
       "fighter_red": "Rodrigo Sezinando",
       "fighter_blue": "Theodor Berggren",
       "weight_class": "Welterweight",
@@ -204,6 +191,19 @@
         "not_decision": 0.489311
       },
       "most_likely_method": "decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Zach Reese",
+      "fighter_blue": "Mickey Gall",
+      "weight_class": "Middleweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.367557,
+        "not_decision": 0.632443
+      },
+      "most_likely_method": "not_decision",
       "limited_data": false,
       "warning": null
     },
@@ -243,19 +243,6 @@
         "not_decision": 0.440945
       },
       "most_likely_method": "decision",
-      "limited_data": false,
-      "warning": null
-    },
-    {
-      "fighter_red": "Zach Reese",
-      "fighter_blue": "Mickey Gall",
-      "weight_class": "Middleweight",
-      "scheduled_rounds": 3,
-      "probabilities": {
-        "decision": 0.367557,
-        "not_decision": 0.632443
-      },
-      "most_likely_method": "not_decision",
       "limited_data": false,
       "warning": null
     }
