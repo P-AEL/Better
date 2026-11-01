@@ -1,37 +1,37 @@
 {
   "available": true,
-  "generated_at": "2026-10-30T13:48:35.468777+00:00",
+  "generated_at": "2026-11-01T14:03:31.775572+00:00",
   "title": "Underdog price-cutoff paper analysis",
   "definition": "One flat unit on the market underdog when its opening American price meets the cutoff. A win returns decimal odds minus one unit; a loss costs one unit.",
   "limitations": "Historical paper analysis only. Opening prices are archived market records and their exact availability at a specific bookmaker or stake size cannot be verified from this dataset. A positive past ROI is not evidence of a future edge.",
   "price_source": "BestFightOdds archived opening prices",
   "test_event_count": 100,
   "coverage": {
-    "all_priced_underdogs": 5359,
-    "development": 4403,
-    "calibration": 643,
-    "test": 313
+    "all_priced_underdogs": 5369,
+    "development": 4411,
+    "calibration": 639,
+    "test": 319
   },
   "selection": {
     "cutoff": 125,
     "minimum_calibration_bets": 40,
     "calibration": {
       "cutoff": 125,
-      "sample_count": 535,
-      "wins": 165,
-      "losses": 370,
-      "win_rate": 0.308411214953271,
-      "net_units": -83.26,
-      "roi": -0.1556261682242991
+      "sample_count": 533,
+      "wins": 164,
+      "losses": 369,
+      "win_rate": 0.3076923076923077,
+      "net_units": -87.36000000000001,
+      "roi": -0.16390243902439028
     },
     "test": {
       "cutoff": 125,
-      "sample_count": 263,
-      "wins": 77,
-      "losses": 186,
-      "win_rate": 0.29277566539923955,
-      "net_units": -13.900000000000006,
-      "roi": -0.05285171102661599
+      "sample_count": 267,
+      "wins": 78,
+      "losses": 189,
+      "win_rate": 0.29213483146067415,
+      "net_units": -14.840000000000003,
+      "roi": -0.0555805243445693
     },
     "selection_note": "The cutoff was selected using calibration cards before the fixed 100-card test period; the test results were not used to choose it."
   },
@@ -40,96 +40,96 @@
       "cutoff": 100,
       "calibration": {
         "cutoff": 100,
-        "sample_count": 643,
-        "wins": 207,
-        "losses": 436,
-        "win_rate": 0.32192846034214617,
-        "net_units": -102.42999999999999,
-        "roi": -0.15930015552099533
+        "sample_count": 639,
+        "wins": 205,
+        "losses": 434,
+        "win_rate": 0.3208137715179969,
+        "net_units": -106.63,
+        "roi": -0.16687010954616588
       },
       "test": {
         "cutoff": 100,
-        "sample_count": 313,
-        "wins": 108,
-        "losses": 205,
-        "win_rate": 0.3450479233226837,
-        "net_units": 1.1300000000000026,
-        "roi": 0.0036102236421725322
+        "sample_count": 319,
+        "wins": 110,
+        "losses": 209,
+        "win_rate": 0.3448275862068966,
+        "net_units": 0.19000000000000128,
+        "roi": 0.0005956112852664617
       }
     },
     {
       "cutoff": 125,
       "calibration": {
         "cutoff": 125,
-        "sample_count": 535,
-        "wins": 165,
-        "losses": 370,
-        "win_rate": 0.308411214953271,
-        "net_units": -83.26,
-        "roi": -0.1556261682242991
+        "sample_count": 533,
+        "wins": 164,
+        "losses": 369,
+        "win_rate": 0.3076923076923077,
+        "net_units": -87.36000000000001,
+        "roi": -0.16390243902439028
       },
       "test": {
         "cutoff": 125,
-        "sample_count": 263,
-        "wins": 77,
-        "losses": 186,
-        "win_rate": 0.29277566539923955,
-        "net_units": -13.900000000000006,
-        "roi": -0.05285171102661599
+        "sample_count": 267,
+        "wins": 78,
+        "losses": 189,
+        "win_rate": 0.29213483146067415,
+        "net_units": -14.840000000000003,
+        "roi": -0.0555805243445693
       }
     },
     {
       "cutoff": 150,
       "calibration": {
         "cutoff": 150,
-        "sample_count": 395,
-        "wins": 107,
+        "sample_count": 394,
+        "wins": 106,
         "losses": 288,
-        "win_rate": 0.2708860759493671,
-        "net_units": -79.08,
-        "roi": -0.20020253164556961
+        "win_rate": 0.26903553299492383,
+        "net_units": -84.33,
+        "roi": -0.21403553299492387
       },
       "test": {
         "cutoff": 150,
-        "sample_count": 222,
-        "wins": 63,
-        "losses": 159,
-        "win_rate": 0.28378378378378377,
-        "net_units": -6.43,
-        "roi": -0.028963963963963963
+        "sample_count": 226,
+        "wins": 65,
+        "losses": 161,
+        "win_rate": 0.28761061946902655,
+        "net_units": -4.920000000000002,
+        "roi": -0.021769911504424786
       }
     },
     {
       "cutoff": 175,
       "calibration": {
         "cutoff": 175,
-        "sample_count": 268,
-        "wins": 62,
-        "losses": 206,
-        "win_rate": 0.23134328358208955,
-        "net_units": -68.34,
-        "roi": -0.255
+        "sample_count": 270,
+        "wins": 61,
+        "losses": 209,
+        "win_rate": 0.22592592592592592,
+        "net_units": -76.59,
+        "roi": -0.2836666666666667
       },
       "test": {
         "cutoff": 175,
-        "sample_count": 179,
-        "wins": 48,
-        "losses": 131,
-        "win_rate": 0.2681564245810056,
-        "net_units": -2.649999999999995,
-        "roi": -0.014804469273742989
+        "sample_count": 182,
+        "wins": 49,
+        "losses": 133,
+        "win_rate": 0.2692307692307692,
+        "net_units": -2.879999999999999,
+        "roi": -0.015824175824175817
       }
     },
     {
       "cutoff": 200,
       "calibration": {
         "cutoff": 200,
-        "sample_count": 202,
-        "wins": 33,
-        "losses": 169,
-        "win_rate": 0.16336633663366337,
-        "net_units": -85.1,
-        "roi": -0.4212871287128713
+        "sample_count": 204,
+        "wins": 32,
+        "losses": 172,
+        "win_rate": 0.1568627450980392,
+        "net_units": -93.35,
+        "roi": -0.45759803921568626
       },
       "test": {
         "cutoff": 200,
@@ -137,8 +137,8 @@
         "wins": 36,
         "losses": 109,
         "win_rate": 0.2482758620689655,
-        "net_units": -2.8300000000000054,
-        "roi": -0.019517241379310383
+        "net_units": -2.830000000000002,
+        "roi": -0.01951724137931036
       }
     },
     {
@@ -146,53 +146,53 @@
       "calibration": {
         "cutoff": 250,
         "sample_count": 116,
-        "wins": 17,
-        "losses": 99,
-        "win_rate": 0.14655172413793102,
-        "net_units": -49.45,
-        "roi": -0.42629310344827587
+        "wins": 16,
+        "losses": 100,
+        "win_rate": 0.13793103448275862,
+        "net_units": -55.7,
+        "roi": -0.4801724137931035
       },
       "test": {
         "cutoff": 250,
-        "sample_count": 82,
+        "sample_count": 83,
         "wins": 16,
-        "losses": 66,
-        "win_rate": 0.1951219512195122,
-        "net_units": -4.11,
-        "roi": -0.0501219512195122
+        "losses": 67,
+        "win_rate": 0.1927710843373494,
+        "net_units": -5.11,
+        "roi": -0.06156626506024097
       }
     },
     {
       "cutoff": 300,
       "calibration": {
         "cutoff": 300,
-        "sample_count": 58,
-        "wins": 6,
+        "sample_count": 57,
+        "wins": 5,
         "losses": 52,
-        "win_rate": 0.10344827586206896,
-        "net_units": -31.3,
-        "roi": -0.5396551724137931
+        "win_rate": 0.08771929824561403,
+        "net_units": -36.55,
+        "roi": -0.6412280701754386
       },
       "test": {
         "cutoff": 300,
-        "sample_count": 54,
+        "sample_count": 55,
         "wins": 10,
-        "losses": 44,
-        "win_rate": 0.18518518518518517,
-        "net_units": 2.51,
-        "roi": 0.04648148148148148
+        "losses": 45,
+        "win_rate": 0.18181818181818182,
+        "net_units": 1.5099999999999998,
+        "roi": 0.02745454545454545
       }
     },
     {
       "cutoff": 400,
       "calibration": {
         "cutoff": 400,
-        "sample_count": 27,
-        "wins": 1,
+        "sample_count": 26,
+        "wins": 0,
         "losses": 26,
-        "win_rate": 0.037037037037037035,
-        "net_units": -20.75,
-        "roi": -0.7685185185185185
+        "win_rate": 0.0,
+        "net_units": -26.0,
+        "roi": -1.0
       },
       "test": {
         "cutoff": 400,
@@ -208,12 +208,12 @@
       "cutoff": 500,
       "calibration": {
         "cutoff": 500,
-        "sample_count": 20,
-        "wins": 1,
+        "sample_count": 19,
+        "wins": 0,
         "losses": 19,
-        "win_rate": 0.05,
-        "net_units": -13.75,
-        "roi": -0.6875
+        "win_rate": 0.0,
+        "net_units": -19.0,
+        "roi": -1.0
       },
       "test": {
         "cutoff": 500,
@@ -227,6 +227,86 @@
     }
   ],
   "test_bets": [
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Nolan",
+      "event_date": "2026-10-31",
+      "fighter": "Yana Santos",
+      "opponent": "Luana Santos",
+      "underdog_american": 149,
+      "underdog_decimal": 2.49,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Nolan",
+      "event_date": "2026-10-31",
+      "fighter": "Theodor Berggren",
+      "opponent": "Rodrigo Sezinando",
+      "underdog_american": 186,
+      "underdog_decimal": 2.86,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Nolan",
+      "event_date": "2026-10-31",
+      "fighter": "Talita Alencar",
+      "opponent": "Piera Rodriguez",
+      "underdog_american": 189,
+      "underdog_decimal": 2.89,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Nolan",
+      "event_date": "2026-10-31",
+      "fighter": "Tainara Lisboa",
+      "opponent": "Lucia Szabova",
+      "underdog_american": 316,
+      "underdog_decimal": 4.16,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Nolan",
+      "event_date": "2026-10-31",
+      "fighter": "Randy Brown",
+      "opponent": "Jacobe Smith",
+      "underdog_american": 265,
+      "underdog_decimal": 3.65,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Nolan",
+      "event_date": "2026-10-31",
+      "fighter": "Mickey Gall",
+      "opponent": "Zach Reese",
+      "underdog_american": 205,
+      "underdog_decimal": 3.05,
+      "won": false,
+      "profit_units": -1.0
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Nolan",
+      "event_date": "2026-10-31",
+      "fighter": "Julian Erosa",
+      "opponent": "JeongYeong Lee",
+      "underdog_american": 174,
+      "underdog_decimal": 2.74,
+      "won": true,
+      "profit_units": 1.74
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Nolan",
+      "event_date": "2026-10-31",
+      "fighter": "Dakota Hope",
+      "opponent": "Francis Marshall",
+      "underdog_american": 177,
+      "underdog_decimal": 2.77,
+      "won": true,
+      "profit_units": 1.77
+    },
     {
       "event_name": "UFC 333: Volkanovski vs. Evloev",
       "event_date": "2026-10-24",
@@ -2814,46 +2894,6 @@
       "opponent": "Evan Elder",
       "underdog_american": 330,
       "underdog_decimal": 4.3,
-      "won": false,
-      "profit_units": -1.0
-    },
-    {
-      "event_name": "UFC 303: Pereira vs. Prochazka 2",
-      "event_date": "2024-06-29",
-      "fighter": "Vinicius Oliveira",
-      "opponent": "Ricky Simon",
-      "underdog_american": 145,
-      "underdog_decimal": 2.45,
-      "won": true,
-      "profit_units": 1.45
-    },
-    {
-      "event_name": "UFC 303: Pereira vs. Prochazka 2",
-      "event_date": "2024-06-29",
-      "fighter": "Michelle Waterson-Gomez",
-      "opponent": "Gillian Robertson",
-      "underdog_american": 225,
-      "underdog_decimal": 3.25,
-      "won": false,
-      "profit_units": -1.0
-    },
-    {
-      "event_name": "UFC 303: Pereira vs. Prochazka 2",
-      "event_date": "2024-06-29",
-      "fighter": "Carlos Hernandez",
-      "opponent": "Rei Tsuruya",
-      "underdog_american": 285,
-      "underdog_decimal": 3.85,
-      "won": false,
-      "profit_units": -1.0
-    },
-    {
-      "event_name": "UFC 303: Pereira vs. Prochazka 2",
-      "event_date": "2024-06-29",
-      "fighter": "Andrei Arlovski",
-      "opponent": "Martin Buday",
-      "underdog_american": 225,
-      "underdog_decimal": 3.25,
       "won": false,
       "profit_units": -1.0
     }

@@ -1,12 +1,8 @@
 {
   "purpose": "Fixed historical test set shared by winner and decision models.",
-  "created_at": "2026-10-30T13:48:35.409947+00:00",
+  "created_at": "2026-11-01T14:03:31.675273+00:00",
   "test_event_count": 100,
   "events": [
-    {
-      "event_name": "UFC 303: Pereira vs. Prochazka 2",
-      "event_date": "2024-06-29"
-    },
     {
       "event_name": "UFC Fight Night: Namajunas vs. Cortez",
       "event_date": "2024-07-13"
@@ -402,6 +398,10 @@
     {
       "event_name": "UFC 333: Volkanovski vs. Evloev",
       "event_date": "2026-10-24"
+    },
+    {
+      "event_name": "UFC Fight Night: Moicano vs. Nolan",
+      "event_date": "2026-10-31"
     }
   ]
 }
