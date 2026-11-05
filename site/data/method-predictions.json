@@ -1,6 +1,6 @@
 {
   "available": true,
-  "generated_at": "2026-11-03T14:51:52.820041+00:00",
+  "generated_at": "2026-11-05T15:10:38.328894+00:00",
   "event": {
     "name": "UFC Fight Night: Cortes Acosta vs. Walker",
     "date": "2026-11-07",
@@ -130,19 +130,6 @@
       "warning": null
     },
     {
-      "fighter_red": "Seokhyeon Ko",
-      "fighter_blue": "Wellington Turman",
-      "weight_class": "Welterweight",
-      "scheduled_rounds": 3,
-      "probabilities": {
-        "decision": 0.413895,
-        "not_decision": 0.586105
-      },
-      "most_likely_method": "not_decision",
-      "limited_data": false,
-      "warning": null
-    },
-    {
       "fighter_red": "Billy Elekana",
       "fighter_blue": "Lucas Fernando",
       "weight_class": "Light Heavyweight",
@@ -156,17 +143,43 @@
       "warning": null
     },
     {
-      "fighter_red": "Mantas Kondratavicius",
-      "fighter_blue": "Andre Petroski",
-      "weight_class": "Middleweight",
+      "fighter_red": "Priscila Cachoeira",
+      "fighter_blue": "Nina Milosevic",
+      "weight_class": "Women's Bantamweight",
       "scheduled_rounds": 3,
       "probabilities": {
-        "decision": 0.524207,
-        "not_decision": 0.475793
+        "decision": 0.405297,
+        "not_decision": 0.594703
+      },
+      "most_likely_method": "not_decision",
+      "limited_data": false,
+      "warning": null
+    },
+    {
+      "fighter_red": "Mitch Raposo",
+      "fighter_blue": "Marcos Degli",
+      "weight_class": "Flyweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.534807,
+        "not_decision": 0.465193
       },
       "most_likely_method": "decision",
       "limited_data": false,
       "warning": null
+    },
+    {
+      "fighter_red": "Keiichiro Nakamura",
+      "fighter_blue": "Ollie Schmid",
+      "weight_class": "Featherweight",
+      "scheduled_rounds": 3,
+      "probabilities": {
+        "decision": 0.496541,
+        "not_decision": 0.503459
+      },
+      "most_likely_method": "not_decision",
+      "limited_data": true,
+      "warning": "One or both fighters have limited UFC history."
     },
     {
       "fighter_red": "Gabriel Lorenco",
@@ -195,19 +208,6 @@
       "warning": null
     },
     {
-      "fighter_red": "Mitch Raposo",
-      "fighter_blue": "Marcos Degli",
-      "weight_class": "Flyweight",
-      "scheduled_rounds": 3,
-      "probabilities": {
-        "decision": 0.534807,
-        "not_decision": 0.465193
-      },
-      "most_likely_method": "decision",
-      "limited_data": false,
-      "warning": null
-    },
-    {
       "fighter_red": "Jose Delano",
       "fighter_blue": "Murtazali Magomedov",
       "weight_class": "Featherweight",
@@ -221,39 +221,39 @@
       "warning": "One or both fighters have limited UFC history."
     },
     {
-      "fighter_red": "Keiichiro Nakamura",
-      "fighter_blue": "Ollie Schmid",
+      "fighter_red": "Austin Bashi",
+      "fighter_blue": "Carlos Calderon",
       "weight_class": "Featherweight",
       "scheduled_rounds": 3,
       "probabilities": {
-        "decision": 0.496541,
-        "not_decision": 0.503459
+        "decision": 0.481725,
+        "not_decision": 0.518275
       },
       "most_likely_method": "not_decision",
       "limited_data": true,
       "warning": "One or both fighters have limited UFC history."
     },
     {
-      "fighter_red": "Austin Bashi",
-      "fighter_blue": "Lucas Brennan",
-      "weight_class": "Featherweight",
+      "fighter_red": "Mantas Kondratavicius",
+      "fighter_blue": "Andre Petroski",
+      "weight_class": "Middleweight",
       "scheduled_rounds": 3,
       "probabilities": {
-        "decision": 0.499011,
-        "not_decision": 0.500989
+        "decision": 0.524207,
+        "not_decision": 0.475793
       },
-      "most_likely_method": "not_decision",
+      "most_likely_method": "decision",
       "limited_data": false,
       "warning": null
     },
     {
-      "fighter_red": "Priscila Cachoeira",
-      "fighter_blue": "Nina Milosevic",
-      "weight_class": "Women's Bantamweight",
+      "fighter_red": "Seokhyeon Ko",
+      "fighter_blue": "Wellington Turman",
+      "weight_class": "Welterweight",
       "scheduled_rounds": 3,
       "probabilities": {
-        "decision": 0.405297,
-        "not_decision": 0.594703
+        "decision": 0.413895,
+        "not_decision": 0.586105
       },
       "most_likely_method": "not_decision",
       "limited_data": false,
